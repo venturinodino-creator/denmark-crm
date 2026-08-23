@@ -4056,144 +4056,58 @@ function renderOpenAlex() {
     },
   ];
 
-  /* ── CONFIRMED DUTCH SUBSCRIBERS (detail cards) ──────────────────────── */
+  /* ── CONFIRMED DANISH SUBSCRIBERS (detail cards) ──────────────────────── */
   const NL_CONFIRMED = [];
 
-  /* ── ALL NL INSTITUTIONS — OPENALEX STATUS ───────────────────────────── */
+  /* ── ALL DANISH INSTITUTIONS — OPENALEX STATUS ───────────────────────── */
   // status: 'subscriber' | 'active' | 'none'
   const NL_ALL = [
-    // ── Confirmed paying subscribers ─────────────────────────────────────
-    {
-      inst: 'Maastricht University', type: 'University', status: 'subscriber', tier: 'Partner — Custom',
-      signal: '✅ CONFIRMED PAYING. Partner tier (highest). Cancelling Scopus Jan 2027. Signing Barcelona Declaration Jun 2026. MUMC+ staff covered under same arrangement.',
-      sources: [{ label: 'UM Library — May 2026', url: 'https://library.maastrichtuniversity.nl/news/investing-in-open-research-information-openalex-partnership-and-end-of-scopus-license/' }],
-    },
-    {
-      inst: 'TU Delft', type: 'University', status: 'subscriber', tier: 'Member — $5,000/yr',
-      signal: '✅ CONFIRMED PAYING. Member tier at $5,000/yr. Named in OpenAlex CAB retro of 9 Jul 2026 alongside ~42 new institutional members. WoS licence already cancelled Jan 2026.',
-      sources: [{ label: 'OpenAlex CAB retro — 9 Jul 2026', url: 'https://github.com/ourresearch/town-hall-notes/blob/main/2026-07-09-cab/retro.md' }],
-    },
-    {
-      inst: 'NWO', type: 'NGO / Funder', status: 'subscriber', tier: 'Direct contribution — $12,500/yr',
-      signal: '✅ CONFIRMED PAYING. $12,500/yr direct contribution to OurResearch (2024–2025), publicly listed on NWO\'s own infrastructure support page. Renewal for 2026 not yet confirmed.',
-      sources: [{ label: 'NWO Open Science Infrastructure page', url: 'https://www.nwo.nl/en/open-science-infrastructure-support' }],
-    },
-    // ── Actively using / public engagement — not yet paying ──────────────
-    {
-      inst: 'Utrecht University', type: 'University', status: 'active', tier: null,
-      signal: 'Published LibGuide + background article on OpenAlex. Active open science team. Treats OpenAlex as free infrastructure. High conversion probability.',
-      sources: [
-        { label: 'UU LibGuide on OpenAlex', url: 'https://libguides.library.uu.nl/openalex' },
-        { label: 'UU: "OpenAlex — a big step towards Open Science?"', url: 'https://www.uu.nl/en/background/openalex-a-big-step-towards-open-science' },
-      ],
-    },
-    {
-      inst: 'Leiden University / CWTS', type: 'University', status: 'active', tier: 'Member — likely',
-      signal: '🔶 STRONG SIGNAL. CWTS announced 21 Jul 2026 it is discontinuing all Web of Science data use — from the Leiden Ranking and all analytics services — effective Nov 2026. The Traditional Leiden Ranking ends after its final Nov 4 2026 release; only the Open Edition (built entirely on OpenAlex) continues from 2027. CWTS also co-developed OpenAlex\'s subject classification system (Topics). No paid subscription confirmed publicly, but institutional commitment to OpenAlex is the deepest of any NL university. Strong Partner/Member candidate.',
-      sources: [
-        { label: 'CWTS: "Next step in open research information transition" — 21 Jul 2026', url: 'https://www.universiteitleiden.nl/en/news/2026/07/cwts-takes-next-step-in-open-research-information-transition' },
-        { label: 'Leiden Ranking Open Edition (OpenAlex-based)', url: 'https://open.leidenranking.com/' },
-      ],
-    },
-    // ── No confirmed engagement ───────────────────────────────────────────
-    {
-      inst: 'University of Amsterdam (UvA)', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Signed Barcelona Declaration on Open Research Information. Active open science policy — potential Member target, especially given its size and research output.',
-      sources: [],
-    },
-    {
-      inst: 'VU Amsterdam', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Cancelled Web of Science effective 1 Jan 2026. Active open science community. VU has already pivoted away from Clarivate — strong candidate to formalise OpenAlex relationship.',
-      sources: [{ label: 'VU: WoS access ending 1 Jan 2026', url: 'https://vu.nl/en/employee/university-library/termination-of-access-to-web-of-science-as-of-january-1-2026' }],
-    },
-    {
-      inst: 'University of Groningen', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. WoS licence expiring Dec 2026 (announced Apr 2026) — after expiry, OpenAlex becomes the natural free alternative. Strong candidate for Member tier post-WoS exit.',
-      sources: [{ label: 'RUG: WoS ending Dec 2026', url: 'https://www.rug.nl/library/news/20260420-end-web-of-science?lang=en' }],
-    },
-    {
-      inst: 'Erasmus University Rotterdam', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Maintains active Scopus and WoS licences. No public open science announcement specific to OpenAlex found.',
-      sources: [],
-    },
-    {
-      inst: 'Radboud University', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Part of UNL consortium — watch for a potential NL-wide consortium deal. Active open science community in Nijmegen.',
-      sources: [],
-    },
-    {
-      inst: 'University of Twente', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Cancelled WoS effective 31 Dec 2025. Signed Barcelona Declaration. Post-WoS, OpenAlex is the natural free alternative — Member tier conversion possible.',
-      sources: [{ label: 'UT: WoS licence ending 31 Dec 2025', url: 'https://www.utwente.nl/en/education/student-services/news-events/news/2025/11/622976/web-of-science-licence-will-end-on-31-december-2025' }],
-    },
-    {
-      inst: 'Eindhoven University of Technology (TU/e)', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Maintains WoS licence. No public OpenAlex engagement found.',
-      sources: [],
-    },
-    {
-      inst: 'Wageningen University & Research', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. No WoS licence confirmed (WUR library lists no WoS). Strong life-sciences research output — would benefit from OpenAlex affiliation curation tools.',
-      sources: [{ label: 'WUR: databases & collections', url: 'https://www.wur.nl/en/library/databases-and-collections' }],
-    },
-    {
-      inst: 'Tilburg University', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Maintains WoS licence. No public announcement found.',
-      sources: [],
-    },
-    {
-      inst: 'Open Universiteit', type: 'University', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription or engagement. Small research output relative to contact universities.',
-      sources: [],
-    },
-    // ── NGOs / Research councils ──────────────────────────────────────────
-    {
-      inst: 'KNAW', type: 'NGO / Research', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. KNAW plays a key role in Danish open science infrastructure — potential interest in a Member or Partner arrangement given its research policy mandate.',
-      sources: [],
-    },
-    {
-      inst: 'ZonMw', type: 'NGO / Funder', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Health and care research funder. Would benefit from OpenAlex\'s new awards/funding graph which now includes NWO-adjacent funders.',
-      sources: [],
-    },
-    // ── Medical centres ───────────────────────────────────────────────────
-    {
-      inst: 'Amsterdam UMC', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. One of the largest clinical research producers in NL. Affiliation curation (a Member benefit) would directly improve publication accuracy for Amsterdam UMC output.',
-      sources: [],
-    },
-    {
-      inst: 'Erasmus MC', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. High research output in clinical sciences. No public engagement found.',
-      sources: [],
-    },
-    {
-      inst: 'UMCG', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. University Medical Centre Groningen — watch alongside RUG post-WoS cancellation.',
-      sources: [],
-    },
-    {
-      inst: 'UMC Utrecht', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Large clinical research output. Linked to Utrecht University, which is an active OpenAlex user — possible bundled membership.',
-      sources: [],
-    },
-    {
-      inst: 'Radboud UMC', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed OpenAlex subscription. Paired with Radboud University. No public engagement found.',
-      sources: [],
-    },
-    {
-      inst: 'Maastricht UMC+', type: 'Medical Centre', status: 'subscriber', tier: 'Partner — covered under UM',
-      signal: '✅ CONFIRMED COVERED. MUMC+ staff are explicitly covered under Maastricht University\'s Partner tier arrangement, per the UM Library announcement of 28 May 2026.',
-      sources: [{ label: 'UM Library announcement — 28 May 2026', url: 'https://library.maastrichtuniversity.nl/news/investing-in-open-research-information-openalex-partnership-and-end-of-scopus-license/' }],
-    },
-    {
-      inst: 'Leiden UMC', type: 'Medical Centre', status: 'none', tier: null,
-      signal: 'No confirmed engagement.',
-      sources: [],
-    },
-  ];
+    { inst: 'University of Copenhagen', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Aarhus University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Technical University of Denmark', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'University of Southern Denmark', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Aalborg University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Copenhagen Business School', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Roskilde University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'IT University of Copenhagen', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Rigshospitalet (Copenhagen University Hospital)', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Aarhus University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Odense University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Copenhagen University Hospital – Herlev and Gentofte', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Aalborg University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Copenhagen University Hospital – Bispebjerg and Frederiksberg', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Copenhagen University Hospital – Amager and Hvidovre', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Zealand University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Steno Diabetes Center Copenhagen', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Steno Diabetes Center Aarhus', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Statens Serum Institut', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Niels Bohr Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Royal Danish Academy of Sciences and Letters', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish Meteorological Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Geological Survey of Denmark and Greenland', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Alexandra Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish Technological Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Protein Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Basic Metabolic Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Stem Cell Medicine (reNEW)', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Interdisciplinary Nanoscience Center', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'DTU Space – National Space Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish Institute for International Studies', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'VIVE – The Danish Center for Social Science Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish Institute for Advanced Study', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Biosustainability', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'National Institute of Public Health', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Aarhus Institute of Advanced Studies', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Pioneer Centre for Artificial Intelligence', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Rockwool Foundation Research Unit', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'BioInnovation Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Novo Nordisk Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Lundbeck Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Carlsberg Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Villum Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish Cancer Society', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+    { inst: 'Danish National Research Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
+  ];;
 
   /* ── Merge in daily agent-discovered subscription findings ───────────── */
   const _matchName = s => String(s || '').toLowerCase().replace(/\([^)]*\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
