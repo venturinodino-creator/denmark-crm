@@ -4,64 +4,130 @@
     "ssi": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "ssi_page": 4,
+    "ssi_page": 5,
     "royalacademy_oa_id": "https://openalex.org/I4210128262",
-    "royalacademy": [
-      "p1"
-    ],
-    "royalacademy_page": 2,
+    "royalacademy": [],
+    "royalacademy_page": 1,
     "dmi_oa_id": "https://openalex.org/I32686375",
     "dmi": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "dmi_page": 4,
+    "dmi_page": 5,
     "geus_oa_id": "https://openalex.org/I2801979204",
     "geus": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "geus_page": 4,
+    "geus_page": 5,
     "alexandra_oa_id": "https://openalex.org/I4210163711",
     "alexandra": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "alexandra_page": 4,
+    "alexandra_page": 5,
     "dti_oa_id": "https://openalex.org/I3019169596",
     "dti": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "dti_page": 4,
+    "dti_page": 5,
     "cbmr_oa_id": "https://openalex.org/I4391767703",
-    "cbmr": [
-      "p1",
-      "p2",
-      "p3"
-    ],
-    "cbmr_page": 4,
+    "cbmr": [],
+    "cbmr_page": 1,
     "renew_oa_id": "https://openalex.org/I4405265031",
     "renew": [],
     "renew_page": 1,
     "diis_oa_id": "https://openalex.org/I183542713",
     "diis": [
+      "p1",
+      "p2"
+    ],
+    "diis_page": 3,
+    "ku_oa_id": "https://openalex.org/I124055696",
+    "ku": [
       "p1"
     ],
-    "diis_page": 2
+    "ku_page": 2,
+    "au_oa_id": "https://openalex.org/I204337017",
+    "au": [
+      "p1"
+    ],
+    "au_page": 2,
+    "dtu_oa_id": "https://openalex.org/I96673099",
+    "dtu": [
+      "p1"
+    ],
+    "dtu_page": 2,
+    "sdu_oa_id": "https://openalex.org/I177969490",
+    "sdu": [
+      "p1"
+    ],
+    "sdu_page": 2,
+    "aau_oa_id": "https://openalex.org/I891191580",
+    "aau": [
+      "p1"
+    ],
+    "aau_page": 2,
+    "cbs_oa_id": "https://openalex.org/I180519160",
+    "cbs": [
+      "p1"
+    ],
+    "cbs_page": 2,
+    "ruc_oa_id": "https://openalex.org/I107707843",
+    "ruc": [
+      "p1"
+    ],
+    "ruc_page": 2,
+    "auh_oa_id": "https://openalex.org/I2802335433",
+    "auh": [
+      "p1"
+    ],
+    "auh_page": 2,
+    "ouh_oa_id": "https://openalex.org/I2801498763",
+    "ouh": [
+      "p1"
+    ],
+    "ouh_page": 2,
+    "aalborguh_oa_id": "https://openalex.org/I2799976261",
+    "aalborguh": [
+      "p1"
+    ],
+    "aalborguh_page": 2,
+    "zealanduh_oa_id": "https://openalex.org/I4210087803",
+    "zealanduh": [
+      "p1"
+    ],
+    "zealanduh_page": 2,
+    "stenocph_oa_id": "https://openalex.org/I4405255865",
+    "stenocph": [],
+    "stenocph_page": 1,
+    "stenoaarhus_oa_id": "https://openalex.org/I4405271615",
+    "stenoaarhus": [],
+    "stenoaarhus_page": 1,
+    "vive_oa_id": "https://openalex.org/I4210146600",
+    "vive": [
+      "p1"
+    ],
+    "vive_page": 2
   },
-  "lastRun": "2026-08-23T12:29:49.669Z",
+  "lastRun": "2026-08-23T13:57:51.118Z",
   "lastTypes": [
     "university",
     "medical",
     "research",
     "ngo"
   ],
-  "lastAddedCount": 18
+  "lastAddedCount": 21
 }
