@@ -4074,6 +4074,19 @@ function refreshOpenAlexSubs(silent) {
 }
 
 /* ─── OpenAlex Intelligence Tab ────────────────────────────────────────── */
+// Row-level delete just hides a row locally (per-browser) — the underlying
+// research data isn't touched, so a "delete" here is meant for pruning
+// irrelevant/duplicate rows from view, not correcting the source data.
+function getHiddenOpenAlexRows() {
+  try { return JSON.parse(localStorage.getItem('dk_crm_openalex_hidden') || '[]'); } catch(e) { return []; }
+}
+function deleteOpenAlexRow(instName) {
+  if (!confirm(`Remove "${instName}" from this table?`)) return;
+  const hidden = getHiddenOpenAlexRows();
+  if (!hidden.includes(instName)) hidden.push(instName);
+  localStorage.setItem('dk_crm_openalex_hidden', JSON.stringify(hidden));
+  renderOpenAlex();
+}
 function renderOpenAlex() {
   document.getElementById('page-title').textContent = 'OpenAlex Intelligence';
   document.getElementById('page-sub').textContent = 'Subscription details, pricing tiers, and Danish institution intelligence — sourced & verified';
@@ -4298,7 +4311,8 @@ function renderOpenAlex() {
   // regardless of the order institutions happen to appear in NL_ALL (which
   // also gets rows appended by the auto-discovery merge above).
   const STATUS_SORT_ORDER = { subscriber: 0, active: 1, none: 2 };
-  const NL_ALL_SORTED = [...NL_ALL].sort((a, b) =>
+  const hiddenRows = getHiddenOpenAlexRows();
+  const NL_ALL_SORTED = [...NL_ALL].filter(d => !hiddenRows.includes(d.inst)).sort((a, b) =>
     (STATUS_SORT_ORDER[a.status] ?? 3) - (STATUS_SORT_ORDER[b.status] ?? 3));
 
   const nlTableRows = NL_ALL_SORTED.map(d => {
@@ -4323,6 +4337,11 @@ function renderOpenAlex() {
       <td style="padding:14px;vertical-align:top">${feeCell}</td>
       <td style="padding:14px;vertical-align:top">${srcLinks}</td>
       <td style="padding:14px;color:#94a3b8;font-size:12px;line-height:1.6;vertical-align:top">${d.signal}</td>
+      <td style="padding:14px;text-align:center;vertical-align:top">
+        <button onclick="deleteOpenAlexRow('${d.inst}')" title="Remove this row" style="background:none;border:none;cursor:pointer;padding:4px;color:rgba(255,255,255,0.25);transition:color .15s;display:inline-flex" onmouseover="this.style.color='rgba(248,113,113,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.25)'">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/></svg>
+        </button>
+      </td>
     </tr>`;
   }).join('');
 
@@ -4343,12 +4362,13 @@ function renderOpenAlex() {
     <div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;overflow:hidden;margin-bottom:10px">
       <table style="width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed">
         <colgroup>
-          <col style="width:15%">
+          <col style="width:14%">
           <col style="width:9%">
-          <col style="width:13%">
-          <col style="width:11%">
-          <col style="width:16%">
-          <col style="width:36%">
+          <col style="width:12%">
+          <col style="width:10%">
+          <col style="width:15%">
+          <col style="width:34%">
+          <col style="width:6%">
         </colgroup>
         <thead>
           <tr style="background:rgba(255,255,255,0.04);border-bottom:1px solid rgba(255,255,255,0.1)">
@@ -4358,6 +4378,7 @@ function renderOpenAlex() {
             <th style="padding:10px 14px;text-align:left;color:#64748b;font-size:11px;text-transform:uppercase;letter-spacing:.5px">Subscription Fee</th>
             <th style="padding:10px 14px;text-align:left;color:#64748b;font-size:11px;text-transform:uppercase;letter-spacing:.5px">Sources</th>
             <th style="padding:10px 14px;text-align:left;color:#64748b;font-size:11px;text-transform:uppercase;letter-spacing:.5px">Intelligence</th>
+            <th style="padding:10px 14px"></th>
           </tr>
         </thead>
         <tbody>${nlTableRows}</tbody>
