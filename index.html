@@ -1250,7 +1250,7 @@ let state = {
 const PER_PAGE = 20;
 
 //  STORAGE 
-const APPROVED_UNIVERSITIES = new Set(['uva','vu','leiden','tudelft','eur','uu','wur','rug','ru','um','tiu','tue','ut','ou']);
+const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu']);
 const SEED_VERSION = 'v6';
 
 //  SUPABASE CONFIG 
@@ -1493,7 +1493,14 @@ async function load() {
       supaFetch('crm_interactions?select=*&order=date.desc'),
       supaFetch('crm_tenders?select=*&order=created_at.desc'),
     ]);
-    state.institutions = instRows.map(dbToInst)
+    // crm_institutions in Supabase only ever holds admin edits/overrides
+    // (contract value, renewal date, notes, etc.) keyed by id — the master
+    // institution list itself lives in SEED_INSTITUTIONS. Merging on top of
+    // the seed list (rather than replacing it) means an institution with no
+    // Supabase row yet still shows with its seed defaults instead of vanishing.
+    const dbInstById = Object.fromEntries(instRows.map(r => [r.id, dbToInst(r)]));
+    state.institutions = SEED_INSTITUTIONS
+      .map(seed => dbInstById[seed.id] ? { ...seed, ...dbInstById[seed.id] } : { ...seed })
       .filter(x => x.type !== 'university' || APPROVED_UNIVERSITIES.has(x.id));
     // Merge seed emails into contacts loaded from Supabase
     const seedEmailMap = Object.fromEntries(SEED_CONTACTS.map(c => [c.id, c.email]));
