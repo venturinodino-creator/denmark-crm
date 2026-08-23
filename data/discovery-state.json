@@ -89,11 +89,37 @@
     "ruc": [
       "p1"
     ],
-    "ruc_page": 2
+    "ruc_page": 2,
+    "auh_oa_id": "https://openalex.org/I2802335433",
+    "auh": [
+      "p1"
+    ],
+    "auh_page": 2,
+    "ouh_oa_id": "https://openalex.org/I2801498763",
+    "ouh": [
+      "p1"
+    ],
+    "ouh_page": 2,
+    "aalborguh_oa_id": "https://openalex.org/I2799976261",
+    "aalborguh": [
+      "p1"
+    ],
+    "aalborguh_page": 2,
+    "zealanduh_oa_id": "https://openalex.org/I4210087803",
+    "zealanduh": [
+      "p1"
+    ],
+    "zealanduh_page": 2,
+    "stenocph_oa_id": "https://openalex.org/I4405255865",
+    "stenocph": [],
+    "stenocph_page": 1,
+    "stenoaarhus_oa_id": "https://openalex.org/I4405271615",
+    "stenoaarhus": [],
+    "stenoaarhus_page": 1
   },
-  "lastRun": "2026-08-23T13:28:15.527Z",
+  "lastRun": "2026-08-23T13:56:30.344Z",
   "lastTypes": [
-    "university"
+    "medical"
   ],
-  "lastAddedCount": 19
+  "lastAddedCount": 8
 }
