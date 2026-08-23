@@ -3,42 +3,50 @@
     "ssi_oa_id": "https://openalex.org/I101527212",
     "ssi": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "ssi_page": 3,
+    "ssi_page": 4,
     "royalacademy_oa_id": "https://openalex.org/I4210128262",
-    "royalacademy": [],
-    "royalacademy_page": 1,
+    "royalacademy": [
+      "p1"
+    ],
+    "royalacademy_page": 2,
     "dmi_oa_id": "https://openalex.org/I32686375",
     "dmi": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "dmi_page": 3,
+    "dmi_page": 4,
     "geus_oa_id": "https://openalex.org/I2801979204",
     "geus": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "geus_page": 3,
+    "geus_page": 4,
     "alexandra_oa_id": "https://openalex.org/I4210163711",
     "alexandra": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "alexandra_page": 3,
+    "alexandra_page": 4,
     "dti_oa_id": "https://openalex.org/I3019169596",
     "dti": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "dti_page": 3,
+    "dti_page": 4,
     "cbmr_oa_id": "https://openalex.org/I4391767703",
     "cbmr": [
       "p1",
-      "p2"
+      "p2",
+      "p3"
     ],
-    "cbmr_page": 3,
+    "cbmr_page": 4,
     "renew_oa_id": "https://openalex.org/I4405265031",
     "renew": [],
     "renew_page": 1,
@@ -48,12 +56,12 @@
     ],
     "diis_page": 2
   },
-  "lastRun": "2026-08-23T11:57:21.406Z",
+  "lastRun": "2026-08-23T12:29:49.669Z",
   "lastTypes": [
     "university",
     "medical",
     "research",
     "ngo"
   ],
-  "lastAddedCount": 0
+  "lastAddedCount": 18
 }
