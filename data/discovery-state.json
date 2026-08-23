@@ -4,57 +4,57 @@
     "ssi": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "ssi_page": 4,
+    "ssi_page": 5,
     "royalacademy_oa_id": "https://openalex.org/I4210128262",
-    "royalacademy": [
-      "p1"
-    ],
-    "royalacademy_page": 2,
+    "royalacademy": [],
+    "royalacademy_page": 1,
     "dmi_oa_id": "https://openalex.org/I32686375",
     "dmi": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "dmi_page": 4,
+    "dmi_page": 5,
     "geus_oa_id": "https://openalex.org/I2801979204",
     "geus": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "geus_page": 4,
+    "geus_page": 5,
     "alexandra_oa_id": "https://openalex.org/I4210163711",
     "alexandra": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "alexandra_page": 4,
+    "alexandra_page": 5,
     "dti_oa_id": "https://openalex.org/I3019169596",
     "dti": [
       "p1",
       "p2",
-      "p3"
+      "p3",
+      "p4"
     ],
-    "dti_page": 4,
+    "dti_page": 5,
     "cbmr_oa_id": "https://openalex.org/I4391767703",
-    "cbmr": [
-      "p1",
-      "p2",
-      "p3"
-    ],
-    "cbmr_page": 4,
+    "cbmr": [],
+    "cbmr_page": 1,
     "renew_oa_id": "https://openalex.org/I4405265031",
     "renew": [],
     "renew_page": 1,
     "diis_oa_id": "https://openalex.org/I183542713",
     "diis": [
-      "p1"
+      "p1",
+      "p2"
     ],
-    "diis_page": 2,
+    "diis_page": 3,
     "ku_oa_id": "https://openalex.org/I124055696",
     "ku": [
       "p1"
@@ -115,11 +115,19 @@
     "stenocph_page": 1,
     "stenoaarhus_oa_id": "https://openalex.org/I4405271615",
     "stenoaarhus": [],
-    "stenoaarhus_page": 1
+    "stenoaarhus_page": 1,
+    "vive_oa_id": "https://openalex.org/I4210146600",
+    "vive": [
+      "p1"
+    ],
+    "vive_page": 2
   },
-  "lastRun": "2026-08-23T13:56:30.344Z",
+  "lastRun": "2026-08-23T13:57:51.118Z",
   "lastTypes": [
-    "medical"
+    "university",
+    "medical",
+    "research",
+    "ngo"
   ],
-  "lastAddedCount": 8
+  "lastAddedCount": 21
 }
