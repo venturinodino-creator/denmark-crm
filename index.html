@@ -4125,52 +4125,52 @@ function renderOpenAlex() {
   /* ── ALL DANISH INSTITUTIONS — OPENALEX STATUS ───────────────────────── */
   // status: 'subscriber' | 'active' | 'none'
   const NL_ALL = [
-    { inst: 'University of Copenhagen', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Aarhus University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Technical University of Denmark', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'University of Southern Denmark', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Aalborg University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Copenhagen Business School', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Roskilde University', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'IT University of Copenhagen', type: 'University', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Rigshospitalet (Copenhagen University Hospital)', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Aarhus University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Odense University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Copenhagen University Hospital – Herlev and Gentofte', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Aalborg University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Copenhagen University Hospital – Bispebjerg and Frederiksberg', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Copenhagen University Hospital – Amager and Hvidovre', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Zealand University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Steno Diabetes Center Copenhagen', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Steno Diabetes Center Aarhus', type: 'Medical Centre', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Statens Serum Institut', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Niels Bohr Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Royal Danish Academy of Sciences and Letters', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish Meteorological Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Geological Survey of Denmark and Greenland', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Alexandra Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish Technological Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Novo Nordisk Foundation Center for Protein Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Novo Nordisk Foundation Center for Basic Metabolic Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Novo Nordisk Foundation Center for Stem Cell Medicine (reNEW)', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Interdisciplinary Nanoscience Center', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'DTU Space – National Space Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish Institute for International Studies', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'VIVE – The Danish Center for Social Science Research', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish Institute for Advanced Study', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Novo Nordisk Foundation Center for Biosustainability', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'National Institute of Public Health', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Aarhus Institute of Advanced Studies', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Pioneer Centre for Artificial Intelligence', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Rockwool Foundation Research Unit', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'BioInnovation Institute', type: 'Research Institute', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Novo Nordisk Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Lundbeck Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Carlsberg Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Villum Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish Cancer Society', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-    { inst: 'Danish National Research Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: '', sources: [] },
-  ];;
+    { inst: 'University of Copenhagen', type: 'University', status: 'active', tier: null, signal: 'KU Library\'s "Tools for Researchers" research-support page lists OpenAlex among the tools it points researchers to, describing it as an open alternative to Web of Science/Scopus/Dimensions. This is a passive library-guide-level mention, not a paid subscription or formal partnership.', sources: [{ label: 'KU Library — Tools for Researchers', url: 'https://kub.ku.dk/english/researchsupport/tools-for-researchers/' }] },
+    { inst: 'Aarhus University', type: 'University', status: 'none', tier: null, signal: 'AU Library runs an active bibliometrics service, but no page, guide, or announcement was found treating OpenAlex specifically as adopted infrastructure (beyond OpenAlex indexing AU by default, as it does virtually every institution). No confirmed engagement.', sources: [] },
+    { inst: 'Technical University of Denmark', type: 'University', status: 'active', tier: null, signal: 'DTU Library confirms that content from OpenAlex is searchable within DTU Findit (its discovery layer), and DTU Library\'s "Alternatives" open-access page lists OpenAlex as a free alternative to Scopus/Web of Science. Separately — and notably — DTU originated the "Opera" (Open Research Analytics) project that grew into NORA (National Open Research Analytics), now Denmark\'s national open research-analytics initiative (hosted today at Statistics Denmark). OpenAlex\'s own blog describes a formal collaboration in which OpenAlex and NORA jointly mapped OpenAlex\'s subject taxonomy to the OECD FORD taxonomy, feeding the new Research Portal Denmark. This is a genuine technical collaboration between the DTU-originated national infrastructure and OpenAlex, but it is NOT evidence of a paid institutional subscription by DTU itself.', sources: [{ label: 'DTU Findit — Other search tools (OpenAlex indexed)', url: 'https://findit.dtu.dk/en/about/tools' }, { label: 'DTU Library — Open Access Alternatives (lists OpenAlex)', url: 'https://www.bibliotek.dtu.dk/en/find-information/other/alternatives' }, { label: 'OpenAlex blog — "OpenAlex and NORA Collaborate to connect publications to the OECD FORD Taxonomy"', url: 'https://blog.openalex.org/openalex-and-nora-collaborate-to-connect-publications-to-the-oecd-ford-taxonomy/' }, { label: 'NORA (National Open Research Analytics) — About/Who, DTU-originated, now at Statistics Denmark', url: 'https://www.nora.dtu.dk/about/who/' }] },
+    { inst: 'University of Southern Denmark', type: 'University', status: 'active', tier: null, signal: 'SDU Library publishes a dedicated "How to OpenAlex" LibGuide under its Research Impact guide series — a clear signal of adopted free-tier engagement with OpenAlex as a bibliometrics/research-impact tool (the guide was noted as still under construction as of Feb 2026).', sources: [{ label: 'SDU Library LibGuide — "How to OpenAlex" (Research Impact)', url: 'https://libguides.sdu.dk/researchimpact2/openalex' }] },
+    { inst: 'Aalborg University', type: 'University', status: 'none', tier: null, signal: 'No AAU Library guide, blog post, or announcement specifically treating OpenAlex as adopted infrastructure was found. AAU is co-located with the DNRF/Novo/Carlsberg/Villum/Lundbeck-funded Pioneer Centre for AI (with KU, DTU, ITU, AU), but that centre funding is not connected to OpenAlex. No confirmed engagement.', sources: [] },
+    { inst: 'Copenhagen Business School', type: 'University', status: 'active', tier: null, signal: 'CBS Library\'s page on Keenious (a discovery tool CBS Library offers/licenses) states Keenious analyzes >100M articles sourced from OpenAlex. Separately, CBS Library\'s newsletter describes "Journal Finder" (a tool built by the Danish company ChronosHub) as drawing on OpenAlex, Open Policy Finder, and DOAJ data. Both are third-party tools that consume OpenAlex data rather than a direct CBS–OpenAlex relationship, so this is real but secondary engagement, not a subscription.', sources: [{ label: 'CBS Library — Keenious (built on OpenAlex data)', url: 'https://www.cbs.dk/en/library/search-library/online-resources/keenious' }, { label: 'CBS Library newsletter — "New Database Helps You Locate Journals..." (Journal Finder, uses OpenAlex)', url: 'https://libguides.cbs.dk/blogs/newsletter/5426/New-Database-Helps-You-Locate-Journals-that-are-Part-of-the-National-Open-Access-Agr' }] },
+    { inst: 'Roskilde University', type: 'University', status: 'none', tier: null, signal: 'RUC Library maintains a general Bibliometrics LibGuide, but OpenAlex is not specifically named in it per available indexing. No confirmed engagement found.', sources: [] },
+    { inst: 'IT University of Copenhagen', type: 'University', status: 'none', tier: null, signal: 'ITU Library services (largely routed through the Royal Danish Library) show no guide, page, or announcement treating OpenAlex as adopted infrastructure. No confirmed engagement.', sources: [] },
+    { inst: 'Rigshospitalet (Copenhagen University Hospital)', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Aarhus University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Odense University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Copenhagen University Hospital – Herlev and Gentofte', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Aalborg University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Copenhagen University Hospital – Bispebjerg and Frederiksberg', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Copenhagen University Hospital – Amager and Hvidovre', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Zealand University Hospital', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Steno Diabetes Center Copenhagen', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Steno Diabetes Center Aarhus', type: 'Medical Centre', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Statens Serum Institut', type: 'Research Institute', status: 'none', tier: null, signal: 'Indexed by OpenAlex by default (has an OpenAlex institution ID), but no evidence of paid subscription or active adoption beyond default indexing.', sources: [] },
+    { inst: 'Niels Bohr Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of University of Copenhagen; see KU entry for the university-level library signal).', sources: [] },
+    { inst: 'Royal Danish Academy of Sciences and Letters', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Danish Meteorological Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Geological Survey of Denmark and Greenland', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Alexandra Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Danish Technological Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Protein Research', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of University of Copenhagen).', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Basic Metabolic Research', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Stem Cell Medicine (reNEW)', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Interdisciplinary Nanoscience Center', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of Aarhus University).', sources: [] },
+    { inst: 'DTU Space – National Space Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of DTU; see DTU entry for the university-level signal).', sources: [] },
+    { inst: 'Danish Institute for International Studies', type: 'Research Institute', status: 'none', tier: null, signal: 'Indexed by OpenAlex by default (has an OpenAlex institution ID via Wikidata), but no evidence of paid subscription or active adoption beyond default indexing.', sources: [] },
+    { inst: 'VIVE – The Danish Center for Social Science Research', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Danish Institute for Advanced Study', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Novo Nordisk Foundation Center for Biosustainability', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of DTU).', sources: [] },
+    { inst: 'National Institute of Public Health', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found (part of University of Southern Denmark).', sources: [] },
+    { inst: 'Aarhus Institute of Advanced Studies', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Pioneer Centre for Artificial Intelligence', type: 'Research Institute', status: 'none', tier: null, signal: 'Multi-university AI centre (KU/DTU/ITU/AAU/AU) funded by DNRF, Carlsberg, Lundbeck, Villum and Novo Nordisk Foundations — but no evidence this funding or the centre itself connects to OpenAlex.', sources: [] },
+    { inst: 'Rockwool Foundation Research Unit', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'BioInnovation Institute', type: 'Research Institute', status: 'none', tier: null, signal: 'No confirmed OpenAlex engagement found.', sources: [] },
+    { inst: 'Novo Nordisk Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found (unlike NWO in the Netherlands). No confirmed engagement.', sources: [] },
+    { inst: 'Lundbeck Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found. No confirmed engagement.', sources: [] },
+    { inst: 'Carlsberg Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found. No confirmed engagement.', sources: [] },
+    { inst: 'Villum Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found. No confirmed engagement.', sources: [] },
+    { inst: 'Danish Cancer Society', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found. No confirmed engagement.', sources: [] },
+    { inst: 'Danish National Research Foundation', type: 'NGO / Funder', status: 'none', tier: null, signal: 'No public funding/infrastructure-support page listing a direct financial contribution to OpenAlex or OurResearch was found. No confirmed engagement.', sources: [] },
+  ];;;
 
   /* ── Merge in daily agent-discovered subscription findings ───────────── */
   const _matchName = s => String(s || '').toLowerCase().replace(/\([^)]*\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
@@ -4229,8 +4229,8 @@ function renderOpenAlex() {
       </div>
       <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:12px;padding:16px 22px;flex:1;min-width:130px">
         <div style="font-size:11px;color:#f87171;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">⚠ Scopus Exit</div>
-        <div style="font-size:30px;font-weight:800;color:#f87171">1</div>
-        <div style="font-size:11px;color:#94a3b8;margin-top:2px">UM cancelling Jan 2027</div>
+        <div style="font-size:30px;font-weight:800;color:#f87171">${NL_CONFIRMED.filter(d => (d.flags||[]).includes('scopus-cancel')).length}</div>
+        <div style="font-size:11px;color:#94a3b8;margin-top:2px">confirmed cancellations</div>
       </div>
       <div style="background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:16px 22px;flex:1;min-width:130px">
         <div style="font-size:11px;color:#64748b;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">🎯 Not Engaged</div>
@@ -4369,7 +4369,7 @@ function renderOpenAlex() {
 
     <!-- Confirmed Danish subscriber — detail card -->
     <h2 style="color:#e2e8f0;font-size:14px;font-weight:700;margin:0 0 14px;text-transform:uppercase;letter-spacing:.6px">✅ Confirmed Paying Subscriber</h2>
-    ${confirmedCards}
+    ${confirmedCards || `<div style="background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:24px;font-size:13px;color:#64748b">No confirmed paying OpenAlex subscriber found among tracked Danish institutions yet. Several show active free-tier engagement (see table above) — the daily scan agent will surface a confirmed subscription here if one is announced.</div>`}
 
   </div>`;
 
