@@ -1,1 +1,47 @@
-{}
+{
+  "scraped": {
+    "ssi_oa_id": "https://openalex.org/I101527212",
+    "ssi": [
+      "p1"
+    ],
+    "ssi_page": 2,
+    "royalacademy_oa_id": "https://openalex.org/I4210128262",
+    "royalacademy": [
+      "p1"
+    ],
+    "royalacademy_page": 2,
+    "dmi_oa_id": "https://openalex.org/I32686375",
+    "dmi": [
+      "p1"
+    ],
+    "dmi_page": 2,
+    "geus_oa_id": "https://openalex.org/I2801979204",
+    "geus": [
+      "p1"
+    ],
+    "geus_page": 2,
+    "alexandra_oa_id": "https://openalex.org/I4210163711",
+    "alexandra": [
+      "p1"
+    ],
+    "alexandra_page": 2,
+    "dti_oa_id": "https://openalex.org/I3019169596",
+    "dti": [
+      "p1"
+    ],
+    "dti_page": 2,
+    "cbmr_oa_id": "https://openalex.org/I4391767703",
+    "cbmr": [
+      "p1"
+    ],
+    "cbmr_page": 2
+  },
+  "lastRun": "2026-08-23T11:41:30.229Z",
+  "lastTypes": [
+    "university",
+    "medical",
+    "research",
+    "ngo"
+  ],
+  "lastAddedCount": 0
+}
