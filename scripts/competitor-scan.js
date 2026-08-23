@@ -14,7 +14,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 const DATA_FILE = 'data/leapspace-competitors.json';
 const STATE_FILE = 'data/competitor-scan-state.json';
 const API_KEY = process.env.ANTHROPIC_API_KEY;
-const MODEL = 'claude-opus-5';
+const MODEL = 'claude-sonnet-5'; // opus-5 returns 401 invalid x-api-key for this key/workspace (likely usage-tier gated) — sonnet-5 is confirmed accessible
 
 const VALID_ELEMENTS = new Set([
   'literatureSearch', 'authorSearch', 'fundingDiscovery', 'writingCoach',
