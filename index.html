@@ -1473,12 +1473,12 @@ async function loadResearchFocus() {
     if (res.ok) {
       const json = await res.json();
       state.researchFocus = (json && json.institutions) || {};
-      localStorage.setItem('nl_crm_research_focus', JSON.stringify(state.researchFocus));
+      localStorage.setItem('dk_crm_research_focus', JSON.stringify(state.researchFocus));
       return;
     }
   } catch (e) { /* fall through to cache below */ }
   try {
-    const cached = localStorage.getItem('nl_crm_research_focus');
+    const cached = localStorage.getItem('dk_crm_research_focus');
     if (cached) state.researchFocus = JSON.parse(cached);
   } catch (e) {}
 }
@@ -1515,35 +1515,23 @@ async function load() {
       id: n.id, instId: n.inst_id, contactId: n.contact_id||'',
       date: n.date||'', type: n.type||'other', summary: n.summary||''
     }));
-    if (rfpRows.length) {
-      state.rfps = rfpRows.map(dbToRfp);
-    } else {
-      // One-time migration: crm_tenders is new — if this browser has RFPs
-      // saved locally that Supabase doesn't know about yet, push them up
-      // so every device converges on the same list going forward.
-      let local = [];
-      try { local = JSON.parse(localStorage.getItem('nl_crm_rfp') || '[]'); } catch(e) {}
-      if (local.length) {
-        await Promise.all(local.map(r => supaUpsertRfp(r).catch(e => console.warn('RFP migrate failed', r.id, e))));
-      }
-      state.rfps = local;
-    }
+    state.rfps = rfpRows.map(dbToRfp);
     // Also cache locally as fallback
-    localStorage.setItem('nl_crm_institutions', JSON.stringify(state.institutions));
-    localStorage.setItem('nl_crm_contacts', JSON.stringify(state.contacts));
-    localStorage.setItem('nl_crm_opps', JSON.stringify(state.opportunities));
-    localStorage.setItem('nl_crm_interactions', JSON.stringify(state.interactions));
-    localStorage.setItem('nl_crm_rfp', JSON.stringify(state.rfps));
-    localStorage.setItem('nl_crm_version', SEED_VERSION);
+    localStorage.setItem('dk_crm_institutions', JSON.stringify(state.institutions));
+    localStorage.setItem('dk_crm_contacts', JSON.stringify(state.contacts));
+    localStorage.setItem('dk_crm_opps', JSON.stringify(state.opportunities));
+    localStorage.setItem('dk_crm_interactions', JSON.stringify(state.interactions));
+    localStorage.setItem('dk_crm_rfp', JSON.stringify(state.rfps));
+    localStorage.setItem('dk_crm_version', SEED_VERSION);
   } catch(e) {
     console.warn('Supabase load failed, falling back to localStorage:', e);
     // Fallback: use localStorage cache
     try {
-      const i = localStorage.getItem('nl_crm_institutions');
-      const ct = localStorage.getItem('nl_crm_contacts');
-      const _o = localStorage.getItem('nl_crm_opps');
-      const _n = localStorage.getItem('nl_crm_interactions');
-      const _r = localStorage.getItem('nl_crm_rfp');
+      const i = localStorage.getItem('dk_crm_institutions');
+      const ct = localStorage.getItem('dk_crm_contacts');
+      const _o = localStorage.getItem('dk_crm_opps');
+      const _n = localStorage.getItem('dk_crm_interactions');
+      const _r = localStorage.getItem('dk_crm_rfp');
       state.institutions = i ? JSON.parse(i) : JSON.parse(JSON.stringify(SEED_INSTITUTIONS));
       state.institutions = state.institutions.filter(x => x.type !== 'university' || APPROVED_UNIVERSITIES.has(x.id));
       const allContacts = ct ? JSON.parse(ct) : JSON.parse(JSON.stringify(SEED_CONTACTS));
@@ -1565,10 +1553,10 @@ async function load() {
 }
 function save() {
   // Per-record saves go to Supabase; this just updates the local cache
-  localStorage.setItem('nl_crm_institutions', JSON.stringify(state.institutions));
-  localStorage.setItem('nl_crm_contacts', JSON.stringify(state.contacts));
-  localStorage.setItem('nl_crm_opps', JSON.stringify(state.opportunities));
-  localStorage.setItem('nl_crm_interactions', JSON.stringify(state.interactions));
+  localStorage.setItem('dk_crm_institutions', JSON.stringify(state.institutions));
+  localStorage.setItem('dk_crm_contacts', JSON.stringify(state.contacts));
+  localStorage.setItem('dk_crm_opps', JSON.stringify(state.opportunities));
+  localStorage.setItem('dk_crm_interactions', JSON.stringify(state.interactions));
 }
 //  OPENALEX SYNC
 function syncOpenAlex() {
@@ -1844,7 +1832,7 @@ function openModal(id) { document.getElementById(id).classList.add('open'); }
 
 //  AGENT "RUN NOW" — dispatches the GitHub Actions workflow directly from the browser
 const GH_AGENTS_REPO = 'venturinodino-creator/denmark-crm';
-const GH_TOKEN_KEY = 'nl_crm_gh_token';
+const GH_TOKEN_KEY = 'dk_crm_gh_token';
 let _pendingAgentRun = null; // {workflow, btnId, name} or {resume:'discovery'} — resumed after a token is saved
 
 function getGhToken() { return localStorage.getItem(GH_TOKEN_KEY) || ''; }
@@ -2180,7 +2168,7 @@ function renderDashboard() {
     </div>`;
   }).join('');
 
-  // Stat card definitions — order persisted in localStorage nl_crm_stat_order
+  // Stat card definitions — order persisted in localStorage dk_crm_stat_order
   const _statCards = {
     'sc-institutions': `<div class="stat-card" data-sc-id="sc-institutions" draggable="true" onclick="nav('institutions')" title="View all institutions">
         <div class="stat-icon-box purple"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg></div>
@@ -2200,7 +2188,7 @@ function renderDashboard() {
       </div>`,
   };
   const _defaultStatOrder = ['sc-institutions','sc-contacts','sc-pending','sc-news'];
-  let _statOrder; try { _statOrder = JSON.parse(localStorage.getItem('nl_crm_stat_order')); if(!Array.isArray(_statOrder)||!_statOrder.length) _statOrder=null; } catch(e){ _statOrder=null; }
+  let _statOrder; try { _statOrder = JSON.parse(localStorage.getItem('dk_crm_stat_order')); if(!Array.isArray(_statOrder)||!_statOrder.length) _statOrder=null; } catch(e){ _statOrder=null; }
   _statOrder = (_statOrder||[]).filter(id=>_statCards[id]);
   if(_statOrder.length < _defaultStatOrder.length) { _defaultStatOrder.forEach(id=>{ if(!_statOrder.includes(id)) _statOrder.push(id); }); }
   const statCardsHtml = _statOrder.map(id => _statCards[id]||'').join('');
@@ -2364,7 +2352,7 @@ function initStatCardDrag() {
       else grid.insertBefore(_scDragSrc, card);
       // Save new order to localStorage
       const newOrder = [...grid.querySelectorAll('.stat-card[data-sc-id]')].map(c => c.dataset.scId);
-      localStorage.setItem('nl_crm_stat_order', JSON.stringify(newOrder));
+      localStorage.setItem('dk_crm_stat_order', JSON.stringify(newOrder));
     });
   });
 }
@@ -2372,14 +2360,14 @@ function initStatCardDrag() {
 const DASH_WIDGET_DEFAULT_ORDER = ['w-attention','w-types','w-highprio','w-map','w-agents'];
 function getDashWidgetOrder() {
   let order;
-  try { order = JSON.parse(localStorage.getItem('nl_crm_widget_order')); if(!Array.isArray(order)||!order.length) order=null; }
+  try { order = JSON.parse(localStorage.getItem('dk_crm_widget_order')); if(!Array.isArray(order)||!order.length) order=null; }
   catch(e) { order = null; }
   order = (order||[]).filter(id=>DASH_WIDGET_DEFAULT_ORDER.includes(id));
   DASH_WIDGET_DEFAULT_ORDER.forEach(id=>{ if(!order.includes(id)) order.push(id); });
   return order;
 }
 function saveDashWidgetOrder(order) {
-  localStorage.setItem('nl_crm_widget_order', JSON.stringify(order));
+  localStorage.setItem('dk_crm_widget_order', JSON.stringify(order));
 }
 
 function buildDashWidgets(typeRows, hpRows, agentRows) {
@@ -3043,7 +3031,7 @@ async function saveInstitution() {
       openalexTier: oaVal !== 'free' ? oaVal.charAt(0).toUpperCase() + oaVal.slice(1) : null,
       openalexFee: oaFee,
     });
-    localStorage.setItem('nl_crm_comp_data', JSON.stringify(window.COMP_DATA));
+    localStorage.setItem('dk_crm_comp_data', JSON.stringify(window.COMP_DATA));
   }
   save(); try { await supaUpsertInst(savedInst); syncBadge(true); } catch(e){ console.error(e); syncBadge(true,'err'); } closeModal('modal-inst'); render();
 }
@@ -3156,7 +3144,7 @@ function exportCSV() {
   const csv = [headers, ...rows].map(r=>r.join(',')).join('\n');
   const blob = new Blob([csv], {type:'text/csv'});
   const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
-  a.download = 'nl_crm_contacts.csv'; a.click();
+  a.download = 'dk_crm_contacts.csv'; a.click();
   toast('Exported CSV');
 }
 
@@ -3182,13 +3170,13 @@ let _newsActiveCategory = 'all';
 let _newsCompetitorInsights = null;
 
 function getDismissedNewsIds() {
-  try { return JSON.parse(localStorage.getItem('nl_crm_dismissed_news') || '[]'); }
+  try { return JSON.parse(localStorage.getItem('dk_crm_dismissed_news') || '[]'); }
   catch(e) { return []; }
 }
 function dismissNewsArticle(id) {
   if (!confirm('Remove this article from your feed?')) return;
   const ids = getDismissedNewsIds();
-  if (!ids.includes(id)) { ids.push(id); localStorage.setItem('nl_crm_dismissed_news', JSON.stringify(ids)); }
+  if (!ids.includes(id)) { ids.push(id); localStorage.setItem('dk_crm_dismissed_news', JSON.stringify(ids)); }
   renderNewsArticles();
   toast('Article removed');
 }
@@ -3615,7 +3603,7 @@ async function saveInstAccount() {
 //  PIPELINE PAGE 
 // ── RFP OPPS ──────────────────────────────────────────────────────────────────
 function getRFPs() { return state.rfps || []; }
-function saveRFPs(list) { state.rfps = list; localStorage.setItem('nl_crm_rfp', JSON.stringify(list)); }
+function saveRFPs(list) { state.rfps = list; localStorage.setItem('dk_crm_rfp', JSON.stringify(list)); }
 
 const RFP_STATUSES = {
   identified: { label: 'Monitoring',   color: '#64748b', bg: 'rgba(100,116,139,.15)' },
@@ -3966,7 +3954,7 @@ if (!window.COMP_DATA) {
 // Merge any localStorage overrides into COMP_DATA
 (function() {
   try {
-    const saved = JSON.parse(localStorage.getItem('nl_crm_comp_data') || 'null');
+    const saved = JSON.parse(localStorage.getItem('dk_crm_comp_data') || 'null');
     if (saved) {
       Object.keys(saved).forEach(k => {
         if (!window.COMP_DATA[k]) window.COMP_DATA[k] = {};
@@ -3988,8 +3976,8 @@ function saveNote(instId, val) {
 }
 
 /* ─── OpenAlex subscription agent findings (data/openalex-subscriptions.json) ─── */
-function getOpenAlexAutoSubs() { try { return JSON.parse(localStorage.getItem('nl_crm_openalex_subs') || '[]'); } catch(e) { return []; } }
-function saveOpenAlexAutoSubs(list) { localStorage.setItem('nl_crm_openalex_subs', JSON.stringify(list)); }
+function getOpenAlexAutoSubs() { try { return JSON.parse(localStorage.getItem('dk_crm_openalex_subs') || '[]'); } catch(e) { return []; } }
+function saveOpenAlexAutoSubs(list) { localStorage.setItem('dk_crm_openalex_subs', JSON.stringify(list)); }
 
 function refreshOpenAlexSubs(silent) {
   const btn = document.getElementById('refresh-openalex-subs-btn');
@@ -4679,9 +4667,9 @@ const LEAPSPACE_TABS = {
 const LEAPSPACE_ELEMENTS = LEAPSPACE_TABS;
 
 function getAIInsights() {
-  try { return JSON.parse(localStorage.getItem('nl_crm_ai_insights') || '[]'); } catch(e) { return []; }
+  try { return JSON.parse(localStorage.getItem('dk_crm_ai_insights') || '[]'); } catch(e) { return []; }
 }
-function saveAIInsights(list) { localStorage.setItem('nl_crm_ai_insights', JSON.stringify(list)); }
+function saveAIInsights(list) { localStorage.setItem('dk_crm_ai_insights', JSON.stringify(list)); }
 
 function refreshAIInsights(silent) {
   const btn = document.getElementById('refresh-insights-btn');
@@ -5697,7 +5685,7 @@ async function runContactDiscovery() {
 <script>
 /* pending contacts now live entirely in Supabase's pending_contacts table
    (see renderPendingContacts/acceptPendingContact/deletePendingContact
-   above) — the old localStorage-based nl_crm_pending path (discovery.js +
+   above) — the old localStorage-based dk_crm_pending path (discovery.js +
    a second renderPendingContacts here) has been removed; it silently
    shadowed the Supabase version, so discovered contacts never reached a
    signed-in user's real queue. */
@@ -6174,10 +6162,10 @@ function render4GU() {
   modal.querySelector('#alog-date').value = new Date().toISOString().slice(0,10);
 
   function getActivities(contactId) {
-    try { return JSON.parse(localStorage.getItem('nl_crm_activities_'+contactId)||'[]'); } catch(e) { return []; }
+    try { return JSON.parse(localStorage.getItem('dk_crm_activities_'+contactId)||'[]'); } catch(e) { return []; }
   }
   function saveActivities(contactId, acts) {
-    localStorage.setItem('nl_crm_activities_'+contactId, JSON.stringify(acts));
+    localStorage.setItem('dk_crm_activities_'+contactId, JSON.stringify(acts));
   }
 
   function renderHistory(contactId) {
