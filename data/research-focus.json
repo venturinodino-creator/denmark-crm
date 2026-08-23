@@ -1,0 +1,1021 @@
+{
+  "generatedAt": "2026-08-23T11:55:03.752Z",
+  "source": "OpenAlex API (institution.topic_share)",
+  "institutions": {
+    "ku": {
+      "openalexId": "I124055696",
+      "openalexName": "University of Copenhagen",
+      "ror": "035b05819",
+      "worksCount": 289900,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 22.7
+        },
+        {
+          "name": "Medicine",
+          "pct": 20.9
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 11.4
+        },
+        {
+          "name": "Psychology",
+          "pct": 10.2
+        },
+        {
+          "name": "Physics and Astronomy",
+          "pct": 10.1
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 9.2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I124055696",
+      "apiUrl": "https://api.openalex.org/institutions/I124055696"
+    },
+    "au": {
+      "openalexId": "I204337017",
+      "openalexName": "Aarhus University",
+      "ror": "01aj84f44",
+      "worksCount": 226423,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 40.5
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 21.6
+        },
+        {
+          "name": "Psychology",
+          "pct": 21.1
+        },
+        {
+          "name": "Arts and Humanities",
+          "pct": 5.5
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 2.9
+        },
+        {
+          "name": "Chemical Engineering",
+          "pct": 2.4
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I204337017",
+      "apiUrl": "https://api.openalex.org/institutions/I204337017"
+    },
+    "dtu": {
+      "openalexId": "I96673099",
+      "openalexName": "Technical University of Denmark",
+      "ror": "04qtj9h94",
+      "worksCount": 150722,
+      "fields": [
+        {
+          "name": "Engineering",
+          "pct": 64.2
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 9
+        },
+        {
+          "name": "Materials Science",
+          "pct": 5.3
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 4
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3.9
+        },
+        {
+          "name": "Psychology",
+          "pct": 3.8
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I96673099",
+      "apiUrl": "https://api.openalex.org/institutions/I96673099"
+    },
+    "sdu": {
+      "openalexId": "I177969490",
+      "openalexName": "University of Southern Denmark",
+      "ror": "03yrrjy16",
+      "worksCount": 92730,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 25.7
+        },
+        {
+          "name": "Medicine",
+          "pct": 24.8
+        },
+        {
+          "name": "Health Professions",
+          "pct": 15.4
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 13
+        },
+        {
+          "name": "Psychology",
+          "pct": 12.4
+        },
+        {
+          "name": "Chemistry",
+          "pct": 3.2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I177969490",
+      "apiUrl": "https://api.openalex.org/institutions/I177969490"
+    },
+    "aau": {
+      "openalexId": "I891191580",
+      "openalexName": "Aalborg University",
+      "ror": "04m5j1k67",
+      "worksCount": 114683,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 33.6
+        },
+        {
+          "name": "Engineering",
+          "pct": 31.1
+        },
+        {
+          "name": "Psychology",
+          "pct": 17.2
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 9.1
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 7.2
+        },
+        {
+          "name": "Computer Science",
+          "pct": 1.9
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I891191580",
+      "apiUrl": "https://api.openalex.org/institutions/I891191580"
+    },
+    "cbs": {
+      "openalexId": "I180519160",
+      "openalexName": "Copenhagen Business School",
+      "ror": "04sppb023",
+      "worksCount": 34092,
+      "fields": [
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 44.3
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 36.1
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 8.6
+        },
+        {
+          "name": "Psychology",
+          "pct": 8.4
+        },
+        {
+          "name": "Economics, Econometrics and Finance",
+          "pct": 2.5
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I180519160",
+      "apiUrl": "https://api.openalex.org/institutions/I180519160"
+    },
+    "ruc": {
+      "openalexId": "I107707843",
+      "openalexName": "Roskilde University",
+      "ror": "014axpa37",
+      "worksCount": 32368,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 61.9
+        },
+        {
+          "name": "Psychology",
+          "pct": 17.6
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 10.7
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 6.5
+        },
+        {
+          "name": "Economics, Econometrics and Finance",
+          "pct": 1.7
+        },
+        {
+          "name": "Chemistry",
+          "pct": 1.6
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I107707843",
+      "apiUrl": "https://api.openalex.org/institutions/I107707843"
+    },
+    "itu": {
+      "openalexId": "I83467386",
+      "openalexName": "IT University of Copenhagen",
+      "ror": "02309jg23",
+      "worksCount": 15463,
+      "fields": [
+        {
+          "name": "Computer Science",
+          "pct": 61.9
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 20.8
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 8.7
+        },
+        {
+          "name": "Psychology",
+          "pct": 5.5
+        },
+        {
+          "name": "Decision Sciences",
+          "pct": 3.1
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I83467386",
+      "apiUrl": "https://api.openalex.org/institutions/I83467386"
+    },
+    "rigshospitalet": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Rigshospitalet%20(Copenhagen%20University%20Hospital)"
+    },
+    "auh": {
+      "openalexId": "I2802335433",
+      "openalexName": "Aarhus University Hospital",
+      "ror": "040r8fr65",
+      "worksCount": 67152,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 79.6
+        },
+        {
+          "name": "Psychology",
+          "pct": 8.6
+        },
+        {
+          "name": "Physics and Astronomy",
+          "pct": 5
+        },
+        {
+          "name": "Immunology and Microbiology",
+          "pct": 3.7
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3.2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2802335433",
+      "apiUrl": "https://api.openalex.org/institutions/I2802335433"
+    },
+    "ouh": {
+      "openalexId": "I2801498763",
+      "openalexName": "Odense University Hospital",
+      "ror": "00ey0ed83",
+      "worksCount": 39974,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 85
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 7.3
+        },
+        {
+          "name": "Immunology and Microbiology",
+          "pct": 4.3
+        },
+        {
+          "name": "Psychology",
+          "pct": 3.3
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2801498763",
+      "apiUrl": "https://api.openalex.org/institutions/I2801498763"
+    },
+    "herlevgentofte": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Copenhagen%20University%20Hospital%20%E2%80%93%20Herlev%20and%20Gentofte"
+    },
+    "aalborguh": {
+      "openalexId": "I2799976261",
+      "openalexName": "Aalborg University Hospital",
+      "ror": "02jk5qe80",
+      "worksCount": 23329,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 68.2
+        },
+        {
+          "name": "Psychology",
+          "pct": 10.2
+        },
+        {
+          "name": "Nursing",
+          "pct": 4.2
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 3.9
+        },
+        {
+          "name": "Neuroscience",
+          "pct": 3.8
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3.5
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2799976261",
+      "apiUrl": "https://api.openalex.org/institutions/I2799976261"
+    },
+    "bispebjergfrederiksberg": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Copenhagen%20University%20Hospital%20%E2%80%93%20Bispebjerg%20and%20Frederiksberg"
+    },
+    "amagerhvidovre": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Copenhagen%20University%20Hospital%20%E2%80%93%20Amager%20and%20Hvidovre"
+    },
+    "zealanduh": {
+      "openalexId": "I4210087803",
+      "openalexName": "Zealand University Hospital",
+      "ror": "00363z010",
+      "worksCount": 8441,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 90.4
+        },
+        {
+          "name": "Psychology",
+          "pct": 4.6
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 3.1
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210087803",
+      "apiUrl": "https://api.openalex.org/institutions/I4210087803"
+    },
+    "stenocph": {
+      "openalexId": "I4405255865",
+      "openalexName": "Steno Diabetes Center Copenhagen",
+      "ror": "03gqzdg87",
+      "worksCount": 0,
+      "fields": [],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4405255865",
+      "apiUrl": "https://api.openalex.org/institutions/I4405255865"
+    },
+    "stenoaarhus": {
+      "openalexId": "I4405271615",
+      "openalexName": "Steno Diabetes Center Aarhus",
+      "ror": "02qwvry66",
+      "worksCount": 0,
+      "fields": [],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4405271615",
+      "apiUrl": "https://api.openalex.org/institutions/I4405271615"
+    },
+    "ssi": {
+      "openalexId": "I101527212",
+      "openalexName": "Statens Serum Institut",
+      "ror": "0417ye583",
+      "worksCount": 17201,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 34.3
+        },
+        {
+          "name": "Immunology and Microbiology",
+          "pct": 28.2
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 22.1
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 6.7
+        },
+        {
+          "name": "Agricultural and Biological Sciences",
+          "pct": 5.5
+        },
+        {
+          "name": "Veterinary",
+          "pct": 3.3
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I101527212",
+      "apiUrl": "https://api.openalex.org/institutions/I101527212"
+    },
+    "nbi": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Niels%20Bohr%20Institute"
+    },
+    "royalacademy": {
+      "openalexId": "I4210128262",
+      "openalexName": "The Royal Danish Academy of Sciences and Letters",
+      "ror": "03hvzdf94",
+      "worksCount": 31,
+      "fields": [
+        {
+          "name": "Arts and Humanities",
+          "pct": 32.9
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 24.8
+        },
+        {
+          "name": "Engineering",
+          "pct": 17.8
+        },
+        {
+          "name": "Materials Science",
+          "pct": 7.6
+        },
+        {
+          "name": "Decision Sciences",
+          "pct": 6.9
+        },
+        {
+          "name": "Neuroscience",
+          "pct": 3.2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210128262",
+      "apiUrl": "https://api.openalex.org/institutions/I4210128262"
+    },
+    "dmi": {
+      "openalexId": "I32686375",
+      "openalexName": "Danish Meteorological Institute",
+      "ror": "020m6x732",
+      "worksCount": 4589,
+      "fields": [
+        {
+          "name": "Earth and Planetary Sciences",
+          "pct": 53.8
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 31.1
+        },
+        {
+          "name": "Engineering",
+          "pct": 4.1
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 3.4
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3.3
+        },
+        {
+          "name": "Medicine",
+          "pct": 2.6
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I32686375",
+      "apiUrl": "https://api.openalex.org/institutions/I32686375"
+    },
+    "geus": {
+      "openalexId": "I2801979204",
+      "openalexName": "Geological Survey of Denmark and Greenland",
+      "ror": "01b40r146",
+      "worksCount": 43121,
+      "fields": [
+        {
+          "name": "Earth and Planetary Sciences",
+          "pct": 27.8
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 23.1
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 16.4
+        },
+        {
+          "name": "Medicine",
+          "pct": 13.9
+        },
+        {
+          "name": "Agricultural and Biological Sciences",
+          "pct": 9.2
+        },
+        {
+          "name": "Chemistry",
+          "pct": 4.1
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2801979204",
+      "apiUrl": "https://api.openalex.org/institutions/I2801979204"
+    },
+    "alexandra": {
+      "openalexId": "I4210163711",
+      "openalexName": "Alexandra Institute (Denmark)",
+      "ror": "054z83b16",
+      "worksCount": 625,
+      "fields": [
+        {
+          "name": "Computer Science",
+          "pct": 34.5
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 29.5
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 9.6
+        },
+        {
+          "name": "Psychology",
+          "pct": 9.3
+        },
+        {
+          "name": "Economics, Econometrics and Finance",
+          "pct": 6.2
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 3.2
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210163711",
+      "apiUrl": "https://api.openalex.org/institutions/I4210163711"
+    },
+    "dti": {
+      "openalexId": "I3019169596",
+      "openalexName": "Danish Technological Institute",
+      "ror": "00n87rr37",
+      "worksCount": 2716,
+      "fields": [
+        {
+          "name": "Engineering",
+          "pct": 48.7
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 13.5
+        },
+        {
+          "name": "Energy",
+          "pct": 12.3
+        },
+        {
+          "name": "Agricultural and Biological Sciences",
+          "pct": 10.1
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 6
+        },
+        {
+          "name": "Chemical Engineering",
+          "pct": 5.5
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I3019169596",
+      "apiUrl": "https://api.openalex.org/institutions/I3019169596"
+    },
+    "cpr": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Novo%20Nordisk%20Foundation%20Center%20for%20Protein%20Research"
+    },
+    "cbmr": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Novo%20Nordisk%20Foundation%20Center%20for%20Basic%20Metabolic%20Research"
+    },
+    "renew": {
+      "openalexId": "I4405265031",
+      "openalexName": "Novo Nordisk Foundation Center for Stem Cell Medicine",
+      "ror": "03nqjyg83",
+      "worksCount": 0,
+      "fields": [],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4405265031",
+      "apiUrl": "https://api.openalex.org/institutions/I4405265031"
+    },
+    "inano": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Interdisciplinary%20Nanoscience%20Center"
+    },
+    "dtuspace": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=DTU%20Space%20%E2%80%93%20National%20Space%20Institute"
+    },
+    "diis": {
+      "openalexId": "I183542713",
+      "openalexName": "Danish Institute for International Studies",
+      "ror": "02asy9212",
+      "worksCount": 2067,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 88
+        },
+        {
+          "name": "Arts and Humanities",
+          "pct": 3.4
+        },
+        {
+          "name": "Economics, Econometrics and Finance",
+          "pct": 3
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 3
+        },
+        {
+          "name": "Agricultural and Biological Sciences",
+          "pct": 2.7
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I183542713",
+      "apiUrl": "https://api.openalex.org/institutions/I183542713"
+    },
+    "vive": {
+      "openalexId": "I4210146600",
+      "openalexName": "VIVE - The Danish Center for Social Science Research",
+      "ror": "0523ssa79",
+      "worksCount": 1897,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 58.4
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 14
+        },
+        {
+          "name": "Psychology",
+          "pct": 12.8
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 5.9
+        },
+        {
+          "name": "Health Professions",
+          "pct": 5.5
+        },
+        {
+          "name": "Decision Sciences",
+          "pct": 1.8
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210146600",
+      "apiUrl": "https://api.openalex.org/institutions/I4210146600"
+    },
+    "dias": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Danish%20Institute%20for%20Advanced%20Study"
+    },
+    "biosustain": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Novo%20Nordisk%20Foundation%20Center%20for%20Biosustainability"
+    },
+    "niph": {
+      "openalexId": "I4210099175",
+      "openalexName": "Danish National Institute of Public Health",
+      "ror": "012bzsw43",
+      "worksCount": 4093,
+      "fields": [
+        {
+          "name": "Social Sciences",
+          "pct": 42.9
+        },
+        {
+          "name": "Health Professions",
+          "pct": 17.6
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 14.6
+        },
+        {
+          "name": "Psychology",
+          "pct": 14.2
+        },
+        {
+          "name": "Medicine",
+          "pct": 6.5
+        },
+        {
+          "name": "Arts and Humanities",
+          "pct": 2.7
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210099175",
+      "apiUrl": "https://api.openalex.org/institutions/I4210099175"
+    },
+    "aias": {
+      "openalexId": "I4405269270",
+      "openalexName": "Aarhus Institute of Advanced Studies",
+      "ror": "03m42ee08",
+      "worksCount": 0,
+      "fields": [],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4405269270",
+      "apiUrl": "https://api.openalex.org/institutions/I4405269270"
+    },
+    "pioneerai": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Pioneer%20Centre%20for%20Artificial%20Intelligence"
+    },
+    "rockwoolresearch": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Rockwool%20Foundation%20Research%20Unit"
+    },
+    "bii": {
+      "openalexId": "I4210146628",
+      "openalexName": "BioInnovation Institute",
+      "ror": "048b3qc73",
+      "worksCount": 557,
+      "fields": [
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 74.9
+        },
+        {
+          "name": "Engineering",
+          "pct": 9.1
+        },
+        {
+          "name": "Decision Sciences",
+          "pct": 4.8
+        },
+        {
+          "name": "Chemistry",
+          "pct": 3.3
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3
+        },
+        {
+          "name": "Medicine",
+          "pct": 1.9
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210146628",
+      "apiUrl": "https://api.openalex.org/institutions/I4210146628"
+    },
+    "novonordiskfoundation": {
+      "openalexId": "I2801134892",
+      "openalexName": "Novo Nordisk Foundation",
+      "ror": "04txyc737",
+      "worksCount": 11749,
+      "fields": [
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 57.3
+        },
+        {
+          "name": "Medicine",
+          "pct": 29.1
+        },
+        {
+          "name": "Chemistry",
+          "pct": 6.1
+        },
+        {
+          "name": "Engineering",
+          "pct": 3.7
+        },
+        {
+          "name": "Neuroscience",
+          "pct": 3.7
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2801134892",
+      "apiUrl": "https://api.openalex.org/institutions/I2801134892"
+    },
+    "lundbeckfoundation": {
+      "openalexId": "I4210127817",
+      "openalexName": "Lundbeck Foundation",
+      "ror": "03hz8wd80",
+      "worksCount": 2451,
+      "fields": [
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 32.8
+        },
+        {
+          "name": "Medicine",
+          "pct": 26.8
+        },
+        {
+          "name": "Psychology",
+          "pct": 15.6
+        },
+        {
+          "name": "Neuroscience",
+          "pct": 9.5
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 5.7
+        },
+        {
+          "name": "Physics and Astronomy",
+          "pct": 4.7
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210127817",
+      "apiUrl": "https://api.openalex.org/institutions/I4210127817"
+    },
+    "carlsbergfoundation": {
+      "openalexId": "I2802170299",
+      "openalexName": "Carlsberg Foundation",
+      "ror": "01kpjmx04",
+      "worksCount": 475,
+      "fields": [
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 52.1
+        },
+        {
+          "name": "Medicine",
+          "pct": 24.7
+        },
+        {
+          "name": "Agricultural and Biological Sciences",
+          "pct": 10.5
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 5.8
+        },
+        {
+          "name": "Pharmacology, Toxicology and Pharmaceutics",
+          "pct": 2.8
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 2.3
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I2802170299",
+      "apiUrl": "https://api.openalex.org/institutions/I2802170299"
+    },
+    "villumfoundation": {
+      "notFound": true,
+      "reason": "No OpenAlex institution matched this name in the Denmark",
+      "searchUrl": "https://openalex.org/institutions?search=Villum%20Foundation"
+    },
+    "danishcancersociety": {
+      "openalexId": "I4210148920",
+      "openalexName": "Danish Cancer Society",
+      "ror": "03ytt7k16",
+      "worksCount": 9886,
+      "fields": [
+        {
+          "name": "Medicine",
+          "pct": 74.2
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 16.9
+        },
+        {
+          "name": "Social Sciences",
+          "pct": 3.1
+        },
+        {
+          "name": "Health Professions",
+          "pct": 2.9
+        },
+        {
+          "name": "Environmental Science",
+          "pct": 2.9
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210148920",
+      "apiUrl": "https://api.openalex.org/institutions/I4210148920"
+    },
+    "dnrf": {
+      "openalexId": "I4210087405",
+      "openalexName": "Danish National Research Foundation",
+      "ror": "00znyv691",
+      "worksCount": 2549,
+      "fields": [
+        {
+          "name": "Computer Science",
+          "pct": 35.7
+        },
+        {
+          "name": "Medicine",
+          "pct": 19.6
+        },
+        {
+          "name": "Biochemistry, Genetics and Molecular Biology",
+          "pct": 19.2
+        },
+        {
+          "name": "Physics and Astronomy",
+          "pct": 8.9
+        },
+        {
+          "name": "Chemistry",
+          "pct": 7.7
+        },
+        {
+          "name": "Psychology",
+          "pct": 3.7
+        }
+      ],
+      "ambiguous": false,
+      "sourceUrl": "https://openalex.org/institutions/I4210087405",
+      "apiUrl": "https://api.openalex.org/institutions/I4210087405"
+    }
+  }
+}
