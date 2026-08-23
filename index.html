@@ -6265,9 +6265,30 @@ async function runContactDiscovery() {
    signatory status by instId when rendering its own page.
    ═══════════════════════════════════════════════════════════════════════════ */
 // Full Danish signatory data (source: barcelona-declaration.org/signatories/)
-const BARCELONA_SIGNED = [];
+// Source: https://barcelona-declaration.org/signatories/ (checked 2026-08-23).
+// Unlike the Netherlands, no Danish university, funder, or academy has
+// signed the Declaration itself as of this check — the only Danish entry on
+// the official list is a DTU-hosted infrastructure initiative, not DTU (or
+// any other institution) signing as an organization. Exact signing date
+// isn't published per-entry on the signatories page, unlike launch-day
+// signatories elsewhere, so it's left blank rather than guessed.
+const BARCELONA_SIGNED = [
+    { name:'National Open Research Analytics (DTU-hosted)', instId:null, type:'infra', date:'', scopusRisk:'Low', source:'https://barcelona-declaration.org/signatories/', note:'Listed under "Other organizations", not as DTU itself — a DTU-hosted open research information initiative, not an institution-wide commitment.' },
+];
 
-const BARCELONA_NOT_SIGNED = [];
+const BARCELONA_NOT_SIGNED = [
+    { name:'University of Copenhagen',              instId:'ku',  type:'university', note:'No public commitment yet.' },
+    { name:'Aarhus University',                     instId:'au',  type:'university', note:'No public commitment yet.' },
+    { name:'Technical University of Denmark',       instId:'dtu', type:'university', note:'DTU itself has not signed — only a DTU-hosted initiative appears on the signatories list separately.' },
+    { name:'University of Southern Denmark',        instId:'sdu', type:'university', note:'No public commitment yet.' },
+    { name:'Aalborg University',                    instId:'aau', type:'university', note:'No public commitment yet.' },
+    { name:'Copenhagen Business School',            instId:'cbs', type:'university', note:'No public commitment yet.' },
+    { name:'Roskilde University',                   instId:'ruc', type:'university', note:'No public commitment yet.' },
+    { name:'IT University of Copenhagen',           instId:'itu', type:'university', note:'No public commitment yet.' },
+    { name:'Rigshospitalet',                        instId:'rigshospitalet', type:'medical', note:'Medical centres not yet on declaration.' },
+    { name:'Aarhus University Hospital',            instId:'auh', type:'medical', note:'Medical centres not yet on declaration.' },
+    { name:'Odense University Hospital',            instId:'ouh', type:'medical', note:'Medical centres not yet on declaration.' },
+];
 
 function renderBarcelonaDecl() {
   document.getElementById('page-title').textContent = 'Barcelona Declaration';
@@ -6411,7 +6432,7 @@ function renderBarcelonaDecl() {
 const FOURGU_MEMBERS = [
     { name:'Aalto University',                                  country:'Finland',         roles:['Board','Founding Group'], rep:'Janne Laine',        instId:null },
     { name:'Brno University of Technology',                     country:'Czech Republic',  roles:['Founding Group'],         rep:null,                  instId:null },
-    { name:'Eindhoven University of Technology',                country:'Denmark',     roles:['Board','Founding Group'], rep:'Silvia Lenaerts',     instId:'tue' },
+    { name:'Eindhoven University of Technology',                country:'Netherlands', roles:['Board','Founding Group'], rep:'Silvia Lenaerts',     instId:'tue' },
     { name:'Japan Advanced Institute of Science and Technology',country:'Japan',           roles:['Board'],                  rep:'Amane Koizumi',       instId:null },
     { name:'Karlsruhe Institute of Technology',                 country:'Germany',         roles:['Board','Founding Group'], rep:'Jan Hesthaven',       instId:null },
     { name:'Newcastle University',                              country:'UK',              roles:['Board','Founding Group'], rep:'Chris Day',           instId:null },
