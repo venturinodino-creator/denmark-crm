@@ -928,9 +928,6 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
     <div class="nav-item" data-view="subscriptions" onclick="nav('subscriptions')">
       <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg></div> Competitor Matrix
     </div>
-    <div class="nav-item" data-view="ai-insights" onclick="nav('ai-insights')">
-      <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a5 5 0 0 0-5 5c0 1.7.7 2.6 1.5 3.5.6.6 1 1.2 1.2 2.1M12 2a5 5 0 0 1 5 5c0 1.7-.7 2.6-1.5 3.5-.6.6-1 1.2-1.2 2.1M9.7 12.6h4.6M9.9 16h4.2M10.5 19h3"/></svg></div> Competitor Insights
-    </div>
     <div class="nav-item" data-view="rfp" onclick="nav('rfp')">
       <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div> RFP Opps
     </div>
@@ -2048,7 +2045,6 @@ function render() {
     news: renderNews,
     pipeline: renderPipeline,
     subscriptions: renderSubscriptionMatrix,
-    'ai-insights': renderCompetitorInsights,
     openalex: renderOpenAlex,
     barcelona: renderBarcelonaDecl,
     '4gu': render4GU,
@@ -2131,11 +2127,6 @@ function renderDashboard() {
       id: 'agent-tenders', name: 'Tender / RFP Scraper', icon: '📄',
       status: 'active', cadence: 'Daily · 06:30 UTC · GitHub Actions', source: 'TED Europa',
       statusEl: 'agent-tenders-lastrun', view: 'rfp', workflow: 'tenders.yml',
-    },
-    {
-      id: 'agent-competitor', name: 'Competitor Insights Scan', icon: '🔍',
-      status: 'active', cadence: 'Daily · 07:00 UTC · GitHub Actions', source: 'Claude API (web search)',
-      statusEl: 'agent-competitor-lastrun', view: 'ai-insights', workflow: 'competitor-scan.yml',
     },
     {
       id: 'agent-openalex-subs', name: 'OpenAlex Subscription Scan', icon: '💰',
@@ -2310,7 +2301,6 @@ function _syncAgentFrom(elId, jsonPath, extra) {
 function syncAgentStatus() {
   _syncAgentFrom('agent-discovery-lastrun', 'data/discovery-state.json');
   _syncAgentFrom('agent-tenders-lastrun', 'data/tenders-scan-state.json', d => d.lastNewCount ? ` · +${d.lastNewCount}` : '');
-  _syncAgentFrom('agent-competitor-lastrun', 'data/competitor-scan-state.json', d => d.error === 'missing_api_key' ? ' · needs ANTHROPIC_API_KEY' : d.lastAddedCount ? ` · +${d.lastAddedCount}` : '');
   _syncAgentFrom('agent-openalex-subs-lastrun', 'data/openalex-scan-state.json', d => d.error === 'missing_api_key' ? ' · needs ANTHROPIC_API_KEY' : d.lastAddedCount ? ` · +${d.lastAddedCount}` : '');
   _syncAgentFrom('agent-news-lastrun', 'data/news-scan-state.json', d => d.error === 'missing_api_key' ? ' · needs ANTHROPIC_API_KEY' : d.lastAddedCount ? ` · +${d.lastAddedCount}` : '');
 }
@@ -3335,7 +3325,7 @@ function renderNews() {
     const safeId = 'nf-' + c.replace(/[^a-z0-9]/gi, '_');
     const label = c === 'all' ? 'All Topics' : NEWS_CATEGORIES[c].label;
     return `<button id="${safeId}" class="news-filter-btn${c === _newsActiveCategory ? ' active' : ''}" onclick="setNewsCategory('${c}')">${label}</button>`;
-  }).join('') + `<button id="nf-competitor_insights" class="news-filter-btn${_newsActiveCategory === 'competitor_insights' ? ' active' : ''}" onclick="setNewsCategory('competitor_insights')" title="View tracked LeapSpace competitor activity in this feed">Competitor Insights</button>`;
+  }).join('');
 
   const legend = Object.entries(NEWS_CATEGORIES).map(([, c]) =>
     `<div style="display:flex;align-items:center;gap:7px;font-size:12px;color:var(--text);padding:4px 0">
