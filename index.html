@@ -3949,7 +3949,80 @@ function clearAllOverrides(){
 // Competitor product data — verified from official university library sources (Aug 2026)
 // Renewal dates verified from public contracts and library announcements
 if (!window.COMP_DATA) {
-  window.COMP_DATA = {};
+  window.COMP_DATA = {
+    ku: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://kub.ku.dk/english/researchsupport/tools-for-researchers/',
+      pure:'yes', pureRenewal:'', pureProof:'https://researchprofiles.ku.dk/da/home/index/',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/',
+      proofOpenalex: 'https://openalex.org/institutions/I124055696',
+    },
+    au: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://library.au.dk/en/subject-areas/slettet/steno-science-studies/databases',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf',
+      pure:'yes', pureRenewal:'', pureProof:'https://pure.au.dk/portal/',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://library.au.dk/en/subject-areas/slettet/steno-science-studies/databases',
+      proofOpenalex: 'https://openalex.org/institutions/I204337017',
+    },
+    dtu: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://www.bibliotek.dtu.dk/en/find-information/other',
+      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      pure:'yes', pureRenewal:'', pureProof:'https://www.bibliotek.dtu.dk/Forskningsservice/Forskningspublicering/Forsknings-output/DTU-Orbit',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://findit.dtu.dk/en/rap/intro',
+      proofOpenalex: 'https://openalex.org/institutions/I96673099',
+    },
+    sdu: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://libguides.sdu.dk/researchimpact/researchidentifiers',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival',
+      pure:'yes', pureRenewal:'', pureProof:'https://sdunet.dk/en/research/pure/vejledninger-til-pure/faq-university-of-southern-denmark-research-portal',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://sdunet.dk/da/servicesider/analytics/analyseredskaber/web-of-science',
+      proofOpenalex: 'https://openalex.org/institutions/I177969490',
+    },
+    aau: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://vbn.aau.dk/ws/files/306733394/Keep_Track_of_your_Publications_HST.pdf',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting-e101025',
+      pure:'yes', pureRenewal:'', pureProof:'https://vbn.aau.dk/en/',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://vbn.aau.dk/ws/files/306733394/Keep_Track_of_your_Publications_HST.pdf',
+      proofOpenalex: 'https://openalex.org/institutions/I891191580',
+    },
+    cbs: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://www.cbs.dk/en/library/search-library/online-resources/scopus',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://libguides.cbs.dk/newsletter/5426/scival-publication-analyses-on-the-fly',
+      pure:'yes', pureRenewal:'', pureProof:'https://research.cbs.dk/',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://www.cbs.dk/en/library/search-library/online-resources/web-science',
+      proofOpenalex: 'https://openalex.org/institutions/I180519160',
+    },
+    ruc: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://libguides.ruc.dk/bibliometrics',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://libguides.ruc.dk/bibliometrics',
+      pure:'yes', pureRenewal:'', pureProof:'https://forskning.ruc.dk/',
+      wos:'yes', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: 'https://libguides.ruc.dk/bibliometrics',
+      proofOpenalex: 'https://openalex.org/institutions/I107707843',
+    },
+    itu: {
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://ethos.itu.dk/scopus-sciencescape/',
+      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      pure:'yes', pureRenewal:'', pureProof:'https://pure.itu.dk/en/home/',
+      wos:'unknown', wosRenewal:'', openalex:'free',
+      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      proofWos: '',
+      proofOpenalex: 'https://openalex.org/institutions/I83467386',
+    },
+  };
 }
 // Merge any localStorage overrides into COMP_DATA
 (function() {
