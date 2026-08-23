@@ -1788,51 +1788,30 @@ function colorForField(name) {
   return OA_FALLBACK_COLORS[h % OA_FALLBACK_COLORS.length];
 }
 const INST_COORDS = {
-  uva:[52.3676,4.9041], vu:[52.3328,4.8651], eur:[51.9225,4.4792], uu:[52.0907,5.1214],
-  leiden:[52.1601,4.4970], rug:[53.2194,6.5665], ru:[51.8126,5.8372], tudelft:[51.9986,4.3736],
-  tue:[51.4483,5.4903], ut:[52.2396,6.8502], tiu:[51.5653,5.0833], um:[50.8785,5.6879],
-  wur:[51.9851,5.6643], ou:[50.8849,5.9715], aumc:[52.3337,4.9097], erasmusmc:[51.9044,4.4705],
-  umcutrecht:[52.0847,5.1180], lumc:[52.1765,4.4718], umcg:[53.2237,6.5733],
-  radboudumc:[51.8220,5.8483], mumc:[50.8714,5.6908], maxima:[52.1026,5.0797],
-  nki:[52.3604,4.9537], nwo:[52.0934,4.3192], tno:[52.0907,4.3176], knaw:[52.3667,4.9120],
-  hubrecht:[52.0869,5.1738], nin:[52.3676,4.9028], rivm:[52.1279,5.2027],
-  cwi:[52.3561,4.9511], esc:[52.3561,4.9511], deltares:[51.9986,4.3830],
-  sron:[52.1601,4.4920], nikhef:[52.3561,4.9480],
-  mmc:[51.4009,5.4100],
-  sanquin:[52.3547,4.8922],
-  aighd:[52.3676,4.9041],
-  princesmaxima:[52.0942,5.1081],
-  astron:[52.8122,6.3968],
-  nioz:[53.0565,4.7961],
-  knmi:[52.1042,5.1772],
-  naturalis:[52.1640,4.4784],
-  nlr:[52.3014,4.7612],
-  pbl:[52.0705,4.3007],
-  cpb:[52.0640,4.3007],
-  rathenau:[52.0700,4.3050],
-  scp:[52.0710,4.3080],
-  clingendael:[52.0877,4.2876],
-  hiil:[52.0705,4.3100],
-  oxfamnovib:[52.0705,4.3007],
-  icj:[52.0916,4.2993],
-  iiss:[52.0800,4.3100]
+  ku:[55.6811,12.5695], au:[56.1712,10.1974], dtu:[55.7861,12.5234], sdu:[55.3697,10.4306],
+  aau:[57.0128,9.9821], cbs:[55.6825,12.5251], ruc:[55.6415,12.1338], itu:[55.6596,12.5910],
+  rigshospitalet:[55.7057,12.5686], auh:[56.1963,10.1889], ouh:[55.3919,10.3847],
+  herlevgentofte:[55.7274,12.4394], aalborguh:[57.0270,10.0034], bispebjergfrederiksberg:[55.7057,12.5410],
+  amagerhvidovre:[55.6516,12.4728], zealanduh:[55.4590,12.1823], stenocph:[55.7274,12.4394],
+  stenoaarhus:[56.1712,10.1974],
+  ssi:[55.6739,12.5323], nbi:[55.7008,12.5646], royalacademy:[55.6786,12.5751],
+  dmi:[55.7146,12.5654], geus:[55.6892,12.5750], alexandra:[56.1629,10.2039],
+  dti:[55.6497,12.2984], cpr:[55.6534,12.5716], cbmr:[55.6534,12.5716], renew:[55.6534,12.5716],
+  inano:[56.1712,10.1974], dtuspace:[55.7861,12.5234], diis:[55.6867,12.5765],
+  vive:[55.6797,12.5730], dias:[55.3697,10.4306], biosustain:[55.7861,12.5234],
+  niph:[55.6786,12.5700], aias:[56.1712,10.1974], pioneerai:[55.6811,12.5695],
+  rockwoolresearch:[55.6867,12.5765], bii:[55.6392,12.5779],
+  novonordiskfoundation:[55.7326,12.5776], lundbeckfoundation:[55.6867,12.5854],
+  carlsbergfoundation:[55.6759,12.5655], villumfoundation:[55.7395,12.4991],
+  danishcancersociety:[55.7057,12.5573], dnrf:[55.6786,12.5760]
 };
 // City-level fallback coordinates for Danish cities
 const CITY_COORDS = {
-  'amsterdam':[52.3676,4.9041],'rotterdam':[51.9225,4.4792],'the hague':[52.0705,4.3007],
-  'den haag':[52.0705,4.3007],"'s-gravenhage":[52.0705,4.3007],'utrecht':[52.0907,5.1214],
-  'eindhoven':[51.4416,5.4697],'tilburg':[51.5655,5.0896],'groningen':[53.2194,6.5665],
-  'almere':[52.3508,5.2647],'breda':[51.5719,4.7683],'nijmegen':[51.8126,5.8372],
-  'leiden':[52.1601,4.4970],'maastricht':[50.8514,5.6910],'delft':[51.9986,4.3736],
-  'wageningen':[51.9686,5.6650],'enschede':[52.2215,6.8937],'heerlen':[50.8882,5.9799],
-  'bilthoven':[52.1176,5.2003],'arnhem':[51.9851,5.8987],'leeuwarden':[53.2012,5.7999],
-  'zwolle':[52.5168,6.0830],'apeldoorn':[52.2112,5.9699],'amersfoort':[52.1561,5.3878],
-  'haarlem':[52.3874,4.6462],'dordrecht':[51.8133,4.6901],'leiden':[52.1601,4.4970],
-  "'s-hertogenbosch":[51.6978,5.3037],'den bosch':[51.6978,5.3037],'middelburg':[51.4988,3.6136],
-  'alkmaar':[52.6324,4.7534],'deventer':[52.2550,6.1642],'venlo':[51.3704,6.1724],
-  'helmond':[51.4820,5.6611],'zaandam':[52.4397,4.8136],'zoetermeer':[52.0574,4.4942],
-  'ede':[52.0428,5.6650],'westergouwe':[52.0038,4.7227],'leiden':[52.1601,4.4970],
-  'nijmegen':[51.8126,5.8372],'rotterdam':[51.9225,4.4792],'amsterdam':[52.3676,4.9041],
+  'copenhagen':[55.6761,12.5683],'aarhus':[56.1629,10.2039],'odense':[55.3959,10.3883],
+  'aalborg':[57.0488,9.9217],'kongens lyngby':[55.7708,12.5024],'frederiksberg':[55.6786,12.5326],
+  'roskilde':[55.6415,12.0803],'herlev':[55.7274,12.4394],'hvidovre':[55.6516,12.4728],
+  'køge':[55.4559,12.1823],'koge':[55.4559,12.1823],'taastrup':[55.6497,12.2984],
+  'hellerup':[55.7326,12.5776],'søborg':[55.7395,12.4991],'soborg':[55.7395,12.4991],
 };
 function getInstCoords(inst) {
   if (INST_COORDS[inst.id]) return INST_COORDS[inst.id];
@@ -2564,7 +2543,7 @@ function renderMap() {
   _mapActiveFilter = 'all';
 
   setTimeout(() => {
-    const map = L.map('map-container', { center:[52.25,5.2], zoom:7, zoomControl:true });
+    const map = L.map('map-container', { center:[56.0,10.3], zoom:7, zoomControl:true });
     _fullMap = map;
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
       maxZoom:19, subdomains:'abcd', attribution:'&copy; CartoDB'
@@ -2659,7 +2638,7 @@ function initDashMiniMap() {
   if (!el || typeof L === 'undefined') return;
   if (_dashMiniMap) { try { _dashMiniMap.remove(); } catch(ex){} _dashMiniMap = null; }
   setTimeout(() => {
-    const map = L.map(el, { center:[52.25,5.2], zoom:6, zoomControl:false, attributionControl:false });
+    const map = L.map(el, { center:[56.0,10.3], zoom:6, zoomControl:false, attributionControl:false });
     _dashMiniMap = map;
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { maxZoom:19, subdomains:'abcd' }).addTo(map);
     state.institutions.forEach(inst => {
