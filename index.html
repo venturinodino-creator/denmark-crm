@@ -4671,10 +4671,22 @@ function renderCompetitorInsights() {
   const content = document.getElementById('content');
   let list = getAIInsights();
   if (!list.length) {
-    refreshAIInsights(true);
+    if (!window._aiInsightsEmptyChecked) {
+      // First time we've seen an empty list this session — try once to pull
+      // from the feed, then stop. Without this guard, an empty feed (e.g. the
+      // daily scan hasn't found anything yet) causes refreshAIInsights to keep
+      // calling back into this render function forever.
+      window._aiInsightsEmptyChecked = true;
+      refreshAIInsights(true);
+      content.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:80px 24px;gap:16px">
+        <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <p style="color:#475569;font-size:14px;margin:0">Loading known LeapSpace competitors...</p>
+      </div>`;
+      return;
+    }
     content.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;padding:80px 24px;gap:16px">
       <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="rgba(255,255,255,.2)" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <p style="color:#475569;font-size:14px;margin:0">Loading known LeapSpace competitors...</p>
+      <p style="color:#475569;font-size:14px;margin:0">No competitor solutions found yet. The daily scan agent hasn't surfaced any yet — check back later or add one manually.</p>
     </div>`;
     return;
   }
