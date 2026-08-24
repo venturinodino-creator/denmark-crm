@@ -5062,27 +5062,27 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access previously confirmed for AAU. AAU Library ("aub.aau.dk") maintains a database catalogue of 200+ subscriptions; WoS listed among core cross-disciplinary tools per AAU library guidance pages. Source: aub.aau.dk/find-materiale/databaser.'
+      notes: 'Active access previously confirmed for AAU via search snippet; WoS listed among core cross-disciplinary tools per AAU library guidance pages. Note: aub.aau.dk appears to block automated crawling/fetching (repeated direct-fetch attempts failed even though Google has the page indexed), so this could not be independently re-verified by direct fetch — confirm with AAU Library if certainty is needed. Source: aub.aau.dk/find-materiale/databaser.'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
-      notes: 'Confirmed — AAU Library operations blog has a dedicated SpringerLink post. Under KB national Springer Compact 2023–2026 deal. Source: blog.aub.aau.dk/operation/2016/09/30/springerlink/; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+      notes: 'AAU Library operations blog previously indicated a dedicated SpringerLink post via search snippet, but aub.aau.dk appears to block automated crawling — could not be independently re-verified by direct fetch. Under KB national Springer Compact 2023–2026 deal, which AAU as a Danish university would fall under. Confirm with AAU Library. Source: blog.aub.aau.dk/operation/2016/09/30/springerlink/; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
     },
     {
       vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
-      notes: 'Confirmed — Wiley Online Library listed among AAU’s EZproxy-accessible off-campus resources, and referenced in AAU database provider catalogue. Under KB national Wiley 2026–2029 deal. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
+      notes: 'Wiley Online Library previously indicated among AAU’s EZproxy-accessible off-campus resources via search snippet, but aub.aau.dk appears to block automated crawling — could not be independently re-verified by direct fetch. Under KB national Wiley 2026–2029 deal, which AAU as a Danish university would fall under. Confirm with AAU Library. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
     },
     {
       vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
-      notes: 'AAU Library database-provider catalogue lists Taylor & Francis among subscribed providers ("Sage, Taylor and Francis, and others"). Under KB national T&F 2024–2028 deal. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+      notes: 'AAU Library database-provider catalogue previously indicated Taylor & Francis among subscribed providers via search snippet ("Sage, Taylor and Francis, and others"), but aub.aau.dk appears to block automated crawling — could not be independently re-verified by direct fetch. Under KB national T&F 2024–2028 deal, which AAU as a Danish university would fall under. Confirm with AAU Library. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
     },
     {
       vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
       competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
-      notes: 'Confirmed — IEEE Xplore Digital Library listed as available via AAU’s EZproxy off-campus access system. Contract dates/consortium unverified — confirm with library. Source: aub.aau.dk (via EZproxy off-campus access listing).'
+      notes: 'IEEE Xplore Digital Library previously indicated as available via AAU’s EZproxy off-campus access listing via search snippet, but aub.aau.dk appears to block automated crawling — could not be independently re-verified by direct fetch. Contract dates/consortium unverified — confirm with library. Source: aub.aau.dk (via EZproxy off-campus access listing).'
     }
   ],
   cbs: [
@@ -5131,7 +5131,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
-      notes: 'RUC Library literature-search guide references Wiley-Blackwell resources (e.g. Encyclopedia of Globalization) accessible via RUC single sign-on; RUC’s OA publisher-deals guide also documents the national Wiley agreement. Source: libguides.ruc.dk/literaturesearch/databases; libguides.ruc.dk/en/oa/publisherdeals; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
+      notes: 'RUC Library literature-search guide previously indicated Wiley-Blackwell resources (e.g. Encyclopedia of Globalization) via search snippet, but a direct fetch on 2026-08-24 found the page currently marked "not available due to visibility settings" — could not be independently re-verified. RUC’s OA publisher-deals guide (directly confirmed to exist) documents the national Wiley agreement generally but does not itself name Wiley-specific journal access. Confirm with RUC Library. Source: libguides.ruc.dk/en/oa/publisherdeals; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
     },
     {
       vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
@@ -5154,6 +5154,16 @@ const COMPETITOR_PRODUCTS = {
       vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
       competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
       notes: 'Confirmed — ITU Library Service e-resources page explicitly states ACM Digital Library is available, providing full-text CS/IT articles and conference contributions. Under KB national ACM Open 2024–2026 deal, highly relevant given ITU’s CS focus. Source: kub.kb.dk/itb/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed by direct fetch 2026-08-24 — ITU Library Service e-resources page ("Udvalgte ITU e-ressourcer") lists Springer among ITU’s featured e-resources. Under KB national Springer Compact 2023–2026 deal. Source: kub.kb.dk/itb/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'Confirmed by direct fetch 2026-08-24 — ITU Library Service e-resources page ("Udvalgte ITU e-ressourcer") lists "Taylor & Francis Journals" among ITU’s featured e-resources. Under KB national T&F 2024–2028 deal. Source: kub.kb.dk/itb/databaser; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
     }
   ]
 };
