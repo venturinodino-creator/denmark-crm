@@ -338,7 +338,7 @@ def draw_competitor_watch(c, x, y, w, competitors, max_items=5):
 def compose_summary(stats):
     parts = []
     parts.append(
-        f"Research CRM tracks {stats['inst_total']} institutions across the Denmark "
+        f"Research CRM tracks {stats['inst_total']} institutions across Denmark "
         f"({stats['inst_university']} universities, {stats['inst_medical']} medical centres, "
         f"{stats['inst_research']} research institutes, {stats['inst_ngo']} NGOs/foundations) "
         f"and {stats['contacts_total']} verified contacts ({stats['contacts_high_priority']} high priority)."
@@ -362,7 +362,7 @@ def compose_summary(stats):
         )
     if stats.get('comp_matrix_total'):
         parts.append(
-            f"Scopus remains active at {stats['scopus_active']} of {stats['comp_matrix_total']} tracked NL "
+            f"Scopus remains active at {stats['scopus_active']} of {stats['comp_matrix_total']} tracked Danish "
             f"universities; Clarivate's Web of Science is cancelled or expiring at {stats['wos_at_risk']} of them."
         )
     return ' '.join(parts)
@@ -498,7 +498,7 @@ def build_report(data, out_path):
                     'Institutions by Type', inst_type_counts, TYPE_COLORS)
     if comp_matrix_total:
         draw_bar_chart(c, MARGIN + chart_w + 24, charts_top - chart_h, chart_w, chart_h,
-                        'Web of Science Status — Clarivate (NL Universities)', wos_counts, WOS_BUCKET_COLORS,
+                        'Web of Science Status — Clarivate (Danish Universities)', wos_counts, WOS_BUCKET_COLORS,
                         label_fn=lambda k: k)
     else:
         draw_bar_chart(c, MARGIN + chart_w + 24, charts_top - chart_h, chart_w, chart_h,

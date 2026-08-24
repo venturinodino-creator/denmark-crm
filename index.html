@@ -1588,7 +1588,7 @@ async function runOpenAlexSync() {
   try {
     // Step 1: get total count
     status.textContent = 'Checking OpenAlex…';
-    const probe = await fetch('https://api.openalex.org/institutions?filter=country_code:NL&per_page=1&mailto=venturino.dino@gmail.com');
+    const probe = await fetch('https://api.openalex.org/institutions?filter=country_code:DK&per_page=1&mailto=venturino.dino@gmail.com');
     const probeData = await probe.json();
     const total = probeData.meta.count;
     const pages = Math.ceil(total / 200);
@@ -1598,7 +1598,7 @@ async function runOpenAlexSync() {
     for (let p = 1; p <= pages; p++) {
       status.textContent = `Fetching page ${p} of ${pages} (${all.length} institutions so far)…`;
       bar.style.width = `${Math.round((p / (pages + 1)) * 90)}%`;
-      const r = await fetch(`https://api.openalex.org/institutions?filter=country_code:NL&per_page=200&page=${p}&select=display_name,type,homepage_url,geo&mailto=venturino.dino@gmail.com`);
+      const r = await fetch(`https://api.openalex.org/institutions?filter=country_code:DK&per_page=200&page=${p}&select=display_name,type,homepage_url,geo&mailto=venturino.dino@gmail.com`);
       const d = await r.json();
       all = all.concat(d.results);
       await new Promise(res => setTimeout(res, 150));
@@ -4959,7 +4959,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'CAS / ACS', product: 'SciFinder-N', category: 'Chemistry & Life Sciences DB',
       competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
-      notes: 'Access confirmed and KU-specific: KUB Chemistry and Pharmaceutical Sciences subject pages state SciFinder-n registration requires a ku.dk or regionh.dk e-mail, from a KU campus IP. CAS SciFinder also appears on KB’s national agreements A-Z list. Source: kub.kb.dk/kemi; kub.kb.dk/farmaceutiskvidenskab; pro.kb.dk/en/licensing/higher-education/agreements.'
+      notes: 'Access confirmed and KU-specific: directly verified 2026-08-24 — KUB Chemistry subject page (kub.kb.dk/kemi) explicitly lists SciFinder-n and states registration requires a ku.dk or regionh.dk e-mail, from a KU campus IP. Note: the Pharmaceutical Sciences subject page does not itself list SciFinder-n (checked directly) — dropped as a source. CAS SciFinder also appears on KB’s national agreements A-Z list. Source: kub.kb.dk/kemi; pro.kb.dk/en/licensing/higher-education/agreements.'
     }
   ],
   au: [
@@ -4971,7 +4971,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
-      notes: 'AU Library page states it "provides access to SpringerLink," full-text for most Springer/Kluwer journals. Sits under KB national Springer Compact 2023–2026 deal. Source: library.au.dk/en (AU Library resources); pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+      notes: 'AU Library page previously indicated access to SpringerLink via search snippet, but a direct fetch attempt on 2026-08-24 returned no usable page content (likely JS-rendered) — could not be independently re-verified this pass. Sits under KB national Springer Compact 2023–2026 deal, which AU as a Danish university would fall under. Confirm directly with AU Library. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
     },
     {
       vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
@@ -4981,24 +4981,24 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'CAS / ACS', product: 'SciFinder Scholar', category: 'Chemistry & Life Sciences DB',
       competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
-      notes: 'Access confirmed via AU Chemistry department’s dedicated SciFinder Scholar registration page. Source: chem.au.dk/forskning/servicefaciliteter-til-forskning/bibliotek/databaser/scifinder-scholar.'
+      notes: 'AU Chemistry department page previously indicated a dedicated SciFinder Scholar registration page via search snippet, but a direct fetch attempt on 2026-08-24 could not retrieve the page (crawl failed) — could not be independently re-verified this pass. Confirm directly with AU Chemistry/Library. Source: chem.au.dk/forskning/servicefaciliteter-til-forskning/bibliotek/databaser/scifinder-scholar.'
     }
   ],
   dtu: [
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'DTU Findit "Other search tools" page lists Web of Science among core tools offered to staff/students, integrated & searchable in DTU Findit; also used for DTU RAP publication statistics. Source: findit.dtu.dk/en/about/tools; bibliotek.dtu.dk/en/find-information/other.'
+      notes: 'Confirmed by direct fetch 2026-08-24: bibliotek.dtu.dk/en/find-information/other explicitly names Web of Science among the most popular search tools offered via DTU Findit; also used for DTU RAP publication statistics. Source: bibliotek.dtu.dk/en/find-information/other; findit.dtu.dk/en/about/tools.'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
-      notes: 'Confirmed — DTU Library page: "full-text access to the part of SpringerLink that DTU Library licenses ... searchable via DTU Findit." Under KB national Springer Compact 2023–2026 deal. Source: bibliotek.dtu.dk/en/find-information/other.'
+      notes: 'PARTIALLY UNCONFIRMED — direct fetch of bibliotek.dtu.dk/en/find-information/other on 2026-08-24 found only a generic statement that "DTU Library offers access to a number of databases, e-book collections, and other online resources," with Web of Science, Scopus, Knovel and IEEE named explicitly as the most popular tools — SpringerLink was not named on the page as fetched. Access likely exists under the KB national Springer Compact 2023–2026 deal, which DTU as a Danish university would fall under, but this specific product-level page reference could not be independently verified. Confirm directly with DTU Library. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
     },
     {
       vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '', contractExpiry: '',
-      notes: 'Confirmed — DTU Library page: "Wiley Online Library contains ... online books and journal articles ... subscribed material is integrated and searchable via DTU Findit." Source: bibliotek.dtu.dk/en/find-information/other.'
+      notes: 'PARTIALLY UNCONFIRMED — direct fetch of bibliotek.dtu.dk/en/find-information/other on 2026-08-24 did not name Wiley among the databases listed on the page (only Web of Science, Scopus, Knovel and IEEE named explicitly). Access likely exists under the KB national Wiley 2026–2029 deal, which DTU would fall under, but this specific product-level reference could not be independently verified. Confirm directly with DTU Library. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
     },
     {
       vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
@@ -5008,17 +5008,17 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
       competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
-      notes: 'Confirmed — listed among DTU Findit’s popular tools ("Web of Science, Scopus, Knovel, IEEE"); DTU Library page describes IEEE Xplore coverage of EE/CS/electronics content integrated in Findit. Source: findit.dtu.dk/en/about/tools; bibliotek.dtu.dk/en/find-information/other.'
+      notes: 'Confirmed by direct fetch 2026-08-24: bibliotek.dtu.dk/en/find-information/other explicitly states "some of the most popular search tools we offer to both employees and students via DTU Findit are Dansk Standard, Web of Science, Scopus, Knovel, IEEE, Cabels and Infomedia." Source: bibliotek.dtu.dk/en/find-information/other.'
     },
     {
       vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
       competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
-      notes: 'Confirmed — DTU Library page: "ACM Digital Library covers IT and computer science ... Content is integrated with and searchable in DTU Findit." Falls under KB national ACM Open 2024–2026 deal. Source: bibliotek.dtu.dk/en/find-information/other; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+      notes: 'PARTIALLY UNCONFIRMED — direct fetch of bibliotek.dtu.dk/en/find-information/other on 2026-08-24 did not name ACM among the databases listed on the page. Access likely exists under the KB national ACM Open 2024–2026 deal, which DTU would fall under, but this specific product-level reference could not be independently verified. Confirm directly with DTU Library. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
     },
     {
       vendor: 'CAS / ACS', product: 'SciFinder-N', category: 'Chemistry & Life Sciences DB',
       competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
-      notes: 'Confirmed — DTU Library page: "SciFinder is a database from CAS ... content integrated with and searchable in DTU Findit." Source: bibliotek.dtu.dk/en/find-information/other.'
+      notes: 'UNCONFIRMED — direct fetch of bibliotek.dtu.dk/en/find-information/other on 2026-08-24 did not name SciFinder among the databases listed on the page. Chemistry/chemical engineering are core DTU research areas, so access is plausible, but could not be independently verified this pass. Confirm directly with DTU Library.'
     }
   ],
   sdu: [
@@ -6167,7 +6167,7 @@ function renderBarcelonaDecl() {
       <div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.25);border-radius:12px;padding:16px 22px;flex:1;min-width:130px">
         <div style="font-size:11px;color:#f97316;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Universities signed</div>
         <div style="font-size:30px;font-weight:800;color:#e2e8f0">${signedUnis.length}<span style="font-size:16px;color:#64748b"> / ${totalDanishUnis}</span></div>
-        <div style="font-size:11px;color:#94a3b8;margin-top:2px">of tracked NL unis</div>
+        <div style="font-size:11px;color:#94a3b8;margin-top:2px">of tracked DK unis</div>
       </div>
       <div style="background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:12px;padding:16px 22px;flex:1;min-width:130px">
         <div style="font-size:11px;color:#ef4444;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Critical Scopus risk</div>
