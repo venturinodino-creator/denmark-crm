@@ -4007,9 +4007,9 @@ if (!window.COMP_DATA) {
       scopus:'yes', scopusRenewal:'', scopusProof:'https://ethos.itu.dk/scopus-sciencescape/',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://pure.itu.dk/en/home/',
-      wos:'unknown', wosRenewal:'', openalex:'free',
+      wos:'yes', wosRenewal:'', openalex:'free',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
-      proofWos: '',
+      proofWos: 'https://kub.kb.dk/itb/databaser',
       proofOpenalex: 'https://openalex.org/institutions/I83467386',
     },
   };
@@ -4925,7 +4925,237 @@ function renderCompetitorInsights() {
 }
 
 const COMPETITOR_PRODUCTS = {
-  // No Danish-specific vendor/subscription intelligence researched yet — populate per institution as it is verified.
+  ku: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active access confirmed — listed as core biomedical/vet database on KU Library subject guides, and Web of Science Core Collection appears on KB’s national agreements list. Dates not published. Source: kub.ku.dk (KUB subject pages); pro.kb.dk/en/licensing/higher-education/agreements.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'KB national Read & Publish agreement 2023–2026, ~2,000 Springer/Palgrave/Adis journals, OA at no APC (national annual cap). KU listed among >20 participating institutions; KUB subject pages describe SpringerLink as core STM platform. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact; springernature.com/gp/open-science/oa-agreements/denmark/royal-danish-library.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
+      notes: 'KB national R&P agreement 2026–2029 (succeeding 2022–2025 deal), full reading access + CC-BY OA with APC waiver, national cap 1,259 waivers/yr. KUB subject pages describe Wiley as a core platform. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/wiley; pro.kb.dk/en/licensing/wiley-agreement-2022-25.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'KB national R&P agreement 2024–2028, national cap 500 OA articles/yr. UNCONFIRMED whether KU is an active participating institution — no KU-specific library page found; national deal covers "Danish universities" broadly. Source: pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Access confirmed — KUB subject-page description states "IEEE provides full-text access to IEEE and IET transaction journals, conference proceedings and standards." Consortium/contract dates unverified. Source: kub.ku.dk / kub.kb.dk subject guides.'
+    },
+    {
+      vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
+      competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
+      notes: 'KB national ACM Open agreement 2024–2026 (unlimited CC-BY OA publishing, no APC, full DL read access). KUB subject pages independently describe ACM DL as available. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/acm; kub.ku.dk.'
+    },
+    {
+      vendor: 'CAS / ACS', product: 'SciFinder-N', category: 'Chemistry & Life Sciences DB',
+      competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
+      notes: 'Access confirmed and KU-specific: KUB Chemistry and Pharmaceutical Sciences subject pages state SciFinder-n registration requires a ku.dk or regionh.dk e-mail, from a KU campus IP. CAS SciFinder also appears on KB’s national agreements A-Z list. Source: kub.kb.dk/kemi; kub.kb.dk/farmaceutiskvidenskab; pro.kb.dk/en/licensing/higher-education/agreements.'
+    }
+  ],
+  au: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active access previously confirmed for AU; Web of Science Core Collection also listed on KB’s national agreements page. Dates not published. Source: pro.kb.dk/en/licensing/higher-education/agreements.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'AU Library page states it "provides access to SpringerLink," full-text for most Springer/Kluwer journals. Sits under KB national Springer Compact 2023–2026 deal. Source: library.au.dk/en (AU Library resources); pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '', contractExpiry: '',
+      notes: 'PARTIAL/UNCONFIRMED scope — AU Library page states "Books from Wiley are available through AU Library’s collections," which may indicate book-only access rather than the full journal platform. National KB Wiley agreement (2026–2029) exists but AU-specific journal-level confirmation not found. Confirm with AU Library. Source: library.au.dk/en.'
+    },
+    {
+      vendor: 'CAS / ACS', product: 'SciFinder Scholar', category: 'Chemistry & Life Sciences DB',
+      competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
+      notes: 'Access confirmed via AU Chemistry department’s dedicated SciFinder Scholar registration page. Source: chem.au.dk/forskning/servicefaciliteter-til-forskning/bibliotek/databaser/scifinder-scholar.'
+    }
+  ],
+  dtu: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'DTU Findit "Other search tools" page lists Web of Science among core tools offered to staff/students, integrated & searchable in DTU Findit; also used for DTU RAP publication statistics. Source: findit.dtu.dk/en/about/tools; bibliotek.dtu.dk/en/find-information/other.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — DTU Library page: "full-text access to the part of SpringerLink that DTU Library licenses ... searchable via DTU Findit." Under KB national Springer Compact 2023–2026 deal. Source: bibliotek.dtu.dk/en/find-information/other.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — DTU Library page: "Wiley Online Library contains ... online books and journal articles ... subscribed material is integrated and searchable via DTU Findit." Source: bibliotek.dtu.dk/en/find-information/other.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'Routledge/Taylor & Francis Group listed as a publisher partner in DTU’s research database (Orbit), and T&F content is described as integrated into DTU Findit. Falls under KB national T&F 2024–2028 R&P deal; DTU-specific participation not independently verified beyond this. Source: orbit.dtu.dk/en/activities/routledge-taylor-amp-francis-group-publisher; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — listed among DTU Findit’s popular tools ("Web of Science, Scopus, Knovel, IEEE"); DTU Library page describes IEEE Xplore coverage of EE/CS/electronics content integrated in Findit. Source: findit.dtu.dk/en/about/tools; bibliotek.dtu.dk/en/find-information/other.'
+    },
+    {
+      vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
+      competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — DTU Library page: "ACM Digital Library covers IT and computer science ... Content is integrated with and searchable in DTU Findit." Falls under KB national ACM Open 2024–2026 deal. Source: bibliotek.dtu.dk/en/find-information/other; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+    },
+    {
+      vendor: 'CAS / ACS', product: 'SciFinder-N', category: 'Chemistry & Life Sciences DB',
+      competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — DTU Library page: "SciFinder is a database from CAS ... content integrated with and searchable in DTU Findit." Source: bibliotek.dtu.dk/en/find-information/other.'
+    }
+  ],
+  sdu: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active access previously confirmed for SDU. SDU library guides describe WoS as "an index to core scientific articles and citations within science, medicine, engineering and social sciences." Source: libguides.sdu.dk (SDU A-Z Databaseliste); sdu-dk-en.libguides.com.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'SDU-specific confirmation: SDU library news/guides reference the Springer Compact agreement providing immediate OA for Danish SDU publications plus unchanged read access to Springer/Nature journals, under the national 2023–2026 deal. Source: sdu.dk/da/bibliotek/om-biblioteket/nyheder; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
+      notes: 'Confirmed via SDU library subject guides (specifically cite Wiley Blackwell Encyclopedias among available resources). Under KB national Wiley 2026–2029 deal. Source: sdu-dk-en.libguides.com/c.php?g=667920; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'SDU-specific confirmation: SDU library page states SDU’s agreement "ensures immediate open access to published versions of Danish [SDU] publications in a range of Taylor & Francis scientific journals," 5-year term 2024–2028. Source: sdu.dk/en/bibliotek/materialer/databaseliste; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed on SDU library resource listings (Computer Science databases-by-subject guide). Source: sdu-dk-en.libguides.com/c.php?g=667920&p=4737659.'
+    },
+    {
+      vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
+      competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
+      notes: 'Listed among SDU database offerings per SDU library database listings. Falls under KB national ACM Open 2024–2026 deal. Source: sdu.dk/en/bibliotek/materialer/databaseliste; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+    },
+    {
+      vendor: 'CAS / ACS', product: 'CAS SciFinder', category: 'Chemistry & Life Sciences DB',
+      competesWith: 'Reaxys', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — SDU has a dedicated SciFinder LibGuide page; registration requires SDU or Rsyd e-mail. Source: libguides.sdu.dk/az/cas_scifinder.'
+    }
+  ],
+  aau: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active access previously confirmed for AAU. AAU Library ("aub.aau.dk") maintains a database catalogue of 200+ subscriptions; WoS listed among core cross-disciplinary tools per AAU library guidance pages. Source: aub.aau.dk/find-materiale/databaser.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — AAU Library operations blog has a dedicated SpringerLink post. Under KB national Springer Compact 2023–2026 deal. Source: blog.aub.aau.dk/operation/2016/09/30/springerlink/; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
+      notes: 'Confirmed — Wiley Online Library listed among AAU’s EZproxy-accessible off-campus resources, and referenced in AAU database provider catalogue. Under KB national Wiley 2026–2029 deal. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'AAU Library database-provider catalogue lists Taylor & Francis among subscribed providers ("Sage, Taylor and Francis, and others"). Under KB national T&F 2024–2028 deal. Source: aub.aau.dk/find-materiale/databaser; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — IEEE Xplore Digital Library listed as available via AAU’s EZproxy off-campus access system. Contract dates/consortium unverified — confirm with library. Source: aub.aau.dk (via EZproxy off-campus access listing).'
+    }
+  ],
+  cbs: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — dedicated CBS Library resource page (social sciences, natural sciences, humanities coverage via Social Science Citation Index, SCIE, A&HCI, Conference Proceedings Citation Index). Source: cbs.dk/en/library/search-library/online-resources/web-science.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — dedicated CBS Library resource page. Under KB national Springer Compact 2023–2026 deal. Source: cbs.dk/en/library/search-library/online-resources/springerlink; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
+      notes: 'Confirmed, scope-limited to social sciences: CBS Library page states "CBS Library has purchased access to publications within the social sciences ... not all publications in Wiley Online Library are available." Under KB national Wiley 2026–2029 deal. Source: cbs.dk/en/library/search-library/online-resources/wiley-online-library.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'Confirmed, scope-limited: CBS Library page states access is purchased for two journal collections (humanities/social sciences + math/stats), not the full platform. Separate CBS libguide confirms the KB OA agreement runs to 2028-12-31. Source: cbs.dk/en/library/search-library/online-resources/taylor-francis-online; libguides.cbs.dk/openaccess/taylorandfrancisagreement.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed, including a specific "new database" library-news announcement post ("millions of articles, conference papers, standards and journals within engineering, IT and technology"). Source: cbs.dk/en/library/search-library/online-resources/ieee-xplore; cbs.dk/en/library/news/new-database-ieee-xplore.'
+    },
+    {
+      vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
+      competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — dedicated CBS Library resource page (relevant to CBS’s Digitalization/BSc/MSc IT programs). Under KB national ACM Open 2024–2026 deal. Source: cbs.dk/en/library/search-library/online-resources/acm-digital-library; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+    }
+  ],
+  ruc: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active access previously confirmed for RUC. RUC library guides describe WoS as a 170M+ entry citation database with strong analytical tools, contrasted with Scopus’s European focus. Source: libguides.ruc.dk/litteratursoegning/databasevalg; libguides.ruc.dk/databases.'
+    },
+    {
+      vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2023-01-01', contractExpiry: '2026-12-31',
+      notes: 'RUC Library maintains a dedicated "Publisher deals and Open Access" guide that documents the national KB agreements, including Springer. RUC-specific participation not independently verified beyond this guide’s existence. Under KB national Springer Compact 2023–2026 deal. Source: libguides.ruc.dk/en/oa/publisherdeals; pro.kb.dk/en/licensing/open-access-licence-agreements/springer-compact.'
+    },
+    {
+      vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2026-01-01', contractExpiry: '2029-12-31',
+      notes: 'RUC Library literature-search guide references Wiley-Blackwell resources (e.g. Encyclopedia of Globalization) accessible via RUC single sign-on; RUC’s OA publisher-deals guide also documents the national Wiley agreement. Source: libguides.ruc.dk/literaturesearch/databases; libguides.ruc.dk/en/oa/publisherdeals; pro.kb.dk/en/licensing/open-access-licence-agreements/wiley.'
+    },
+    {
+      vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
+      competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
+      notes: 'UNCONFIRMED at RUC-specific level — covered by RUC’s "Publisher deals and Open Access" guide, which documents national KB agreements including T&F 2024–2028, but page content could not be directly verified. Confirm with RUC library. Source: libguides.ruc.dk/en/oa/publisherdeals; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    }
+  ],
+  itu: [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Access indicated via ITU Library Service (run jointly by ITU and the Royal Danish Library through kub.kb.dk/itb), whose e-resources listing describes Web of Science and Scopus as available bibliographic databases. Dates/consortium terms unverified — confirm with ITU library. Source: kub.kb.dk/itb/databaser.'
+    },
+    {
+      vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
+      competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
+      notes: 'Confirmed — ITU Library Service e-resources page describes IEEE Xplore (millions of full-text EE/CS/electronics documents) as accessible via soeg.kb.dk under WAYF login for ITU users. Source: kub.kb.dk/itb/databaser.'
+    },
+    {
+      vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
+      competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
+      notes: 'Confirmed — ITU Library Service e-resources page explicitly states ACM Digital Library is available, providing full-text CS/IT articles and conference contributions. Under KB national ACM Open 2024–2026 deal, highly relevant given ITU’s CS focus. Source: kub.kb.dk/itb/databaser; pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
+    }
+  ]
 };
 
 // (stale NL_MATRIX_OV block removed — replaced by window.matrixOverrides above)
