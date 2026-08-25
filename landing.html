@@ -665,7 +665,7 @@
     </p>
     <div class="stats-row">
       <div class="stat">
-        <div class="stat-val">56<span class="unit">+</span></div>
+        <div class="stat-val">45<span class="unit">+</span></div>
         <div class="stat-lbl">Institutions tracked</div>
       </div>
       <div class="stat">
@@ -692,10 +692,10 @@
       <button class="search-btn" onclick="document.getElementById('search-input').dispatchEvent(new Event('focus'))">Search</button>
     </div>
     <p class="search-hint">
-      Try <a href="#" onclick="setSearch('TU/e'); return false">TU/e</a>,
-      <a href="#" onclick="setSearch('Amsterdam'); return false">Amsterdam</a>, or
+      Try <a href="#" onclick="setSearch('DTU'); return false">DTU</a>,
+      <a href="#" onclick="setSearch('Aarhus'); return false">Aarhus</a>, or
       <a href="#" onclick="setSearch('Medical'); return false">Medical centres</a> —
-      or browse all 56 institutions below.
+      or browse all 45 institutions below.
     </p>
 
     <div class="live-label"><span class="live-dot"></span> Live coverage</div>
@@ -783,25 +783,25 @@
       <!-- Visual -->
       <div class="split-vis">
         <div class="flow-row">
-          <span class="flow-badge badge-university">TU/e · Subscription</span>
+          <span class="flow-badge badge-university">DTU · Subscription</span>
           <span class="flow-arrow">→→→</span>
           <span class="flow-status">scored</span>
         </div>
         <hr class="flow-divider">
         <div class="flow-row">
-          <span class="flow-badge badge-medical">AUMC · Contract</span>
+          <span class="flow-badge badge-medical">Rigshospitalet · Contract</span>
           <span class="flow-arrow">→→→</span>
           <span class="flow-status" style="color:#f87171">⏳ expiring</span>
         </div>
         <hr class="flow-divider">
         <div class="flow-row">
-          <span class="flow-badge badge-research">NWO · Contact</span>
+          <span class="flow-badge badge-research">GEUS · Contact</span>
           <span class="flow-arrow">→→→</span>
           <span class="flow-status" style="color:#4ade80">✓ verified</span>
         </div>
         <hr class="flow-divider">
         <div class="flow-row">
-          <span class="flow-badge badge-ngo">Clingendael · Deal</span>
+          <span class="flow-badge badge-ngo">Novo Nordisk Fonden · Deal</span>
           <span class="flow-arrow">→→→</span>
           <span class="flow-status" style="color:#fbbf24">◎ pipeline</span>
         </div>
@@ -855,7 +855,7 @@
     <div class="section-tag">Coverage</div>
     <h2 class="section-h2">The full Denmark<br>research landscape.</h2>
     <p class="section-sub">
-      From the G4 universities to specialist medical centres and government
+      From the country's leading universities to specialist hospitals and government
       research institutes — every significant institution in the Danish
       research ecosystem, in one platform.
     </p>
@@ -863,28 +863,32 @@
     <div class="feat-grid">
       <div class="feat-card">
         <span class="feat-icon">🎓</span>
-        <div class="feat-title">14 Universities</div>
+        <div class="feat-title">8 Universities</div>
         <p class="feat-desc">
-          All VSNU member universities — UvA, VU, Utrecht, Leiden,
-          TU Delft, TU/e, Wageningen, Groningen, Radboud, Erasmus,
-          Twente, Tilburg, Maastricht, and Open Universiteit.
+          All Danish research universities — University of Copenhagen, Aarhus
+          University, DTU, University of Southern Denmark, Aalborg University,
+          Copenhagen Business School, Roskilde University, and IT University
+          of Copenhagen.
         </p>
       </div>
       <div class="feat-card">
         <span class="feat-icon">🏥</span>
-        <div class="feat-title">11 UMCs & Medical Centres</div>
+        <div class="feat-title">10 Hospitals & Medical Centres</div>
         <p class="feat-desc">
-          All eight University Medical Centres plus NKI, Princess Máxima,
-          Sanquin, and affiliated specialist cancer and global health institutes.
+          Rigshospitalet, Aarhus University Hospital, Odense University
+          Hospital, and the other regional university hospitals, plus
+          specialist centres including Steno Diabetes Center Copenhagen
+          and Steno Diabetes Center Aarhus.
         </p>
       </div>
       <div class="feat-card">
         <span class="feat-icon">🔬</span>
-        <div class="feat-title">30+ Research Institutes</div>
+        <div class="feat-title">27 Research Institutes & Foundations</div>
         <p class="feat-desc">
-          NWO, TNO, KNAW institutes, RIVM, CWI, ASTRON, NIOZ, KNMI,
-          Naturalis, and policy institutes including CPB, PBL, Rathenau,
-          and Clingendael.
+          Statens Serum Institut, Niels Bohr Institute, GEUS, DMI, and the
+          DTU/Novo Nordisk Foundation research centres, plus major private
+          foundations including Novo Nordisk Foundation, Lundbeck Foundation,
+          Carlsberg Foundation, and Villum Foundation.
         </p>
       </div>
     </div>
@@ -897,7 +901,7 @@
   <div class="section-tag">Join the platform</div>
   <h2 class="cta-h2">Enter the CRM.</h2>
   <p class="cta-sub">
-    All <em>56 institutions</em>, <em id="cta-contacts">300+ contacts</em>, and <em>7 competitor product tracks</em><br>
+    All <em>45 institutions</em>, <em id="cta-contacts">300+ contacts</em>, and <em>7 competitor product tracks</em><br>
     — ready and waiting.
   </p>
   <a href="index.html" class="btn-big">
@@ -910,7 +914,7 @@
 <!-- Bottom bar -->
 <div class="bottom-bar">
   <div>Research CRM <span style="margin:0 8px;opacity:.3">/</span> Denmark <span style="margin:0 8px;opacity:.3">/</span> <span class="status-dot"></span> All systems operational</div>
-  <div>🎯 56 institutions tracked</div>
+  <div>🎯 45 institutions tracked</div>
 </div>
 
 <!-- Toast notification -->
@@ -1065,9 +1069,9 @@
 
 // ── Regions ──────────────────────────────────────────────────────────────
 // Single source of truth for which regions exist and whether each is live
-// yet. Denmark/Belgium will flip to status:'live', url:'denmark/landing.html'
-// (etc.) once those builds are ready — nothing else on this page needs to
-// change when that happens.
+// yet. Belgium will flip to status:'live', url:'https://.../belgium-crm/landing.html'
+// once that build is ready — nothing else on this page needs to change
+// when that happens.
 const REGIONS = [
   { id: 'netherlands', label: 'Netherlands', status: 'live', url: 'https://venturinodino-creator.github.io/netherlands-crm/landing.html' },
   { id: 'denmark',     label: 'Denmark',     status: 'live', url: 'landing.html' },
@@ -1104,8 +1108,8 @@ function toast(msg) {
 }
 renderRegionSwitcher();
 
-// Live counts, straight from Supabase, region-scoped — replaces the
-// previously hardcoded "56 institutions / 300+ contacts" placeholder figures.
+// Live contact count, straight from Supabase, region-scoped — replaces the
+// previously hardcoded "300+ contacts" placeholder figure.
 (async function loadLiveStats() {
   try {
     const SUPA_URL = 'https://cfhljbexesdrabmadpcc.supabase.co';
@@ -1174,7 +1178,7 @@ const INSTITUTIONS = [
 ];
 
 // Relevance scores (simulated — higher = more relevant to pitch)
-const SCORES = {uva:97,vu:94,uu:96,leiden:93,rug:88,ru:85,tudelft:91,tue:98,ut:82,tiu:78,um:80,wur:86,eur:89,ou:60,aumc:87,erasmusmc:84,umcutrecht:83,lumc:79,umcg:76,radboudumc:81,mumc:72,nki:75,nwo:92,tno:83,knaw:88,cwi:77,rivm:70,astron:65,nioz:63,knmi:62,naturalis:61,pbl:68,cpb:67,rathenau:71,scp:66,clingendael:74,hiil:70};
+const SCORES = {ku:98,au:95,dtu:97,sdu:88,aau:86,cbs:90,ruc:75,itu:82,rigshospitalet:93,auh:87,ouh:80,herlevgentofte:74,aalborguh:73,bispebjergfrederiksberg:71,amagerhvidovre:69,zealanduh:70,stenocph:78,stenoaarhus:72,ssi:85,nbi:83,royalacademy:68,dmi:72,geus:74,alexandra:76,dti:73,cpr:81,cbmr:79,renew:80,inano:75,dtuspace:77,diis:70,vive:71,dias:65,biosustain:78,niph:69,aias:64,pioneerai:84,rockwoolresearch:66,bii:79,novonordiskfoundation:92,lundbeckfoundation:82,carlsbergfoundation:76,villumfoundation:78,danishcancersociety:74,dnrf:83};
 
 const BADGE_CLASS = {university:'badge-university', medical:'badge-medical', research:'badge-research', ngo:'badge-ngo'};
 const BADGE_LABEL = {university:'University', medical:'Medical', research:'Research', ngo:'NGO'};
@@ -1239,7 +1243,7 @@ document.getElementById('expiry-count').textContent = '8';
 // Live contact count from CRM localStorage
 (function(){
   try {
-    var raw = localStorage.getItem('nl_crm_contacts');
+    var raw = localStorage.getItem('dk_crm_contacts');
     if (raw) {
       var contacts = JSON.parse(raw);
       var count = Array.isArray(contacts) ? contacts.length : 0;
@@ -1256,11 +1260,11 @@ document.getElementById('expiry-count').textContent = '8';
 // Toast
 (function(){
   const toasts = [
-    'TU/e · Competitor product subscription updated',
-    'AUMC · 2 contracts expiring within 90 days',
-    'NWO · New contact verified',
-    'UvA · Deal moved to pipeline',
-    'Leiden · SciFinder-N subscription: active',
+    'DTU · Competitor product subscription updated',
+    'Rigshospitalet · 2 contracts expiring within 90 days',
+    'GEUS · New contact verified',
+    'AAU · Deal moved to pipeline',
+    'CBS · SciFinder-N subscription: active',
   ];
   const msg = toasts[Math.floor(Math.random()*toasts.length)];
   setTimeout(()=>{
