@@ -4953,7 +4953,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access confirmed — listed as core biomedical/vet database on KU Library subject guides, and Web of Science Core Collection appears on KB’s national agreements list. Dates not published. Source: kub.ku.dk (KUB subject pages); pro.kb.dk/en/licensing/higher-education/agreements.'
+      notes: 'Active access confirmed — KUB\'s "Communication and IT" subject guide explicitly lists "Web of Science. Social Sciences Citation Index" as an available database, and Web of Science Core Collection also appears on KB\'s national agreements list. Directly verified 2026-08-25. Dates not published. Source: kub.kb.dk/comm_IT; pro.kb.dk/en/licensing/higher-education/agreements.'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
@@ -4973,12 +4973,12 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
       competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
-      notes: 'Access confirmed — KUB subject-page description states "IEEE provides full-text access to IEEE and IET transaction journals, conference proceedings and standards." Consortium/contract dates unverified. Source: kub.ku.dk / kub.kb.dk subject guides.'
+      notes: 'Access confirmed — KUB\'s "Communication and IT" subject guide (hosted on kb.dk) explicitly lists "IEEE Xplore" with the description "Access to more than 3 million full-text documents from some of the world\'s most highly cited publications in electrical engineering, computer science and electronics." Directly verified 2026-08-25. Consortium/contract dates unverified. Source: kub.kb.dk/comm_IT.'
     },
     {
       vendor: 'ACM', product: 'ACM Digital Library', category: 'Computer Science Platform',
       competesWith: 'ScienceDirect (CS)', subscriptionStart: '2024-01-01', contractExpiry: '2026-12-31',
-      notes: 'KB national ACM Open agreement 2024–2026 (unlimited CC-BY OA publishing, no APC, full DL read access). KUB subject pages independently describe ACM DL as available. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/acm; kub.ku.dk.'
+      notes: 'KB national ACM Open agreement 2024–2026 (unlimited CC-BY OA publishing, no APC, full DL read access), which covers KU as a participating Danish university. KU-specific subject-guide listing for ACM DL not independently re-verified this pass — the earlier "kub.ku.dk" citation was a bare domain with no specific page found. Confirm with KUB if institution-level certainty is needed. Source: pro.kb.dk/en/licensing/open-access-licence-agreements/acm.'
     },
     {
       vendor: 'CAS / ACS', product: 'SciFinder-N', category: 'Chemistry & Life Sciences DB',
@@ -4990,7 +4990,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access previously confirmed for AU; Web of Science Core Collection also listed on KB’s national agreements page. Dates not published. Source: pro.kb.dk/en/licensing/higher-education/agreements.'
+      notes: 'Active access confirmed — AU Library\'s own Citations/Bibliometrics guide explicitly names "Web of Science (Clarivate)" with a "Search Web of Science (license from AU Library)" link. Directly verified 2026-08-25. Web of Science Core Collection also listed on KB\'s national agreements page. Source: library.au.dk/en/researchers/bibliometrics/citations.'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
@@ -5000,7 +5000,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Wiley', product: 'Wiley Online Library', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '', contractExpiry: '',
-      notes: 'PARTIAL/UNCONFIRMED scope — AU Library page states "Books from Wiley are available through AU Library’s collections," which may indicate book-only access rather than the full journal platform. National KB Wiley agreement (2026–2029) exists but AU-specific journal-level confirmation not found. Confirm with AU Library. Source: library.au.dk/en.'
+      notes: 'Access confirmed, corrected scope — AU Library\'s own subject guide (Molecular Biology and Genetics) explicitly lists "Wiley Online Library" and states "there is access to the full text in most journals, but only in a small number of books" — i.e. broad journal access, not book-only as previously assumed. Directly verified 2026-08-25. Under national KB Wiley agreement (2026–2029). Source: library.au.dk/en/subject-areas/molecularbiologyandgenetics.'
     },
     {
       vendor: 'CAS / ACS', product: 'SciFinder Scholar', category: 'Chemistry & Life Sciences DB',
@@ -5049,7 +5049,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access previously indicated for SDU via search snippet; SDU library guides reportedly describe WoS as "an index to core scientific articles and citations within science, medicine, engineering and social sciences." SDU\'s A-Z database list is a JS-driven search tool whose results could not be directly fetched to re-verify this pass. Confirm with SDU Library if certainty is needed. Source: libguides.sdu.dk (SDU A-Z Databaseliste).'
+      notes: 'Access confirmed by direct fetch 2026-08-24: SDU Library\'s dedicated "Science Citation Index Expanded (Web of Science)" A-Z database entry describes it as providing "quick, powerful access to the bibliographic and citation information of core scientific articles." SDU\'s Research Impact/Bibliometrics guide separately confirms WoS is one of the paywalled databases SDU Library has paid for access to. Source: sdu-dk-en.libguides.com/az/science-citation-index-expanded-web-of-science; libguides.sdu.dk/researchimpact/wos.'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
@@ -5106,7 +5106,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
       competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
-      notes: 'IEEE Xplore Digital Library previously indicated as available via AAU’s EZproxy off-campus access listing via search snippet, but aub.aau.dk appears to block automated crawling — could not be independently re-verified by direct fetch. Contract dates/consortium unverified — confirm with library. Source: aub.aau.dk (via EZproxy off-campus access listing).'
+      notes: 'IEEE Xplore Digital Library listed among AAU\'s EZproxy off-campus-accessible resources per a third-party proxy-configuration guide (not an AAU-official page). AAU\'s own database pages (aub.aau.dk) continue to block automated crawling/fetching even on direct retry 2026-08-25, so this could not be independently re-verified against AAU\'s own site — confirm with AAU Library. Contract dates/consortium unverified. Source: paperpile.com/p/proxy-aau (third-party EZproxy guide); en.aub.aau.dk/meet-us/use-the-library-round-the-clock/online-access (AAU\'s own general online-access terms page, directly verified to exist 2026-08-25).'
     }
   ],
   cbs: [
