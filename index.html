@@ -1745,6 +1745,30 @@ function runContactsSync() {
 function uid() { return 'id_' + Date.now() + '_' + Math.random().toString(36).slice(2,7); }
 function esc(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
+// Escapes text, then turns any bare domain/URL mention (e.g. "cbs.dk/en/...",
+// "pro.kb.dk/en/licensing/...") into a real clickable link — used for notes
+// fields that cite sources as plain "Source: domain.tld/path" text rather
+// than structured {label,url} objects, so proof-of-source stays clickable
+// without having to restructure every existing note.
+function linkifySources(s) {
+  const raw = s || '';
+  const urlPattern = /((?:[a-z0-9-]+\.)+(?:dk|com|org|net|edu|gov)(?:\/[^\s,;()"']*)?)/gi;
+  let result = '';
+  let lastIndex = 0;
+  let m;
+  while ((m = urlPattern.exec(raw)) !== null) {
+    const matchText = m[0];
+    const trimmed = matchText.replace(/[.,;:]+$/, '');
+    const trailing = matchText.slice(trimmed.length);
+    result += esc(raw.slice(lastIndex, m.index));
+    const href = /^https?:\/\//i.test(trimmed) ? trimmed : 'https://' + trimmed;
+    result += `<a href="${esc(href)}" target="_blank" rel="noopener" style="color:#60a5fa;text-decoration:underline">${esc(trimmed)}</a>${esc(trailing)}`;
+    lastIndex = urlPattern.lastIndex;
+  }
+  result += esc(raw.slice(lastIndex));
+  return result;
+}
+
 const TYPE_ICON = {university:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v12H2V10"/><path d="M6 10V3h12v7"/><path d="M12 10v12"/><path d="M2 10l10-7 10 7"/></svg>`, medical:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v4"/><path d="M14 14h-4"/><path d="M14 18h-4"/><path d="M14 8h-4"/><path d="M18 12h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"/><path d="M18 22V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v18"/></svg>`, research:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg>`, ngo:`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>`};
 const TYPE_LABEL = {university:'University', medical:'Medical Center', research:'Research Inst.', ngo:'NGO / Foundation'};
 const TYPE_COLORS_MAP = {university:'#1d4ed8', medical:'#991b1b', research:'#166534', ngo:'#7c3aed'};
@@ -5240,7 +5264,7 @@ function getMergedProducts(instId){
             " style="font-size:11px;padding:3px 6px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:#1e2a3a;color:#fff;cursor:pointer;width:100%">
               ${EDIT_STATES.map(s=>`<option value="${s.v}" ${(ov||'')===(s.v)?'selected':''}>${s.label}</option>`).join('')}
             </select>
-          </td>` : `<td style="padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;color:#e2e8f0;max-width:240px">${esc(p.notes)}${ovBadge}</td>`;
+          </td>` : `<td style="padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;color:#e2e8f0;max-width:240px">${linkifySources(p.notes)}${ovBadge}</td>`;
         return '<tr>' +
           '<td style="padding:8px 10px;border-bottom:1px solid var(--border);font-weight:600;font-size:12px;color:#ffffff">'+esc(p.product)+'</td>'+
           '<td style="padding:8px 10px;border-bottom:1px solid var(--border);font-size:11px;color:#e2e8f0">'+esc(p.vendor)+'</td>'+
