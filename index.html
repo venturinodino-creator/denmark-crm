@@ -6288,10 +6288,14 @@ function render4GU() {
   document.getElementById('page-sub').textContent = '4th Generation University community — an innovation-ecosystem network for universities, with Elsevier as a supporting partner';
 
   const MEMBERS = FOURGU_MEMBERS;
-  const nlCount = MEMBERS.filter(m => m.instId).length;
+  const nlMatches = MEMBERS.filter(m => m.instId && state.institutions.some(i => i.id === m.instId));
+  const nlCount = nlMatches.length;
+  const nlCaption = nlMatches.length
+    ? nlMatches.map(m => `${m.name} — ${m.roles.join(' + ').toLowerCase()}`).join(', ')
+    : 'None of your tracked institutions yet';
   const flagUrl = country => `https://flagcdn.com/24x18/${({
     'Australia':'au','UK':'gb','New Zealand':'nz','Brazil':'br','Germany':'de','Japan':'jp',
-    'Finland':'fi','Denmark':'nl','China':'cn','Czech Republic':'cz','United States':'us',
+    'Finland':'fi','Denmark':'dk','China':'cn','Czech Republic':'cz','United States':'us',
     'Austria':'at','Ireland':'ie'
   }[country] || 'xx')}.png`;
   const roleBadge = { Board:{bg:'rgba(96,165,250,.12)',fg:'#60a5fa'}, 'Founding Group':{bg:'rgba(167,139,250,.12)',fg:'#a78bfa'} };
@@ -6337,7 +6341,7 @@ function render4GU() {
       <div style="background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);border-radius:12px;padding:16px 22px;flex:1;min-width:150px">
         <div style="font-size:11px;color:#10b981;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">In your CRM</div>
         <div style="font-size:30px;font-weight:800;color:#e2e8f0">${nlCount}</div>
-        <div style="font-size:11px;color:#94a3b8;margin-top:2px">TU/e — board seat + founding group</div>
+        <div style="font-size:11px;color:#94a3b8;margin-top:2px">${nlCaption}</div>
       </div>
       <div style="background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.25);border-radius:12px;padding:16px 22px;flex:1;min-width:150px">
         <div style="font-size:11px;color:#a78bfa;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px">Wider community</div>
