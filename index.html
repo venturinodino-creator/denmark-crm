@@ -3924,7 +3924,7 @@ bootstrapApp();
 
 //  MATRIX OVERRIDES (persisted to localStorage) 
 window.matrixOverrides = {};
-try { window.matrixOverrides = JSON.parse(localStorage.getItem('crm_matrix_overrides')||'{}'); } catch(e){}
+try { window.matrixOverrides = JSON.parse(localStorage.getItem('dk_crm_matrix_overrides')||'{}'); } catch(e){}
 let _matrixEditMode = false;
 
 const _CYCLE = ['yes','likely','expiring','unknown','no'];
@@ -3947,14 +3947,14 @@ function cycleCell(instId, colKey, ev){
   else if(idx === -1){ window.matrixOverrides[instId][colKey] = _CYCLE[0]; }
   else { window.matrixOverrides[instId][colKey] = _CYCLE[idx+1]; }
   if(!Object.keys(window.matrixOverrides[instId]).length) delete window.matrixOverrides[instId];
-  localStorage.setItem('crm_matrix_overrides', JSON.stringify(window.matrixOverrides));
+  localStorage.setItem('dk_crm_matrix_overrides', JSON.stringify(window.matrixOverrides));
   renderSubscriptionMatrix();
 }
 
 function clearAllOverrides(){
   if(!confirm('Clear all manual subscription overrides?')) return;
   window.matrixOverrides = {};
-  localStorage.removeItem('crm_matrix_overrides');
+  localStorage.removeItem('dk_crm_matrix_overrides');
   renderSubscriptionMatrix();
 }
 
@@ -5259,7 +5259,7 @@ function getMergedProducts(instId){
               if(v===''){delete window.matrixOverrides['${instId}']['${colKey}'];}
               else{window.matrixOverrides['${instId}']['${colKey}']=v;}
               if(!Object.keys(window.matrixOverrides['${instId}']).length) delete window.matrixOverrides['${instId}'];
-              localStorage.setItem('crm_matrix_overrides',JSON.stringify(window.matrixOverrides));
+              localStorage.setItem('dk_crm_matrix_overrides',JSON.stringify(window.matrixOverrides));
               rebuildCpCard_${instId}();
             " style="font-size:11px;padding:3px 6px;border-radius:6px;border:1px solid rgba(255,255,255,.15);background:#1e2a3a;color:#fff;cursor:pointer;width:100%">
               ${EDIT_STATES.map(s=>`<option value="${s.v}" ${(ov||'')===(s.v)?'selected':''}>${s.label}</option>`).join('')}
