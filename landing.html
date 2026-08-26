@@ -1069,13 +1069,13 @@
 
 // ── Regions ──────────────────────────────────────────────────────────────
 // Single source of truth for which regions exist and whether each is live
-// yet. Belgium will flip to status:'live', url:'https://.../belgium-crm/landing.html'
-// once that build is ready — nothing else on this page needs to change
-// when that happens.
+// yet. Any future region follows the same pattern: add it here with
+// status:'live' and its cross-repo landing.html URL once that build is
+// ready — nothing else on this page needs to change when that happens.
 const REGIONS = [
   { id: 'netherlands', label: 'Netherlands', status: 'live', url: 'https://venturinodino-creator.github.io/netherlands-crm/landing.html' },
   { id: 'denmark',     label: 'Denmark',     status: 'live', url: 'landing.html' },
-  { id: 'belgium',     label: 'Belgium',     status: 'coming_soon', url: null },
+  { id: 'belgium',     label: 'Belgium',     status: 'live', url: 'https://venturinodino-creator.github.io/belgium-crm/landing.html' },
 ];
 
 function renderRegionSwitcher() {
