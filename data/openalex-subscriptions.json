@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": "statistics-denmark",
+    "inst": "Statistics Denmark (Danmarks Statistik)",
+    "type": "NGO / Research",
+    "status": "subscriber",
+    "tier": "Member",
+    "annualFee": "$5,000 USD / year",
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "OpenAlex's own Q2 2026 town hall recap names Statistics Denmark as one of the institutions that joined the new $5,000/year Member tier, alongside the University of Victoria (launch partner), Universite de Montreal, KISTI and the University of Queensland. The Member tier includes an admin dashboard, affiliation editor, Unsub access and Community Advisory Board nomination rights, and was launched publicly on 2026-02-10 per the OpenAlex blog. Note this is Denmark's national statistical agency, not a university; no Scopus or Web of Science cancellation was mentioned in connection with it. Exact signing/effective date for Statistics Denmark is not stated in the source.",
+    "signal": "CONFIRMED PAYING. Member tier at $5,000/yr, named in OpenAlex's Q2 2026 town hall recap; effective date not disclosed.",
+    "sources": [
+      {
+        "label": "OpenAlex blog - Q2 2026 Town Hall: What We Shipped and What's Next",
+        "url": "https://blog.openalex.org/q2-2026-town-hall-what-we-shipped-and-whats-next/"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-08-27"
+  }
+]
