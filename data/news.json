@@ -11,7 +11,8 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic Model Hardware Standard for lab/manufacturing equipment control is competitive development in research AI tools"
+    "elsevierRelevance": "Anthropic Model Hardware Standard for lab/manufacturing equipment control is competitive development in research AI tools",
+    "summary": "Anthropic expands into physical AI by unveiling MHS, a hardware version of its Model Context Protocol. This enables AI agents to control physical machines and devices. The move positions Anthropic as a competitor in hardware-integrated AI systems."
   },
   {
     "id": "news-nw8qg0",
@@ -25,7 +26,8 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic hardware standard expansion into lab equipment control is competitive threat to research-assistant infrastructure"
+    "elsevierRelevance": "Anthropic hardware standard expansion into lab equipment control is competitive threat to research-assistant infrastructure",
+    "summary": "Anthropic introduces a new hardware standard enabling AI agents to operate physical machines. This development extends AI capabilities beyond software into robotics and industrial equipment control."
   },
   {
     "id": "news-qlrw8i",
@@ -39,7 +41,8 @@
     "publishedDate": "2026-08-28",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic physical AI agents for lab control represent competitive expansion into research workflow automation"
+    "elsevierRelevance": "Anthropic physical AI agents for lab control represent competitive expansion into research workflow automation",
+    "summary": "Anthropic advances AI agents' physical capabilities through a new initiative putting them in charge of controlling machines. This represents expansion of AI beyond software-only applications."
   },
   {
     "id": "news-coj0hx",
@@ -53,7 +56,8 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic hardware standard for lab devices targets research and scientific infrastructure—direct competitive concern"
+    "elsevierRelevance": "Anthropic hardware standard for lab devices targets research and scientific infrastructure—direct competitive concern",
+    "summary": "Anthropic unveils a standard allowing AI agents to control devices. The standard aims to create interoperability between AI systems and physical hardware."
   },
   {
     "id": "news-la8c6j",
@@ -67,7 +71,8 @@
     "publishedDate": "2026-08-28",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic hardware standard for lab/industrial equipment is competitive threat to AI-assisted research discovery and workflow tools"
+    "elsevierRelevance": "Anthropic hardware standard for lab/industrial equipment is competitive threat to AI-assisted research discovery and workflow tools",
+    "summary": "Anthropic introduces the Model Hardware Standard to connect AI agents with laboratory and industrial devices. This standard facilitates communication between AI systems and specialized equipment."
   },
   {
     "id": "news-5m7dqy",
@@ -81,7 +86,8 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic support for scientists indicates expansion into research-assistant market competing with LeapSpace and similar tools"
+    "elsevierRelevance": "Anthropic support for scientists indicates expansion into research-assistant market competing with LeapSpace and similar tools",
+    "summary": "Anthropic announces expanded support for scientists, enhancing capabilities for research applications. The company focuses on making AI tools more useful for scientific work and discovery."
   },
   {
     "id": "news-w5w2wy",
@@ -95,7 +101,8 @@
     "publishedDate": "2026-08-28",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic hardware standard for linking AI to scientific equipment is directly competitive to research infrastructure and AI research tools"
+    "elsevierRelevance": "Anthropic hardware standard for linking AI to scientific equipment is directly competitive to research infrastructure and AI research tools",
+    "summary": "Anthropic launches a new standard linking AI to scientific and industrial equipment. The initiative enables AI systems to interact directly with lab instruments and industrial machinery."
   },
   {
     "id": "news-qht4z9",
@@ -109,7 +116,8 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic AI tool integration with lab equipment represents competitive threat to research-workflow assistance tools"
+    "elsevierRelevance": "Anthropic AI tool integration with lab equipment represents competitive threat to research-workflow assistance tools",
+    "summary": "Anthropic tests a method enabling Claude AI to work with robots and scientific laboratory tools. This development allows Claude to directly interface with and control physical research equipment."
   },
   {
     "id": "news-6e0j39",
@@ -123,6 +131,7 @@
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic tool for conducting scientific experiments is a potential competitor to AI-assisted research discovery tools like LeapSpace"
+    "elsevierRelevance": "Anthropic tool for conducting scientific experiments is a potential competitor to AI-assisted research discovery tools like LeapSpace",
+    "summary": "Anthropic launches an AI tool capable of conducting scientific experiments autonomously. The tool can interact with laboratory equipment to perform and manage experimental workflows independently."
   }
 ]
