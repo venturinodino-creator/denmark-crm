@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-08-28T22:07:00.980Z",
+  "articleCount": 11,
+  "headline": "Anthropic's Physical AI Push Threatens Elsevier's Research-Assistant Moat",
+  "bottomLine": "Anthropic is aggressively moving beyond text-based research assistance into autonomous lab automation and free scientist access, directly competing with LeapSpace and targeting the discovery-to-execution workflow that Elsevier has…",
+  "keyFindings": [
+    "Anthropic launched Model Hardware Standard (MHS) enabling Claude AI agents to autonomously control laboratory equipment, robotic systems, and industrial devices—extending AI beyond literature search…",
+    "Free Claude access for scientists signals Anthropic's direct assault on Elsevier's research-assistant market; combined with hardware integration, Anthropic offers an end-to-end discovery-to-lab…",
+    "Anthropic's Claudeforce partnership with Salesforce (enterprise scale) and hardware-linked AI agents create a competitive stack for institutional adoption, potentially disrupting how research…",
+    "Autonomous experiment design and execution capability represents a qualitative shift: researchers can now validate, iterate, and build on findings in real time without manual literature…"
+  ],
+  "whyItMatters": "Elsevier's value proposition has rested on being the indispensable gateway to scientific literature and insights. Anthropic is redefining that gateway to include active laboratory control and experiment automation, with free tiers and hardware standards that make adoption frictionless for researchers.",
+  "impact": {
+    "novelty": 5,
+    "commercial": 5,
+    "threat": 5,
+    "urgency": 5
+  },
+  "entities": [
+    "Anthropic",
+    "Claude",
+    "Model Hardware Standard (MHS)",
+    "Salesforce",
+    "Claudeforce",
+    "Elsevier",
+    "LeapSpace",
+    "ScienceDirect"
+  ],
+  "actionItems": [
+    "Conduct urgent competitive audit: map Anthropic's free Claude offerings and MHS capabilities against LeapSpace's current feature set; identify specific gaps in lab-automation integration and hardware…",
+    "Develop a 90-day roadmap for LeapSpace to incorporate hardware/lab-device integration (even if via partnerships with existing lab-automation vendors) to neutralize the autonomous-experiment-design…",
+    "Brief Danish institution stakeholders (research directors, IT procurement) on how Anthropic's free tiers and hardware standards could fragment tool adoption and reduce Elsevier's institutional…",
+    "Explore partnership or integration opportunities with Anthropic or similar physical-AI vendors to embed LeapSpace discovery inside autonomous experiment workflows, converting a threat into co-selling…"
+  ]
+}

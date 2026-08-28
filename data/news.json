@@ -1,20 +1,5 @@
 [
   {
-    "id": "news-rmxq4p",
-    "title": "Anthropic expands into physical AI, unveils hardware version of MCP called MHS - 디지털투데이",
-    "description": "Anthropic expands into physical AI, unveils hardware version of MCP called MHS&nbsp;&nbsp;디지털투데이",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaFZCYVJyNzc4NmJWNUNrYko4c1JYempsd0RyUzRmTDVzZG5CajdELVc0cjZhcHpITVl0Y0d1cnd0NGp6UEt4NlIxSm5DNnRyZkZiUjg5ZXc4NFNfYkQ4Q1dQWEowM2otYy01T3pwR3BENUFVRVBCYm9ZYUdmdi1yUWJJMFhqUEVxaC1laTBvZzVHbTdWUmx6dTNyVTlJeHl6dlVvRU5nSm4xOFg1SERZTzFDYUhwZw?oc=5",
-    "sourceName": "디지털투데이",
-    "publishedDate": "2026-08-27",
-    "foundDate": "2026-08-28",
-    "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic Model Hardware Standard for lab/manufacturing equipment control is competitive development in research AI tools",
-    "summary": "Anthropic expands into physical AI by unveiling MHS, a hardware version of its Model Context Protocol. This enables AI agents to control physical machines and devices. The move positions Anthropic as a competitor in hardware-integrated AI systems."
-  },
-  {
     "id": "news-nw8qg0",
     "title": "Anthropic brings AI agents to physical machines with new hardware standard - Firstpost",
     "description": "Anthropic brings AI agents to physical machines with new hardware standard&nbsp;&nbsp;Firstpost",
@@ -27,7 +12,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic hardware standard expansion into lab equipment control is competitive threat to research-assistant infrastructure",
-    "summary": "Anthropic introduces a new hardware standard enabling AI agents to operate physical machines. This development extends AI capabilities beyond software into robotics and industrial equipment control."
+    "summary": "Anthropic introduces a new hardware standard enabling AI agents to operate physical machines. This development extends AI capabilities beyond software into robotics and industrial equipment control.",
+    "bottomLine": "Anthropic's hardware standard enables AI agents to autonomously operate physical machines, opening new research and automation capabilities.",
+    "keyFindings": [
+      "Anthropic brings AI agents to physical machines through a new hardware standard for device control and integration.",
+      "Standard designed to support both scientific research workflows and industrial automation applications.",
+      "Allows Claude AI to directly command robotic systems, lab instruments, and manufacturing equipment.",
+      "Announced as part of expanded support for scientists and laboratory automation.",
+      "Represents a shift from AI-as-software to AI-as-physical-operator in enterprise and research settings."
+    ],
+    "whyItMatters": "Danish universities and research institutes now confront a competitive pressure: peers adopting AI-controlled lab automation will accelerate discovery cycles. ScienceDirect and Scopus must position themselves as the knowledge backbone supporting AI-augmented wet-lab research, while LeapSpace becomes a workflow coordinator between literature and hardware.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "hardware standard",
+      "AI agents",
+      "robotic systems"
+    ],
+    "actionItems": [
+      "Interview leading Danish research institutions (Copenhagen, Aarhus, Lund) on interest in AI-hardware integration for lab workflows.",
+      "Develop case studies showing how ScienceDirect's method sections and protocols can be fed into Claude for automated experiment design and hardware execution.",
+      "Build messaging around LeapSpace as the research planning layer that sits between literature discovery and hardware-capable AI agents."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-qlrw8i",
@@ -42,22 +55,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic physical AI agents for lab control represent competitive expansion into research workflow automation",
-    "summary": "Anthropic advances AI agents' physical capabilities through a new initiative putting them in charge of controlling machines. This represents expansion of AI beyond software-only applications."
-  },
-  {
-    "id": "news-coj0hx",
-    "title": "Anthropic unveils standard for AI agents to control devices - Breakingthenews.net",
-    "description": "Anthropic unveils standard for AI agents to control devices&nbsp;&nbsp;Breakingthenews.net",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXZpb29JTkNQdXZFc3JJSlhPUWtCYUJ3aHVqaDZMR1FMSmhDbDZSVkVFQ0FjejlXUEplNThrM2FKV0ZMV01VMEVCQzJlUjVyczN0UDlWczBQcFZEMmZQRFB3OU9OMTR3T2lSOGl1RjFqeUllZU5TNzdxU3FCejRlX0M4Q2tKN0h0SFQ0SmRSc2pVS0EyS0wxVnRmbi1GUDFqV1NqWG45aw?oc=5",
-    "sourceName": "Breakingthenews.net",
-    "publishedDate": "2026-08-27",
-    "foundDate": "2026-08-28",
-    "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic hardware standard for lab devices targets research and scientific infrastructure—direct competitive concern",
-    "summary": "Anthropic unveils a standard allowing AI agents to control devices. The standard aims to create interoperability between AI systems and physical hardware."
+    "summary": "Anthropic advances AI agents' physical capabilities through a new initiative putting them in charge of controlling machines. This represents expansion of AI beyond software-only applications.",
+    "bottomLine": "Anthropic enables AI agents to control physical machines, bridging computational research and hands-on laboratory automation.",
+    "keyFindings": [
+      "Anthropic's latest AI push puts agents in control of physical machines, not just software tasks.",
+      "Targets integration with laboratory equipment and industrial machinery for autonomous operation.",
+      "Positions Claude as a multi-modal agent capable of both reasoning and physical action in research environments.",
+      "Part of broader strategy to expand AI's role in scientific workflows beyond data analysis.",
+      "Could reshape how researchers design, execute, and iterate on experiments through AI intermediation."
+    ],
+    "whyItMatters": "Danish research institutions subscribing to ScienceDirect and Scopus now need a partner that bridges literature-based discovery and experimental execution. Elsevier's LeapSpace can differentiate by offering guided workflows from paper insights to AI-driven lab protocols, capturing institutional R&D spend.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 3,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "AI agents",
+      "laboratory equipment",
+      "physical machines"
+    ],
+    "actionItems": [
+      "Clarify whether LeapSpace's 'research reports' feature should include automated experimental design recommendations tied to hardware capabilities.",
+      "Survey Danish institution IT and research leadership on appetite for integrating AI-controlled instruments into their ScienceDirect/Scopus workflows.",
+      "Develop proof-of-concept showing LeapSpace guiding a researcher from literature review to AI-executable lab protocol."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-la8c6j",
@@ -72,7 +98,171 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic hardware standard for lab/industrial equipment is competitive threat to AI-assisted research discovery and workflow tools",
-    "summary": "Anthropic introduces the Model Hardware Standard to connect AI agents with laboratory and industrial devices. This standard facilitates communication between AI systems and specialized equipment."
+    "summary": "Anthropic introduces the Model Hardware Standard to connect AI agents with laboratory and industrial devices. This standard facilitates communication between AI systems and specialized equipment.",
+    "bottomLine": "Anthropic's Model Hardware Standard connects AI agents to laboratory and industrial equipment, automating scientific instrument control.",
+    "keyFindings": [
+      "Anthropic launches Model Hardware Standard (MHS) to link AI agents with lab and industrial devices.",
+      "Enables Claude to directly operate scientific instruments, robotic platforms, and manufacturing equipment.",
+      "Designed for research institutions and industrial organizations seeking autonomous experiment execution and process control.",
+      "Represents significant expansion of AI capability from analysis to active laboratory and production management.",
+      "Expected to accelerate adoption of AI-augmented research in sectors reliant on hands-on experimentation."
+    ],
+    "whyItMatters": "Danish life sciences and manufacturing organizations will increasingly embed AI-hardware control into R&D and production; institutions relying solely on ScienceDirect/Scopus for literature without a path to experiment automation will fall behind. LeapSpace must evolve to guide researchers from discovery through AI-executable protocols.",
+    "impact": {
+      "novelty": 5,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "Model Hardware Standard (MHS)",
+      "laboratory equipment",
+      "AI agents"
+    ],
+    "actionItems": [
+      "Schedule executive briefings at 3–5 Danish university research offices and pharma companies on AI-hardware automation implications.",
+      "Commission internal analysis: how should ScienceDirect/Scopus/LeapSpace adapt to remain relevant as AI-controlled lab automation becomes standard?",
+      "Explore technology partnership with Anthropic or similar vendors to embed hardware integration into LeapSpace's research workflow platform."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-rwv4lv",
+    "title": "Salesforce and Anthropic Launch Claudeforce Enterprise AI Partnership - HPCwire",
+    "description": "Salesforce and Anthropic Launch Claudeforce Enterprise AI Partnership&nbsp;&nbsp;HPCwire",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVW1XWjlCb0x1LU5GaExUYUdXYXhpaU4xUVlvWHR5aGJlcXF6Z09VbnpHOEJhTHBXTkNrZ0xrTXFQYXRLemJKdkJ1Tkt5ZnlVNERhcFVGbm1xLW5JXzg0ZXhhai01Q2pSTzdrZ0JBdlRBajZrbHRJd1QtQjdxUndTbU1KZUlKUHFSZlNLNGlYREFaZ21DNmZ0VTNpenBxNnI5YzczYjhaRmxwNFFoNm9XaEZB?oc=5",
+    "sourceName": "HPCwire",
+    "publishedDate": "2026-08-27",
+    "foundDate": "2026-08-28",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-yjsa75",
+    "title": "Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times",
+    "description": "Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington&nbsp;&nbsp;Tech Times",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTGVTVXQzWDZ2SnFCVlJSN2FNanBXZVlOMDdyZHd2TDNQaTg0ZjJKczVsc3JPRC1JeUV6V2YtRUNTalViSk9QV0ZKcEVuVUltU19UcHdqWTJpdzhCdVRJOENjOGlXUkE0MVJDME1qUUtqS3VESTZyRlpFX2RGdnItaDFwcU42bEdmUElHVGVtUFBEc3M2elRSVWtzS1U0aFBQQ0ktQTRfdDhCQkxOS2RhcUc5WGlJRUFQV0pkelRfWF94S3dGUFdEWUlBWWV4aW8?oc=5",
+    "sourceName": "Tech Times",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-28",
+    "autoDiscovered": true,
+    "bottomLine": "Anthropic offers free Claude access to scientists, signalling a direct play for the research-assistant market where Elsevier's LeapSpace competes.",
+    "keyFindings": [
+      "Anthropic is offering free access to Claude AI for scientists globally.",
+      "The move positions Claude as a research tool alternative to competing AI-assisted research platforms.",
+      "No Denmark institution adoption is named, but the announcement targets the scientific research community directly.",
+      "This represents a competitor's strategy to embed AI in scholarly workflows before institutional licensing takes hold."
+    ],
+    "whyItMatters": "Anthropic's free Claude offer to scientists is a direct threat to LeapSpace adoption in Denmark research institutions—if individual researchers use Claude for free, institutional buying for AI-assisted research tools becomes harder to justify.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "LeapSpace (implied competitor)"
+    ],
+    "actionItems": [
+      "Verify whether any Danish university researchers are already using free Claude; probe adoption barriers during institution conversations.",
+      "Clarify LeapSpace's pricing model and free-tier strategy versus Anthropic's to address cost objections from budget-conscious buyers."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-rmxq4p",
+    "title": "Anthropic expands into physical AI, unveils hardware version of MCP called MHS - 디지털투데이",
+    "description": "Anthropic expands into physical AI, unveils hardware version of MCP called MHS&nbsp;&nbsp;디지털투데이",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaFZCYVJyNzc4NmJWNUNrYko4c1JYempsd0RyUzRmTDVzZG5CajdELVc0cjZhcHpITVl0Y0d1cnd0NGp6UEt4NlIxSm5DNnRyZkZiUjg5ZXc4NFNfYkQ4Q1dQWEowM2otYy01T3pwR3BENUFVRVBCYm9ZYUdmdi1yUWJJMFhqUEVxaC1laTBvZzVHbTdWUmx6dTNyVTlJeHl6dlVvRU5nSm4xOFg1SERZTzFDYUhwZw?oc=5",
+    "sourceName": "디지털투데이",
+    "publishedDate": "2026-08-27",
+    "foundDate": "2026-08-28",
+    "autoDiscovered": true,
+    "elsevierRelevance": "Anthropic Model Hardware Standard for lab/manufacturing equipment control is competitive development in research AI tools",
+    "summary": "Anthropic expands into physical AI by unveiling MHS, a hardware version of its Model Context Protocol. This enables AI agents to control physical machines and devices. The move positions Anthropic as a competitor in hardware-integrated AI systems.",
+    "bottomLine": "Anthropic launches Model Hardware Standard (MHS) to enable AI agents to control physical lab and industrial equipment directly.",
+    "keyFindings": [
+      "Anthropic unveils MHS, a hardware standard designed to connect AI agents with physical machines and laboratory equipment.",
+      "The standard enables Claude and other AI agents to operate robotic systems and scientific instruments autonomously.",
+      "Initiative targets scientific research and industrial automation workflows requiring AI-device integration.",
+      "Positions Anthropic as a provider of infrastructure for AI-driven laboratory and manufacturing environments.",
+      "Expands Claude's utility beyond software tasks into hands-on experimental and production control."
+    ],
+    "whyItMatters": "Danish research institutions and biotech firms using ScienceDirect and Scopus for literature discovery now face AI agents that can independently execute wet-lab work and equipment control, changing how research is conducted. LeapSpace's research assistant must evolve to guide researchers integrating hardware-capable AI into their workflows.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "Model Hardware Standard (MHS)",
+      "AI agents",
+      "laboratory equipment"
+    ],
+    "actionItems": [
+      "Assess whether LeapSpace should integrate hardware-control capability discovery or alert users when research mentions AI-controllable instruments.",
+      "Monitor adoption rates among Danish biotech and pharmaceutical institutions using ScienceDirect for equipment purchasing and R&D planning.",
+      "Explore partnership or integration with Anthropic to position Elsevier as the research knowledge layer for hardware-enabled AI workflows."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-coj0hx",
+    "title": "Anthropic unveils standard for AI agents to control devices - Breakingthenews.net",
+    "description": "Anthropic unveils standard for AI agents to control devices&nbsp;&nbsp;Breakingthenews.net",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXZpb29JTkNQdXZFc3JJSlhPUWtCYUJ3aHVqaDZMR1FMSmhDbDZSVkVFQ0FjejlXUEplNThrM2FKV0ZMV01VMEVCQzJlUjVyczN0UDlWczBQcFZEMmZQRFB3OU9OMTR3T2lSOGl1RjFqeUllZU5TNzdxU3FCejRlX0M4Q2tKN0h0SFQ0SmRSc2pVS0EyS0wxVnRmbi1GUDFqV1NqWG45aw?oc=5",
+    "sourceName": "Breakingthenews.net",
+    "publishedDate": "2026-08-27",
+    "foundDate": "2026-08-28",
+    "autoDiscovered": true,
+    "elsevierRelevance": "Anthropic hardware standard for lab devices targets research and scientific infrastructure—direct competitive concern",
+    "summary": "Anthropic unveils a standard allowing AI agents to control devices. The standard aims to create interoperability between AI systems and physical hardware.",
+    "bottomLine": "Anthropic launches a standard enabling AI agents to control and operate laboratory and industrial devices autonomously.",
+    "keyFindings": [
+      "Anthropic unveils a new standard that allows AI agents to control devices, marking entry into hardware orchestration.",
+      "Standard applies to laboratory instruments, robotic systems, and industrial equipment integration.",
+      "Designed to work with Claude and other AI models for autonomous machine operation and monitoring.",
+      "Reflects growing demand from enterprises and research institutions for AI-driven automation.",
+      "Positions Anthropic to compete in the emerging 'AI-as-operator' market segment beyond software and analytics."
+    ],
+    "whyItMatters": "Danish R&D-intensive companies and university labs see AI control of equipment as a competitive advantage; institutions without ScienceDirect/Scopus integration into such workflows will lose visibility into emergent research methods. Elsevier must rapidly position LeapSpace as the knowledge-to-hardware translator.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "device control standard",
+      "laboratory instruments",
+      "industrial equipment"
+    ],
+    "actionItems": [
+      "Urgent: Convene Elsevier product strategy to assess LeapSpace's roadmap for hardware-device discovery and integration.",
+      "Contact top 5 Danish pharma/biotech firms to understand their hardware automation plans and ScienceDirect usage in those workflows.",
+      "Develop partnership proposal for Anthropic positioning Elsevier's research graph as the knowledge layer for AI-controlled lab operations."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-5m7dqy",
@@ -87,7 +277,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic support for scientists indicates expansion into research-assistant market competing with LeapSpace and similar tools",
-    "summary": "Anthropic announces expanded support for scientists, enhancing capabilities for research applications. The company focuses on making AI tools more useful for scientific work and discovery."
+    "summary": "Anthropic announces expanded support for scientists, enhancing capabilities for research applications. The company focuses on making AI tools more useful for scientific work and discovery.",
+    "bottomLine": "Anthropic expands support for scientists by enabling AI to interface directly with laboratory equipment and scientific instruments.",
+    "keyFindings": [
+      "Anthropic announces expanded support for scientists, including AI agents' ability to control lab equipment and devices.",
+      "Initiative aims to streamline scientific workflows by automating instrument operation and data collection.",
+      "Claude gains capability to interact with laboratory hardware, robotic systems, and scientific platforms.",
+      "Addresses researcher demand for AI tools that bridge literature review, data analysis, and hands-on experimentation.",
+      "Signals Anthropic's strategic focus on deep integration with scientific and research institution use cases."
+    ],
+    "whyItMatters": "Danish universities and research centers now expect their AI partners to support end-to-end research workflows; ScienceDirect and Scopus alone no longer suffice. LeapSpace must position itself as the hub connecting literature discovery, methodology guidance, and AI-enabled experimental execution to retain research institution loyalty.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "scientists",
+      "laboratory equipment",
+      "scientific instruments"
+    ],
+    "actionItems": [
+      "Develop messaging emphasizing LeapSpace's 'research coach' and 'reading assistant' capabilities as the interface between scientific literature and AI-driven experimentation.",
+      "Interview Danish research institution heads to understand their top friction points in moving from literature to lab execution; benchmark LeapSpace against emerging competitors.",
+      "Plan LeapSpace roadmap features: automated protocol extraction from papers, hardware-device recommendations, experiment design assistance."
+    ],
+    "sourceType": "primary"
   },
   {
     "id": "news-w5w2wy",
@@ -102,7 +320,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic hardware standard for linking AI to scientific equipment is directly competitive to research infrastructure and AI research tools",
-    "summary": "Anthropic launches a new standard linking AI to scientific and industrial equipment. The initiative enables AI systems to interact directly with lab instruments and industrial machinery."
+    "summary": "Anthropic launches a new standard linking AI to scientific and industrial equipment. The initiative enables AI systems to interact directly with lab instruments and industrial machinery.",
+    "bottomLine": "Anthropic launches a standard for AI agents to operate scientific and industrial equipment, advancing autonomous research automation.",
+    "keyFindings": [
+      "Anthropic launches a new standard enabling AI agents to control scientific and industrial equipment autonomously.",
+      "Standard facilitates integration between AI models and laboratory instruments, robotic systems, and production machinery.",
+      "Designed to support researchers and industrial operators seeking to automate complex, hands-on workflows.",
+      "Represents major expansion of Anthropic's footprint in research institution and industrial automation markets.",
+      "Likely to accelerate adoption of AI-augmented experimentation in pharmaceutical, chemistry, biotech, and manufacturing sectors."
+    ],
+    "whyItMatters": "Danish pharmaceutical, biotech, and advanced manufacturing firms will prioritize AI-hardware integration in R&D; institutions without ScienceDirect/Scopus visibility into these emerging workflows and without LeapSpace's integration into hardware-capable AI stacks risk losing competitive intelligence. This is a critical window to reposition Elsevier as the research knowledge layer for AI-automated science.",
+    "impact": {
+      "novelty": 5,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "AI agents",
+      "scientific equipment",
+      "industrial equipment",
+      "automation standard"
+    ],
+    "actionItems": [
+      "Launch targeted outreach to Danish pharmaceutical and biotech R&D directors; assess current ScienceDirect/Scopus/LeapSpace usage in light of AI-hardware automation trends.",
+      "Develop white paper or webinar: 'AI-Driven Lab Automation and the Future of Literature-Based Research Discovery' for Danish research leadership.",
+      "Initiate exploratory discussions with Anthropic regarding strategic partnership to position Elsevier as the research knowledge backbone for AI-orchestrated laboratory workflows."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-qht4z9",
@@ -117,7 +363,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic AI tool integration with lab equipment represents competitive threat to research-workflow assistance tools",
-    "summary": "Anthropic tests a method enabling Claude AI to work with robots and scientific laboratory tools. This development allows Claude to directly interface with and control physical research equipment."
+    "summary": "Anthropic tests a method enabling Claude AI to work with robots and scientific laboratory tools. This development allows Claude to directly interface with and control physical research equipment.",
+    "bottomLine": "Anthropic tests Claude's capability to autonomously control robotic systems and scientific lab equipment, advancing AI-augmented research.",
+    "keyFindings": [
+      "Anthropic is testing Claude's ability to work with robots and scientific laboratory tools, enabling autonomous equipment control.",
+      "Tests demonstrate Claude operating robotic systems and interfacing with lab instruments for experimental execution.",
+      "Initiative reflects broader industry trend toward AI agents as active participants in research workflows, not just analytical tools.",
+      "Positions Claude as a multi-modal agent capable of reasoning, planning, and physical action in laboratory environments.",
+      "Success could drive rapid adoption of AI-assisted automation across research institutions and industrial R&D operations."
+    ],
+    "whyItMatters": "Danish universities and research-intensive companies now see AI as a potential active participant in experiments; institutions whose researchers rely on ScienceDirect/Scopus without a path to AI-augmented lab automation will struggle to attract top talent and fund competitive R&D. LeapSpace must immediately integrate or partner on hardware-aware research workflow features.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "robots",
+      "scientific lab equipment",
+      "AI agents"
+    ],
+    "actionItems": [
+      "Assess LeapSpace beta feedback from early-adopter Danish institutions regarding gaps in supporting hardware-aware research planning.",
+      "Conduct competitive intelligence: map how Semantic Scholar, Elicit, scite, and others are positioning for AI-hardware integration workflows.",
+      "Develop rapid-prototype: LeapSpace feature recommending lab equipment and protocols based on literature findings, with AI-executability metadata."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-6e0j39",
@@ -132,6 +406,35 @@
     "foundDate": "2026-08-28",
     "autoDiscovered": true,
     "elsevierRelevance": "Anthropic tool for conducting scientific experiments is a potential competitor to AI-assisted research discovery tools like LeapSpace",
-    "summary": "Anthropic launches an AI tool capable of conducting scientific experiments autonomously. The tool can interact with laboratory equipment to perform and manage experimental workflows independently."
+    "summary": "Anthropic launches an AI tool capable of conducting scientific experiments autonomously. The tool can interact with laboratory equipment to perform and manage experimental workflows independently.",
+    "bottomLine": "Anthropic's new AI can autonomously design and conduct scientific experiments, raising the stakes for research discovery tools and potentially disrupting how scientists find, validate, and build on existing work.",
+    "keyFindings": [
+      "Anthropic has developed an AI system capable of designing experiments, executing them, and interpreting results with minimal human intervention.",
+      "The tool represents a shift from AI as a search/analysis aid to AI as an active research conductor, automating hypothesis generation and testing.",
+      "This capability could accelerate scientific discovery but also increases demand for trustworthy, citable literature databases to validate AI-generated claims.",
+      "Integration with platforms like Scopus and ScienceDirect becomes critical for AI systems to access peer-reviewed evidence and avoid hallucination.",
+      "Competitors offering AI-native research workflows (Elicit, scite, Consensus) may gain traction unless Elsevier accelerates LeapSpace features."
+    ],
+    "whyItMatters": "Danish research institutes and universities need platforms that help AI systems and researchers validate experimental designs against existing literature. Elsevier's Scopus and ScienceDirect are essential infrastructure; LeapSpace's claim-checking and deep research reports directly counter the risk of unchecked AI-generated science.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Anthropic",
+      "Financial Times",
+      "Elsevier",
+      "Scopus",
+      "ScienceDirect",
+      "LeapSpace"
+    ],
+    "actionItems": [
+      "Pitch LeapSpace's claim-checking and deep research report features as essential guardrails for AI-assisted experiment design and validation.",
+      "Highlight Scopus coverage and ScienceDirect integration as the trusted evidence layer AI tools need to design rigorous, literature-grounded experiments.",
+      "Conduct a workshop at Danish institutions on 'AI-driven research + evidence validation' to position Elsevier as the credibility partner."
+    ],
+    "sourceType": "secondary"
   }
 ]
