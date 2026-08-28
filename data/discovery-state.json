@@ -65,9 +65,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "ku_page": 10,
+    "ku_page": 11,
     "au_oa_id": "https://openalex.org/I204337017",
     "au": [
       "p1",
@@ -78,9 +79,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "au_page": 10,
+    "au_page": 11,
     "dtu_oa_id": "https://openalex.org/I96673099",
     "dtu": [
       "p1",
@@ -91,9 +93,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "dtu_page": 10,
+    "dtu_page": 11,
     "sdu_oa_id": "https://openalex.org/I177969490",
     "sdu": [
       "p1",
@@ -117,9 +120,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "aau_page": 10,
+    "aau_page": 11,
     "cbs_oa_id": "https://openalex.org/I180519160",
     "cbs": [
       "p1",
@@ -130,9 +134,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "cbs_page": 10,
+    "cbs_page": 11,
     "ruc_oa_id": "https://openalex.org/I107707843",
     "ruc": [
       "p1",
@@ -143,9 +148,10 @@
       "p6",
       "p7",
       "p8",
-      "p9"
+      "p9",
+      "p10"
     ],
-    "ruc_page": 10,
+    "ruc_page": 11,
     "auh_oa_id": "https://openalex.org/I2802335433",
     "auh": [
       "p1"
@@ -176,11 +182,16 @@
     "vive": [
       "p1"
     ],
-    "vive_page": 2
+    "vive_page": 2,
+    "itu_oa_id": "https://openalex.org/I83467386",
+    "itu": [
+      "p1"
+    ],
+    "itu_page": 2
   },
-  "lastRun": "2026-08-27T18:24:09.531Z",
+  "lastRun": "2026-08-28T18:32:31.674Z",
   "lastTypes": [
     "university"
   ],
-  "lastAddedCount": 21
+  "lastAddedCount": 20
 }
