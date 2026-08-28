@@ -104,7 +104,7 @@ async function resolveInstitution(inst, overrides) {
   const q = encodeURIComponent(inst.name);
   const search = await apiGet(`https://api.openalex.org/institutions?search=${q}&filter=country_code:DK&per_page=10&mailto=${MAILTO}`);
   const results = search.results || [];
-  if (!results.length) return { notFound: true, reason: 'No OpenAlex institution matched this name in the Denmark' };
+  if (!results.length) return { notFound: true, reason: 'No OpenAlex institution matched this name in Denmark' };
 
   // Prefer an exact (case-insensitive) display_name match, then an alternative-name
   // match, then the highest works_count result as a last resort.
