@@ -1,0 +1,14 @@
+{
+  "_comment": "Staff/contact directory pages used by scripts/discover-staff.js to find decision-makers (library, research-support and collection leads) that OpenAlex never returns. Each URL was manually verified to load and to list named staff with job titles. Add entries as new directories are confirmed; run with --verbose to see everything a candidate page exposes before adding it. A URL that stops resolving is reported by the scan and skipped, never fatal.",
+  "region": "denmark",
+  "sources": [
+    {
+      "instId": "ku",
+      "instName": "University of Copenhagen",
+      "emailDomain": "ku.dk",
+      "urls": [
+        "https://kub.ku.dk/english/researchsupport/about-research-support/employees/"
+      ]
+    }
+  ]
+}
