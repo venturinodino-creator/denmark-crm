@@ -1,0 +1,317 @@
+[
+ {
+  "id": "aau",
+  "name": "Aalborg University",
+  "short": "AAU",
+  "type": "university",
+  "city": "Aalborg"
+ },
+ {
+  "id": "aalborguh",
+  "name": "Aalborg University Hospital",
+  "short": "AaUH",
+  "type": "medical",
+  "city": "Aalborg"
+ },
+ {
+  "id": "aias",
+  "name": "Aarhus Institute of Advanced Studies",
+  "short": "AIAS",
+  "type": "research",
+  "city": "Aarhus"
+ },
+ {
+  "id": "au",
+  "name": "Aarhus University",
+  "short": "AU",
+  "type": "university",
+  "city": "Aarhus"
+ },
+ {
+  "id": "auh",
+  "name": "Aarhus University Hospital",
+  "short": "AUH",
+  "type": "medical",
+  "city": "Aarhus"
+ },
+ {
+  "id": "alexandra",
+  "name": "Alexandra Institute",
+  "short": "Alexandra",
+  "type": "research",
+  "city": "Aarhus"
+ },
+ {
+  "id": "bii",
+  "name": "BioInnovation Institute",
+  "short": "BII",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "carlsbergfoundation",
+  "name": "Carlsberg Foundation",
+  "short": "Carlsbergfondet",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "cbs",
+  "name": "Copenhagen Business School",
+  "short": "CBS",
+  "type": "university",
+  "city": "Frederiksberg"
+ },
+ {
+  "id": "amagerhvidovre",
+  "name": "Copenhagen University Hospital – Amager and Hvidovre",
+  "short": "Amager-Hvidovre",
+  "type": "medical",
+  "city": "Hvidovre"
+ },
+ {
+  "id": "bispebjergfrederiksberg",
+  "name": "Copenhagen University Hospital – Bispebjerg and Frederiksberg",
+  "short": "Bispebjerg-Frederiksberg",
+  "type": "medical",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "herlevgentofte",
+  "name": "Copenhagen University Hospital – Herlev and Gentofte",
+  "short": "Herlev-Gentofte",
+  "type": "medical",
+  "city": "Herlev"
+ },
+ {
+  "id": "danishcancersociety",
+  "name": "Danish Cancer Society",
+  "short": "Kræftens Bekæmpelse",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dias",
+  "name": "Danish Institute for Advanced Study",
+  "short": "D-IAS",
+  "type": "research",
+  "city": "Odense"
+ },
+ {
+  "id": "diis",
+  "name": "Danish Institute for International Studies",
+  "short": "DIIS",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dmi",
+  "name": "Danish Meteorological Institute",
+  "short": "DMI",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dnrf",
+  "name": "Danish National Research Foundation",
+  "short": "DNRF",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dti",
+  "name": "Danish Technological Institute",
+  "short": "DTI",
+  "type": "research",
+  "city": "Taastrup"
+ },
+ {
+  "id": "dtuspace",
+  "name": "DTU Space – National Space Institute",
+  "short": "DTU Space",
+  "type": "research",
+  "city": "Kongens Lyngby"
+ },
+ {
+  "id": "geus",
+  "name": "Geological Survey of Denmark and Greenland",
+  "short": "GEUS",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "inano",
+  "name": "Interdisciplinary Nanoscience Center",
+  "short": "iNANO",
+  "type": "research",
+  "city": "Aarhus"
+ },
+ {
+  "id": "itu",
+  "name": "IT University of Copenhagen",
+  "short": "ITU",
+  "type": "university",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "lundbeckfoundation",
+  "name": "Lundbeck Foundation",
+  "short": "Lundbeckfonden",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "niph",
+  "name": "National Institute of Public Health",
+  "short": "SIF",
+  "type": "research",
+  "city": "Odense"
+ },
+ {
+  "id": "nbi",
+  "name": "Niels Bohr Institute",
+  "short": "NBI",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "novonordiskfoundation",
+  "name": "Novo Nordisk Foundation",
+  "short": "Novo Nordisk Fonden",
+  "type": "ngo",
+  "city": "Hellerup"
+ },
+ {
+  "id": "cbmr",
+  "name": "Novo Nordisk Foundation Center for Basic Metabolic Research",
+  "short": "CBMR",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "biosustain",
+  "name": "Novo Nordisk Foundation Center for Biosustainability",
+  "short": "DTU Biosustain",
+  "type": "research",
+  "city": "Kongens Lyngby"
+ },
+ {
+  "id": "cpr",
+  "name": "Novo Nordisk Foundation Center for Protein Research",
+  "short": "CPR",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "renew",
+  "name": "Novo Nordisk Foundation Center for Stem Cell Medicine (reNEW)",
+  "short": "reNEW",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "ouh",
+  "name": "Odense University Hospital",
+  "short": "OUH",
+  "type": "medical",
+  "city": "Odense"
+ },
+ {
+  "id": "pioneerai",
+  "name": "Pioneer Centre for Artificial Intelligence",
+  "short": "P1",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "rigshospitalet",
+  "name": "Rigshospitalet (Copenhagen University Hospital)",
+  "short": "Rigshospitalet",
+  "type": "medical",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "rockwoolresearch",
+  "name": "Rockwool Foundation Research Unit",
+  "short": "RFF Research Unit",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "ruc",
+  "name": "Roskilde University",
+  "short": "RUC",
+  "type": "university",
+  "city": "Roskilde"
+ },
+ {
+  "id": "royalacademy",
+  "name": "Royal Danish Academy of Sciences and Letters",
+  "short": "RDAS",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "ssi",
+  "name": "Statens Serum Institut",
+  "short": "SSI",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "stenoaarhus",
+  "name": "Steno Diabetes Center Aarhus",
+  "short": "SDCA",
+  "type": "medical",
+  "city": "Aarhus"
+ },
+ {
+  "id": "stenocph",
+  "name": "Steno Diabetes Center Copenhagen",
+  "short": "SDCC",
+  "type": "medical",
+  "city": "Herlev"
+ },
+ {
+  "id": "dtu",
+  "name": "Technical University of Denmark",
+  "short": "DTU",
+  "type": "university",
+  "city": "Kongens Lyngby"
+ },
+ {
+  "id": "ku",
+  "name": "University of Copenhagen",
+  "short": "UCPH",
+  "type": "university",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "sdu",
+  "name": "University of Southern Denmark",
+  "short": "SDU",
+  "type": "university",
+  "city": "Odense"
+ },
+ {
+  "id": "villumfoundation",
+  "name": "Villum Foundation",
+  "short": "Villum Fonden",
+  "type": "ngo",
+  "city": "Søborg"
+ },
+ {
+  "id": "vive",
+  "name": "VIVE – The Danish Center for Social Science Research",
+  "short": "VIVE",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "zealanduh",
+  "name": "Zealand University Hospital",
+  "short": "SUH",
+  "type": "medical",
+  "city": "Køge"
+ }
+]
