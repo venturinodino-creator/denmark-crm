@@ -1,5 +1,48 @@
 [
   {
+    "id": "news-qlrw8i",
+    "title": "Anthropic's latest AI push puts agents in charge of physical machines - Storyboard18",
+    "description": "Anthropic's latest AI push puts agents in charge of physical machines&nbsp;&nbsp;Storyboard18",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc2JwbXNkbzZMbkNXd1RLbTd1emIyY3ZXYkNRY1RYelFlVW44cEp6Q1Zjd2N0LUJuU2dRMDB0R24xRjNBRFdtNUhGSG1fXzVBMlVIcDNRRXExdDJwd3VMS010XzZzaUgwUEpWb0d0d09CQkk0alRIMkVYYTE1YkNRS2dKOTk3Zk5hSzkzRGxYUE1CMnNVU05NUE80NnQtSWZrZHBwN1R5bVhPNm9jTUNQU0lFemVLZEhIS0hWbmRDTVlFZ9IBxwFBVV95cUxOaWpXWi1LemZER3NiQUk0S2VXU1hYOW5SUjZzRGtFSWxLRnNJUzR0Qld6aEt6UTRYUVdReDR6NGdTRVVwYk5wSC1DOTNud0tFS2R4Skx3dHVnYi1xOEFySmZjdzZsTHFzeENKWW52QkhYNG9DaHlwM1ZtQWRuaWUtVjA4RVk5N0hRcDNLQU1vUV9",
+    "sourceName": "Storyboard18",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-28",
+    "autoDiscovered": true,
+    "elsevierRelevance": "Anthropic physical AI agents for lab control represent competitive expansion into research workflow automation",
+    "summary": "Anthropic advances AI agents' physical capabilities through a new initiative putting them in charge of controlling machines. This represents expansion of AI beyond software-only applications.",
+    "bottomLine": "Anthropic enables AI agents to control physical machines, bridging computational research and hands-on laboratory automation.",
+    "keyFindings": [
+      "Anthropic's latest AI push puts agents in control of physical machines, not just software tasks.",
+      "Targets integration with laboratory equipment and industrial machinery for autonomous operation.",
+      "Positions Claude as a multi-modal agent capable of both reasoning and physical action in research environments.",
+      "Part of broader strategy to expand AI's role in scientific workflows beyond data analysis.",
+      "Could reshape how researchers design, execute, and iterate on experiments through AI intermediation."
+    ],
+    "whyItMatters": "Danish research institutions subscribing to ScienceDirect and Scopus now need a partner that bridges literature-based discovery and experimental execution. Elsevier's LeapSpace can differentiate by offering guided workflows from paper insights to AI-driven lab protocols, capturing institutional R&D spend.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 3,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude",
+      "AI agents",
+      "laboratory equipment",
+      "physical machines"
+    ],
+    "actionItems": [
+      "Clarify whether LeapSpace's 'research reports' feature should include automated experimental design recommendations tied to hardware capabilities.",
+      "Survey Danish institution IT and research leadership on appetite for integrating AI-controlled instruments into their ScienceDirect/Scopus workflows.",
+      "Develop proof-of-concept showing LeapSpace guiding a researcher from literature review to AI-executable lab protocol."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-nw8qg0",
     "title": "Anthropic brings AI agents to physical machines with new hardware standard - Firstpost",
     "description": "Anthropic brings AI agents to physical machines with new hardware standard&nbsp;&nbsp;Firstpost",
@@ -43,47 +86,30 @@
     "sourceType": "secondary"
   },
   {
-    "id": "news-qlrw8i",
-    "title": "Anthropic's latest AI push puts agents in charge of physical machines - Storyboard18",
-    "description": "Anthropic's latest AI push puts agents in charge of physical machines&nbsp;&nbsp;Storyboard18",
+    "id": "news-3ir2yb",
+    "title": "Anthropic Unveils Hardware Standard To Help AI Agents Control Machines As It Pushes Into Physical World - Tekedia",
+    "description": "Anthropic Unveils Hardware Standard To Help AI Agents Control Machines As It Pushes Into Physical World&nbsp;&nbsp;Tekedia",
     "institution": "Anthropic",
     "category": "competitor_announcements",
     "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOc2JwbXNkbzZMbkNXd1RLbTd1emIyY3ZXYkNRY1RYelFlVW44cEp6Q1Zjd2N0LUJuU2dRMDB0R24xRjNBRFdtNUhGSG1fXzVBMlVIcDNRRXExdDJwd3VMS010XzZzaUgwUEpWb0d0d09CQkk0alRIMkVYYTE1YkNRS2dKOTk3Zk5hSzkzRGxYUE1CMnNVU05NUE80NnQtSWZrZHBwN1R5bVhPNm9jTUNQU0lFemVLZEhIS0hWbmRDTVlFZ9IBxwFBVV95cUxOaWpXWi1LemZER3NiQUk0S2VXU1hYOW5SUjZzRGtFSWxLRnNJUzR0Qld6aEt6UTRYUVdReDR6NGdTRVVwYk5wSC1DOTNud0tFS2R4Skx3dHVnYi1xOEFySmZjdzZsTHFzeENKWW52QkhYNG9DaHlwM1ZtQWRuaWUtVjA4RVk5N0hRcDNLQU1vUV9",
-    "sourceName": "Storyboard18",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd1BRZzZmTEEtZXFWTklaU0JSTDAtU2xPTm92eVdsblRhcURsYjFLcUJneDdfV0Z4eVE2RGpfU3ZpQko1SVV2Uk40OGRfTU9PMnEwdUNHQXBnOTBlZ29WZF81TG9RelpHc1pkQjFfOVIxM3QtdVp6enBNNjdXcHBHZEdqUkY3b2NJekk3UGRaZEhpbXg1ZHE3bmZHZkFmNFlncERHQ1pscUJIV29GdHdZVTduSXF0WWtadThwdk8yVHUtZmZuM1lB?oc=5",
+    "sourceName": "Tekedia",
     "publishedDate": "2026-08-28",
-    "foundDate": "2026-08-28",
-    "autoDiscovered": true,
-    "elsevierRelevance": "Anthropic physical AI agents for lab control represent competitive expansion into research workflow automation",
-    "summary": "Anthropic advances AI agents' physical capabilities through a new initiative putting them in charge of controlling machines. This represents expansion of AI beyond software-only applications.",
-    "bottomLine": "Anthropic enables AI agents to control physical machines, bridging computational research and hands-on laboratory automation.",
-    "keyFindings": [
-      "Anthropic's latest AI push puts agents in control of physical machines, not just software tasks.",
-      "Targets integration with laboratory equipment and industrial machinery for autonomous operation.",
-      "Positions Claude as a multi-modal agent capable of both reasoning and physical action in research environments.",
-      "Part of broader strategy to expand AI's role in scientific workflows beyond data analysis.",
-      "Could reshape how researchers design, execute, and iterate on experiments through AI intermediation."
-    ],
-    "whyItMatters": "Danish research institutions subscribing to ScienceDirect and Scopus now need a partner that bridges literature-based discovery and experimental execution. Elsevier's LeapSpace can differentiate by offering guided workflows from paper insights to AI-driven lab protocols, capturing institutional R&D spend.",
-    "impact": {
-      "novelty": 4,
-      "commercial": 3,
-      "threat": 3,
-      "urgency": 3
-    },
-    "entities": [
-      "Anthropic",
-      "Claude",
-      "AI agents",
-      "laboratory equipment",
-      "physical machines"
-    ],
-    "actionItems": [
-      "Clarify whether LeapSpace's 'research reports' feature should include automated experimental design recommendations tied to hardware capabilities.",
-      "Survey Danish institution IT and research leadership on appetite for integrating AI-controlled instruments into their ScienceDirect/Scopus workflows.",
-      "Develop proof-of-concept showing LeapSpace guiding a researcher from literature review to AI-executable lab protocol."
-    ],
-    "sourceType": "secondary"
+    "foundDate": "2026-08-29",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-mghhrm",
+    "title": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices - ET Manufacturing",
+    "description": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices&nbsp;&nbsp;ET Manufacturing",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVDlZRlh4cG5LdS13QVlSYUxsVHBtRUF5UjJDQzAzMnVUNW1qcFlucHRzMzBtMjRnN09URHZiLWZTbHlpZlZFT0NjME9rZWFRaGxNRVMtNmtBMGxoY3hyUGhRcTR1VDhRNnd4MHk5MkNFM2pvTUJCeGc4WmY1bG9RSHVncVJ5RUd2WHFPb1lMNDZfNWhxZGZpOFJpQlpTcnFaU2VWbkEtb3luODZVMVd2dXhVbGtvUDR4b1pOT2VaMFcySDlJd09rZzZkMVlKbWlwS3ROanZNTkZjc1lvTXREWHRzd3V2YTRQSzBZODNBdGNIR1lf0gH6AUFVX3lxTE9tSDNkODZTYy05dVppemgyTnprRUxCdTRmMUljMlZmUW1IYXRVVm5jdi1TZkNBYUg5SXl4RldNRVFCcV9OSlpYZUxueW9rM3hPeDQ3UkQ4ckRqdnJHaXZ",
+    "sourceName": "ET Manufacturing",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-29",
+    "autoDiscovered": true
   },
   {
     "id": "news-la8c6j",
@@ -139,7 +165,35 @@
     "sourceName": "HPCwire",
     "publishedDate": "2026-08-27",
     "foundDate": "2026-08-28",
-    "autoDiscovered": true
+    "autoDiscovered": true,
+    "bottomLine": "Salesforce and Anthropic embed Claude AI into enterprise software, positioning generalist LLMs as embedded research and workflow tools that could displace specialized research platforms.",
+    "keyFindings": [
+      "Salesforce integrating Anthropic's Claude into Salesforce products, enabling enterprise-wide generalist AI assistance across CRM, analytics, and workflow automation.",
+      "Claudeforce positions Claude as an embedded enterprise co-pilot, competing with specialized vertical solutions including research and discovery tools.",
+      "Partnership signals major cloud vendors and AI labs moving toward embedding large foundation models into business software rather than standalone applications.",
+      "Generalist LLMs now positioned to handle document analysis, literature summarization, and research query support—core Elsevier/Scopus/LeapSpace use cases.",
+      "Enterprise adoption pathway favors integrated suites; institutions may consolidate tools around existing Salesforce/Microsoft/Google relationships rather than best-of-breed."
+    ],
+    "whyItMatters": "Danish universities and research institutes relying on Salesforce for admin/CRM workflows may now expect embedded AI research assistance, increasing pressure on Elsevier to prove ScienceDirect/LeapSpace differentiation over generic Claude-powered literature search and summarization.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Salesforce",
+      "Anthropic",
+      "Claude",
+      "Claudeforce",
+      "HPCwire"
+    ],
+    "actionItems": [
+      "Map which Danish institutions use Salesforce; assess whether they are testing Claude for research workflows and what gaps remain vs. Scopus/LeapSpace.",
+      "Develop competitive positioning brief: why structured scholarly metadata, peer-review provenance, and Scopus indexing outperform generic LLM summaries for research decisions.",
+      "Explore partnership or API integration with Salesforce/Anthropic to embed Scopus/LeapSpace into enterprise dashboards, or co-market differentiated 'research-grade' AI layer."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-yjsa75",
