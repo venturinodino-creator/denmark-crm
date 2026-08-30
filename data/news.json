@@ -9,7 +9,7 @@
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0JxcTVjQzhTWENaZy1sa0tKNEFmbk53cGlaTnRteFNsYWJYNXZzSDBsbFJXYVpsZDAxcmRkYmhCSXY1UklHdjM2eWF3Ulh6dFZNOVJjMHFPbWdHaldpeFkwaWVBQTVLVVdSSjh5bEl3TXhTdE1DRk9xdXN2QjQ0Ykc5amtwcVZ2N3ZXY1lETHdrZEFIRy15NlpIN1VwNU5zM3h1Z0l6NVZ2cVJKV1RTRtIBtgFBVV95cUxQV0UtTFNKTnFUeUpSbXdFQjUzRFV5UXd5czFmZnhTbktoRGhlZmNSQmdPOG1QQzRvSk93RjkyTm1sQWo1R3lfaEs5ZHpiTFA5TUE0dDBOYmtHT1JPMUpfRkJITTRUejhuenRKb1ctUkdvZWJ5Qm1PX0VJS0l4bjI4TGxOUk85bXI4NlNnbk5HdF8yRnBZTnFGY0RxX3RVVmJlWkk",
     "sourceName": "CNBC TV18",
     "publishedDate": "2026-08-27",
-    "foundDate": "2026-08-29",
+    "foundDate": "2026-08-30",
     "autoDiscovered": true
   },
   {
@@ -99,6 +99,58 @@
     "sourceType": "secondary"
   },
   {
+    "id": "news-j5dtxb",
+    "title": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices - ET Enterprise AI",
+    "description": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices&nbsp;&nbsp;ET Enterprise AI",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOVWJzNm1MaUpvb0wzSC1KWmJ2US1aUXJmQmhJTEd3YUhZWHAwbWJyMXdQbGJyc2EyM3pyNzFjMVEtMW94a21Id3dISVZ4QWVfVDhFd1ZDUi1mZW5wdnhVa2FISEVTcTFia2k2eFBrNkFSOXBBU054M2tzRi0tTldra3lCSnBLRmc4TWxhSDZKMTNIcjZ2YkI3LUVjeVFsdTZaUjF3Uzh6anR6RGtDOE9tM0YzR01TQ2Nfam9RS2RNUUYtQURkMU5nWXVpMXl4bXhKcFdJSTByb0JYWHpVdVJEM2ViT0NmMnlKc3MySUhYRjd6ZVVuVndDb9IB-AFBVV95cUxOVWJzNm1MaUpvb0wzSC1KWmJ2US1aUXJmQmhJTEd3YUhZWHAwbWJyMXdQbGJyc2EyM3pyNzFjMVEtMW94a21Id3dISVZ4QWVfVDhFd1ZDUi1mZW5",
+    "sourceName": "ET Enterprise AI",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-172kvw",
+    "title": "Who’s suing AI and who’s signing latest: Editorial Perfil sues OpenAI, News Corp vs Brave - Press Gazette",
+    "description": "Who’s suing AI and who’s signing latest: Editorial Perfil sues OpenAI, News Corp vs Brave&nbsp;&nbsp;Press Gazette",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5",
+    "sourceName": "Press Gazette",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-c98c8m",
+    "title": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - HPCwire",
+    "description": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI&nbsp;&nbsp;HPCwire",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUZURmh6ZjdQc3BJUi16MDdZRFVQdEp4dV94RGd1VTJyb05KaGdMVWllQl81WjdQQllPVU9KTUtKb0VncTFITlFwWUpyaVkxaXB5Z1Q3TWdzcHBuRlJGTF9ZWFZjT1RnODB5bXBuZnZSZV9jYk9QTWw4RVBEOVg5OWY4RkpFZDFhTndQMWZjbzJFZUlnN2d2UTI1MlJfZlFWcDZ0NXVxUWYxQ2dMYkJ0SzY2Ym94OVh6aXVkbl9iN3JKMGNMODg1Z2tB?oc=5",
+    "sourceName": "HPCwire",
+    "publishedDate": "2026-08-24",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-wfprou",
+    "title": "Google Cloud launches AI tools for legal and financial workflows - The News International",
+    "description": "Google Cloud launches AI tools for legal and financial workflows&nbsp;&nbsp;The News International",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVRqQlR1TGY0d3c3WWxNaG96VWlnbkFuRGs5WWhhSGJaSk1ia2NpQzJiRndBa2JsamtpampIeEI5cC1uVEw0Y205X2hZQTh0VzlIa3RXNjhEUWNPQXZFWnBwbTV0dmgyT3h6ME12Zzh2UzA1N0RkNzQ0dnhQZldoVVBpUGJUZ0QwQV93VFZ4S0hYNWx6Tng5UzlzVU1RZ0x3MU1HMFpWVEhkZ9IBpgFBVV95cUxPc3VFQnRSMTVQbk0zckpEYVVtcGRYTFBKRTN3eTFlajZXQnVySFoxM3BBM1ZJc29EaVNfVzB2LVZ5Yl9QUDRCdm9WbldlUWtENVNCVEFkdHVXLWhaSXFibWFKR1pjdjlEU1pvUGU2QXZSclVGeGJINy1zQ1V5VC11TFRadFVWcHRBQkw2Q2VqSHB6blNwQUFyLWp0MjdzLUpndVBvd3Jn?oc",
+    "sourceName": "The News International",
+    "publishedDate": "2026-08-25",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-mghhrm",
     "title": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices - ET Manufacturing",
     "description": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices&nbsp;&nbsp;ET Manufacturing",
@@ -134,19 +186,6 @@
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzhuamFTZjVnN01CdUJPVmZBMDl6bm8zX0Y1QnYtRHFYdExwakxrZdIBvAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzh",
     "sourceName": "Bhaskar English",
     "publishedDate": "2026-08-26",
-    "foundDate": "2026-08-29",
-    "autoDiscovered": true
-  },
-  {
-    "id": "news-wfprou",
-    "title": "Google Cloud launches AI tools for legal and financial workflows - The News International",
-    "description": "Google Cloud launches AI tools for legal and financial workflows&nbsp;&nbsp;The News International",
-    "institution": "Google",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVRqQlR1TGY0d3c3WWxNaG96VWlnbkFuRGs5WWhhSGJaSk1ia2NpQzJiRndBa2JsamtpampIeEI5cC1uVEw0Y205X2hZQTh0VzlIa3RXNjhEUWNPQXZFWnBwbTV0dmgyT3h6ME12Zzh2UzA1N0RkNzQ0dnhQZldoVVBpUGJUZ0QwQV93VFZ4S0hYNWx6Tng5UzlzVU1RZ0x3MU1HMFpWVEhkZ9IBpgFBVV95cUxPc3VFQnRSMTVQbk0zckpEYVVtcGRYTFBKRTN3eTFlajZXQnVySFoxM3BBM1ZJc29EaVNfVzB2LVZ5Yl9QUDRCdm9WbldlUWtENVNCVEFkdHVXLWhaSXFibWFKR1pjdjlEU1pvUGU2QXZSclVGeGJINy1zQ1V5VC11TFRadFVWcHRBQkw2Q2VqSHB6blNwQUFyLWp0MjdzLUpndVBvd3Jn?oc",
-    "sourceName": "The News International",
-    "publishedDate": "2026-08-25",
     "foundDate": "2026-08-29",
     "autoDiscovered": true
   },
