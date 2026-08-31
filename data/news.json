@@ -9,7 +9,20 @@
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0JxcTVjQzhTWENaZy1sa0tKNEFmbk53cGlaTnRteFNsYWJYNXZzSDBsbFJXYVpsZDAxcmRkYmhCSXY1UklHdjM2eWF3Ulh6dFZNOVJjMHFPbWdHaldpeFkwaWVBQTVLVVdSSjh5bEl3TXhTdE1DRk9xdXN2QjQ0Ykc5amtwcVZ2N3ZXY1lETHdrZEFIRy15NlpIN1VwNU5zM3h1Z0l6NVZ2cVJKV1RTRtIBtgFBVV95cUxQV0UtTFNKTnFUeUpSbXdFQjUzRFV5UXd5czFmZnhTbktoRGhlZmNSQmdPOG1QQzRvSk93RjkyTm1sQWo1R3lfaEs5ZHpiTFA5TUE0dDBOYmtHT1JPMUpfRkJITTRUejhuenRKb1ctUkdvZWJ5Qm1PX0VJS0l4bjI4TGxOUk85bXI4NlNnbk5HdF8yRnBZTnFGY0RxX3RVVmJlWkk",
     "sourceName": "CNBC TV18",
     "publishedDate": "2026-08-27",
-    "foundDate": "2026-08-30",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-qdfghy",
+    "title": "Anthropic announces new \"Model Hardware Standard\" for AI agents; plans open-source release with safety guidance - ANI News",
+    "description": "Anthropic announces new \"Model Hardware Standard\" for AI agents; plans open-source release with safety guidance&nbsp;&nbsp;ANI News",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOcVJQZWlnS3ZURy15LXUyejRQRFpia1V5Vk1lWl9JZ2NmczBFTUM0RmdSNnA4S3hhS0N6dXBGaG1NT1Joa1JIS0M5OFhPWTRIbGpkTWNwM3FLVnU1MURHR0lXTDBVSDF5NHF1Sm1oSEMxU3EtRldXal9tV1RZSF90NG1HcW1RQ3RYLU83bG9xR29jcXJMUkUzZFd5UFhDOWFBRUlXNU9FdmFUUHp1UGdMU0xTVDVMcmgwZW9FRlA1TXRZdks3VkdBTnQ0TnhrV1pTUG5QLTZKODlGVHp0dE13Ymd3eDF0dXo5cDJJa3FZNzM?oc=5",
+    "sourceName": "ANI News",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-31",
     "autoDiscovered": true
   },
   {
@@ -56,6 +69,19 @@
     "sourceType": "secondary"
   },
   {
+    "id": "news-wu1flq",
+    "title": "Anthropic Launches New Standard to Link AI to Scientific, Industrial Equipment - Qatar news agency",
+    "description": "Anthropic Launches New Standard to Link AI to Scientific, Industrial Equipment&nbsp;&nbsp;Qatar news agency",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWEwweWY5YUE1TmxJbzlVVmdKZzM0ck16LW9nYmhSSzNtckJmd1NYQmZvTGtGR3dad19vbVI4ZGdJNnJtWGlSSmFrNVUxYmtZckVaQlVJTTktUmtMSkRlZHBMR2M5M21wT3VqVDJYRmxRcm5uVmtweUZuWndhSWNJdURfYldlU21NWEE2cjNLSk9yNVZtX1NYN0RacElNYURDY19FS3cwVGFKWnRjV3BWdV80QmpHdV9jT1UwTXpSazVHQQ?oc=5",
+    "sourceName": "Qatar news agency",
+    "publishedDate": "2026-08-28",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-nw8qg0",
     "title": "Anthropic brings AI agents to physical machines with new hardware standard - Firstpost",
     "description": "Anthropic brings AI agents to physical machines with new hardware standard Firstpost",
@@ -99,6 +125,45 @@
     "sourceType": "secondary"
   },
   {
+    "id": "news-ihgyee",
+    "title": "Anthropic unveils standard linking AI agents to physical devices - irishsun.com",
+    "description": "Anthropic unveils standard linking AI agents to physical devices&nbsp;&nbsp;irishsun.com",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekEzVUQ5b1FWODI3OWUtSDRlZE54OEhhQnhjSjN5QV9EUTNqcXZuY3VybU95THhBNUFOWUtyUDlZaEFia0pPcUhWWnU3d00zOTdkdEkxZDdiY2Z5V0tQNXpPNlkwejNyLWtrNXB3MHBpYXUtSHlHbEdzUWNDOVJwWEVJZE1qaWFaYmt6Y1dJTkV1a3NFUXhTZDBZd1R3aGswMlBNOXZvMA?oc=5",
+    "sourceName": "irishsun.com",
+    "publishedDate": "2026-08-29",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-r857n0",
+    "title": "Anthropic unveils new framework allowing AI agents to operate physical devices - WTVB",
+    "description": "Anthropic unveils new framework allowing AI agents to operate physical devices&nbsp;&nbsp;WTVB",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdFkxelFITThmVXRpR3JaNWFncUEzcHM4SFFmUmhHT1BBdHM4QUdLcGVUVGtiR3NVU1RKbnhFOHdIY0ptVm1TU3M0WHAxLV9QQVRJOWlNUWZKakl2amxxYnlYRHk0bFhMOVVIWFBfWjZnQjhHa0RsNXBKVmlHWXNUSE1BMkI1cUpXMHdWLWdxcE1CQVp3ZlBpUzRGNjBFb3lkOHdPZWJCUzlLRGloZUE?oc=5",
+    "sourceName": "WTVB",
+    "publishedDate": "2026-08-27",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-pn76q0",
+    "title": "New APIs Extend Wiley's Gold-Standard Spectral Data and Analytical Intelligence Directly Into Lab, Vendor, and Platform Workflows - AZoM",
+    "description": "New APIs Extend Wiley's Gold-Standard Spectral Data and Analytical Intelligence Directly Into Lab, Vendor, and Platform Workflows&nbsp;&nbsp;AZoM",
+    "institution": "Wiley",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NUFlzQnM0akhJekF3T3JJeC1OU3BCXy02Q1Q1eG1SNWZDZ2NaUHV4U0VzTDZ1bEhGYWI2ano5QkJNeEx5YmhCUnNIMUNpRE9pTTVyZlV3?oc=5",
+    "sourceName": "AZoM",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-j5dtxb",
     "title": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices - ET Enterprise AI",
     "description": "Anthropic unveils Model Hardware Standard to link AI agents with lab, industrial devices&nbsp;&nbsp;ET Enterprise AI",
@@ -121,19 +186,6 @@
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5",
     "sourceName": "Press Gazette",
     "publishedDate": "2026-08-26",
-    "foundDate": "2026-08-30",
-    "autoDiscovered": true
-  },
-  {
-    "id": "news-c98c8m",
-    "title": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - HPCwire",
-    "description": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI&nbsp;&nbsp;HPCwire",
-    "institution": "Google",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTUZURmh6ZjdQc3BJUi16MDdZRFVQdEp4dV94RGd1VTJyb05KaGdMVWllQl81WjdQQllPVU9KTUtKb0VncTFITlFwWUpyaVkxaXB5Z1Q3TWdzcHBuRlJGTF9ZWFZjT1RnODB5bXBuZnZSZV9jYk9QTWw4RVBEOVg5OWY4RkpFZDFhTndQMWZjbzJFZUlnN2d2UTI1MlJfZlFWcDZ0NXVxUWYxQ2dMYkJ0SzY2Ym94OVh6aXVkbl9iN3JKMGNMODg1Z2tB?oc=5",
-    "sourceName": "HPCwire",
-    "publishedDate": "2026-08-24",
     "foundDate": "2026-08-30",
     "autoDiscovered": true
   },
@@ -186,19 +238,6 @@
     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzhuamFTZjVnN01CdUJPVmZBMDl6bm8zX0Y1QnYtRHFYdExwakxrZdIBvAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzh",
     "sourceName": "Bhaskar English",
     "publishedDate": "2026-08-26",
-    "foundDate": "2026-08-29",
-    "autoDiscovered": true
-  },
-  {
-    "id": "news-2il5h",
-    "title": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - HPCwire",
-    "description": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI&nbsp;&nbsp;HPCwire",
-    "institution": "Google",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUhKLTZaVWhaTThQdV9zMGhfN2d2OGwyZWYwVkxIWk9rY1l1LXlJVWsxNzh1bVljSnI0RzhjcXVQeWp6Tkc1T3FUejNVazRvXzIxbzNPSzc1SFI1VjNQbUZkWVBsTE1saVpoMmlJdkEyQ2t5b1VhbEJDd2tOenhTRDZtOWJMVDVvb3R4Tncxd2ptY0hPclFCZTVXREJuRlFYRWl3bDQ3aW96YkUwWDk5MEVpZW0wcUVBYTJMdDBrUTQ?oc=5",
-    "sourceName": "HPCwire",
-    "publishedDate": "2026-08-24",
     "foundDate": "2026-08-29",
     "autoDiscovered": true
   },
