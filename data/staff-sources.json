@@ -7,7 +7,338 @@
       "instName": "University of Copenhagen",
       "emailDomain": "ku.dk",
       "urls": [
-        "https://kub.ku.dk/english/researchsupport/about-research-support/employees/"
+        "https://kub.ku.dk/english/researchsupport/about-research-support/employees/",
+        "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
+        "https://lighthouse.ku.dk/en/meet-the-team/"
+      ]
+    },
+    {
+      "instId": "aau",
+      "instName": "Aalborg University",
+      "emailDomain": "aau.dk",
+      "urls": [
+        "https://www.en.aau.dk/about-aau/organisation/management/executive-directors"
+      ]
+    },
+    {
+      "instId": "au",
+      "instName": "Aarhus University",
+      "emailDomain": "au.dk",
+      "urls": [
+        "https://library.au.dk/en/about/au-library-management",
+        "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/",
+        "https://medarbejdere.au.dk/en/administration/overview-of-au-administration/au-research-support-and-external-relations/"
+      ]
+    },
+    {
+      "instId": "cbs",
+      "instName": "Copenhagen Business School",
+      "emailDomain": "cbs.dk",
+      "urls": [
+        "https://www.cbs.dk/en/library/about-the-library/organisation/director-of-library-and-campus-services",
+        "https://www.cbs.dk/en/about-cbs/organisation/research-and-phd-support-office/staff",
+        "https://www.cbs.dk/en/about-cbs/organisation/senior-management"
+      ]
+    },
+    {
+      "instId": "itu",
+      "instName": "IT University of Copenhagen",
+      "emailDomain": "itu.dk",
+      "urls": [
+        "https://en.itu.dk/About-ITU/Organisation"
+      ]
+    },
+    {
+      "instId": "ruc",
+      "instName": "Roskilde University",
+      "emailDomain": "ruc.dk",
+      "urls": [
+        "https://ruc.dk/en/executive-university-management",
+        "https://ruc.dk/en/ruc-administration-management"
+      ]
+    },
+    {
+      "instId": "dtu",
+      "instName": "Technical University of Denmark",
+      "emailDomain": "dtu.dk",
+      "urls": [
+        "https://www.bibliotek.dtu.dk/en/about-and-contact/about/staff-and-organisation",
+        "https://www.dtu.dk/english/about/organization/supportfunctions/orai",
+        "https://www.dtu.dk/english/about/organization/executive_board"
+      ]
+    },
+    {
+      "instId": "sdu",
+      "instName": "University of Southern Denmark",
+      "emailDomain": "sdu.dk",
+      "urls": [
+        "https://www.sdu.dk/en/bibliotek/om-biblioteket/organisation",
+        "https://www.sdu.dk/en/om-sdu/ledelse-administration/sdurio/kontakt-os",
+        "https://www.sdu.dk/en/om-sdu/ledelse-administration/direktion"
+      ]
+    },
+    {
+      "instId": "aias",
+      "instName": "Aarhus Institute of Advanced Studies",
+      "emailDomain": "aias.au.dk",
+      "urls": [
+        "https://aias.au.dk/about-us/staff"
+      ]
+    },
+    {
+      "instId": "alexandra",
+      "instName": "Alexandra Institute",
+      "emailDomain": "alexandra.dk",
+      "urls": [
+        "https://alexandra.dk/medarbejdere/"
+      ]
+    },
+    {
+      "instId": "bii",
+      "instName": "BioInnovation Institute",
+      "emailDomain": "bii.dk",
+      "urls": [
+        "https://bii.dk/about/employees/"
+      ]
+    },
+    {
+      "instId": "dias",
+      "instName": "Danish Institute for Advanced Study",
+      "emailDomain": "danish-ias.dk",
+      "urls": [
+        "https://www.sdu.dk/en/forskning/dias/people"
+      ]
+    },
+    {
+      "instId": "diis",
+      "instName": "Danish Institute for International Studies",
+      "emailDomain": "diis.dk",
+      "urls": [
+        "https://www.diis.dk/en/about-diis/the-institute/management",
+        "https://www.diis.dk/en/about-diis/the-institute/research-units/global-security-and-worldviews"
+      ]
+    },
+    {
+      "instId": "dmi",
+      "instName": "Danish Meteorological Institute",
+      "emailDomain": "dmi.dk",
+      "urls": [
+        "https://www.dmi.dk/about-dmi/organization"
+      ]
+    },
+    {
+      "instId": "dti",
+      "instName": "Danish Technological Institute",
+      "emailDomain": "dti.dk",
+      "urls": [
+        "https://www.dti.dk/organization"
+      ]
+    },
+    {
+      "instId": "dtuspace",
+      "instName": "DTU Space",
+      "emailDomain": "space.dtu.dk",
+      "urls": [
+        "https://www.space.dtu.dk/english/about-us/management-and-organization"
+      ]
+    },
+    {
+      "instId": "geus",
+      "instName": "Geological Survey of Denmark and Greenland",
+      "emailDomain": "geus.dk",
+      "urls": [
+        "https://eng.geus.dk/about/organisation/management"
+      ]
+    },
+    {
+      "instId": "inano",
+      "instName": "Interdisciplinary Nanoscience Center",
+      "emailDomain": "inano.au.dk",
+      "urls": [
+        "https://inano.au.dk/about/committees/management-team/"
+      ]
+    },
+    {
+      "instId": "niph",
+      "instName": "National Institute of Public Health",
+      "emailDomain": "sdu.dk",
+      "urls": [
+        "https://www.sdu.dk/en/sif/instituttet/ledelse",
+        "https://www.sdu.dk/en/sif/medarbejdere"
+      ]
+    },
+    {
+      "instId": "nbi",
+      "instName": "Niels Bohr Institute",
+      "emailDomain": "nbi.ku.dk",
+      "urls": [
+        "https://nbi.ku.dk/english/about/the-niels-bohr-institute-management/"
+      ]
+    },
+    {
+      "instId": "cbmr",
+      "instName": "Novo Nordisk Foundation Center for Basic Metabolic Research",
+      "emailDomain": "cbmr.ku.dk",
+      "urls": [
+        "https://cbmr.ku.dk/about/governance/"
+      ]
+    },
+    {
+      "instId": "biosustain",
+      "instName": "Novo Nordisk Foundation Center for Biosustainability",
+      "emailDomain": "biosustain.dtu.dk",
+      "urls": [
+        "https://www.biosustain.dtu.dk/about/people"
+      ]
+    },
+    {
+      "instId": "cpr",
+      "instName": "Novo Nordisk Foundation Center for Protein Research",
+      "emailDomain": "cpr.ku.dk",
+      "urls": [
+        "https://www.cpr.ku.dk/about/organization/"
+      ]
+    },
+    {
+      "instId": "renew",
+      "instName": "Novo Nordisk Foundation Center for Stem Cell Medicine (reNEW)",
+      "emailDomain": "renew.ku.dk",
+      "urls": [
+        "https://renew.ku.dk/about/organisation/"
+      ]
+    },
+    {
+      "instId": "pioneerai",
+      "instName": "Pioneer Centre for Artificial Intelligence",
+      "emailDomain": "aicentre.dk",
+      "urls": [
+        "https://www.aicentre.dk/people"
+      ]
+    },
+    {
+      "instId": "rockwoolresearch",
+      "instName": "Rockwool Foundation Research Unit",
+      "emailDomain": "rockwoolfonden.dk",
+      "urls": [
+        "https://en.rockwoolfonden.dk/research/",
+        "https://en.rockwoolfonden.dk/employees/"
+      ]
+    },
+    {
+      "instId": "royalacademy",
+      "instName": "Royal Danish Academy of Sciences and Letters",
+      "emailDomain": "royalacademy.dk",
+      "urls": [
+        "https://royalacademy.dk/presidium/?lang=en",
+        "https://royalacademy.dk/sekretariatet/?lang=en"
+      ]
+    },
+    {
+      "instId": "ssi",
+      "instName": "Statens Serum Institut",
+      "emailDomain": "ssi.dk",
+      "urls": [
+        "https://en.ssi.dk/about-us/organisation"
+      ]
+    },
+    {
+      "instId": "vive",
+      "instName": "VIVE – The Danish Center for Social Science Research",
+      "emailDomain": "vive.dk",
+      "urls": [
+        "https://www.vive.dk/en/about-vive/management-and-organisation/"
+      ]
+    },
+    {
+      "instId": "aalborguh",
+      "instName": "Aalborg University Hospital",
+      "emailDomain": "aalborguh.rn.dk",
+      "urls": [
+        "https://aalborguh.rn.dk/Service/English/About-Aalborg-University-Hospital"
+      ]
+    },
+    {
+      "instId": "auh",
+      "instName": "Aarhus University Hospital",
+      "emailDomain": "auh.dk",
+      "urls": [
+        "http://www.en.auh.dk/About-the-Hospital/executive-management/"
+      ]
+    },
+    {
+      "instId": "ouh",
+      "instName": "Odense University Hospital",
+      "emailDomain": "ouh.dk",
+      "urls": [
+        "https://en.ouh.dk/about-ouh",
+        "https://ouh.dk/ouh-som-arbejdsplads/organisation/direktionen"
+      ]
+    },
+    {
+      "instId": "stenoaarhus",
+      "instName": "Steno Diabetes Center Aarhus",
+      "emailDomain": "stenoaarhus.dk",
+      "urls": [
+        "https://www.stenoaarhus.dk/english/about-steno-diabetes-center-aarhus/",
+        "https://www.stenoaarhus.dk/om-os/bestyrelse/"
+      ]
+    },
+    {
+      "instId": "zealanduh",
+      "instName": "Zealand University Hospital",
+      "emailDomain": "regionsjaelland.dk",
+      "urls": [
+        "https://www.sjaellandsuniversitetshospital.dk/servicemenu/om-os/sygehusledelsen"
+      ]
+    },
+    {
+      "instId": "carlsbergfoundation",
+      "instName": "Carlsberg Foundation",
+      "emailDomain": "carlsbergfondet.dk",
+      "urls": [
+        "https://www.carlsbergfondet.dk/en/about-the-foundation/organisation/board-of-directors/",
+        "https://carlsbergfondet.dk/en/about-the-foundation/organisation/secretariat/"
+      ]
+    },
+    {
+      "instId": "danishcancersociety",
+      "instName": "Danish Cancer Society",
+      "emailDomain": "cancer.dk",
+      "urls": [
+        "https://www.cancer.dk/om-os/kontakt/afdelinger/direktionen/"
+      ]
+    },
+    {
+      "instId": "dnrf",
+      "instName": "Danish National Research Foundation",
+      "emailDomain": "dg.dk",
+      "urls": [
+        "https://dg.dk/en/secretariat/"
+      ]
+    },
+    {
+      "instId": "lundbeckfoundation",
+      "instName": "Lundbeck Foundation",
+      "emailDomain": "lundbeckfonden.com",
+      "urls": [
+        "https://lundbeckfonden.com/about-us/the-organisation/board-of-directors-and-management",
+        "https://lundbeckfonden.com/about-us/who-are-we"
+      ]
+    },
+    {
+      "instId": "novonordiskfoundation",
+      "instName": "Novo Nordisk Foundation",
+      "emailDomain": "novonordiskfonden.dk",
+      "urls": [
+        "https://novonordiskfonden.dk/en/who-we-are/our-management/"
+      ]
+    },
+    {
+      "instId": "villumfoundation",
+      "instName": "Villum Foundation",
+      "emailDomain": "villumfonden.dk",
+      "urls": [
+        "https://villumfonden.dk/en/simpel-side/employees-villum-foundation"
       ]
     }
   ]
