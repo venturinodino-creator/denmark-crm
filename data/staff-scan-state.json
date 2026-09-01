@@ -1,6 +1,151 @@
 {
-  "lastRun": "2026-08-31T15:17:09.107Z",
-  "lastAddedCount": 1,
-  "sources": 1,
-  "issues": []
+  "lastRun": "2026-09-01T19:01:29.747Z",
+  "lastAddedCount": 60,
+  "sources": 40,
+  "issues": [
+    {
+      "instId": "ku",
+      "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
+      "error": "HTTP 404"
+    },
+    {
+      "instId": "aau",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "au",
+      "url": "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/",
+      "error": "HTTP 403"
+    },
+    {
+      "instId": "cbs",
+      "url": "https://www.cbs.dk/en/library/about-the-library/organisation/director-of-library-and-campus-services",
+      "error": "HTTP 404"
+    },
+    {
+      "instId": "cbs",
+      "url": "https://www.cbs.dk/en/about-cbs/organisation/research-and-phd-support-office/staff",
+      "error": "HTTP 404"
+    },
+    {
+      "instId": "sdu",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dias",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "diis",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dmi",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dti",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dtuspace",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "geus",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "inano",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "niph",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "nbi",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "cbmr",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "biosustain",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "cpr",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "renew",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "pioneerai",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "rockwoolresearch",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "royalacademy",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ssi",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "vive",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "aalborguh",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "auh",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ouh",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "stenoaarhus",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "zealanduh",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "carlsbergfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "danishcancersociety",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dnrf",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "lundbeckfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "novonordiskfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "villumfoundation",
+      "note": "no people extracted"
+    }
+  ]
 }
