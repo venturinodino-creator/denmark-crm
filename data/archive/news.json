@@ -1,5 +1,79 @@
 [
   {
+    "id": "news-qgwxuq",
+    "title": "Innobooster Grants Bolster BioInnovation Institute Portfolio Companies - TipRanks",
+    "description": "Innobooster Grants Bolster BioInnovation Institute Portfolio Companies&nbsp;&nbsp;TipRanks",
+    "institution": "BioInnovation Institute",
+    "category": "funding",
+    "categoryLabel": "Funding Received",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMDJucmQ3QjBsQnJlQ29LV1dhRmM4SWh3bnY3dFAwMDN3dWlTVlBWZVJIMzFaVjF4V1JSYnZ0UTdLSEI4MnBVdEtYQXJIdU1NcGRwSXdlbWlfZVdMVjhLX194SzRpQnZLVU8tRzljNjFZR1ZkLTJSbmNjejBzY2Rob1AwRGFmcGZpZnhJeTRlazZwTEhESHlDLTJXak1sSF9EdWpvZU0yVG9xX1RxMHF3bUhXdU9KRjVPZXc?oc=5",
+    "sourceName": "TipRanks",
+    "publishedDate": "2026-08-25",
+    "foundDate": "2026-08-29",
+    "autoDiscovered": true,
+    "bottomLine": "Innobooster Grants strengthen BioInnovation Institute portfolio, fueling early-stage biotech innovation and accelerating publication pipelines.",
+    "keyFindings": [
+      "Innobooster grants program awarded funds to BioInnovation Institute portfolio companies to advance R&D.",
+      "Represents public/private funding mechanism supporting early-stage innovation in life sciences and biotech.",
+      "Portfolio companies likely to generate significant research output and collaboration networks over next 1–2 years.",
+      "Suggests growing visibility and maturity of Nordic biotech ecosystem."
+    ],
+    "whyItMatters": "Funded biotech startups and scale-ups require rapid literature discovery, patent landscape analysis, and collaborative research identification—LeapSpace and ScienceDirect/Scopus are critical infrastructure for these teams to validate scientific hypotheses, avoid duplication, and accelerate time-to-insight in compressed funding timelines.",
+    "impact": {
+      "novelty": 1,
+      "commercial": 3,
+      "threat": 1,
+      "urgency": 3
+    },
+    "entities": [
+      "Innobooster Grants",
+      "BioInnovation Institute",
+      "Early-stage biotech"
+    ],
+    "actionItems": [
+      "Obtain list of BioInnovation Institute portfolio companies and prioritize direct outreach for ScienceDirect/Scopus/LeapSpace trials.",
+      "Develop subsidized or freemium LeapSpace tier for funded startups to drive adoption early in company lifecycle."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-wfprou",
+    "title": "Google Cloud launches AI tools for legal and financial workflows - The News International",
+    "description": "Google Cloud launches AI tools for legal and financial workflows&nbsp;&nbsp;The News International",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdVRqQlR1TGY0d3c3WWxNaG96VWlnbkFuRGs5WWhhSGJaSk1ia2NpQzJiRndBa2JsamtpampIeEI5cC1uVEw0Y205X2hZQTh0VzlIa3RXNjhEUWNPQXZFWnBwbTV0dmgyT3h6ME12Zzh2UzA1N0RkNzQ0dnhQZldoVVBpUGJUZ0QwQV93VFZ4S0hYNWx6Tng5UzlzVU1RZ0x3MU1HMFpWVEhkZ9IBpgFBVV95cUxPc3VFQnRSMTVQbk0zckpEYVVtcGRYTFBKRTN3eTFlajZXQnVySFoxM3BBM1ZJc29EaVNfVzB2LVZ5Yl9QUDRCdm9WbldlUWtENVNCVEFkdHVXLWhaSXFibWFKR1pjdjlEU1pvUGU2QXZSclVGeGJINy1zQ1V5VC11TFRadFVWcHRBQkw2Q2VqSHB6blNwQUFyLWp0MjdzLUpndVBvd3Jn?oc",
+    "sourceName": "The News International",
+    "publishedDate": "2026-08-25",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true,
+    "bottomLine": "Google Cloud expands AI capabilities into legal and financial workflows, automating high-value professional services domains.",
+    "keyFindings": [
+      "Google Cloud launched new AI tools designed specifically for legal and financial workflow automation.",
+      "Tools aim to improve efficiency and accuracy in document review, contract analysis, and financial reporting tasks.",
+      "Represents Google's strategic push into enterprise vertical-specific AI solutions beyond general-purpose models.",
+      "Competes directly with specialized legal tech and fintech platforms in regulated industries."
+    ],
+    "whyItMatters": "Danish financial services, law firms, and regulated companies may adopt Google's vertical AI, potentially reducing demand for research-backed competitive intelligence via Scopus and ScienceDirect—position LeapSpace as the research backbone these AI tools lack.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 2
+    },
+    "entities": [
+      "Google Cloud",
+      "Legal workflow automation",
+      "Financial workflow automation"
+    ],
+    "actionItems": [
+      "Map Danish legal and fintech institutions already using Google Cloud to identify churn risk and LeapSpace adoption gaps.",
+      "Develop case study showing how ScienceDirect + Scopus research accelerates validation of AI-driven legal/financial decisions."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-2il5h",
     "title": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI - HPCwire",
     "description": "Google Cloud Announces Strategic Partnership with Verizon to Scale Enterprise AI&nbsp;&nbsp;HPCwire",
