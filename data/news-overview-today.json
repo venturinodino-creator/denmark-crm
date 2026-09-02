@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-09-02T12:48:47.897Z",
+  "articleCount": 10,
+  "headline": "Anthropic's Claude Fable/Mythos 5.1 Launch Signals Direct AI Assault on Research Platform Market",
+  "bottomLine": "Anthropic has released purpose-built AI models (Fable 5.1, Mythos 5.1) optimized for coding and scientific research with lower costs and fewer restrictions, directly targeting the research-support and knowledge-work domains where…",
+  "keyFindings": [
+    "Anthropic positions Fable 5.1 and Mythos 5.1 as specialized models for scientific research, coding, and knowledge work—explicitly competing in Elsevier's core research-support domain rather than…",
+    "Aggressive pricing and reduced AI restrictions signal Anthropic's strategy to undercut specialized research platforms by offering capable, open, lower-cost alternatives directly to institutions.",
+    "Demonstrated long-duration agent performance and pre-IPO institutional positioning suggests Anthropic is maturing as a direct threat to traditional research-platform vendors' market share and…",
+    "The breadth and timing of global media coverage indicates coordinated, high-visibility launch designed to establish market credibility and capture research-institution mindshare before widespread…"
+  ],
+  "whyItMatters": "Anthropic is no longer positioning as a general chatbot competitor—it is targeting research institutions' core workflows (literature discovery, data analysis, scientific writing) with purpose-built, cheaper alternatives. Danish universities and research centres now face a credible choice between domain-specialized platforms (Elsevier) and capable, lower-friction AI agents.",
+  "impact": {
+    "novelty": 4,
+    "commercial": 5,
+    "threat": 5,
+    "urgency": 5
+  },
+  "entities": [
+    "Anthropic",
+    "Claude Fable 5.1",
+    "Claude Mythos 5.1",
+    "Elsevier",
+    "ScienceDirect",
+    "Scopus",
+    "LeapSpace",
+    "Research institutions / Danish universities"
+  ],
+  "actionItems": [
+    "Conduct urgent competitive briefing with Danish institution stakeholders (librarians, research leadership) on Fable/Mythos capabilities vs.",
+    "Map all active and pipeline Danish university/research centre subscriptions; prioritize outreach to at-risk accounts to demonstrate LeapSpace's research-specific value (claim-checking, paper…",
+    "Develop pricing/bundling response for research-intensive institutions considering Anthropic: emphasize integration with institutional workflows, compliance, and quality control versus standalone AI…",
+    "Commission or publish comparative analysis (white paper or case study) showing research outcomes, time-to-insight, and institutional ROI of integrated research platforms vs."
+  ]
+}
