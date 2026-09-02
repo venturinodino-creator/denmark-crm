@@ -1,5 +1,175 @@
 [
   {
+    "id": "news-l3jnri",
+    "title": "Inside Silico’s AI Microscope That Makes Black Boxes Make More Sense - IEEE Spectrum",
+    "description": "Inside Silico’s AI Microscope That Makes Black Boxes Make More Sense&nbsp;&nbsp;IEEE Spectrum",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ic3FaRU11YXFLWDBtQlV3WlVZSF9GLTh4bHA1cXMwVDBPSHlEN1FBTmFTblJnckF6SUZEcGs2UW84S2V4Sl9sZEVrNXBrNHo5eDk5TWY1WGhOU2F4T2pGbkNB?oc=5",
+    "sourceName": "IEEE Spectrum",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-29",
+    "autoDiscovered": true,
+    "bottomLine": "Silico releases AI Microscope tool for interpreting 'black box' neural networks, making AI decision logic transparent and auditable.",
+    "keyFindings": [
+      "Silico's AI Microscope provides visualization and interpretability tools for understanding deep learning model decisions.",
+      "Addresses regulatory and scientific concerns around AI transparency and reproducibility in high-stakes domains.",
+      "Featured in IEEE Spectrum, signaling credibility in academic and engineering research communities.",
+      "Relevant for biomedical, pharmaceutical, and regulatory research where model interpretability is mandatory."
+    ],
+    "whyItMatters": "Danish biomedical and pharmaceutical researchers using AI for clinical or drug discovery workflows require interpretable, auditable results—integrate LeapSpace with AI Microscope-like explainability tools and position Scopus citations as proof that model outputs align with published, peer-reviewed evidence.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 3,
+      "threat": 2,
+      "urgency": 2
+    },
+    "entities": [
+      "Silico",
+      "AI Microscope",
+      "Neural network interpretability",
+      "IEEE Spectrum"
+    ],
+    "actionItems": [
+      "Research Silico's partnerships and licensing model; explore co-marketing or integration opportunities with LeapSpace.",
+      "Develop case study on how Scopus + ScienceDirect citations validate interpretable AI model outputs in regulated research."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-qgppti",
+    "title": "OpenAI enters hardware market with launch of 'Jalapeño' AI chip: Built to run AI workloads more efficiently... - Bhaskar English",
+    "description": "OpenAI enters hardware market with launch of 'Jalapeño' AI chip: Built to run AI workloads more efficiently...&nbsp;&nbsp;Bhaskar English",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzhuamFTZjVnN01CdUJPVmZBMDl6bm8zX0Y1QnYtRHFYdExwakxrZdIBvAFBVV95cUxPWjlLNGdORmVRTldPRE5PeGV6VkJFM0J2d1dlMGpuc3dpMTZ6UnJfSkRRTjJxdXk0VVdJdW5hb3ZTX0FxbUVsTFhpZHN0TlFBWV81cmJvd2IteU5tZWxSdkpSSW1wdldGcTBKcFFjcDdEQzQ4U0lMWlFubjUyZWJEYkgydEJXd1ZNVTFwNnR0SEhtM2xjbzh",
+    "sourceName": "Bhaskar English",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-29",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI enters hardware market with 'Jalapeño' AI chip to run workloads more efficiently, reducing dependency on external GPU suppliers.",
+    "keyFindings": [
+      "OpenAI announced development of proprietary 'Jalapeño' AI chip optimized for efficient inference and fine-tuning.",
+      "Chip targets cost and latency reduction for enterprise and research deployments of large language models.",
+      "Represents vertical integration strategy: OpenAI now controls model, software, and silicon layers.",
+      "Could undercut cloud provider margins and accelerate on-premises AI adoption in institutions."
+    ],
+    "whyItMatters": "Danish universities and research centres may run local AI instances on Jalapeño hardware, reducing cloud costs—position ScienceDirect/Scopus/LeapSpace as the only locally-deployed research discovery stack that doesn't require external cloud vendor lock-in or API dependencies.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 5,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "Jalapeño AI chip",
+      "Inference optimization",
+      "Enterprise deployment"
+    ],
+    "actionItems": [
+      "Assess Elsevier's current cloud dependencies and hosting models for ScienceDirect/Scopus/LeapSpace to ensure compatibility with on-premises OpenAI chip deployments.",
+      "Develop sales messaging for Danish institutions emphasizing data sovereignty and local control as differentiators vs. cloud-only competitors."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-172kvw",
+    "title": "Who’s suing AI and who’s signing latest: Editorial Perfil sues OpenAI, News Corp vs Brave - Press Gazette",
+    "description": "Who’s suing AI and who’s signing latest: Editorial Perfil sues OpenAI, News Corp vs Brave&nbsp;&nbsp;Press Gazette",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbmlBOGF2YlY3cWZ0dXBrNWU2WV8yMGtJVjFCRUx2eUs3b0NNTzBsenpyOEloaVppUlpMOGxOMWtRX3BJYkcxbV9mZ1d5VzZLMmMzM1RNcXUycnRRTGpKV21FT3dJVkpuYTdQeEdJbzgwdUpJcV9kMEVwbkN3VDZKUVV1RlNEVVI5ZGN4eA?oc=5",
+    "sourceName": "Press Gazette",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-30",
+    "autoDiscovered": true,
+    "bottomLine": "Editorial Perfil sues OpenAI; News Corp signs licensing deal with Brave—ongoing AI-content copyright disputes and commercial arrangements reshape publishing landscape.",
+    "keyFindings": [
+      "Editorial Perfil (Argentine news publisher) filed lawsuit against OpenAI over alleged copyright infringement and unauthorised use of content in AI training.",
+      "News Corp entered licensing agreement with Brave, allowing use of News Corp content in Brave's AI-powered search and summarisation features.",
+      "Broader pattern of traditional publishers suing AI companies for training-data use while simultaneously negotiating selective licensing arrangements.",
+      "Demonstrates ongoing tension between open AI model training and publisher intellectual property rights, with varied commercial outcomes."
+    ],
+    "whyItMatters": "Danish publishers and research institutions need clarity on IP and licensing as AI systems increasingly summarise, cite, and reference scholarly content—Elsevier can position Scopus and LeapSpace as rights-respecting, licensed platforms where AI operates within transparent, compliant frameworks rather than risk reputational damage like OpenAI.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 3,
+      "threat": 2,
+      "urgency": 3
+    },
+    "entities": [
+      "Editorial Perfil",
+      "OpenAI",
+      "News Corp",
+      "Brave",
+      "copyright",
+      "licensing"
+    ],
+    "actionItems": [
+      "Ensure Danish university counsel and library leaders know Elsevier's licensing compliance position for LeapSpace AI features; create one-pager on IP safeguards.",
+      "Monitor Elsevier's own licensing negotiations; prepare messaging if other major publishers announce AI content licensing (positions Elsevier as aligned, not adversarial).",
+      "Develop 'responsible AI in research' narrative for Danish institutions: Scopus + LeapSpace as compliant alternative to unvetted, training-data-liability-exposed AI tools."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-pn76q0",
+    "title": "New APIs Extend Wiley's Gold-Standard Spectral Data and Analytical Intelligence Directly Into Lab, Vendor, and Platform Workflows - AZoM",
+    "description": "New APIs Extend Wiley's Gold-Standard Spectral Data and Analytical Intelligence Directly Into Lab, Vendor, and Platform Workflows&nbsp;&nbsp;AZoM",
+    "institution": "Wiley",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NUFlzQnM0akhJekF3T3JJeC1OU3BCXy02Q1Q1eG1SNWZDZ2NaUHV4U0VzTDZ1bEhGYWI2ano5QkJNeEx5YmhCUnNIMUNpRE9pTTVyZlV3?oc=5",
+    "sourceName": "AZoM",
+    "publishedDate": "2026-08-26",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true,
+    "bottomLine": "Wiley extends gold-standard spectral data and analytical intelligence into lab, vendor, and platform workflows via new APIs.",
+    "keyFindings": [
+      "Wiley launched new APIs providing direct access to gold-standard spectral data and analytical intelligence within laboratory and vendor workflows.",
+      "APIs designed to integrate Wiley's spectroscopy and analytical chemistry resources directly into lab instruments, platforms, and third-party vendor systems.",
+      "Initiative aims to embed Wiley's chemistry and materials science expertise into operational research workflows, increasing stickiness and switching costs.",
+      "Represents direct competitive move to embed proprietary reference data and analytical tools at the point of laboratory operation."
+    ],
+    "whyItMatters": "Wiley is embedding reference chemistry data and analytical workflows into Danish lab operations—Elsevier must accelerate LeapSpace integrations with Danish university lab management systems and position Scopus as the literature backbone for validating Wiley-provided analytical outputs, or risk losing institutional mindshare.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "Wiley",
+      "APIs",
+      "spectral data",
+      "analytical intelligence",
+      "lab workflows"
+    ],
+    "actionItems": [
+      "Audit which Danish chemistry, materials science, and pharma labs use Wiley spectral resources; prepare 'Scopus + LeapSpace' counter-briefing positioning literature discovery as essential context for…",
+      "Explore Elsevier API partnerships with major lab management and instrumentation vendors active in Denmark; accelerate integrations if Wiley gaining traction.",
+      "Develop case studies showing how Scopus/LeapSpace ensure analytical results from any platform (Wiley or otherwise) are grounded in validated peer-reviewed research."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-vikc6x",
+    "title": "Wiley Launches Its First Spectral Analysis API Portfolio, Giving Labs a Faster Path from Unknown Substance to Validated Answer - 01net",
+    "description": "Wiley Launches Its First Spectral Analysis API Portfolio, Giving Labs a Faster Path from Unknown Substance to Validated Answer&nbsp;&nbsp;01net",
+    "institution": "Wiley",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRU91aFprRmZBZFFjdXY5WTgzOXVKZlY0TWE5WlpMdDViMkpYb2dFMGx6ank0RG5rVjlkYXkxX2FodzBSb2pCbndwYnpfQWZuTko3SnpDTm1PQU1hS0R3SUlXRnlzMV9FY1RkbUdDbzRjRG14TzREVEJveGZ4R2lBazVlWHFUeTdlcHFndE5kTVdtUDVMQ1N0QlRCVGpDR3U2XzgtSjd4YTFaanNXOEloa1Zlal9DYmFod2ZaeWZHSzJHX1Jjd09nT1JCWFdaWFJEbmx5ZW9FWDl0ci1zV1Rodg?oc=5",
+    "sourceName": "01net",
+    "publishedDate": "2026-08-19",
+    "foundDate": "2026-09-02",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-qgwxuq",
     "title": "Innobooster Grants Bolster BioInnovation Institute Portfolio Companies - TipRanks",
     "description": "Innobooster Grants Bolster BioInnovation Institute Portfolio Companies&nbsp;&nbsp;TipRanks",
