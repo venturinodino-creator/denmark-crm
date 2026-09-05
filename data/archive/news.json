@@ -1,5 +1,45 @@
 [
   {
+    "id": "news-ihgyee",
+    "title": "Anthropic unveils standard linking AI agents to physical devices - irishsun.com",
+    "description": "Anthropic unveils standard linking AI agents to physical devices&nbsp;&nbsp;irishsun.com",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekEzVUQ5b1FWODI3OWUtSDRlZE54OEhhQnhjSjN5QV9EUTNqcXZuY3VybU95THhBNUFOWUtyUDlZaEFia0pPcUhWWnU3d00zOTdkdEkxZDdiY2Z5V0tQNXpPNlkwejNyLWtrNXB3MHBpYXUtSHlHbEdzUWNDOVJwWEVJZE1qaWFaYmt6Y1dJTkV1a3NFUXhTZDBZd1R3aGswMlBNOXZvMA?oc=5",
+    "sourceName": "irishsun.com",
+    "publishedDate": "2026-08-29",
+    "foundDate": "2026-08-31",
+    "autoDiscovered": true,
+    "bottomLine": "Anthropic unveils standard linking AI agents to physical devices, enabling autonomous control of laboratory and industrial equipment.",
+    "keyFindings": [
+      "Anthropic announced new standard framework allowing AI agents to connect with and operate physical lab and industrial devices.",
+      "Standard intended to create standardised, safe interface between AI systems and hardware, reducing fragmentation in AI-hardware integration.",
+      "Initiative targets research institutions and manufacturing facilities seeking to automate complex, equipment-dependent workflows.",
+      "Framework emphasises reliability and safety in AI control of critical scientific and production systems."
+    ],
+    "whyItMatters": "For Danish institutions, this means research workflows are being reimagined around AI-hardware integration; Elsevier needs to position Scopus and LeapSpace as the research discovery and intelligence layer that ensures AI-driven experiments stay grounded in validated literature and reproducible science.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Model Hardware Standard",
+      "AI agents",
+      "physical devices",
+      "lab equipment"
+    ],
+    "actionItems": [
+      "Develop case study or white paper showing how Scopus + LeapSpace supports compliance and auditability for AI-hardware research workflows in Danish labs.",
+      "Survey Danish university research offices on AI-hardware adoption timelines; identify early adopters willing to pilot integrated discovery + automation models.",
+      "Build technical bridge documentation: how Scopus citations and LeapSpace deep research can validate scientific basis for AI-driven experimental protocols."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-yjsa75",
     "title": "Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington - Tech Times",
     "description": "Anthropic Opens Free Claude to Scientists; Biology Frontier Goes Through Washington Tech Times",
