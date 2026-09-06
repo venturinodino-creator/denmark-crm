@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-01T19:01:29.747Z",
+  "lastRun": "2026-09-06T11:45:22.520Z",
   "lastAddedCount": 60,
   "sources": 40,
   "issues": [
@@ -32,18 +32,6 @@
       "note": "no people extracted"
     },
     {
-      "instId": "dias",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "diis",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dmi",
-      "note": "no people extracted"
-    },
-    {
       "instId": "dti",
       "note": "no people extracted"
     },
@@ -52,19 +40,12 @@
       "note": "no people extracted"
     },
     {
-      "instId": "geus",
-      "note": "no people extracted"
+      "instId": "inano",
+      "url": "https://inano.au.dk/about/committees/management-team/",
+      "error": "HTTP 404"
     },
     {
       "instId": "inano",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "niph",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "nbi",
       "note": "no people extracted"
     },
     {
@@ -76,67 +57,25 @@
       "note": "no people extracted"
     },
     {
-      "instId": "cpr",
-      "note": "no people extracted"
-    },
-    {
       "instId": "renew",
       "note": "no people extracted"
     },
     {
-      "instId": "pioneerai",
-      "note": "no people extracted"
+      "instId": "royalacademy",
+      "url": "https://royalacademy.dk/presidium/?lang=en",
+      "error": "This operation was aborted"
     },
     {
-      "instId": "rockwoolresearch",
-      "note": "no people extracted"
+      "instId": "royalacademy",
+      "url": "https://royalacademy.dk/sekretariatet/?lang=en",
+      "error": "This operation was aborted"
     },
     {
       "instId": "royalacademy",
       "note": "no people extracted"
     },
     {
-      "instId": "ssi",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "vive",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "aalborguh",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "auh",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "ouh",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "stenoaarhus",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "zealanduh",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "carlsbergfoundation",
-      "note": "no people extracted"
-    },
-    {
       "instId": "danishcancersociety",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dnrf",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "lundbeckfoundation",
       "note": "no people extracted"
     },
     {
