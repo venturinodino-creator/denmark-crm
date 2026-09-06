@@ -18,5 +18,25 @@
     ],
     "autoDiscovered": true,
     "foundDate": "2026-08-27"
+  },
+  {
+    "id": "university-of-southern-denmark",
+    "inst": "University of Southern Denmark (Syddansk Universitet)",
+    "type": "University",
+    "status": "active",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "The University Library of Southern Denmark publishes a dedicated OpenAlex library guide, 'How to OpenAlex', within its Research Impact guide series, indicating institutional support for OpenAlex as a bibliometric data source. No OpenAlex Member, Member+ or Partner subscription is confirmed for SDU, and no fee is disclosed anywhere in the sources found. No evidence surfaced of a related Scopus or Web of Science cancellation at SDU.",
+    "signal": "ACTIVE, NOT CONFIRMED PAYING. Library publishes a dedicated OpenAlex research-impact guide; no subscription or fee disclosed.",
+    "sources": [
+      {
+        "label": "University of Southern Denmark Library — 'How to OpenAlex', Research Impact guides",
+        "url": "https://libguides.sdu.dk/researchimpact2/openalex"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-06"
   }
 ]
