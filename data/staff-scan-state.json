@@ -1,12 +1,17 @@
 {
-  "lastRun": "2026-09-06T11:45:22.520Z",
-  "lastAddedCount": 60,
+  "lastRun": "2026-09-07T13:37:44.618Z",
+  "lastAddedCount": 20,
   "sources": 40,
   "issues": [
     {
       "instId": "ku",
       "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
       "error": "HTTP 404"
+    },
+    {
+      "instId": "aau",
+      "url": "https://www.en.aau.dk/about-aau/organisation/management/executive-directors",
+      "error": "HTTP 403"
     },
     {
       "instId": "aau",
@@ -61,29 +66,7 @@
       "note": "no people extracted"
     },
     {
-      "instId": "royalacademy",
-      "url": "https://royalacademy.dk/presidium/?lang=en",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "royalacademy",
-      "url": "https://royalacademy.dk/sekretariatet/?lang=en",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "royalacademy",
-      "note": "no people extracted"
-    },
-    {
       "instId": "danishcancersociety",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "novonordiskfoundation",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "villumfoundation",
       "note": "no people extracted"
     }
   ]
