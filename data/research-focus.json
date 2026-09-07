@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-31T11:15:39.804Z",
+  "generatedAt": "2026-09-07T09:51:17.809Z",
   "source": "OpenAlex API (institution.topic_share)",
   "institutions": {
     "ku": {
       "openalexId": "I124055696",
       "openalexName": "University of Copenhagen",
       "ror": "035b05819",
-      "worksCount": 290274,
+      "worksCount": 290772,
       "fields": [
         {
           "name": "Social Sciences",
@@ -14,11 +14,11 @@
         },
         {
           "name": "Medicine",
-          "pct": 20.9
+          "pct": 21
         },
         {
           "name": "Environmental Science",
-          "pct": 11.4
+          "pct": 11.3
         },
         {
           "name": "Psychology",
@@ -41,7 +41,7 @@
       "openalexId": "I204337017",
       "openalexName": "Aarhus University",
       "ror": "01aj84f44",
-      "worksCount": 227823,
+      "worksCount": 228301,
       "fields": [
         {
           "name": "Social Sciences",
@@ -76,11 +76,11 @@
       "openalexId": "I96673099",
       "openalexName": "Technical University of Denmark",
       "ror": "04qtj9h94",
-      "worksCount": 150940,
+      "worksCount": 151205,
       "fields": [
         {
           "name": "Engineering",
-          "pct": 64.2
+          "pct": 64.1
         },
         {
           "name": "Environmental Science",
@@ -111,7 +111,7 @@
       "openalexId": "I177969490",
       "openalexName": "University of Southern Denmark",
       "ror": "03yrrjy16",
-      "worksCount": 92969,
+      "worksCount": 93261,
       "fields": [
         {
           "name": "Social Sciences",
@@ -127,7 +127,7 @@
         },
         {
           "name": "Environmental Science",
-          "pct": 12.6
+          "pct": 12.7
         },
         {
           "name": "Psychology",
@@ -146,11 +146,11 @@
       "openalexId": "I891191580",
       "openalexName": "Aalborg University",
       "ror": "04m5j1k67",
-      "worksCount": 114920,
+      "worksCount": 114986,
       "fields": [
         {
           "name": "Social Sciences",
-          "pct": 33.6
+          "pct": 33.7
         },
         {
           "name": "Engineering",
@@ -166,11 +166,11 @@
         },
         {
           "name": "Environmental Science",
-          "pct": 7
+          "pct": 6.9
         },
         {
           "name": "Computer Science",
-          "pct": 1.9
+          "pct": 1.8
         }
       ],
       "ambiguous": false,
@@ -181,11 +181,11 @@
       "openalexId": "I180519160",
       "openalexName": "Copenhagen Business School",
       "ror": "04sppb023",
-      "worksCount": 34230,
+      "worksCount": 34390,
       "fields": [
         {
           "name": "Business, Management and Accounting",
-          "pct": 44.4
+          "pct": 42
         },
         {
           "name": "Social Sciences",
@@ -193,7 +193,7 @@
         },
         {
           "name": "Environmental Science",
-          "pct": 8.9
+          "pct": 9
         },
         {
           "name": "Psychology",
@@ -201,7 +201,7 @@
         },
         {
           "name": "Economics, Econometrics and Finance",
-          "pct": 2.5
+          "pct": 4.8
         }
       ],
       "ambiguous": false,
@@ -216,19 +216,19 @@
       "fields": [
         {
           "name": "Social Sciences",
-          "pct": 61.8
+          "pct": 61.5
         },
         {
           "name": "Psychology",
-          "pct": 17.6
+          "pct": 17.8
         },
         {
           "name": "Environmental Science",
-          "pct": 10.8
+          "pct": 10.7
         },
         {
           "name": "Business, Management and Accounting",
-          "pct": 6.5
+          "pct": 6.6
         },
         {
           "name": "Economics, Econometrics and Finance",
@@ -236,7 +236,7 @@
         },
         {
           "name": "Chemistry",
-          "pct": 1.6
+          "pct": 1.7
         }
       ],
       "ambiguous": false,
@@ -247,15 +247,15 @@
       "openalexId": "I83467386",
       "openalexName": "IT University of Copenhagen",
       "ror": "02309jg23",
-      "worksCount": 15593,
+      "worksCount": 15839,
       "fields": [
         {
           "name": "Computer Science",
-          "pct": 61.9
+          "pct": 63.8
         },
         {
           "name": "Social Sciences",
-          "pct": 20.8
+          "pct": 18.8
         },
         {
           "name": "Business, Management and Accounting",
@@ -263,7 +263,7 @@
         },
         {
           "name": "Psychology",
-          "pct": 5.4
+          "pct": 5.6
         },
         {
           "name": "Decision Sciences",
@@ -283,11 +283,11 @@
       "openalexId": "I2802335433",
       "openalexName": "Aarhus University Hospital",
       "ror": "040r8fr65",
-      "worksCount": 67402,
+      "worksCount": 67592,
       "fields": [
         {
           "name": "Medicine",
-          "pct": 79.2
+          "pct": 79.1
         },
         {
           "name": "Psychology",
@@ -295,7 +295,7 @@
         },
         {
           "name": "Physics and Astronomy",
-          "pct": 4.9
+          "pct": 5
         },
         {
           "name": "Immunology and Microbiology",
@@ -303,7 +303,7 @@
         },
         {
           "name": "Social Sciences",
-          "pct": 3.4
+          "pct": 3.5
         }
       ],
       "ambiguous": false,
@@ -314,7 +314,7 @@
       "openalexId": "I2801498763",
       "openalexName": "Odense University Hospital",
       "ror": "00ey0ed83",
-      "worksCount": 40016,
+      "worksCount": 40100,
       "fields": [
         {
           "name": "Medicine",
@@ -346,7 +346,7 @@
       "openalexId": "I2799976261",
       "openalexName": "Aalborg University Hospital",
       "ror": "02jk5qe80",
-      "worksCount": 23362,
+      "worksCount": 23413,
       "fields": [
         {
           "name": "Medicine",
@@ -358,7 +358,7 @@
         },
         {
           "name": "Nursing",
-          "pct": 4.2
+          "pct": 4.3
         },
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
@@ -370,7 +370,7 @@
         },
         {
           "name": "Social Sciences",
-          "pct": 3.5
+          "pct": 3.6
         }
       ],
       "ambiguous": false,
@@ -391,15 +391,15 @@
       "openalexId": "I4210087803",
       "openalexName": "Zealand University Hospital",
       "ror": "00363z010",
-      "worksCount": 8466,
+      "worksCount": 8497,
       "fields": [
         {
           "name": "Medicine",
-          "pct": 90.3
+          "pct": 90.4
         },
         {
           "name": "Psychology",
-          "pct": 4.6
+          "pct": 4.5
         },
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
@@ -438,7 +438,7 @@
       "openalexId": "I101527212",
       "openalexName": "Statens Serum Institut",
       "ror": "0417ye583",
-      "worksCount": 17232,
+      "worksCount": 17266,
       "fields": [
         {
           "name": "Medicine",
@@ -454,7 +454,7 @@
         },
         {
           "name": "Social Sciences",
-          "pct": 6.7
+          "pct": 6.6
         },
         {
           "name": "Agricultural and Biological Sciences",
@@ -513,15 +513,15 @@
       "openalexId": "I32686375",
       "openalexName": "Danish Meteorological Institute",
       "ror": "020m6x732",
-      "worksCount": 4602,
+      "worksCount": 4622,
       "fields": [
         {
           "name": "Earth and Planetary Sciences",
-          "pct": 53.8
+          "pct": 55.7
         },
         {
           "name": "Environmental Science",
-          "pct": 31.1
+          "pct": 29.3
         },
         {
           "name": "Engineering",
@@ -529,11 +529,11 @@
         },
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
-          "pct": 3.4
+          "pct": 3.3
         },
         {
           "name": "Social Sciences",
-          "pct": 3.4
+          "pct": 3.3
         },
         {
           "name": "Medicine",
@@ -548,11 +548,11 @@
       "openalexId": "I2801979204",
       "openalexName": "Geological Survey of Denmark and Greenland",
       "ror": "01b40r146",
-      "worksCount": 43127,
+      "worksCount": 43183,
       "fields": [
         {
           "name": "Earth and Planetary Sciences",
-          "pct": 27.9
+          "pct": 28
         },
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
@@ -572,7 +572,7 @@
         },
         {
           "name": "Chemistry",
-          "pct": 4.1
+          "pct": 4
         }
       ],
       "ambiguous": false,
@@ -583,7 +583,7 @@
       "openalexId": "I4210163711",
       "openalexName": "Alexandra Institute (Denmark)",
       "ror": "054z83b16",
-      "worksCount": 631,
+      "worksCount": 645,
       "fields": [
         {
           "name": "Computer Science",
@@ -618,11 +618,11 @@
       "openalexId": "I3019169596",
       "openalexName": "Danish Technological Institute",
       "ror": "00n87rr37",
-      "worksCount": 2728,
+      "worksCount": 2740,
       "fields": [
         {
           "name": "Engineering",
-          "pct": 48.4
+          "pct": 51.2
         },
         {
           "name": "Environmental Science",
@@ -637,12 +637,12 @@
           "pct": 10.1
         },
         {
-          "name": "Social Sciences",
-          "pct": 5.9
-        },
-        {
           "name": "Chemical Engineering",
           "pct": 5.7
+        },
+        {
+          "name": "Business, Management and Accounting",
+          "pct": 4
         }
       ],
       "ambiguous": false,
@@ -683,15 +683,15 @@
       "openalexId": "I183542713",
       "openalexName": "Danish Institute for International Studies",
       "ror": "02asy9212",
-      "worksCount": 2076,
+      "worksCount": 2077,
       "fields": [
         {
           "name": "Social Sciences",
-          "pct": 87.9
+          "pct": 87.7
         },
         {
           "name": "Arts and Humanities",
-          "pct": 3.4
+          "pct": 3.3
         },
         {
           "name": "Economics, Econometrics and Finance",
@@ -699,11 +699,11 @@
         },
         {
           "name": "Business, Management and Accounting",
-          "pct": 3
+          "pct": 3.1
         },
         {
           "name": "Agricultural and Biological Sciences",
-          "pct": 2.7
+          "pct": 2.8
         }
       ],
       "ambiguous": false,
@@ -714,19 +714,19 @@
       "openalexId": "I4210146600",
       "openalexName": "VIVE - The Danish Center for Social Science Research",
       "ror": "0523ssa79",
-      "worksCount": 1901,
+      "worksCount": 1906,
       "fields": [
         {
           "name": "Social Sciences",
-          "pct": 58.4
+          "pct": 58.5
         },
         {
           "name": "Environmental Science",
-          "pct": 14
+          "pct": 13.9
         },
         {
           "name": "Psychology",
-          "pct": 12.9
+          "pct": 12.8
         },
         {
           "name": "Business, Management and Accounting",
@@ -734,7 +734,7 @@
         },
         {
           "name": "Health Professions",
-          "pct": 5.6
+          "pct": 5.5
         },
         {
           "name": "Decision Sciences",
@@ -759,23 +759,23 @@
       "openalexId": "I4210099175",
       "openalexName": "Danish National Institute of Public Health",
       "ror": "012bzsw43",
-      "worksCount": 4089,
+      "worksCount": 4104,
       "fields": [
         {
           "name": "Social Sciences",
-          "pct": 43.4
+          "pct": 44.5
         },
         {
           "name": "Health Professions",
-          "pct": 17.5
+          "pct": 17.4
         },
         {
           "name": "Psychology",
-          "pct": 14.2
+          "pct": 14.3
         },
         {
           "name": "Environmental Science",
-          "pct": 14.2
+          "pct": 14.1
         },
         {
           "name": "Medicine",
@@ -783,7 +783,7 @@
         },
         {
           "name": "Engineering",
-          "pct": 1.5
+          "pct": 1.7
         }
       ],
       "ambiguous": false,
@@ -818,7 +818,7 @@
       "fields": [
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
-          "pct": 74.9
+          "pct": 76.3
         },
         {
           "name": "Engineering",
@@ -833,12 +833,12 @@
           "pct": 3.3
         },
         {
-          "name": "Social Sciences",
-          "pct": 3
-        },
-        {
           "name": "Medicine",
           "pct": 1.9
+        },
+        {
+          "name": "Computer Science",
+          "pct": 1.6
         }
       ],
       "ambiguous": false,
@@ -849,7 +849,7 @@
       "openalexId": "I2801134892",
       "openalexName": "Novo Nordisk Foundation",
       "ror": "04txyc737",
-      "worksCount": 11764,
+      "worksCount": 11794,
       "fields": [
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
@@ -880,7 +880,7 @@
       "openalexId": "I4210127817",
       "openalexName": "Lundbeck Foundation",
       "ror": "03hz8wd80",
-      "worksCount": 2455,
+      "worksCount": 2459,
       "fields": [
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
@@ -927,7 +927,7 @@
         },
         {
           "name": "Agricultural and Biological Sciences",
-          "pct": 10.5
+          "pct": 10.4
         },
         {
           "name": "Social Sciences",
@@ -955,7 +955,7 @@
       "openalexId": "I4210148920",
       "openalexName": "Danish Cancer Society",
       "ror": "03ytt7k16",
-      "worksCount": 9891,
+      "worksCount": 9904,
       "fields": [
         {
           "name": "Medicine",
@@ -986,27 +986,27 @@
       "openalexId": "I4210087405",
       "openalexName": "Danish National Research Foundation",
       "ror": "00znyv691",
-      "worksCount": 2549,
+      "worksCount": 2568,
       "fields": [
         {
           "name": "Computer Science",
-          "pct": 35.8
-        },
-        {
-          "name": "Medicine",
-          "pct": 19.6
+          "pct": 38.6
         },
         {
           "name": "Biochemistry, Genetics and Molecular Biology",
-          "pct": 19.2
+          "pct": 19
+        },
+        {
+          "name": "Medicine",
+          "pct": 17.2
         },
         {
           "name": "Physics and Astronomy",
-          "pct": 8.9
+          "pct": 8.8
         },
         {
           "name": "Chemistry",
-          "pct": 7.7
+          "pct": 7.6
         },
         {
           "name": "Psychology",
