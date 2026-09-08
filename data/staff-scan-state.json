@@ -1,17 +1,26 @@
 {
-  "lastRun": "2026-09-07T13:37:44.618Z",
-  "lastAddedCount": 20,
+  "lastRun": "2026-09-08T12:17:20.632Z",
+  "lastAddedCount": 0,
   "sources": 40,
   "issues": [
     {
       "instId": "ku",
-      "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
-      "error": "HTTP 404"
+      "url": "https://kub.ku.dk/english/researchsupport/about-research-support/employees/",
+      "error": "This operation was aborted"
     },
     {
-      "instId": "aau",
-      "url": "https://www.en.aau.dk/about-aau/organisation/management/executive-directors",
-      "error": "HTTP 403"
+      "instId": "ku",
+      "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "ku",
+      "url": "https://lighthouse.ku.dk/en/meet-the-team/",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "ku",
+      "note": "no people extracted"
     },
     {
       "instId": "aau",
@@ -55,11 +64,30 @@
     },
     {
       "instId": "cbmr",
+      "url": "https://cbmr.ku.dk/about/governance/",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "cbmr",
       "note": "no people extracted"
     },
     {
       "instId": "biosustain",
       "note": "no people extracted"
+    },
+    {
+      "instId": "cpr",
+      "url": "https://www.cpr.ku.dk/about/organization/",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "cpr",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "renew",
+      "url": "https://renew.ku.dk/about/organisation/",
+      "error": "This operation was aborted"
     },
     {
       "instId": "renew",
