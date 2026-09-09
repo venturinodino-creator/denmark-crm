@@ -1,5 +1,42 @@
 [
   {
+    "id": "news-t8s50w",
+    "title": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence - Moneycontrol.com",
+    "description": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence&nbsp;&nbsp;Moneycontrol.com",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUVhlUnF0NFprazdTQUp6OFFrWWYtWVhpRXdDUkZ3WVNfS2ZTOVRfcEFmNHVGNmVYT0ZDMFNndTFMWmVRUlBTSldhdDVSaS1nMEprMlp4WVVmRHp2M045Y1N3eVJQX2pycDhsUzJselB0cWpfcmljMUI3RE9vSGdPRGhtbThwN3RNaDNLUnhKZU85LUdRbVc4dl8xdUxpSEhsaUJfbDNQOExUcXdldUhrSEpuRENQMWY1NWo1Y0xQaGlVR190VXpyQWQtYkRDNVJnc0VQaUlCek11OWFCR1BEdmlHWlBHX0QyRGV1Rzd0LW1qd9IB9wFBVV95cUxQbUNxa2JCVERNWmFtWkZtbEswcXl4ZTRzREhPSTR3UzBGQUZoZnRQU2YyY0hlNXJnQ0tObVZ4a1NKb0tYRk1ZNmx5RWxsU1QtQ2lJcDZmUzBmVGxCOFg0aHZ",
+    "sourceName": "Moneycontrol.com",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI claims GPT-6 Astra achieves new capabilities approaching human-level intelligence in research-relevant tasks.",
+    "keyFindings": [
+      "GPT-6 Astra marketed with claims of near-human-level intelligence, particularly in reasoning and analysis.",
+      "Capabilities emphasized for research, coding, and scientific problem-solving.",
+      "Represents milestone in AI capability maturation that could disrupt research workflows.",
+      "Claims are aggressive and signal OpenAI's confidence in competitive positioning."
+    ],
+    "whyItMatters": "Moneycontrol's coverage amplifies GPT-6 Astra's reach to non-technical audiences in Denmark; universities will face pressure from senior leadership and funders to adopt cutting-edge AI, forcing Elsevier to articulate why integrated platforms beat standalone models.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 5,
+      "threat": 4,
+      "urgency": 5
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Moneycontrol.com"
+    ],
+    "actionItems": [
+      "Prepare competitive comparison: LeapSpace + Scopus/ScienceDirect vs. GPT-6 Astra for research teams, highlighting domain authority and real-time updates.",
+      "Plan executive briefings for Danish university provosts and research directors to inoculate against hype."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-zd4uvd",
     "title": "OpenAI Launches GPT-6 Astra, Its Most Advanced And Aligned AI Model Yet - ETV Bharat",
     "description": "OpenAI Launches GPT-6 Astra, Its Most Advanced And Aligned AI Model Yet&nbsp;&nbsp;ETV Bharat",
@@ -36,41 +73,56 @@
     "sourceType": "secondary"
   },
   {
-    "id": "news-t8s50w",
-    "title": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence - Moneycontrol.com",
-    "description": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence&nbsp;&nbsp;Moneycontrol.com",
+    "id": "news-2q2xkk",
+    "title": "OpenAI Launches 'World's Most Intelligent' AI Model GPT-6 Astra - NDTV",
+    "description": "OpenAI Launches 'World's Most Intelligent' AI Model GPT-6 Astra&nbsp;&nbsp;NDTV",
     "institution": "OpenAI",
     "category": "competitor_announcements",
     "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUVhlUnF0NFprazdTQUp6OFFrWWYtWVhpRXdDUkZ3WVNfS2ZTOVRfcEFmNHVGNmVYT0ZDMFNndTFMWmVRUlBTSldhdDVSaS1nMEprMlp4WVVmRHp2M045Y1N3eVJQX2pycDhsUzJselB0cWpfcmljMUI3RE9vSGdPRGhtbThwN3RNaDNLUnhKZU85LUdRbVc4dl8xdUxpSEhsaUJfbDNQOExUcXdldUhrSEpuRENQMWY1NWo1Y0xQaGlVR190VXpyQWQtYkRDNVJnc0VQaUlCek11OWFCR1BEdmlHWlBHX0QyRGV1Rzd0LW1qd9IB9wFBVV95cUxQbUNxa2JCVERNWmFtWkZtbEswcXl4ZTRzREhPSTR3UzBGQUZoZnRQU2YyY0hlNXJnQ0tObVZ4a1NKb0tYRk1ZNmx5RWxsU1QtQ2lJcDZmUzBmVGxCOFg0aHZ",
-    "sourceName": "Moneycontrol.com",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcDRkZzJzVVotOW5ySEpHNzRQRmhpMm9NRkViS0VOd0lNVkphWWlDMXU3QVc0T1JYcHRDcTF3LWR6QTV0LVMzZDlQeGhlWVp0SjNvdkZkYVRHTGJLVm1kQmN1NXgtNlUzVExwcUxwTmdFdXhqeUJOWTNNd1B2amxQUXk0c0lTbDVyc3JyUDZwWnBMWHRpTUV1UmRRU3F4X1NLMlZF0gGrAUFVX3lxTE5Mc2RwclVqMXlEdzJ2eUE1ZHotOHdFTFhuX3dxYkQ4NlNNV1NqNWI4SWpjLWRQSnlpNkhnVEdSdER4NmpFTUJuNnRYMEltcnRwOFlSUlRYSnVjSk9IZndtVWFQVnNiOTZYSWpvYzhGcmxQbkh6NmF6bEp6ZXlldEZYTFJpWjh1N2cxRm1ETnJ0Sm9yTlVGVFNVU004VHdGX1FNVXZMandwQkFMcw?oc=5",
+    "sourceName": "NDTV",
     "publishedDate": "2026-09-04",
-    "foundDate": "2026-09-04",
-    "autoDiscovered": true,
-    "bottomLine": "OpenAI claims GPT-6 Astra achieves new capabilities approaching human-level intelligence in research-relevant tasks.",
-    "keyFindings": [
-      "GPT-6 Astra marketed with claims of near-human-level intelligence, particularly in reasoning and analysis.",
-      "Capabilities emphasized for research, coding, and scientific problem-solving.",
-      "Represents milestone in AI capability maturation that could disrupt research workflows.",
-      "Claims are aggressive and signal OpenAI's confidence in competitive positioning."
-    ],
-    "whyItMatters": "Moneycontrol's coverage amplifies GPT-6 Astra's reach to non-technical audiences in Denmark; universities will face pressure from senior leadership and funders to adopt cutting-edge AI, forcing Elsevier to articulate why integrated platforms beat standalone models.",
-    "impact": {
-      "novelty": 4,
-      "commercial": 5,
-      "threat": 4,
-      "urgency": 5
-    },
-    "entities": [
-      "OpenAI",
-      "GPT-6 Astra",
-      "Moneycontrol.com"
-    ],
-    "actionItems": [
-      "Prepare competitive comparison: LeapSpace + Scopus/ScienceDirect vs. GPT-6 Astra for research teams, highlighting domain authority and real-time updates.",
-      "Plan executive briefings for Danish university provosts and research directors to inoculate against hype."
-    ],
-    "sourceType": "secondary"
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-ukdshp",
+    "title": "With a tiny fish and 2.5 million euros in ERC funding: Fabian Voigt launches new research group at MPZPM - Wiley Analytical Science",
+    "description": "With a tiny fish and 2.5 million euros in ERC funding: Fabian Voigt launches new research group at MPZPM&nbsp;&nbsp;Wiley Analytical Science",
+    "institution": "Wiley",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU2RZY2ZobGRZRURNbjRtTHBOU1lLVUZGOG9vOGt1UTNCWlI2cGh2dDROcWx3cnNjWnM5OUI3QVI2eTV0a0d5em9ZTHF3U0wxSTBmWUQ3Z0htTUFKdnFUUDlveXJsYXhtV3JjOXFxUFRoa2ZVQlg1ei0yRUFPR2NIV3RaMkxGUWFMOEg3Z1ZHOFRrcWhlRXFHZ1ZnUUFGSHhLTDJYakIxRjVjOEthX2lTZUJTbVB2NWJUU3BfSDNVS3k4Q24xTWdsa3QyRWMtdjUyU0E?oc=5",
+    "sourceName": "Wiley Analytical Science",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-rp869w",
+    "title": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips - Quantum Computing Report",
+    "description": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips&nbsp;&nbsp;Quantum Computing Report",
+    "institution": "Novo Nordisk Foundation",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONEpMYUhxTEljeFZld185eHl2elMzRUNrd3FUOHYxN3RPcmg3S2pocTJnZGZ2OEh2STFYRE9icWE5czRsRHF1eUlRa0pRd1dYTjdybUJLZ1FleXRaMUFpLVpCWmpjMXlfM3FmUzBJZk44N293eTExVG5TLWVRRDJqMVlFMjRxRHZpYWhobUVLc0dQeWgzUTB0c05EU0V3aHZyWWhtT2VMMlBGbmdnejkxajJMMFYycXY0X1dFZnJwZUtOcWEzMkMtMjhGSG9DTWNZRmRzTmJHN1MyNHRnU0RrMDhfSTkwZ9IB6wFBVV95cUxPblBHblREZURMMVVyQW1DM2hVTmE2dFJpck8za1NxS0NlTTdkWHJmWnh0Ulk5TkVUMEU5Qmx1UkwyQktRMFc2MXItSHNfSU9ULTJuWVJ6bEdRV2xCNU9SVmp2N2pJU0ZFZkYtSXp",
+    "sourceName": "Quantum Computing Report",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-lukjw5",
+    "title": "BioInnovation Institute commits €8 million to six companies advancing health and sustainability - - ArcticStartup",
+    "description": "BioInnovation Institute commits €8 million to six companies advancing health and sustainability -&nbsp;&nbsp;ArcticStartup",
+    "institution": "BioInnovation Institute",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BelU1ZjZLWDNIUVVVQmpWVkhrUnlpYVFGMFI1Tk8tYm5xMFQyM1Iwc3NOak9oVUZWT0YtemNzV1N5a2s3SVltNEZQUDMxNlpOQ05RX21TZ1cydmM5TnFXZTZVNGw4WHZZWUlIUVp0Y2VOQ2tDVTVaMGdBY9IBe0FVX3lxTE1BelU1ZjZLWDNIUVVVQmpWVkhrUnlpYVFGMFI1Tk8tYm5xMFQyM1Iwc3NOak9oVUZWT0YtemNzV1N5a2s3SVltNEZQUDMxNlpOQ05RX21TZ1cydmM5TnFXZTZVNGw4WHZZWUlIUVp0Y2VOQ2tDVTVaMGdBYw?oc=5",
+    "sourceName": "ArcticStartup",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
   },
   {
     "id": "news-dqu798",
@@ -203,19 +255,6 @@
     "autoDiscovered": true
   },
   {
-    "id": "news-rp869w",
-    "title": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips - Quantum Computing Report",
-    "description": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips&nbsp;&nbsp;Quantum Computing Report",
-    "institution": "Novo Nordisk Foundation",
-    "category": "ai_adoption",
-    "categoryLabel": "AI Development & Adoption",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONEpMYUhxTEljeFZld185eHl2elMzRUNrd3FUOHYxN3RPcmg3S2pocTJnZGZ2OEh2STFYRE9icWE5czRsRHF1eUlRa0pRd1dYTjdybUJLZ1FleXRaMUFpLVpCWmpjMXlfM3FmUzBJZk44N293eTExVG5TLWVRRDJqMVlFMjRxRHZpYWhobUVLc0dQeWgzUTB0c05EU0V3aHZyWWhtT2VMMlBGbmdnejkxajJMMFYycXY0X1dFZnJwZUtOcWEzMkMtMjhGSG9DTWNZRmRzTmJHN1MyNHRnU0RrMDhfSTkwZ9IB6wFBVV95cUxPblBHblREZURMMVVyQW1DM2hVTmE2dFJpck8za1NxS0NlTTdkWHJmWnh0Ulk5TkVUMEU5Qmx1UkwyQktRMFc2MXItSHNfSU9ULTJuWVJ6bEdRV2xCNU9SVmp2N2pJU0ZFZkYtSXp",
-    "sourceName": "Quantum Computing Report",
-    "publishedDate": "2026-09-04",
-    "foundDate": "2026-09-08",
-    "autoDiscovered": true
-  },
-  {
     "id": "news-folz4l",
     "title": "BioInnovation Institute allocates €8 million - BeBeez International",
     "description": "BioInnovation Institute allocates €8 million&nbsp;&nbsp;BeBeez International",
@@ -240,47 +279,6 @@
     "publishedDate": "2026-09-04",
     "foundDate": "2026-09-08",
     "autoDiscovered": true
-  },
-  {
-    "id": "news-8o7br6",
-    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research - WION",
-    "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research&nbsp;&nbsp;WION",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNeFZfWlAxejNhUjBKY1Y2ekRMUzJ2cXNPLTJZZzZLV3JlaW5fVnd6N3JHTGhEV3lkVFpTREcwb0o4VUNjSGxGN1VhRnpfQjFBejVzOElnRmhkVGcyaTllUDM3UFF3cDV4TW9pdU1Bc0lYNmJsVWRuSUhmQ2VRY0Z0SVZQZUxVRU4zS3JpenFzb1BMOUpDRGxzZVEyb2ktODZyQm92d1c2aXdqcW45bWRCaWs1SkpyWHZwU3Q5WC1JVXVyRWdFQkF5ZkY3TF9hLVM5RDdFV19uMWFQaFnSAeABQVVfeXFMTnBSdzEzMWplQ0NoZkttX0VUOEVxYmFUbjRoSWxFa3B0X2pjZFZ0V0EtYkpUMjZpaUJjZFZxRVJGcndzZXFVM09KU1B5cnJqZVNsd253aFRPcFNMLVB6NkRxUWc0V2RhWDhBZ3FHdkY2c0lGbldDTEJ",
-    "sourceName": "WION",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-05",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic's new Claude models claim major advances in coding and AI research, raising competitive pressure on Elsevier's AI-assisted research tools like LeapSpace.",
-    "keyFindings": [
-      "Anthropic announced Claude Fable 5.1 and Mythos 5.1 with claimed improvements in coding performance and AI research capabilities.",
-      "The new models position Anthropic as a direct competitor in AI-assisted research and development workflows.",
-      "Claims of 'major leap' suggest Anthropic is aggressively targeting the research and technical professional market.",
-      "Advanced coding and research AI capabilities threaten adoption of emerging Elsevier tools like LeapSpace writing coach and deep research reports.",
-      "Danish research institutions may face pressure to evaluate Anthropic's models versus integrated Elsevier ecosystem offerings."
-    ],
-    "whyItMatters": "Danish universities and research institutes evaluating AI research assistants now face competition from Anthropic's specialized models. Elsevier's LeapSpace must emphasize integrated access to ScienceDirect/Scopus content, proprietary metadata, and institutional workflows to differentiate from standalone AI tools.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Claude Mythos 5.1",
-      "WION",
-      "Elsevier LeapSpace"
-    ],
-    "actionItems": [
-      "Prepare competitive briefing comparing LeapSpace's research capabilities, content integration, and institutional benefits versus standalone Claude models.",
-      "Identify and contact 3–5 Danish research institution CIOs/librarians to discuss AI assistant evaluation timelines and decision criteria.",
-      "Gather early user feedback from existing LeapSpace pilot sites on AI research features to refine value proposition messaging."
-    ],
-    "sourceType": "secondary"
   },
   {
     "id": "news-x72qpj",
@@ -461,44 +459,6 @@
     "actionItems": [
       "Investigate whether CrowdStrike-OpenAI bundled offerings are or will be marketed into Danish healthcare systems, pharma, and institutional research buyers.",
       "Explore partnership opportunities with Danish security/IT vendors or system integrators to co-market LeapSpace bundled with compliance/governance features for regulated research environments."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-mzu88d",
-    "title": "Anthropic unveils Claude Fable 5.1 and Mythos 5.1 for coding and knowledge work - ET CIO",
-    "description": "Anthropic unveils Claude Fable 5.1 and Mythos 5.1 for coding and knowledge work&nbsp;&nbsp;ET CIO",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZU04akFDMERQRzlndlAzM2pNWWhZSm5hcm1LLWVvNmhJMUR0eVJ1b3U3ODk0OS0wTmh1a2R5Nm5zYTNGTVlCOHhqQk9IX2t6REZtTWlXbGYzYmFfZ3ljZk9ETkFPdlhBU0ZUVkJ0eDdLVjZWdDJHWTBMaEkybnZDN0lUSjVNRkdIQkNlVmFSTkhJc1h1eUtuZ1h3VDlOWGxfZFNUR0tTbXFIcjNscVBMV3VPWkxxdGs3aEJpcTdKaFVjVFlCcWRjeXE2czhwakVGdzBoY2tnMVhuTnJfOFluMEZIdVpXS2cwR2d5bEwzWHXSAfYBQVVfeXFMTVRMWWpmYUN3UHRrNWYzWVNudXlHSUxlRjV6ZDBWdnhpa0ZDemkwMVE3dzRxQ0tuMXlBYmJsWkxqRG9XOExZZW14Mkh5N1FRRmF5MUJkUXI4eWhXTWtYd0REaXR",
-    "sourceName": "ET CIO",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 models optimized for coding and knowledge work, positioning AI as direct competition to research-focused platforms.",
-    "keyFindings": [
-      "Claude Fable 5.1 and Mythos 5.1 designed specifically for coding and knowledge work tasks.",
-      "Models target research and professional knowledge domains traditionally served by specialized platforms.",
-      "Announcement emphasizes technical capabilities in domains overlapping with academic research tools.",
-      "Lower-cost positioning aims to increase adoption across institutions and enterprises."
-    ],
-    "whyItMatters": "Danish universities and research institutes evaluating AI-assisted research tools now face direct competition from Anthropic's models, which could reduce adoption of ScienceDirect/Scopus/LeapSpace if positioned as standalone research solutions rather than integrated platforms.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos 5.1"
-    ],
-    "actionItems": [
-      "Map Claude Fable 5.1 capabilities against LeapSpace features; identify unique value propositions in literature search, claim-checking, and reading assistance.",
-      "Conduct institution-level competitive analysis with Danish research centres on AI-native research workflows versus integrated discovery platforms.",
-      "Develop messaging emphasizing ScienceDirect/Scopus content integration as competitive advantage over standalone AI models."
     ],
     "sourceType": "secondary"
   },
@@ -685,352 +645,6 @@
     "actionItems": [
       "Request technical deep-dive on GPT-6 Astra's autonomous scientific capabilities—determine if claims are overblown or represent genuine threat to Elsevier's research-workflow value.",
       "Prepare messaging for Danish research directors: LeapSpace + Scopus as guardrails for AI agents (validation, bias detection, citation integrity) rather than replacement."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-hw75a2",
-    "title": "Anthropic launches Fable 5.1 and Mythos 5.1 with lower costs, fewer AI restrictions - Business Today",
-    "description": "Anthropic launches Fable 5.1 and Mythos 5.1 with lower costs, fewer AI restrictions&nbsp;&nbsp;Business Today",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWEVld1RqNXo1ZWo4OWRHVDdqQXl0cUNZcHhuYVV4TTFqT2FCdWFKUkp4VGZreEYxRVM5NXAxZkc5MDF2b2NNU1AyZ0FFMV9rdFpnLVA2Q1Bnb1ZIb1F6MGJwVWhqQTVWRVVXbHhMcUZsczFCN2hFUEs0Q19wTDdtNFIyTXNqNmN3Zkd5WnJzcHg1c211dy1fSzExamZjUDRObGJYTWFVcXRSTWhsMjRsRkhsd2o1SmgzM3NPbWVHMVVNWHR3aTAwMG1iQkExNHBENFZYSHdCeWFjdTladlAtd2hlV0xuYW1aeFpSVzlDbFdweEh4T1hnOGNVV1pjUWh2MEtuetIBhAJBVV95cUxOWEVld1RqNXo1ZWo4OWRHVDdqQXl0cUNZcHhuYVV4TTFqT2FCdWFKUkp4VGZreEYxRVM5NXAxZkc5MDF2b2NNU1AyZ0FFMV9",
-    "sourceName": "Business Today",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic launches cheaper, less-restricted Claude variants, signalling aggressive pricing and openness positioning to undercut specialized research platforms.",
-    "keyFindings": [
-      "Fable 5.1 and Mythos 5.1 priced lower than competing models, targeting cost-sensitive institutions.",
-      "Fewer AI restrictions expand use cases and appeal to research communities valuing unrestricted exploration.",
-      "Lower barriers to entry threaten institutional adoption of premium platform subscriptions.",
-      "Pricing strategy targets institution-level deployments as primary market."
-    ],
-    "whyItMatters": "Danish research institutions with budget constraints may opt for cheaper Anthropic models as point solutions, bypassing Elsevier's integrated ScienceDirect/Scopus/LeapSpace platform entirely, especially if purchasing decisions are made at department rather than institutional level.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 5,
-      "threat": 5,
-      "urgency": 5
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos 5.1"
-    ],
-    "actionItems": [
-      "Prepare ROI comparison models showing total cost of ownership: Elsevier integrated suite versus fragmented AI + manual research workflows.",
-      "Brief sales team on institution-level value propositions (curated content, discovery, analytics) versus commodity AI cost comparisons.",
-      "Develop pricing/bundling strategies or pilot programs for cost-sensitive Danish institutions to prevent defection."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-gld9s3",
-    "title": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards - 아시아경제",
-    "description": "Anthropic Unveils \"Claude Fable 5.1\"... Introduces Mythos Model with Enhanced Safeguards&nbsp;&nbsp;아시아경제",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0dFQtaXM3RmFuT19pMDlTdFJkX3Vfdnpxc0szQ1hoek1nVjFTV2NJSDJ2ZUZFeTlmQThhNGw5V0ZNVWMtQzNrNGZVT203X3hNQ1RSVjNhdFBoRnNsaHc1SVlkNFc3aGlBa2ZoNTNZUQ?oc=5",
-    "sourceName": "아시아경제",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic releases Claude Fable 5.1 with enhanced safeguards alongside Mythos model, balancing capability with responsible AI positioning.",
-    "keyFindings": [
-      "Claude Fable 5.1 introduces enhanced safeguards for research use cases, addressing institutional compliance concerns.",
-      "Mythos model emphasizes safety and control mechanisms appealing to regulated sectors like healthcare and academia.",
-      "Dual-model strategy addresses both capability-first and safety-first researcher segments.",
-      "Safeguards positioning directly targets institutional procurement criteria in regulated markets."
-    ],
-    "whyItMatters": "Danish universities and medical research institutions with strict governance and compliance requirements may view Anthropic's enhanced safeguards as meeting their regulatory needs; Elsevier must articulate how ScienceDirect/Scopus/LeapSpace's curation and analytics provide equivalent institutional trust and compliance without relying on single-vendor AI models.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos"
-    ],
-    "actionItems": [
-      "Audit ScienceDirect/Scopus/LeapSpace governance, data provenance, and compliance certifications relevant to Danish GDPR and research ethics frameworks.",
-      "Position Elsevier's editorial curation and peer-review backing as equivalent trust mechanism to Anthropic's technical safeguards.",
-      "Develop case studies with Danish medical/regulatory research institutions showing institutional governance advantages of integrated platform."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-ydny8w",
-    "title": "Anthropic Unveils Top-Tier Models 'Fable and Mythos 5.1' — Highlights Long-Duration Agent Performance Ahead of IPO - finance.biggo.com",
-    "description": "Anthropic Unveils Top-Tier Models 'Fable and Mythos 5.1' — Highlights Long-Duration Agent Performance Ahead of IPO&nbsp;&nbsp;finance.biggo.com",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Qc3NGblFCZjRDZGpUY0c1T2F6V0xRTF9FLVRKUXZvM1dUR0E5UW9WaXhuWktDTTJRZnJPTWRjWDd3dml4LXNwMHVGWXh5X1ROSGRHZ1VEam5lWW9ielp0aGpCZ3REZWtBcE8xa21JTzFfYUlVRnc?oc=5",
-    "sourceName": "finance.biggo.com",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic showcases Fable and Mythos 5.1 long-duration agent performance ahead of IPO, signalling maturation of competitive AI technology and increased institutional adoption risk.",
-    "keyFindings": [
-      "Long-duration agent performance demonstrates AI capability to handle sustained, complex research tasks autonomously.",
-      "IPO signalling indicates Anthropic's focus on institutional revenue and enterprise market expansion.",
-      "Performance benchmarks position Anthropic as mature alternative to research-focused platforms.",
-      "Timing and messaging aimed at enterprise procurement decision-makers and institutional budgets."
-    ],
-    "whyItMatters": "Anthropic's IPO and institutional messaging suggest accelerating institutional adoption of Claude models; Danish universities and research centres may view Anthropic as more mature, venture-backed alternative to Elsevier's proprietary platforms, particularly if IPO increases brand awareness and perceived stability.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos 5.1"
-    ],
-    "actionItems": [
-      "Monitor Anthropic IPO details and post-IPO institutional go-to-market strategy; assess direct sales/partnership intensity in Nordic region.",
-      "Develop competitive win/loss analysis on Anthropic deals at Danish institutions; understand decision criteria versus ScienceDirect/Scopus/LeapSpace.",
-      "Prepare board-level messaging on Elsevier's AI/research platform roadmap and institutional partnerships to counter venture-backed startup narrative."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-ni365n",
-    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower... - Moneycontrol.com",
-    "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 with improved coding, research capabilities and lower...&nbsp;&nbsp;Moneycontrol.com",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaTM3azVWemlqYXVyRXZKSDlWV2VqMEppVTN6YUxKWjVsYzhVMGxrNDhWVk5yeVRFd1VSNXItMTA0MnBEN2hlQ0lHQ0tmc3ZqSm1ZTjdTUVlkVVpsRjVKUmV3eGRhNTBLZ2NONHZDSlp5b0dSbGVhQTZxX0pxSnptb2k4SWpydHdXcnZXdERSQnl3OW51cVBQZEM0cmpXNW5aazJlbjNwOWhZWWs2bDVfX3hNb3dvcHVmcVVrbkwzWGkxaFE1a29neDBlN2t1THMzc1FpQ2poOGZsWlh6c2k2T2VHb3gyVTdSLUhDMTh0WVZ5ZENFTW5OaG1OUnVUQmpubmVV0gGIAkFVX3lxTE9ValpMRG1tVHdJS0NPZ1hqcHVYM29SNDVCWTVpRDZHQ2dwYktkS3NwV25hRGg3T1F4bHlWc1MxQTcycHRtZ3NfM3dLUVlNRDM",
-    "sourceName": "Moneycontrol.com",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic releases Fable 5.1 and Mythos 5.1 with improved coding and research capabilities, directly targeting academic and technical knowledge work where ScienceDirect/Scopus/LeapSpace competes.",
-    "keyFindings": [
-      "Fable 5.1 explicitly optimized for coding tasks, expanding beyond traditional research into technical work.",
-      "Mythos 5.1 features improved research capabilities, directly competing with academic discovery and analysis tools.",
-      "Dual-model release targets both technical researchers and domain-specific knowledge workers.",
-      "Lower pricing and capability breadth position Anthropic as comprehensive research and development solution."
-    ],
-    "whyItMatters": "Danish research institutions and tech-focused companies may view Anthropic's dual models as comprehensive replacement for ScienceDirect/Scopus/LeapSpace, especially if they emphasize coding-integrated research workflows; Elsevier must highlight unique advantages in peer-reviewed content access, citation intelligence, and research analytics unavailable in standalone AI models.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos 5.1"
-    ],
-    "actionItems": [
-      "Develop competitive positioning on ScienceDirect/Scopus as authoritative peer-reviewed content layer that Anthropic models cannot replicate without licensing Elsevier data.",
-      "Brief sales team on LeapSpace features (claim-checking, deep research reports, paper comparison) unavailable in generic AI assistants.",
-      "Create technical case studies showing institutional research velocity gains from integrated ScienceDirect/Scopus/LeapSpace workflows versus sequential manual AI usage."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-gjzek5",
-    "title": "Anthropic Launches Claude Fable 5.1 and Mythos 5.1 for Scientific Research - KuCoin",
-    "description": "Anthropic Launches Claude Fable 5.1 and Mythos 5.1 for Scientific Research&nbsp;&nbsp;KuCoin",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOd0tsa3NjSW1HWWRRQjRyM0ZINUxIN0hnR1FDcDBDcWdYMnhhNm16REhFWVFlRjdUcUEzSVNRZ3JaRDZxOXd4TDZ3Y1VzZWQ2QW1tdkI4VDZ1cnhRN1pHdEo3VXBsdnNKbGFhc1NLZFlsZzd1bG92M0dUbGVja25zQS00TjZwdHRwM3k1eHVxb0ctaWxZTXJDYXRSbVBMVkpkdFRCb2FRTQ?oc=5",
-    "sourceName": "KuCoin",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 specifically for scientific research with improved capabilities, directly challenging Elsevier's domain specialization in academic research support.",
-    "keyFindings": [
-      "Models explicitly marketed for scientific research use cases, directly competing with ScienceDirect/Scopus/LeapSpace positioning.",
-      "Improved research capabilities suggest iterative optimization for academic workflows and domain-specific tasks.",
-      "Scientific research framing targets institutional procurement in universities and research centres.",
-      "Announcement emphasizes Anthropic's commitment to research community, signalling long-term institutional product development."
-    ],
-    "whyItMatters": "Danish universities and research institutes are primary target for ScienceDirect/Scopus/LeapSpace; Anthropic's explicit scientific-research positioning may accelerate institutional switching, particularly if purchase decisions are driven by individual researchers or labs rather than central IT, making department-level competitive displacement likely.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 5,
-      "threat": 5,
-      "urgency": 5
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Mythos 5.1"
-    ],
-    "actionItems": [
-      "Launch targeted campaign with Danish university research offices and department heads on ScienceDirect/Scopus/LeapSpace competitive advantages in peer-reviewed content and citation context.",
-      "Conduct institution-level adoption risk assessment; identify high-risk departments/faculties with strong Anthropic model usage or AI-native research workflows.",
-      "Develop low-friction adoption programs (trials, bundle pricing, integration support) to strengthen institutional lock-in against point-solution displacement."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-m8dlfc",
-    "title": "Anthropic Launches Claude Fable and Mythos 5.1 for Advanced Coding and Research - CyberSecurityNews",
-    "description": "Anthropic Launches Claude Fable and Mythos 5.1 for Advanced Coding and Research&nbsp;&nbsp;CyberSecurityNews",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xUzA4eWNTcnVDVTNzWWE3RGdsYkMxMVVaME93YVJ6UWwxd2pEanozcHV5Y25WUjk4cDcxWFdRUjBzemx0dHVBQm03OXNDWnZWZlNLRWN2V1QxN2gweUVKZFI0dXhXeW1KNF9PR3lfcVZtMC1vX0lUZXNR0gF_QVVfeXFMUHUxek1BQjFoOFU5c3F2R3F1RkNndVdJbWRtWUJSb0N1Y3dFX25MZ1ZmLTNDdHhBNXFOUGdsb3RwcjFER2hRcjhBNFc0cERMRjZYNGNZdjdqY0p2V0gyQlh4WTh4MnU0M1QySERXNHpjY3RMWXl2QUdELTZ1SkV1OA?oc=5",
-    "sourceName": "CyberSecurityNews",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic launches Claude Fable and Mythos 5.1 models for advanced coding and research capabilities.",
-    "keyFindings": [
-      "Anthropic has released two new Claude models—Fable and Mythos 5.1—positioned for coding and research tasks.",
-      "Models are claimed to represent significant performance improvements in their respective domains.",
-      "Launch targets developers and researchers needing advanced AI for specialized technical work.",
-      "Announcement positions Anthropic as direct competitor in the AI-assisted research and development space."
-    ],
-    "whyItMatters": "Danish research institutions evaluating AI research assistants must understand Anthropic's positioning against LeapSpace; institutions should assess whether Claude's coding/research claims address their specific workflows and integration needs with existing platforms like ScienceDirect and Scopus.",
-    "impact": {
-      "novelty": 3,
-      "commercial": 3,
-      "threat": 3,
-      "urgency": 3
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable",
-      "Claude Mythos 5.1",
-      "CyberSecurityNews"
-    ],
-    "actionItems": [
-      "Obtain detailed specs on Fable and Mythos 5.1 capabilities; compare against LeapSpace's research-assistant feature set.",
-      "Identify which Danish institutions are Claude users or considering Anthropic; prepare competitive positioning brief.",
-      "Assess whether these models address research workflows not yet fully covered by LeapSpace's current functionality."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-75yfzm",
-    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 - testingcatalog.com",
-    "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1&nbsp;&nbsp;testingcatalog.com",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNXJxaUtzYjd4SHRCemZwLTdabm92OTg3eXc1YXN0ZnNEVUNsZ005TkJEM2dQa0djRGhlZGN5YTVIRFNzc0JCS3dITXd1ekJEM2dEclo3LVE1WllGTWZLWFZKM3I3WlduRkJ1SEliSHBQcFZ2Vmp2SERPWTVqeWI5UmZFMnN6dmpmX0E?oc=5",
-    "sourceName": "testingcatalog.com",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 models marketed as advanced tools for coding and research.",
-    "keyFindings": [
-      "Claude Fable 5.1 and Mythos 5.1 are positioned as leading-edge models for specialized technical and research tasks.",
-      "Announcement emphasizes coding and AI research as primary use cases for the new releases.",
-      "Launch reflects Anthropic's strategy to compete in specialized AI markets beyond general-purpose assistants.",
-      "Timing and feature set suggest targeting both enterprise and research institution segments."
-    ],
-    "whyItMatters": "For Danish universities and medical centres, Anthropic's new models represent an alternative to LeapSpace's integrated literature search, writing coach, and deep research reports; sales teams should clarify LeapSpace's unique advantages in research discovery and institutional-grade analytics over standalone AI models.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 3,
-      "threat": 3,
-      "urgency": 3
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Claude Mythos 5.1",
-      "testingcatalog.com"
-    ],
-    "actionItems": [
-      "Document Fable 5.1 and Mythos 5.1 technical specifications and claimed benchmarks from primary sources.",
-      "Prepare messaging comparing LeapSpace's integrated research workflow against point solutions like Claude models.",
-      "Track adoption signals among Danish tech and research institutions; identify early adopters for outreach."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-m55qp4",
-    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 models claimed to be ‘world’s most advanced models for - The Times of India",
-    "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1 models claimed to be ‘world’s most advanced models for&nbsp;&nbsp;The Times of India",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNOHNTa1l4TE52Q1R4dXlyd2FsUnEwOExYTTZDYl9oU2lra1FSS09ZZkxzcVJIVmJqb1hEZmx6Uk0xSWtVYk5lay1aak1jbFVWMW1NR2VhZUU0bnROM2QtanVXeURWNEQzTzBHMXR1R2tpZFl2MVJGMUZiTjdBSGZTTzVqX0Z4ODNqSkQ4Z3g2Mm8zd0YwU3U2MDVXeUtOMUZPbWhHeXo0MXNSNXU4eGZVYWJjNzVRZVN1dWotNjgtSkhRemxlNWp2U3BSXzFhS1NfUWpDQUF3aG55RXpnNGs4WmUtU0ZUaDdiRmZqbUdNb3U0SzdnTHI0anBWdThMdXMtc3N0cERXMm9LVUgtX2ZBeFEyU3FBV3E5d090amEwcTdUSEhsdWlnckRlWWNTRkhZZWlaYTlBSdIBvAJBVV95cUxObmZid3Z5UURkVzRGMWdqOUpMcUJ",
-    "sourceName": "The Times of India",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic claims Claude Fable 5.1 and Mythos 5.1 are world's most advanced models for coding and research.",
-    "keyFindings": [
-      "Anthropic markets Fable 5.1 and Mythos 5.1 as superior to competing AI models in their respective domains.",
-      "Claims include 'world's most advanced' positioning, suggesting aggressive competitive messaging against rivals.",
-      "Models target both coding-intensive and research-focused use cases with specialized optimization.",
-      "Launch announcement emphasizes technological leadership in AI capabilities for technical professions."
-    ],
-    "whyItMatters": "Danish research institutions may hear bold claims about Claude models outperforming Scopus-indexed AI research tools; Elsevier sales must educate prospects on the distinction between general AI assistants and purpose-built research platforms with indexed content, citation tracking, and institutional licensing at scale.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 4,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Claude Mythos 5.1",
-      "The Times of India"
-    ],
-    "actionItems": [
-      "Develop competitive response brief addressing 'world's most advanced' claims with Scopus/ScienceDirect research data.",
-      "Conduct win/loss analysis on recent Danish institution deals to understand how Claude claims influenced decisions.",
-      "Create case studies showing LeapSpace's integration with Scopus citation data as differentiator versus Claude alone."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-p59c0m",
-    "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research - wionews.com",
-    "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research&nbsp;&nbsp;wionews.com",
-    "institution": "Anthropic",
-    "category": "competitor_announcements",
-    "categoryLabel": "Competitor Announcements",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOcFJ3MTMxamVDQ2hmS21fRVQ4RXFiYVRuNGhJbEVrcHRfamNkVnRXQS1iSlQyNmlpQmNkVnFFUkZyd3NlcVUzT0pTUHlycmplU2x3bndoVE9wU0wtUHo2RHFRZzRXZGFYOEFncUd2RjZzSUZuV0NMQkxtZjVrYUpHUkxoYjBlY3JOUFM0YXM3MzFZRjNud2VLeHk3V3VlRGtSc1NaU0FlM1FnTkVKdXJWU3pXOGQxQWZzU0xndzBXWHB1QXVNdTdUZU5VemJ4empjYWpkSUJ5MGhvQ3k5MjYycNIB4AFBVV95cUxOcFJ3MTMxamVDQ2hmS21fRVQ4RXFiYVRuNGhJbEVrcHRfamNkVnRXQS1iSlQyNmlpQmNkVnFFUkZyd3NlcVUzT0pTUHlycmplU2x3bndoVE9wU0wtUHo2RHFRZzRXZGFYOEFncUd2RjZzSUZ",
-    "sourceName": "wionews.com",
-    "publishedDate": "2026-09-02",
-    "foundDate": "2026-09-02",
-    "autoDiscovered": true,
-    "bottomLine": "Anthropic announces Claude Fable 5.1 and Mythos 5.1 as major leaps in coding and AI research capabilities.",
-    "keyFindings": [
-      "Anthropic frames new models as delivering significant performance jumps in coding and research domains.",
-      "Messaging emphasizes competitive advantages over existing AI tools and research assistant platforms.",
-      "Launch targets segments where specialized AI performance drives research productivity and code quality.",
-      "Announcement suggests ongoing model iteration and competitive feature racing in the AI research space."
-    ],
-    "whyItMatters": "Institutions in Denmark considering switching from or supplementing Scopus/ScienceDirect with standalone AI tools need to understand that LeapSpace's strength lies in its deep integration with Elsevier's full-text and citation databases; a standalone Claude model, however advanced, lacks the curated, indexed research content that powers institutional research discovery.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 3,
-      "threat": 4,
-      "urgency": 4
-    },
-    "entities": [
-      "Anthropic",
-      "Claude Fable 5.1",
-      "Claude Mythos 5.1",
-      "wionews.com"
-    ],
-    "actionItems": [
-      "Schedule product demo updates for Danish prospects emphasizing LeapSpace's Scopus/ScienceDirect integration.",
-      "Prepare talking points on why 'major leap' in coding/research AI does not replace institutional research platforms.",
-      "Monitor whether Danish tech companies or research labs adopt Claude models; identify upsell/cross-sell opportunities."
     ],
     "sourceType": "secondary"
   }
