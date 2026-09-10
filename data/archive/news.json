@@ -1,5 +1,182 @@
 [
   {
+    "id": "news-3tvnpt",
+    "title": "OpenAI Launches GPT-6 Astra: Advanced AI for Enterprise and Consumer Use - News and Statistics - IndexBox",
+    "description": "OpenAI Launches GPT-6 Astra: Advanced AI for Enterprise and Consumer Use - News and Statistics&nbsp;&nbsp;IndexBox",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPdVZxVWlzVjlxQi1XZWZxRGh1RzdMM3pfRUFoR2xSSUxtc2pCb2IwVkR6RXFINTRGN1ZzVU9GTm8xQ21WTzN3eTlZREtMQlJUZDhTR0M2TUJkd0g2aTJIdHZCME9YZ1FPZnE4UjJQVDBIQ19ZRGZ4ZVBONldsOTdtM2RVbjFha2hsRlE?oc=5",
+    "sourceName": "IndexBox",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI launches GPT-6 Astra for enterprise and consumer research, coding, and scientific use cases.",
+    "keyFindings": [
+      "GPT-6 Astra positioned for dual-market adoption: enterprise institutions and individual consumers.",
+      "Research, coding, and science identified as primary use-case categories.",
+      "Signals OpenAI's intent to capture end-to-end research workflows across organization sizes.",
+      "IndexBox's coverage suggests broad business intelligence and market tracking focus."
+    ],
+    "whyItMatters": "IndexBox's business-data audience implies corporate and institutional buyers are now tracking OpenAI as a research-platform alternative; Danish universities will see GPT-6 Astra in competitive analyses and RFP comparisons, requiring Elsevier to articulate unique value in institutional research integrity and compliance.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "IndexBox"
+    ],
+    "actionItems": [
+      "Monitor Danish university RFP templates—track whether GPT-6 Astra is now listed as alternative to Elsevier platforms.",
+      "Brief Danish IT/procurement on Elsevier's institutional compliance, audit trails, and data governance vs. consumer-grade AI models."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-9s3foc",
+    "title": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation - TradingKey",
+    "description": "OpenAI Unveils GPT-6 Astra: AI Agent Capabilities Upgraded, Priced at About 2.5 Times Previous Generation&nbsp;&nbsp;TradingKey",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPc2pZNnhoSVNJbTVKU3BpUnk0S1hTQVUzZ3JhUHg2V18yUGZLcm5wZkk4SThSNE1YeUlJY0V3VmFVeHZUSGRldGQ2Vkp5UlBoUzFtRmpIOWVBa0NTWHVZTndiMTNEOHdpV3JZSDhFQllCREdtX2hZcEgyUm9kUEpFX2taZTZWSVFxNzQ5cEZwRURXNkJzZ2l0MzFZSHQwcFV6ay1hWnZvQTRabmZORkVCZ3BUMmtvU1pKN2EyTkFPS3R3ak1RbU9LanNUMl9NdVlDNTRjdXNLMWlYR2kxdUV1VlBNWE9FTk0?oc=5",
+    "sourceName": "TradingKey",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "GPT-6 Astra priced at ~2.5× previous generation with upgraded agent and AI capabilities for enterprises.",
+    "keyFindings": [
+      "Pricing positioned significantly higher than GPT-5 (approximately 2.5× multiplier), suggesting premium positioning.",
+      "AI agent capabilities substantially upgraded for autonomous research and complex task execution.",
+      "Enterprise and consumer pricing tiers imply different institutional adoption models.",
+      "Premium pricing may create cost justification challenges for budget-constrained universities."
+    ],
+    "whyItMatters": "Danish institution procurement teams will weigh GPT-6 Astra's cost against multi-year ScienceDirect/Scopus subscriptions; Elsevier must position subscription models as fixed, predictable investments with integrated workflows versus pay-per-use AI with lock-in risk.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "TradingKey"
+    ],
+    "actionItems": [
+      "Conduct TCO (total cost of ownership) analysis: GPT-6 Astra enterprise subscription vs. Elsevier platform suite for typical Danish university research cohort.",
+      "Develop pricing transparency strategy—clarify per-researcher cost of ScienceDirect/Scopus/LeapSpace vs. GPT-6 Astra agent usage."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-m7yel8",
+    "title": "Anthropic launches Claude Fable 5.1 and restricted Mythos 5.1 for advanced research - EdTech Innovation Hub",
+    "description": "Anthropic launches Claude Fable 5.1 and restricted Mythos 5.1 for advanced research&nbsp;&nbsp;EdTech Innovation Hub",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjRvaWhmT2plTjhwWjBOXzZON0x5WkxPeEFaX3N6dzNIT1EzTklicGRkUlFQU29xSTRSU05wNVlBMHRLUDh3dE9uWmpnOWF0SFQ4YVpHM1Mxb0wxNDJYbEVYTG5RSVUyeWxVa2dXakdoNVMxR3lQVjhXb2hfcmt3a2ZzNXFJU1V5ZHNSeW1vZzdhLVdDTXhSZWRRa3hqNGxRa1dFekhJY3ZSSldZX042Umxpd3ZfeGp3ZHg4anVkOA?oc=5",
+    "sourceName": "EdTech Innovation Hub",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "Anthropic releases Claude Fable 5.1 and restricted Mythos 5.1 models for advanced research applications.",
+    "keyFindings": [
+      "Anthropic launches two new AI models: Claude Fable 5.1 and a restricted variant Mythos 5.1 designed for research use.",
+      "Models positioned specifically for advanced research workflows and institutional adoption.",
+      "Represents Anthropic's entry into specialized research AI tooling beyond general-purpose chat.",
+      "Timing suggests competitive response to OpenAI's research-focused model releases."
+    ],
+    "whyItMatters": "Danish research institutions now face AI alternatives that bypass traditional literature discovery platforms; Elsevier must emphasize integrated workflows combining Scopus/ScienceDirect with native research AI rather than standalone models.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 3,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude Fable 5.1",
+      "Mythos 5.1",
+      "EdTech Innovation Hub"
+    ],
+    "actionItems": [
+      "Research Mythos 5.1's capabilities and restrictions—identify feature gaps versus LeapSpace's integrated research workspace.",
+      "Brief Danish university research offices on interoperability: can Fable/Mythos meaningfully replace Scopus/ScienceDirect or only supplement them?"
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-ii1s8z",
+    "title": "OpenAI unveils GPT-6 Astra with major advances in AI capabilities: 'Now in the AGI era' - Fox Business",
+    "description": "OpenAI unveils GPT-6 Astra with major advances in AI capabilities: 'Now in the AGI era'&nbsp;&nbsp;Fox Business",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ2l4c2h2R2JEUTlZSkR4QlIzR1RtN0Q0M2dzMHpGR2o0WGJ0N3hUY0tfZlBZWjk0ZnFtMVFYLUZMVnV4eXpMQkxESWd1cUgyUEFqSE5Vb1RxR2VQaDllOHUyVlpndE1PekZKYTJOMDlWOTBEc0dFMUpUWl9zekhvcUdza1lLZ21wYVNYU2JtY2JuVmljblZQUHdacS3SAaIBQVVfeXFMTlpQdmVJNXpScWN6VnoxTk1fMHctWGpzdC1Ib1FkdVNkZVE1b2RFQ1p0S1lZY18zOHJVOE1IdXVGc01nREQtZlg1R3FhaWRNVS1YRnZ2TXhMYUYxNmstTHVTOC0ySnBsQ1dHc2ZzMDJra1A1RjdmdHB1Q29Ja0tyMDNpZXRUaWR4Q0lnaDdBZlZMMGU5Y01aRzJZTmpyVE95emNn?oc=5",
+    "sourceName": "Fox Business",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-x6j1qy",
+    "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities - CNBC",
+    "description": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities&nbsp;&nbsp;CNBC",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iUlVPODl5bTBweko3Y1pHY1Y3RzZua3FHak9hVm5aa3hZWmNQcmVrVW1VMHdXME04cDJITVM4TmlBdUZWZ3JIQlgtdUZPMjlEd3pUdmNkV3BsT3FRMTEwNm1GcnRJU2NXeElBYVZhc9IBdEFVX3lxTE9NYUtIZlJ6NHoxSGladzc0bkc5Tm8xWjJkcHdJeHJHeUVfUlZ4b2ZoTC1ueE9HaEI4ZFZoUXAxUldGZHYweTd2ZEhtUkJiaFFid0FZdkdRS2Z1OV9NY2tzb3BKQW5wZGh0SER5aTlOdm9sbWVD?oc=5",
+    "sourceName": "CNBC",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-fi26ok",
+    "title": "STMicroelectronics Launches the Fully Integrated UWB Solution with IEEE 802.15.4z and 4ab Standards - TechInsights",
+    "description": "STMicroelectronics Launches the Fully Integrated UWB Solution with IEEE 802.15.4z and 4ab Standards&nbsp;&nbsp;TechInsights",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWS1DUy1mWVRRY3EwTUVBQThFZUpZUEpkelBNaWxWOFJmMzJ4ZW1yVHhpSmU2Zl9GV3R3UHlBMGR1T1NXQjY5SDRDb0J5Y2g3akZTczBvcm1lSDE3MlR2UWl5VjgzTU1kdUJGV0VZSWluNkViWG9YUHoyelN2cER1S2RTY0NSWXJUV3dGUlhWMXhWTDRhbGFRN3dnOVpoY0ZEclN2cWF3emxnOHRSRWhneTd3dkhpc3RLWU5FRHlRNA?oc=5",
+    "sourceName": "TechInsights",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-10",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-27v8b5",
+    "title": "Anthropic Launches Claude Fable 5.1 and Claude Mythos 5.1 - ForkLog",
+    "description": "Anthropic Launches Claude Fable 5.1 and Claude Mythos 5.1&nbsp;&nbsp;ForkLog",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZzU1MWl5MnMwQk0yREE3bWxzZE51d01ZbHl3LUJVVlZ2THF6MmNyRnJKZTBwa2ZoY3dlSWxvczlDSEFIQTE2VGJxWjg2bUpJdHZLc2JaNVkwZ0lGTllJZkpzU2JNR3hoSlFYM2s5ZDRjcmZqNlkyT2E4VzRLNFQ1NnBfQXRZbXZv?oc=5",
+    "sourceName": "ForkLog",
+    "publishedDate": "2026-09-02",
+    "foundDate": "2026-09-10",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-gfc4dc",
+    "title": "Anthropic Launches Fable 5.1: Cache Read Costs Slashed 75%, Enterprise Data Can Stay On-Premises - finance.biggo.com",
+    "description": "Anthropic Launches Fable 5.1: Cache Read Costs Slashed 75%, Enterprise Data Can Stay On-Premises&nbsp;&nbsp;finance.biggo.com",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NQmc0NHFZeTJscWthZHk4azR5QXgwMmZiWGJ3Q0lybUJodm1lV3h5cXFCeXZsU0k4UjJHalRjQi1fdkhMVU1yRElaNnM2VV85RzRNU3Y0SFV6bmFHU0Q2Z3pTQkVRYUZYaWxSZTdtUmlVNE5DOEE?oc=5",
+    "sourceName": "finance.biggo.com",
+    "publishedDate": "2026-09-01",
+    "foundDate": "2026-09-10",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-p59c0m",
     "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research - wionews.com",
     "description": "Anthropic launches Claude Fable 5.1 and Mythos 5.1, claims major leap in coding and AI research&nbsp;&nbsp;wionews.com",
