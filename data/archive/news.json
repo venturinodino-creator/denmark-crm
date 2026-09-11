@@ -1,5 +1,388 @@
 [
   {
+    "id": "news-ulddbb",
+    "title": "OpenAI Launches GPT-6 Astra, Claiming a New Frontier in Computer Use, Coding, and Science - gHacks",
+    "description": "OpenAI Launches GPT-6 Astra, Claiming a New Frontier in Computer Use, Coding, and Science&nbsp;&nbsp;gHacks",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQLWM1N3p4TUpram5lQ3dEdFhlajdWUkE5TTlTZHNneXVsSmk4Mjl1dHpTZTE3dE0tcGVGblA5dWxqWFNITk8zUnB0aDlzbWs1UWxyY3h4czJuZ29DSk82b1QxWHIwTU9SRGJlWHlCOUpMTzJkNk5ldUVLYTVaR0ZnVk5lYVcyWExxNHJVOC1qeEFzZzU5ZTVrQWhXM3JxX2MxNTN6aEl3V0syeGJqQmFHYjF2SFVZUGQxQXJEZ0tR?oc=5",
+    "sourceName": "gHacks",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI claims GPT-6 Astra opens new frontiers in computer use, coding, and science with advanced AI.",
+    "keyFindings": [
+      "GPT-6 Astra positioned as breakthrough in autonomous computer interaction and code generation for scientific research.",
+      "gHacks emphasizes frontier claims around novel capabilities in science-specific workflows.",
+      "Suggests GPT-6 Astra can autonomously execute complex research tasks beyond prior-generation models.",
+      "Tech-savvy audience (gHacks) likely to influence early adopters in Danish research community."
+    ],
+    "whyItMatters": "gHacks' tech-focused readership includes the researcher innovators and lab IT decision-makers in Denmark; if GPT-6 Astra can autonomously run coding and scientific analysis, it threatens Elsevier's narrative that platforms enable discovery—now Elsevier must emphasize curation, validation, and compliance that raw AI cannot provide.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 5,
+      "urgency": 5
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "gHacks"
+    ],
+    "actionItems": [
+      "Request technical deep-dive on GPT-6 Astra's autonomous scientific capabilities—determine if claims are overblown or represent genuine threat to Elsevier's research-workflow value.",
+      "Prepare messaging for Danish research directors: LeapSpace + Scopus as guardrails for AI agents (validation, bias detection, citation integrity) rather than replacement."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-iqxs1j",
+    "title": "OpenAI launches GPT-6 Astra, calls it its ‘most intelligent’ AI model - Pragativadi",
+    "description": "OpenAI launches GPT-6 Astra, calls it its ‘most intelligent’ AI model&nbsp;&nbsp;Pragativadi",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYUlwdGhVQjlXU2pPaFNRQ2NCZDFVbEM0SEZQaEZqYXFqTFZ6MFoyZFF1ZnctcFBTaUpsbWlMUm1qOThpVERoZ3pqUUZPWHFsV0ljb0FaV0Q3OTdoZWNOcjVlcWM1VnBOSm8zRlBGUHdlSmEwMjJQSlM1LTJHc2JZSTFQZFd1VUh0S3AtVUs0aGFmcEN2YUE?oc=5",
+    "sourceName": "Pragativadi",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI launches GPT-6 Astra, its most advanced AI model with enhanced reasoning and multi-modal capabilities.",
+    "keyFindings": [
+      "GPT-6 Astra represents OpenAI's latest flagship model with claims of human-level intelligence advancement.",
+      "Model targets both enterprise and consumer markets with broad capability scope.",
+      "Positioned as frontier advancement in reasoning, coding, science, and computer use.",
+      "Timing coincides with intensified competition in AI-assisted research tools."
+    ],
+    "whyItMatters": "GPT-6 Astra's broad capabilities threaten to consolidate research discovery, writing, and analysis in a single tool, directly competing with Elsevier's value proposition; Danish institutions will ask whether one AI model replaces subscription platforms.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 5,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Pragativadi"
+    ],
+    "actionItems": [
+      "Immediately assess GPT-6 Astra's training data scope—does it include full ScienceDirect corpus or rely on outdated/partial training sets?",
+      "Develop messaging around Scopus/ScienceDirect as authoritative, continuously updated sources vs. static AI model training."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-r229t2",
+    "title": "CrowdStrike and OpenAI Expand Partnership to Secure the Agentic Era - HPCwire",
+    "description": "CrowdStrike and OpenAI Expand Partnership to Secure the Agentic Era&nbsp;&nbsp;HPCwire",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSFN2Zm4yZV9nbEpZZ21tY3lzWm9xdUpLb0J1VERydS1Hdk50SXVwblBjeTBCQ09CSWNhYWF2NHVSTnh1LWFHdmNlOWlZY1hqRTBUWkxGVW9SSVBKOUdiWkpIZ0NpVGxIZnpveFlDb1lJLTdsN2ZWSm5VdjhJS2FqcE5oNWdNZ3V3RlVDLTJOcHhldXFoSmhmLVFXSWtoVGtYTkFud0ZCeE9mbGxmUG44?oc=5",
+    "sourceName": "HPCwire",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "CrowdStrike and OpenAI partnership signals AI commoditization and ecosystem lock-in risk for Elsevier's independent research platform strategy.",
+    "keyFindings": [
+      "CrowdStrike and OpenAI deepen partnership to secure AI agent deployments, reflecting broader enterprise trend toward GPT-powered autonomous systems.",
+      "Partnership suggests OpenAI building enterprise distribution and trust relationships through security/infrastructure vendors.",
+      "Integration of OpenAI models into CrowdStrike's security stack enables bundled AI sales, potentially displacing standalone research tools at enterprise accounts."
+    ],
+    "whyItMatters": "Danish enterprises and institutions may adopt GPT-6 Astra via bundled CrowdStrike/OpenAI offerings, reducing Elsevier's direct contact and sales opportunity. LeapSpace must be positioned as complementary to, not competing with, enterprise security stacks—emphasizing research-specific expertise and ScienceDirect/Scopus access.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "CrowdStrike",
+      "OpenAI",
+      "Agentic AI",
+      "Enterprise security"
+    ],
+    "actionItems": [
+      "Investigate whether CrowdStrike-OpenAI bundled offerings are or will be marketed into Danish healthcare systems, pharma, and institutional research buyers.",
+      "Explore partnership opportunities with Danish security/IT vendors or system integrators to co-market LeapSpace bundled with compliance/governance features for regulated research environments."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-9sj4x0",
+    "title": "OpenAI unveils GPT-6 Astra: Here’s what this new model can do - Gulf Business",
+    "description": "OpenAI unveils GPT-6 Astra: Here’s what this new model can do&nbsp;&nbsp;Gulf Business",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONUhiYXBxR1preXNVUWdOdHBIME1nbWVqQWladEMxNjRUU09MNVNpNE41bnhQOW5UWnRQdGd4aGJDQWRiUnAwdXdyN0lpV0ZBeC1qblRvRDBUV0VNN2g5LTJPaWE5RVlhTjRmYW01ckxZLTIwNmpaMmVmeXNYUUUyYnEwSmRuZDFPMHl1SnV0NU9RMDJoR2Z4WmJkNGE0cXNsSjc0bjYxNUljaFdSN1lacW04aFlCR0FS?oc=5",
+    "sourceName": "Gulf Business",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI details GPT-6 Astra's capabilities, signaling broad competitive ambitions across research, coding, and enterprise use cases.",
+    "keyFindings": [
+      "GPT-6 Astra capabilities article outlines model performance across multiple research and enterprise domains.",
+      "Suggests OpenAI positioning GPT-6 Astra as a universal tool, competing directly with specialized research platforms like LeapSpace.",
+      "Detailed capability disclosure likely to influence institutional purchase committees evaluating best-fit AI research assistants."
+    ],
+    "whyItMatters": "Danish universities and research institutes will use capability articles to compare GPT-6 Astra against LeapSpace. Elsevier must highlight that LeapSpace's edge lies in research-workflow integration (literature search + full-text access + author/funding discovery + writing coaching) rather than raw generative power.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 3
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Research applications"
+    ],
+    "actionItems": [
+      "Conduct feature-by-feature capability comparison: GPT-6 Astra vs. LeapSpace on core research workflows (literature discovery, paper analysis, writing quality, claim verification).",
+      "Prepare demo script for Danish institutions showing LeapSpace's Scopus + ScienceDirect integration and why access to authoritative research data beats general-purpose LLM capabilities."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-9xctab",
+    "title": "OpenAI launches GPT-6 Astra, Sam Altman calls it best AI model in the world - India Today",
+    "description": "OpenAI launches GPT-6 Astra, Sam Altman calls it best AI model in the world&nbsp;&nbsp;India Today",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcU5ELXNlZGlWTzlWVW9lNXZGTDcxaG9QSWZhLXJ2Wm5reWRncXFNcUllRjhQcWE4MmY1S3lZTDdQVnpsUDNEYV9CTzZIN1FJcU9JV0lNYm1xclBXdEdHamtQcEFmQU1ESlpWTGowdGpFQlhza3BZblNyVUVlckF2cnVhcnYzaUlOR1hLN3BTS196NkxyRzd1cUtSNEg0R3JiZXE2ZXVkV1AtSFp3ZjlpQV9yYWlRbVg3M3MyWjlwc3RCTldVVERiN0VqOGljWEM4Q21uS2U3bUbSAd4BQVVfeXFMTUc5TnhpY0pPRHlfd1J6V3hHVXRiOEpHUHRFRTM2Uy1pXzN0MERsQzd1RXI2cXE3RlNhU2RIdUxneFV1RkYtMzU1ekJFTWJ1c1dMUC01U05wbnJBSkV4QkFBdTAzT2V6cDBxQVpwcDBHTF9rSmhsTW9DUUZ",
+    "sourceName": "India Today",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "Sam Altman claims GPT-6 Astra is the world's best AI model, amplifying OpenAI's market dominance and institutional mindshare.",
+    "keyFindings": [
+      "OpenAI's CEO publicly endorses GPT-6 Astra as the best AI model in the world, setting aggressive market expectations.",
+      "High-profile claim likely to influence purchasing decisions at universities and research institutions seeking cutting-edge AI tools.",
+      "Positioning targets enterprise and academic buyers who prioritize \"best-in-class\" perception when selecting AI platforms."
+    ],
+    "whyItMatters": "Danish research leaders may assume GPT-6 Astra is a superior choice for literature analysis and writing, even without testing LeapSpace; sales must counter with evidence that specialized, integrated research workflows (Scopus + ScienceDirect + coaching) outperform generic generative AI.",
+    "impact": {
+      "novelty": 1,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Sam Altman"
+    ],
+    "actionItems": [
+      "Develop ROI narrative: total cost of ownership (TCO) for LeapSpace + Scopus/ScienceDirect vs. standalone GPT-6 Astra subscription for a typical Danish research team.",
+      "Create case study or testimonial from existing Danish institution users showing LeapSpace's research-specific wins vs. generic AI."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-t7gl8h",
+    "title": "OpenAI Launches GPT-6 Astra, Its Most Powerful And Aligned AI Model - tekedia.com",
+    "description": "OpenAI Launches GPT-6 Astra, Its Most Powerful And Aligned AI Model&nbsp;&nbsp;tekedia.com",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaExOM0lQejhCZlZXZkR3eXJNeFlmeWZNZl9IWUliNEtWQWJZZUE3WW1uVGllak5hOHU4UE1sOXR4OF9hall4Vm9peGRUM3FGQ3VhdEtPRDhMSlRxLVQtUUNRLUQ1MU9YcG9vV2JkeTNxR2dGbjlva2xXTFQ5VEVqbEJKclFkdUNvWTlZS2M3VmYtbUYtZkE?oc=5",
+    "sourceName": "tekedia.com",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI launches GPT-6 Astra, positioning it as the most powerful and aligned AI model, raising stakes in enterprise AI race.",
+    "keyFindings": [
+      "OpenAI releases GPT-6 Astra as next-generation flagship model with claimed improvements in power and alignment.",
+      "Model positioned for broad enterprise and research applications where alignment and reliability are critical.",
+      "Launch reinforces OpenAI's dominance in generative AI and signals rapid capability escalation in the AI research tool market."
+    ],
+    "whyItMatters": "Danish research institutions considering AI-assisted tools must evaluate whether GPT-6 Astra's raw power outweighs LeapSpace's integrated research-specific features (Scopus indexing, ScienceDirect full text, funding discovery) and domain-curated training.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 5,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Sam Altman"
+    ],
+    "actionItems": [
+      "Schedule urgent call with key Danish institutions to reaffirm LeapSpace's advantage: research-domain training + Scopus/ScienceDirect integration vs. general-purpose GPT-6.",
+      "Gather competitive intel: what specific research tasks does GPT-6 Astra claim to excel at, and how does LeapSpace's reading assistant and paper comparison compare?"
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-8f0zas",
+    "title": "GU Ventures and BioInnovation Institute collaborate to strengthen the regions' competitiveness in life science - mynewsdesk.com",
+    "description": "GU Ventures and BioInnovation Institute collaborate to strengthen the regions' competitiveness in life science&nbsp;&nbsp;mynewsdesk.com",
+    "institution": "BioInnovation Institute",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWmh3TnJ0eC1MTDVBb2VBRHlraE1OdEx2eERNNmZmSmhPOWNjUVM1X1V3cWtVcW45M3phZXVnemZWN2ZwclZkcjVEVjUyNTV5aEVEUmtwanR5Q2NXb2hwNzhYekIzbi1hYkVzQkZNX21jLUZNTlozalQ5eGJDZDBiRFVtSXFxc2lYZ0hHYVZQS2x4RDZpMXJKNXVZR18wV1E5MnFOUm1PWU82bnZlRnRqRW5yQVRROVNUdkxTN1RsbHpOa21VSl9MdUFTV3QxY0lycG9IQktQTTFsamJqM2ZWaWk4NEloNG1GeWJkRThFZkZaSHNrbFlrclNLajBBem9maUE?oc=5",
+    "sourceName": "mynewsdesk.com",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-n1m3p3",
+    "title": "Novo Nordisk Foundation to invest DKK 400m in quantum chip factory - medwatch.com",
+    "description": "Novo Nordisk Foundation to invest DKK 400m in quantum chip factory&nbsp;&nbsp;medwatch.com",
+    "institution": "Novo Nordisk Foundation",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nR0tZZ19WdkJLd3ZSY3djaFpyV25FYWFBSmJDVnM1NHNGdFNGd0dOZU9aMFR6Z0ZYUHhISFB2azlkV2EtYXhKU1VEY0ZsRHJBQTFPc2RZQWhPVDFoeWI1WGsyQzNNWVo5UDdWTDkwZw?oc=5",
+    "sourceName": "medwatch.com",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-dqu798",
+    "title": "OpenAI unveils GPT-6 Astra: Here’s what this new model can do - Gulf Business",
+    "description": "OpenAI unveils GPT-6 Astra: Here’s what this new model can do&nbsp;&nbsp;Gulf Business",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZWVEZ3JoVUZ3ZkJPV3J2X0l0NUlpSGhuVm95NXNPa0Z5bHQ2cWRVSmxmcGtPMmhGLThmMWdIbDJwbXJrOGxWX3JuWkstYVNZSU5VQ0ZUenJtbXNhQkV2eGc5VFBLZUhvc3U5LTRpVGRDRFREZkhlLTgzSUpSU3hlZlJTRDdmTnFwOENha3Bma2ZpRlViajBETGVXUlhHYzVpSERsS3AwbVVfeXNiNTBzMmxYai1HWmM?oc=5",
+    "sourceName": "Gulf Business",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-ukdshp",
+    "title": "With a tiny fish and 2.5 million euros in ERC funding: Fabian Voigt launches new research group at MPZPM - Wiley Analytical Science",
+    "description": "With a tiny fish and 2.5 million euros in ERC funding: Fabian Voigt launches new research group at MPZPM&nbsp;&nbsp;Wiley Analytical Science",
+    "institution": "Wiley",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNU2RZY2ZobGRZRURNbjRtTHBOU1lLVUZGOG9vOGt1UTNCWlI2cGh2dDROcWx3cnNjWnM5OUI3QVI2eTV0a0d5em9ZTHF3U0wxSTBmWUQ3Z0htTUFKdnFUUDlveXJsYXhtV3JjOXFxUFRoa2ZVQlg1ei0yRUFPR2NIV3RaMkxGUWFMOEg3Z1ZHOFRrcWhlRXFHZ1ZnUUFGSHhLTDJYakIxRjVjOEthX2lTZUJTbVB2NWJUU3BfSDNVS3k4Q24xTWdsa3QyRWMtdjUyU0E?oc=5",
+    "sourceName": "Wiley Analytical Science",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-2q2xkk",
+    "title": "OpenAI Launches 'World's Most Intelligent' AI Model GPT-6 Astra - NDTV",
+    "description": "OpenAI Launches 'World's Most Intelligent' AI Model GPT-6 Astra&nbsp;&nbsp;NDTV",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcDRkZzJzVVotOW5ySEpHNzRQRmhpMm9NRkViS0VOd0lNVkphWWlDMXU3QVc0T1JYcHRDcTF3LWR6QTV0LVMzZDlQeGhlWVp0SjNvdkZkYVRHTGJLVm1kQmN1NXgtNlUzVExwcUxwTmdFdXhqeUJOWTNNd1B2amxQUXk0c0lTbDVyc3JyUDZwWnBMWHRpTUV1UmRRU3F4X1NLMlZF0gGrAUFVX3lxTE5Mc2RwclVqMXlEdzJ2eUE1ZHotOHdFTFhuX3dxYkQ4NlNNV1NqNWI4SWpjLWRQSnlpNkhnVEdSdER4NmpFTUJuNnRYMEltcnRwOFlSUlRYSnVjSk9IZndtVWFQVnNiOTZYSWpvYzhGcmxQbkh6NmF6bEp6ZXlldEZYTFJpWjh1N2cxRm1ETnJ0Sm9yTlVGVFNVU004VHdGX1FNVXZMandwQkFMcw?oc=5",
+    "sourceName": "NDTV",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-cypkpm",
+    "title": "Novo Nordisk Foundation Funds Copenhagen Quantum Facility - Quantum Zeitgeist",
+    "description": "Novo Nordisk Foundation Funds Copenhagen Quantum Facility&nbsp;&nbsp;Quantum Zeitgeist",
+    "institution": "Novo Nordisk Foundation",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBRN0NfbmQzbzI0b3VkV2dRbTFXVHlYM0VoSGE3OWNfMlh0VlF2R0dZc1ZuQTRpRFJiYWVnY05NMU1UZWpkOFpBYU1ob1lwRjVGTTFQOWkzRjJHWDJpLVhNTU8ySlo2VkNlTGlUR3dDdkszRGFXampyYi13?oc=5",
+    "sourceName": "Quantum Zeitgeist",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-10",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-rp869w",
+    "title": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips - Quantum Computing Report",
+    "description": "Quantum Foundry Copenhagen and Novo Nordisk Foundation Announce 5,300 m² Fabrication Facility for Quantum Chips&nbsp;&nbsp;Quantum Computing Report",
+    "institution": "Novo Nordisk Foundation",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONEpMYUhxTEljeFZld185eHl2elMzRUNrd3FUOHYxN3RPcmg3S2pocTJnZGZ2OEh2STFYRE9icWE5czRsRHF1eUlRa0pRd1dYTjdybUJLZ1FleXRaMUFpLVpCWmpjMXlfM3FmUzBJZk44N293eTExVG5TLWVRRDJqMVlFMjRxRHZpYWhobUVLc0dQeWgzUTB0c05EU0V3aHZyWWhtT2VMMlBGbmdnejkxajJMMFYycXY0X1dFZnJwZUtOcWEzMkMtMjhGSG9DTWNZRmRzTmJHN1MyNHRnU0RrMDhfSTkwZ9IB6wFBVV95cUxPblBHblREZURMMVVyQW1DM2hVTmE2dFJpck8za1NxS0NlTTdkWHJmWnh0Ulk5TkVUMEU5Qmx1UkwyQktRMFc2MXItSHNfSU9ULTJuWVJ6bEdRV2xCNU9SVmp2N2pJU0ZFZkYtSXp",
+    "sourceName": "Quantum Computing Report",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-11",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-zd4uvd",
+    "title": "OpenAI Launches GPT-6 Astra, Its Most Advanced And Aligned AI Model Yet - ETV Bharat",
+    "description": "OpenAI Launches GPT-6 Astra, Its Most Advanced And Aligned AI Model Yet&nbsp;&nbsp;ETV Bharat",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQXRSd2VEU044cWkwaGtPQS1lSGFsSnFnNHExN0QxSEFaQ2ZJaTlpTjc4VEloNzhDV3IyZlRRdnhmRTBNb0xmUEVoMGljLTYyOERfU3VYUG1JSGMtU1E0S1BjYjQ2Vk5VSGVpOEtrLW5BOUZhREY5VmlIaDFTZm13VFNFc3o1cTlYcVdWWElnMTdfc2stMkh5Vm50dGdqT0NjV3AwU2t6M2g3cThzNmpfYW9JdXgtNFhYODZXLVVNTUNGdWfSAcgBQVVfeXFMT0VQa0JnVVFUMEtURy1lbWRENG14SkRZMmowMHdqNElvY0FKOW1uYlBuTWF2MWZNSHhKRFdTd2R1VDBKNlpndG1VdzR5cjd3anpiQkNEVy1WUDRmNlI4MGtUczNWenBsbVltSzRaNngwb2k4bmdaWVRnUkhiN19wRldnNnQ3SlF4TlJ3SHJHdHU",
+    "sourceName": "ETV Bharat",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI touts GPT-6 Astra as most advanced and aligned model, reinforcing positioning for high-stakes institutional sales.",
+    "keyFindings": [
+      "OpenAI emphasizes alignment and advanced capabilities of GPT-6 Astra, appealing to institutions prioritizing responsible AI and reliability.",
+      "\"Advanced and aligned\" framing targets institutional buyers concerned with research ethics, reproducibility, and regulatory compliance.",
+      "Repetition of similar messaging across outlets suggests OpenAI coordinating broad media campaign to dominate institutional AI buyer sentiment."
+    ],
+    "whyItMatters": "Danish research institutions and medical centers evaluating AI tools will factor alignment claims into purchasing. Elsevier must emphasize LeapSpace's training on peer-reviewed research (via Scopus) and integration with authoritative ScienceDirect full-text data as superior alignment for research integrity.",
+    "impact": {
+      "novelty": 1,
+      "commercial": 3,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Alignment"
+    ],
+    "actionItems": [
+      "Audit LeapSpace's training data provenance and document how Scopus/ScienceDirect integration ensures research-specific alignment vs. GPT-6's web-trained baseline.",
+      "Prepare compliance/ethics narrative for medical centers and life sciences institutions on LeapSpace's grounding in peer-reviewed literature."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-t8s50w",
+    "title": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence - Moneycontrol.com",
+    "description": "OpenAI launches GPT-6 Astra, claims new AI capabilities bring it closer to human-level intelligence&nbsp;&nbsp;Moneycontrol.com",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUVhlUnF0NFprazdTQUp6OFFrWWYtWVhpRXdDUkZ3WVNfS2ZTOVRfcEFmNHVGNmVYT0ZDMFNndTFMWmVRUlBTSldhdDVSaS1nMEprMlp4WVVmRHp2M045Y1N3eVJQX2pycDhsUzJselB0cWpfcmljMUI3RE9vSGdPRGhtbThwN3RNaDNLUnhKZU85LUdRbVc4dl8xdUxpSEhsaUJfbDNQOExUcXdldUhrSEpuRENQMWY1NWo1Y0xQaGlVR190VXpyQWQtYkRDNVJnc0VQaUlCek11OWFCR1BEdmlHWlBHX0QyRGV1Rzd0LW1qd9IB9wFBVV95cUxQbUNxa2JCVERNWmFtWkZtbEswcXl4ZTRzREhPSTR3UzBGQUZoZnRQU2YyY0hlNXJnQ0tObVZ4a1NKb0tYRk1ZNmx5RWxsU1QtQ2lJcDZmUzBmVGxCOFg0aHZ",
+    "sourceName": "Moneycontrol.com",
+    "publishedDate": "2026-09-04",
+    "foundDate": "2026-09-04",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI claims GPT-6 Astra achieves new capabilities approaching human-level intelligence in research-relevant tasks.",
+    "keyFindings": [
+      "GPT-6 Astra marketed with claims of near-human-level intelligence, particularly in reasoning and analysis.",
+      "Capabilities emphasized for research, coding, and scientific problem-solving.",
+      "Represents milestone in AI capability maturation that could disrupt research workflows.",
+      "Claims are aggressive and signal OpenAI's confidence in competitive positioning."
+    ],
+    "whyItMatters": "Moneycontrol's coverage amplifies GPT-6 Astra's reach to non-technical audiences in Denmark; universities will face pressure from senior leadership and funders to adopt cutting-edge AI, forcing Elsevier to articulate why integrated platforms beat standalone models.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 5,
+      "threat": 4,
+      "urgency": 5
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Moneycontrol.com"
+    ],
+    "actionItems": [
+      "Prepare competitive comparison: LeapSpace + Scopus/ScienceDirect vs. GPT-6 Astra for research teams, highlighting domain authority and real-time updates.",
+      "Plan executive briefings for Danish university provosts and research directors to inoculate against hype."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-3tvnpt",
     "title": "OpenAI Launches GPT-6 Astra: Advanced AI for Enterprise and Consumer Use - News and Statistics - IndexBox",
     "description": "OpenAI Launches GPT-6 Astra: Advanced AI for Enterprise and Consumer Use - News and Statistics&nbsp;&nbsp;IndexBox",
