@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-10T12:20:58.368Z",
+  "lastRun": "2026-09-11T12:18:37.978Z",
   "lastAddedCount": 0,
   "sources": 40,
   "issues": [
@@ -58,20 +58,6 @@
     },
     {
       "instId": "renew",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "royalacademy",
-      "url": "https://royalacademy.dk/presidium/?lang=en",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "royalacademy",
-      "url": "https://royalacademy.dk/sekretariatet/?lang=en",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "royalacademy",
       "note": "no people extracted"
     },
     {
