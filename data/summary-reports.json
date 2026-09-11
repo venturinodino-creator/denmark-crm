@@ -1,5 +1,20 @@
 [
   {
+    "id": "20260911T124506Z",
+    "date": "2026-09-11",
+    "generatedAt": "2026-09-11T12:45:06.314718+00:00",
+    "file": "reports/summary-2026-09-11-124505.pdf",
+    "summary": "Research CRM tracks 59 institutions across Denmark (14 universities, 14 medical centres, 25 research institutes, 6 NGOs/foundations) and 592 verified contacts (0 high priority). Scopus remains active at 8 of 59 tracked institutions; Clarivate's Web of Science is cancelled or expiring at 0. 2 institution(s) have a live OpenAlex subscription. The daily intelligence scan currently has 12 live news item(s) and 2 open competitor role(s) tracked.",
+    "stats": {
+      "institutions": 59,
+      "contacts": 592,
+      "pending": 0,
+      "pendingIsLive": true,
+      "news": 12,
+      "hiring": 2
+    }
+  },
+  {
     "id": "20260910T125016Z",
     "date": "2026-09-10",
     "generatedAt": "2026-09-10T12:50:16.184375+00:00",
