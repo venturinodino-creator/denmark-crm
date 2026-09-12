@@ -1803,7 +1803,7 @@ const PER_PAGE = 20;
 
 //  STORAGE 
 const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu','kadk','via','ucl','kp','ucn','absalon','ilisimatusarfik','dkdm','ek']);
-const SEED_VERSION = 'v14';
+const SEED_VERSION = 'v15';
 
 //  SUPABASE CONFIG 
 const SUPA_URL = 'https://cfhljbexesdrabmadpcc.supabase.co';
@@ -4701,14 +4701,14 @@ function wsHasRival(id) {
   // Two different kinds of incumbent. For Pure it is the researched CRIS in
   // wsInfo().incumbent — Esploro displaces Pure, but it is no alternative to a
   // citation database. For Scopus and SciVal the rival is Web of Science, so an
-  // institution known to run WoS is a displacement rather than a greenfield
+  // institution known to run WoS or Dimensions is a displacement rather than a greenfield
   // target. WoS has no public subscriber register in Denmark, so this only ever
   // fires where the institution's own library pages confirmed it.
   if (state.wsProduct === 'pure') {
     const inc = wsInfo(id).incumbent || '';
     return !!inc && !/^none/i.test(inc);
   }
-  return getProductStatus(id, 'wos') === 'yes';
+  return getProductStatus(id, 'wos') === 'yes' || getProductStatus(id, 'dimensions') === 'yes';
 }
 // Three buckets a rep actually works differently:
 //   greenfield — verified no Pure and no rival CRIS at all
@@ -4721,7 +4721,7 @@ function wsBucket(id) {
 }
 const WS_BUCKET_LABEL = {
   greenfield: { label: 'Greenfield',   color: '#4ade80', hint: 'No Pure and no competing CRIS' },
-  rival:      { label: 'Displacement', color: '#fb923c', hint: 'A competing product is already installed (a rival CRIS for Pure; Web of Science for Scopus and SciVal)' },
+  rival:      { label: 'Displacement', color: '#fb923c', hint: 'A competing product is already installed (a rival CRIS for Pure; Web of Science or Dimensions for Scopus and SciVal)' },
   unknown:    { label: 'Unverified',   color: '#fbbf24', hint: 'No evidence either way yet' },
 };
 function wsWorks(id) { const w = wsInfo(id).works; return typeof w === 'number' ? w : null; }
@@ -7804,7 +7804,7 @@ if (!window.COMP_DATA) {
       scival:'yes', scivalRenewal:'', scivalProof:'https://kub.ku.dk/english/researchsupport/tools-for-researchers/',
       pure:'yes', pureRenewal:'', pureProof:'https://researchprofiles.ku.dk/da/home/index/',
       wos:'yes', wosRenewal:'', openalex:'free',
-      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      dimensions:'yes', converis:'unknown', symplectic:'unknown',
       proofWos: 'https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/',
       proofOpenalex: 'https://openalex.org/institutions/I124055696',
     },
@@ -7858,7 +7858,7 @@ if (!window.COMP_DATA) {
       scival:'yes', scivalRenewal:'', scivalProof:'https://libguides.ruc.dk/bibliometrics',
       pure:'yes', pureRenewal:'', pureProof:'https://forskning.ruc.dk/',
       wos:'yes', wosRenewal:'', openalex:'free',
-      dimensions:'unknown', converis:'unknown', symplectic:'unknown',
+      dimensions:'no', converis:'unknown', symplectic:'unknown',
       proofWos: 'https://libguides.ruc.dk/bibliometrics',
       proofOpenalex: 'https://openalex.org/institutions/I107707843',
     },

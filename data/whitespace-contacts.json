@@ -27,7 +27,8 @@
     "scival": "SciVal appears nowhere in the national agreement - it is not a consortium product, so every SciVal sale is direct and there is no register to check. Two things are still usable: a library or research-support page naming SciVal is positive evidence (found for six institutions), and SciVal is an analytics layer over Scopus, so an institution with no Scopus is not running SciVal either. That leaves the institutions that hold Scopus but show no SciVal evidence genuinely open rather than confirmed-absent - they are marked unverified, and they are the best prospects, since the prerequisite is already paid for. Parent inheritance applies to SciVal exactly as it does to Scopus: a university hospital or university-owned research centre works off its parent's licence, so 17 such units that first showed as unverified are recorded as covered.",
     "scivalCaveat": "A site crawl of all 73 institutions for the words Scopus and SciVal was run and then discarded as evidence: it returned only two Scopus hits and no SciVal hits, missing even KU and AU, whose library pages sit deeper than the crawl reached. It is recorded here so the negative result is not mistaken for a finding.",
     "wos": "Web of Science is Clarivate's, so it is tracked here as the competing product rather than as something to sell: an institution running WoS is a displacement target for Scopus and SciVal, not white space. Det Kgl. Bibliotek does hold a national Clarivate agreement for Web of Science Core Collection (listed at https://pro.kb.dk/licensservice/videregaaende-uddannelser/aftaler), but unlike the Elsevier agreement it publishes no participant list, so there is no register to enumerate subscribers from and no reliable negative test. Status is therefore only asserted where an institution's own library pages confirm it. All eight prior wos:'yes' claims were re-checked against their cited proof: seven still hold (KU, AU, DTU, SDU, AAU, CBS, RUC — AAU's is a PDF and was confirmed by extracting its text), and ITU's was refuted. The remaining institutions are left unknown rather than counted as white space.",
-    "wosFinding": "Every confirmed Web of Science subscriber also holds Scopus, so no institution in the 39-strong Scopus white space is a known WoS displacement target — on current evidence that list is a greenfield opportunity rather than a competitive fight. That conclusion is bounded by the institutions whose WoS status is unknown, which is most of them."
+    "wosFinding": "Every confirmed Web of Science subscriber also holds Scopus, so no institution in the 39-strong Scopus white space is a known WoS displacement target — on current evidence that list is a greenfield opportunity rather than a competitive fight. That conclusion is bounded by the institutions whose WoS status is unknown, which is most of them.",
+    "dimensions": "Dimensions is Digital Science's, so like Web of Science it is tracked as a competing product rather than as white space. There is no national agreement for it — Digital Science, Dimensions, Altmetric and Figshare appear nowhere in Det Kgl. Bibliotek's consortium agreements — so every subscription is direct and there is no register. Detection is further complicated by a large free tier: the free Dimensions app is open to anyone, and only Dimensions Analytics is the paid product, so an institution merely naming Dimensions proves nothing. Status was therefore taken only from how an institution's library links it. KU links it through a Royal Danish Library Alma catalogue permalink exactly as it links Scopus, and the catalogue shows it as a held Digital Science e-resource — that is a subscription. OpenAlex, by contrast, gets a direct link to the free site, which is how a free resource is treated. RUC publishes a comprehensive bibliometrics guide naming Scopus, SciVal and Web of Science but not Dimensions, so it is recorded as absent. Every other institution is left unknown: their pages cover one product rather than the full toolset, so absence there proves nothing."
   },
   "institutions": {
     "ssi": {
@@ -83,6 +84,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "danishcancersociety": {
@@ -124,6 +129,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "regionmidt": {
@@ -180,6 +189,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "regionsyd": {
@@ -224,6 +237,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "regionnord": {
@@ -266,6 +283,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dmi": {
@@ -335,6 +356,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dti": {
@@ -383,6 +408,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "gnaturinstitut": {
@@ -417,6 +446,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ilisimatusarfik": {
@@ -474,6 +507,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dhi": {
@@ -536,6 +573,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "nationalbanken": {
@@ -584,6 +625,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "fak": {
@@ -611,6 +656,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "asiaq": {
@@ -647,6 +696,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "cifs": {
@@ -716,6 +769,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "atv": {
@@ -764,6 +821,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "humanrights": {
@@ -819,6 +880,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "bii": {
@@ -867,6 +932,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "force": {
@@ -901,6 +970,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dkdm": {
@@ -936,6 +1009,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "nikkb": {
@@ -970,6 +1047,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "drc": {
@@ -1025,6 +1106,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dfm": {
@@ -1066,6 +1151,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ek": {
@@ -1100,6 +1189,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dignity": {
@@ -1169,6 +1262,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dbi": {
@@ -1211,6 +1308,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "rockwoolresearch": {
@@ -1281,6 +1382,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "seges": {
@@ -1349,6 +1454,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "bioneer": {
@@ -1425,6 +1534,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dsl": {
@@ -1468,6 +1581,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "alexandra": {
@@ -1544,6 +1661,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ku": {
@@ -1563,6 +1684,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/"
+      },
+      "dimensions": {
+        "status": "yes",
+        "evidence": "Listed among KU's researcher tools (https://kub.ku.dk/english/researchsupport/tools-for-researchers/) and linked through a Royal Danish Library Alma catalogue permalink, the same way Scopus is linked and unlike OpenAlex, which gets a direct link to the free site. The catalogue record shows Dimensions as a held e-resource from Digital Science."
       }
     },
     "au": {
@@ -1582,6 +1707,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://library.au.dk/en/subject-areas/slettet/steno-science-studies/databases"
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dtu": {
@@ -1637,6 +1766,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://findit.dtu.dk/en/rap/intro"
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "sdu": {
@@ -1656,6 +1789,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://sdunet.dk/da/servicesider/analytics/analyseredskaber/web-of-science"
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "aau": {
@@ -1675,6 +1812,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://vbn.aau.dk/ws/files/306733394/Keep_Track_of_your_Publications_HST.pdf"
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "cbs": {
@@ -1694,6 +1835,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://www.cbs.dk/en/library/search-library/online-resources/web-science"
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ruc": {
@@ -1713,6 +1858,10 @@
       "wos": {
         "status": "yes",
         "evidence": "Named on the institution's own library pages: https://libguides.ruc.dk/bibliometrics"
+      },
+      "dimensions": {
+        "status": "no",
+        "evidence": "RUC's bibliometrics guide names Scopus, SciVal and Web of Science but not Dimensions. A comprehensive tools page that omits it is reasonable evidence of absence, though not proof."
       }
     },
     "itu": {
@@ -1732,6 +1881,10 @@
       "wos": {
         "status": "no",
         "evidence": "The cited e-resources list, rendered in a browser, names ACM Digital Library, IEEE Xplore, SAGE, Springer and Taylor & Francis but neither Web of Science nor Scopus (https://kub.kb.dk/itb/databaser)."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "rigshospitalet": {
@@ -1751,6 +1904,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "auh": {
@@ -1770,6 +1927,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ouh": {
@@ -1789,6 +1950,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "herlevgentofte": {
@@ -1808,6 +1973,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "aalborguh": {
@@ -1827,6 +1996,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "bispebjergfrederiksberg": {
@@ -1846,6 +2019,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "amagerhvidovre": {
@@ -1865,6 +2042,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "zealanduh": {
@@ -1884,6 +2065,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "stenocph": {
@@ -1903,6 +2088,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "stenoaarhus": {
@@ -1922,6 +2111,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "nbi": {
@@ -1941,6 +2134,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "geus": {
@@ -1975,6 +2172,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "cpr": {
@@ -1994,6 +2195,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "cbmr": {
@@ -2013,6 +2218,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "renew": {
@@ -2032,6 +2241,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "inano": {
@@ -2051,6 +2264,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dtuspace": {
@@ -2071,6 +2288,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "diis": {
@@ -2098,6 +2319,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "vive": {
@@ -2117,6 +2342,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "dias": {
@@ -2136,6 +2365,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "biosustain": {
@@ -2156,6 +2389,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "niph": {
@@ -2175,6 +2412,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "aias": {
@@ -2194,6 +2435,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "pioneerai": {
@@ -2213,6 +2458,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "kadk": {
@@ -2232,6 +2481,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "natmus": {
@@ -2251,6 +2504,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "sygehuslillebaelt": {
@@ -2270,6 +2527,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "via": {
@@ -2321,6 +2582,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ucl": {
@@ -2365,6 +2630,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "kp": {
@@ -2413,6 +2682,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "ucn": {
@@ -2441,6 +2714,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "absalon": {
@@ -2476,6 +2753,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "stenoodense": {
@@ -2495,6 +2776,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "stenosjaelland": {
@@ -2514,6 +2799,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     },
     "stenonordjylland": {
@@ -2533,6 +2822,10 @@
       "wos": {
         "status": "unknown",
         "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
       }
     }
   }
