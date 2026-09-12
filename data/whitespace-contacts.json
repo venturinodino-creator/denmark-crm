@@ -2062,15 +2062,39 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Thomas Illum Hansen",
+          "title": "Forskningschef, Anvendt forskning i paedagogik og samfund",
+          "email": "thih@ucl.dk",
+          "emailStatus": "published",
+          "phone": "+45 30 58 15 23",
+          "source": "https://www.ucl.dk/forskning/anvendt-forskning-i-paedagogik-og-samfund"
+        },
+        {
+          "name": "Heidi Klakk Egebaek",
+          "title": "Forskningschef, Anvendt Sundhedsforskning",
+          "email": "hkeg@ucl.dk",
+          "emailStatus": "published",
+          "phone": "+45 21 35 62 84",
+          "source": "https://www.ucl.dk/forskning/anvendt-sundhedsforskning"
+        },
+        {
+          "name": "Gry Hongsmark Knudsen",
+          "title": "Forskningschef, Anvendt Erhvervsforskning",
+          "email": "ghkn@ucl.dk",
+          "emailStatus": "published",
+          "phone": "+45 26 78 89 56",
+          "source": "https://www.ucl.dk/forskning"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-657306 in the national consortium agreement 2025-28."
       },
       "scival": {
         "status": "unverified",
-        "evidence": "Holds Scopus (ECR-657306) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
-        "contactGap": "No named research-support lead found: the site is JavaScript-rendered and the obvious research and organisation paths 404. Added to data/staff-sources.json so the nightly decision-maker scan keeps trying."
+        "evidence": "Holds Scopus (ECR-657306) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
       }
     },
     "kp": {
@@ -2122,7 +2146,15 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Michael Skovdal Rathleff",
+          "title": "Forskningschef (from 1 June 2026; previously professor at Aalborg University)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.ucn.dk/om-ucn/"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-496618 in the national consortium agreement 2025-28."
@@ -2130,7 +2162,7 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-496618) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
-        "contactGap": "No named research-support lead found: the site is JavaScript-rendered and the obvious research and organisation paths 404. Added to data/staff-sources.json so the nightly decision-maker scan keeps trying."
+        "contactGap": "Named research chief found, but no address is published and the site is JavaScript-rendered. He started on 1 June 2026, so a directory entry may not exist yet; data/staff-sources.json carries UCN for the nightly scan."
       }
     },
     "absalon": {
