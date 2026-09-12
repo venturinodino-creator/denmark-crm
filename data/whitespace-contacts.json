@@ -25,7 +25,9 @@
     "affiliationRule": "Appearing as an organisation inside another institution's Pure is treated as coverage through a partner, not as a tenancy, and does not remove an institution from this list. Applied to the three regions (whose clinicians publish into university Pures) and, from 2026-09-12, to Alexandra Instituttet, whose organisation page sits in AU's Pure. The test for having Pure is a portal or hosted tenant the institution itself operates.",
     "scopus": "Scopus has a public register. The Royal Danish Library's national consortium agreement with Elsevier for 2025-28 (pro.kb.dk) enumerates every Danish account and its ECR id; it lists 16 Scopus accounts, which expand to 34 tracked institutions once a university account's named university hospital and its own research centres are included. Absence from that register is real evidence, because the consortium is how essentially every Danish public research institution buys - but it is not proof: an institution can contract directly with Elsevier, and the register would not show it.",
     "scival": "SciVal appears nowhere in the national agreement - it is not a consortium product, so every SciVal sale is direct and there is no register to check. Two things are still usable: a library or research-support page naming SciVal is positive evidence (found for six institutions), and SciVal is an analytics layer over Scopus, so an institution with no Scopus is not running SciVal either. That leaves the institutions that hold Scopus but show no SciVal evidence genuinely open rather than confirmed-absent - they are marked unverified, and they are the best prospects, since the prerequisite is already paid for. Parent inheritance applies to SciVal exactly as it does to Scopus: a university hospital or university-owned research centre works off its parent's licence, so 17 such units that first showed as unverified are recorded as covered.",
-    "scivalCaveat": "A site crawl of all 73 institutions for the words Scopus and SciVal was run and then discarded as evidence: it returned only two Scopus hits and no SciVal hits, missing even KU and AU, whose library pages sit deeper than the crawl reached. It is recorded here so the negative result is not mistaken for a finding."
+    "scivalCaveat": "A site crawl of all 73 institutions for the words Scopus and SciVal was run and then discarded as evidence: it returned only two Scopus hits and no SciVal hits, missing even KU and AU, whose library pages sit deeper than the crawl reached. It is recorded here so the negative result is not mistaken for a finding.",
+    "wos": "Web of Science is Clarivate's, so it is tracked here as the competing product rather than as something to sell: an institution running WoS is a displacement target for Scopus and SciVal, not white space. Det Kgl. Bibliotek does hold a national Clarivate agreement for Web of Science Core Collection (listed at https://pro.kb.dk/licensservice/videregaaende-uddannelser/aftaler), but unlike the Elsevier agreement it publishes no participant list, so there is no register to enumerate subscribers from and no reliable negative test. Status is therefore only asserted where an institution's own library pages confirm it. All eight prior wos:'yes' claims were re-checked against their cited proof: seven still hold (KU, AU, DTU, SDU, AAU, CBS, RUC — AAU's is a PDF and was confirmed by extracting its text), and ITU's was refuted. The remaining institutions are left unknown rather than counted as white space.",
+    "wosFinding": "Every confirmed Web of Science subscriber also holds Scopus, so no institution in the 39-strong Scopus white space is a known WoS displacement target — on current evidence that list is a greenfield opportunity rather than a competitive fight. That conclusion is bounded by the institutions whose WoS status is unknown, which is most of them."
   },
   "institutions": {
     "ssi": {
@@ -77,6 +79,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "danishcancersociety": {
@@ -114,6 +120,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "regionmidt": {
@@ -166,6 +176,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "regionsyd": {
@@ -206,6 +220,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "regionnord": {
@@ -244,6 +262,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dmi": {
@@ -309,6 +331,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dti": {
@@ -353,6 +379,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "gnaturinstitut": {
@@ -383,6 +413,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ilisimatusarfik": {
@@ -436,6 +470,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-540886) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dhi": {
@@ -494,6 +532,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "nationalbanken": {
@@ -538,6 +580,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "fak": {
@@ -561,6 +607,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "asiaq": {
@@ -593,6 +643,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "cifs": {
@@ -658,6 +712,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "atv": {
@@ -702,6 +760,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "humanrights": {
@@ -753,6 +815,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "bii": {
@@ -797,6 +863,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "force": {
@@ -827,6 +897,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dkdm": {
@@ -858,6 +932,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "nikkb": {
@@ -888,6 +966,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "drc": {
@@ -939,6 +1021,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dfm": {
@@ -976,6 +1062,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ek": {
@@ -1006,6 +1096,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dignity": {
@@ -1071,6 +1165,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dbi": {
@@ -1109,6 +1207,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "rockwoolresearch": {
@@ -1175,6 +1277,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "seges": {
@@ -1239,6 +1345,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "bioneer": {
@@ -1311,6 +1421,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dsl": {
@@ -1350,6 +1464,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "alexandra": {
@@ -1422,6 +1540,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ku": {
@@ -1437,6 +1559,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://kub.ku.dk/english/researchsupport/tools-for-researchers/"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/"
       }
     },
     "au": {
@@ -1452,6 +1578,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://library.au.dk/en/subject-areas/slettet/steno-science-studies/databases"
       }
     },
     "dtu": {
@@ -1503,6 +1633,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://findit.dtu.dk/en/rap/intro"
       }
     },
     "sdu": {
@@ -1518,6 +1652,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://sdunet.dk/da/servicesider/analytics/analyseredskaber/web-of-science"
       }
     },
     "aau": {
@@ -1533,6 +1671,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://vbn.aau.dk/ws/files/306733394/Keep_Track_of_your_Publications_HST.pdf"
       }
     },
     "cbs": {
@@ -1548,6 +1690,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://libguides.cbs.dk/newsletter/5426/scival-publication-analyses-on-the-fly"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://www.cbs.dk/en/library/search-library/online-resources/web-science"
       }
     },
     "ruc": {
@@ -1563,6 +1709,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Named on the institution's own research-support pages: https://libguides.ruc.dk/bibliometrics"
+      },
+      "wos": {
+        "status": "yes",
+        "evidence": "Named on the institution's own library pages: https://libguides.ruc.dk/bibliometrics"
       }
     },
     "itu": {
@@ -1578,6 +1728,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "no",
+        "evidence": "The cited e-resources list, rendered in a browser, names ACM Digital Library, IEEE Xplore, SAGE, Springer and Taylor & Francis but neither Web of Science nor Scopus (https://kub.kb.dk/itb/databaser)."
       }
     },
     "rigshospitalet": {
@@ -1593,6 +1747,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "auh": {
@@ -1608,6 +1766,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ouh": {
@@ -1623,6 +1785,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "herlevgentofte": {
@@ -1638,6 +1804,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "aalborguh": {
@@ -1653,6 +1823,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by Aalborg University's SciVal licence (https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "bispebjergfrederiksberg": {
@@ -1668,6 +1842,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "amagerhvidovre": {
@@ -1683,6 +1861,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "zealanduh": {
@@ -1698,6 +1880,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "stenocph": {
@@ -1713,6 +1899,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "stenoaarhus": {
@@ -1728,6 +1918,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "nbi": {
@@ -1743,6 +1937,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "geus": {
@@ -1773,6 +1971,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-301220) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "cpr": {
@@ -1788,6 +1990,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "cbmr": {
@@ -1803,6 +2009,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "renew": {
@@ -1818,6 +2028,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "inano": {
@@ -1833,6 +2047,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dtuspace": {
@@ -1849,6 +2067,10 @@
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
         "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "diis": {
@@ -1872,6 +2094,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-496833) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "vive": {
@@ -1887,6 +2113,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "dias": {
@@ -1902,6 +2132,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "biosustain": {
@@ -1918,6 +2152,10 @@
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
         "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "niph": {
@@ -1933,6 +2171,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "aias": {
@@ -1948,6 +2190,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "pioneerai": {
@@ -1963,6 +2209,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "kadk": {
@@ -1978,6 +2228,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "natmus": {
@@ -1993,6 +2247,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "sygehuslillebaelt": {
@@ -2008,6 +2266,10 @@
       "scival": {
         "status": "yes",
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "via": {
@@ -2055,6 +2317,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-548018) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ucl": {
@@ -2095,6 +2361,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-657306) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "kp": {
@@ -2139,6 +2409,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-707528) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "ucn": {
@@ -2163,6 +2437,10 @@
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-496618) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
         "contactGap": "Named research chief found, but no address is published and the site is JavaScript-rendered. He started on 1 June 2026, so a directory entry may not exist yet; data/staff-sources.json carries UCN for the nightly scan."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "absalon": {
@@ -2194,6 +2472,10 @@
       "scival": {
         "status": "unverified",
         "evidence": "Holds Scopus (ECR-711526) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "stenoodense": {
@@ -2209,6 +2491,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "stenosjaelland": {
@@ -2224,6 +2510,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     },
     "stenonordjylland": {
@@ -2239,6 +2529,10 @@
       "scival": {
         "status": "no",
         "evidence": "No Scopus subscription, and SciVal is an analytics layer over Scopus."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
       }
     }
   }
