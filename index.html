@@ -1643,6 +1643,8 @@ const SEED_INSTITUTIONS = [
   {id:'ek',name:'Erhvervsakademi Kobenhavn (KEA)',short:'EK / KEA',type:'university',city:'Copenhagen',website:'https://www.ek.dk',founded:2008,description:'Copenhagen\'s business academy for design and technology. The erhvervsakademier carry the same applied-research duty as the professionshojskoler but have no shared portal like UC Viden.',researchDirector:'',libraryDirector:''},
   {id:'dignity',name:'DIGNITY - Danish Institute Against Torture',short:'DIGNITY',type:'ngo',city:'Copenhagen',website:'https://www.dignityinstitute.org',founded:1982,description:'Research-active NGO combining clinical rehabilitation with documentation research and long-standing university co-authorship.',researchDirector:'',libraryDirector:''},
   {id:'dbi',name:'Danish Institute of Fire and Security Technology (DBI)',short:'DBI',type:'research',city:'Hvidovre',website:'https://brandogsikring.dk',founded:1993,description:'Approved GTS institute for fire and security technology, running its own forskning-og-udvikling programme.',researchDirector:'',libraryDirector:''},
+  {id:'bioneer',name:'Bioneer A/S',short:'Bioneer',type:'research',city:'Horsholm',website:'https://bioneer.dk',founded:2001,description:'One of Denmark\'s seven approved GTS institutes and a wholly-owned DTU subsidiary, providing contract research in biomedicine and biotechnology from Scion-DTU in Horsholm.',researchDirector:'Christian Clausen',libraryDirector:''},
+  {id:'dsl',name:'Det Danske Sprog- og Litteraturselskab',short:'DSL',type:'research',city:'Copenhagen',website:'https://dsl.dk',founded:1911,description:'Independent research society for Danish language, literature and history, producing the national dictionaries and scholarly editions with around 100 affiliated researchers.',researchDirector:'Karen Skovgaard-Petersen',libraryDirector:''},
 ];
 
 const SEED_CONTACTS = [];
@@ -1685,7 +1687,7 @@ const PER_PAGE = 20;
 
 //  STORAGE 
 const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu','kadk','via','ucl','kp','ucn','absalon','ilisimatusarfik','dkdm','ek']);
-const SEED_VERSION = 'v8';
+const SEED_VERSION = 'v9';
 
 //  SUPABASE CONFIG 
 const SUPA_URL = 'https://cfhljbexesdrabmadpcc.supabase.co';
@@ -7202,6 +7204,8 @@ if (!window.COMP_DATA) {
     ek:                { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     dignity:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.dignityinstitute.org/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     dbi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://brandogsikring.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    bioneer:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://bioneer.dk/about/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dsl:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://dsl.dk/om-dsl/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
   };
 }
 // Merge any localStorage overrides into COMP_DATA

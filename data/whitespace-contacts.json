@@ -20,7 +20,9 @@
       "www.pure.fo (national Faroese consortium)"
     ],
     "negativeTest": "4,885 organisation names were enumerated across those portals via each portal's /en/organisations/?format=rss feed and matched against every candidate name and OpenAlex alias; a candidate also had to have no resolving <slug>.elsevierpure.com host.",
-    "ruledOut": "NFA (nfa.elsevierpure.com) and GEUS (pub.geus.dk) were on the draft list until the hosted-tenant check found live Pure instances - both are customers, not white space. University of the Faroe Islands, Rigsarkivet, Moesgaard Museum, Naturhistorisk Museum Aarhus and Kong Christian X's Gigthospital were likewise removed after they turned up inside a consortium portal."
+    "ruledOut": "NFA (nfa.elsevierpure.com) and GEUS (pub.geus.dk) were on the draft list until the hosted-tenant check found live Pure instances - both are customers, not white space. University of the Faroe Islands, Rigsarkivet, Moesgaard Museum, Naturhistorisk Museum Aarhus and Kong Christian X's Gigthospital were likewise removed after they turned up inside a consortium portal.",
+    "companyTypeSweep": "OpenAlex types 234 Danish organisations as 'company', which the >=200-works non-company screen excluded wholesale - the reason SEGES was initially missed. All 63 company-typed organisations with >=200 works were reviewed: Bioneer and Det Danske Sprog- og Litteraturselskab are research institutions mis-filed as companies and were added; DELTA is defunct (merged into FORCE in 2017); IPU restructured in 2022 into a grant-making foundation plus a commercial P/S; Dansk Gasteknisk Center is an a/s owned by the grid operator Evida; Syddansk Innovation no longer resolves. The remainder are genuine commercial firms and are deliberately excluded - Pure is sold to research institutions, so listing pharma and engineering companies would dilute the prospect list rather than extend it.",
+    "knownLimitation": "Alexandra Instituttet is recorded pure:'yes' on the evidence of its organisation page in AU's Pure, i.e. coverage through a partner university rather than a tenancy of its own. By the same standard applied to the regions - where affiliated researchers publish into a university Pure and the institution is still counted as white space - it is arguable that Alexandra belongs on this list too. Left as-is because the 'yes' predates this research pass."
   },
   "institutions": {
     "ssi": {
@@ -1017,6 +1019,101 @@
           "emailStatus": "published",
           "phone": "+45 24 61 08 05",
           "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        }
+      ]
+    },
+    "bioneer": {
+      "works": 542,
+      "incumbent": "none detected",
+      "evidence": "No org match across the 4,885 organisation names on the 14 portals; bioneer.elsevierpure.com does not resolve; bioneer.dk carries no CRIS. Notably absent from DTU's Orbit despite being a wholly-owned DTU subsidiary.",
+      "why": "Completes the GTS picture: of Denmark's seven approved GTS institutes, six now sit in this list (Teknologisk Institut, FORCE, DBI, DFM, DHI, Bioneer) and only Alexandra Instituttet has its output in a Pure - and that is AU's, not its own. A sector play with a built-in reference rather than six unrelated conversations. Bioneer is also a DTU subsidiary whose parent runs Orbit, which makes the gap harder to defend internally.",
+      "contacts": [
+        {
+          "name": "Christian Clausen",
+          "title": "CSO (Chief Scientific Officer), M.Sc.",
+          "email": "ccl@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Jakob Oemar Gjorret",
+          "title": "CEO, Ph.D.",
+          "email": "jgj@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Jette Asboe Lassen",
+          "title": "CBO (Chief Business Officer), M.Sc.",
+          "email": "jal@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Sara Post",
+          "title": "Chief CDMO Officer, Ph.D.",
+          "email": "sph@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Anette Mullertz",
+          "title": "Dept. Head, Bioneer:FARMA, Professor",
+          "email": "amu@bioneer-farma.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Bjorn Holst",
+          "title": "Dept. Head, Cellular Engineering & Disease Modelling, Ph.D.",
+          "email": "bho@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Soren Madsen",
+          "title": "Dept. Head, Protein Expression, Ph.D.",
+          "email": "sma@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        },
+        {
+          "name": "Kia Norsker",
+          "title": "CFO",
+          "email": "kno@bioneer.dk",
+          "emailStatus": "published",
+          "source": "https://bioneer.dk/about/"
+        }
+      ]
+    },
+    "dsl": {
+      "works": 240,
+      "incumbent": "none detected",
+      "evidence": "No org match on the 14 portals; dsl.elsevierpure.com does not resolve; dsl.dk publishes through its own CMS.",
+      "why": "A standing research society of roughly 100 affiliated scholars and 30 staff producing scholarly editions and the national dictionaries - a continuous, citable output with no register behind it. Same shape as the DKDM finding: a Ministry of Culture research body that was never brought onto the Kulturministeriets Pure consortium its sister archives and libraries already share.",
+      "contacts": [
+        {
+          "name": "Karen Skovgaard-Petersen",
+          "title": "Direktor",
+          "email": "ksp@dsl.dk",
+          "emailStatus": "published",
+          "phone": "+45 29 62 46 95",
+          "source": "https://dsl.dk/medarbejdere/ksp"
+        },
+        {
+          "name": "Sebastian Olden-Jorgensen",
+          "title": "Bestyrelsesformand",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://dsl.dk/om-dsl/organisation"
+        },
+        {
+          "name": "DSL sekretariat",
+          "title": "General enquiries",
+          "email": "sekretariat@dsl.dk",
+          "emailStatus": "published",
+          "phone": "+45 33 13 06 60",
+          "source": "https://dsl.dk/om-dsl/organisation"
         }
       ]
     }
