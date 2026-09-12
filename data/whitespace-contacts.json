@@ -22,7 +22,7 @@
     "negativeTest": "4,885 organisation names were enumerated across those portals via each portal's /en/organisations/?format=rss feed and matched against every candidate name and OpenAlex alias; a candidate also had to have no resolving <slug>.elsevierpure.com host.",
     "ruledOut": "NFA (nfa.elsevierpure.com) and GEUS (pub.geus.dk) were on the draft list until the hosted-tenant check found live Pure instances - both are customers, not white space. University of the Faroe Islands, Rigsarkivet, Moesgaard Museum, Naturhistorisk Museum Aarhus and Kong Christian X's Gigthospital were likewise removed after they turned up inside a consortium portal.",
     "companyTypeSweep": "OpenAlex types 234 Danish organisations as 'company', which the >=200-works non-company screen excluded wholesale - the reason SEGES was initially missed. All 63 company-typed organisations with >=200 works were reviewed: Bioneer and Det Danske Sprog- og Litteraturselskab are research institutions mis-filed as companies and were added; DELTA is defunct (merged into FORCE in 2017); IPU restructured in 2022 into a grant-making foundation plus a commercial P/S; Dansk Gasteknisk Center is an a/s owned by the grid operator Evida; Syddansk Innovation no longer resolves. The remainder are genuine commercial firms and are deliberately excluded - Pure is sold to research institutions, so listing pharma and engineering companies would dilute the prospect list rather than extend it.",
-    "knownLimitation": "Alexandra Instituttet is recorded pure:'yes' on the evidence of its organisation page in AU's Pure, i.e. coverage through a partner university rather than a tenancy of its own. By the same standard applied to the regions - where affiliated researchers publish into a university Pure and the institution is still counted as white space - it is arguable that Alexandra belongs on this list too. Left as-is because the 'yes' predates this research pass."
+    "affiliationRule": "Appearing as an organisation inside another institution's Pure is treated as coverage through a partner, not as a tenancy, and does not remove an institution from this list. Applied to the three regions (whose clinicians publish into university Pures) and, from 2026-09-12, to Alexandra Instituttet, whose organisation page sits in AU's Pure. The test for having Pure is a portal or hosted tenant the institution itself operates."
   },
   "institutions": {
     "ssi": {
@@ -1026,7 +1026,7 @@
       "works": 542,
       "incumbent": "none detected",
       "evidence": "No org match across the 4,885 organisation names on the 14 portals; bioneer.elsevierpure.com does not resolve; bioneer.dk carries no CRIS. Notably absent from DTU's Orbit despite being a wholly-owned DTU subsidiary.",
-      "why": "Completes the GTS picture: of Denmark's seven approved GTS institutes, six now sit in this list (Teknologisk Institut, FORCE, DBI, DFM, DHI, Bioneer) and only Alexandra Instituttet has its output in a Pure - and that is AU's, not its own. A sector play with a built-in reference rather than six unrelated conversations. Bioneer is also a DTU subsidiary whose parent runs Orbit, which makes the gap harder to defend internally.",
+      "why": "Part of the GTS sector play: all seven of Denmark's approved GTS institutes (Teknologisk Institut, FORCE, DBI, DFM, DHI, Bioneer, Alexandra) are on this list, none with a Pure of its own. That turns seven separate conversations into one sector case. Bioneer is also a wholly-owned DTU subsidiary that does not appear in DTU's Orbit, which is a hard gap to defend internally.",
       "contacts": [
         {
           "name": "Christian Clausen",
@@ -1114,6 +1114,70 @@
           "emailStatus": "published",
           "phone": "+45 33 13 06 60",
           "source": "https://dsl.dk/om-dsl/organisation"
+        }
+      ]
+    },
+    "alexandra": {
+      "works": 654,
+      "incumbent": "none of its own (output registered in AU Pure)",
+      "evidence": "alexandra.elsevierpure.com and pure.alexandra.dk do not resolve and alexandra.dk carries no CRIS. It does appear as an organisation in AU's Pure (pure.au.dk/portal/en/organisations/alexandra-instituttet-as), which is coverage through a partner university rather than a tenancy of its own - the same situation as the three regions, which are counted as white space on that basis.",
+      "why": "Completes the sector: all seven of Denmark's approved GTS institutes are now on this list. Alexandra is the one whose output is already in a Pure, so it is the shortest path to a first GTS reference - AU is registering the organisation, but Alexandra cannot run its own reporting off someone else's instance. It also carries a named AI Lab and a Chief Scientific Officer, so the research and AI owners are both identifiable.",
+      "contacts": [
+        {
+          "name": "Martin Moller",
+          "title": "Chief Scientific Officer, PhD",
+          "email": "martin.moller@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Mie Hvas",
+          "title": "Head of AI Lab",
+          "email": "mie.hvas@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Niels Husted Kjaer",
+          "title": "Chief Executive Officer",
+          "email": "niels.husted.kjaer@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Gert L. Mikkelsen",
+          "title": "Head of Security Lab, PhD",
+          "email": "gert.l.mikkelsen@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Allan Hansen",
+          "title": "Head of Digital Experience and Solutions Lab, PhD",
+          "email": "allan.hansen@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Nicolai Mendgaard",
+          "title": "Head of Insights Lab",
+          "email": "nicolai.mendgaard@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Peter Andersen",
+          "title": "Head of IT",
+          "email": "peter.andersen@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
+        },
+        {
+          "name": "Morten Spanner",
+          "title": "Chief Commercial Officer",
+          "email": "morten.spanner@alexandra.dk",
+          "emailStatus": "published",
+          "source": "https://alexandra.dk/medarbejdere/"
         }
       ]
     }
