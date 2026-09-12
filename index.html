@@ -7166,16 +7166,17 @@ function renderRFPOpps() {
     // right as the year moves on.
     const decided = ['won', 'lost'].includes(rfpStatusKey(r.status));
     const expired = !!(deadline && deadline < today);
-    // No deadline counts as not-live too: a tender with no date to work towards
-    // cannot be acted on in any particular order, so it reads as background
-    // rather than as something with a clock on it. That does mean an open deal
-    // with no recorded deadline is dimmed — full strength is reserved for rows
-    // that have a date, still have time on it, and have not been decided.
+    // No deadline usually means no clock, so the row reads as background — but
+    // not when the deal is actively being worked. A missing deadline is a gap
+    // in the record, not evidence that nothing is happening, and burying an
+    // Active Deal because nobody typed a date is the wrong way round: those are
+    // the rows the page exists to surface.
+    const working = rfpStatusKey(r.status) === 'inprogress';
     const undated = !deadline || isNaN(deadline.getTime());
     // Published in an earlier year than the one we're in: old news, so it
     // recedes even if it still has a deadline ahead of it.
     const stale = r.publishedDate && new Date(r.publishedDate).getFullYear() < today.getFullYear();
-    const faded = expired || decided || undated || stale;
+    const faded = expired || decided || (undated && !working) || stale;
     const dim = faded ? ';opacity:.4' : '';
     const hasCompetitor = r.competitor && r.competitor !== '—';
     const isCris = isCrisTender(r);
