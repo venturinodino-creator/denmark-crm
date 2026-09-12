@@ -30,7 +30,8 @@
     "wosFinding": "Every confirmed Web of Science subscriber also holds Scopus, so no institution in the 39-strong Scopus white space is a known WoS displacement target — on current evidence that list is a greenfield opportunity rather than a competitive fight. That conclusion is bounded by the institutions whose WoS status is unknown, which is most of them.",
     "dimensions": "Dimensions is Digital Science's, so like Web of Science it is tracked as a competing product rather than as white space. There is no national agreement for it — Digital Science, Dimensions, Altmetric and Figshare appear nowhere in Det Kgl. Bibliotek's consortium agreements — so every subscription is direct and there is no register. Detection is further complicated by a large free tier: the free Dimensions app is open to anyone, and only Dimensions Analytics is the paid product, so an institution merely naming Dimensions proves nothing. Status was therefore taken only from how an institution's library links it. KU links it through a Royal Danish Library Alma catalogue permalink exactly as it links Scopus, and the catalogue shows it as a held Digital Science e-resource — that is a subscription. OpenAlex, by contrast, gets a direct link to the free site, which is how a free resource is treated. RUC publishes a comprehensive bibliometrics guide naming Scopus, SciVal and Web of Science but not Dimensions, so it is recorded as absent. Every other institution is left unknown: their pages cover one product rather than the full toolset, so absence there proves nothing.",
     "cris": "Converis (Clarivate) and Symplectic Elements (Digital Science) are CRIS systems, so they compete with Pure, not with Scopus or SciVal, and are treated as displacement signals on the Pure tab. Neither has a Danish footprint. A university-library sector report on CRIS (https://findresearcher.sdu.dk/ws/files/173424165/PSG_2020_2_Online_Bilag_2_CRIS_rapporten.pdf) names Pure 1,073 times across 245,000 characters and Converis, Symplectic, Elements, VIVO and Esploro exactly zero times, and states that every Danish university runs the same CRIS — \"alle universiteter i dag det samme CRIS\" — each under a service agreement with Elsevier. Status is then set by rule rather than by guess: an institution runs one CRIS, so wherever Pure is installed Converis and Symplectic are recorded as absent, and the same applies at Forsvarsakademiet, which runs Esploro. Institutions with no known CRIS at all are left unknown.",
-    "crisSweepDiscarded": "Two automated sweeps for competing CRIS portals were run and discarded. The first reported zero rivals but failed every positive control, missing KU's Pure, DTU's Orbit, AAU's VBN and FAK's Esploro. The second, with broader link-following, found FAK's Esploro but still missed three of four controls, because CRIS portal hostnames (researchprofiles, orbit, vbn) cannot be derived from an institution's domain. Discovery, not fingerprinting, was the weak step. The sector report above is used instead, and the sweep results are recorded here only so their emptiness is not mistaken for evidence."
+    "crisSweepDiscarded": "Two automated sweeps for competing CRIS portals were run and discarded. The first reported zero rivals but failed every positive control, missing KU's Pure, DTU's Orbit, AAU's VBN and FAK's Esploro. The second, with broader link-following, found FAK's Esploro but still missed three of four controls, because CRIS portal hostnames (researchprofiles, orbit, vbn) cannot be derived from an institution's domain. Discovery, not fingerprinting, was the weak step. The sector report above is used instead, and the sweep results are recorded here only so their emptiness is not mistaken for evidence.",
+    "wosDimensionsRemainder": "An attempt to resolve the remaining Web of Science and Dimensions unknowns established only what inheritance could give: eleven university-owned research centres for Web of Science and five for Dimensions, on the same rule used for Scopus and SciVal. The rest could not be resolved from public sources and are deliberately left unknown. Neither product has a public subscriber register in Denmark, and three separate website crawls were built and discarded, each failing its positive controls — the last could not find Web of Science on KU, CBS or RUC, all of which demonstrably have it, because Danish institutional sites are JavaScript-rendered and do not expose their database lists to link-following. University hospitals were also left alone: the Elsevier agreement names them explicitly for Scopus, but no equivalent document scopes Web of Science or Dimensions to them, so inheriting would be an assumption rather than a reading. Settling the remainder needs Clarivate and Digital Science account data, or a person checking each library's A-Z list by hand."
   },
   "institutions": {
     "ssi": {
@@ -2374,12 +2375,12 @@
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
-        "status": "unknown",
-        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "cris": {
         "converis": "no",
@@ -2445,12 +2446,12 @@
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
-        "status": "unknown",
-        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "cris": {
         "converis": "no",
@@ -2473,12 +2474,12 @@
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
-        "status": "unknown",
-        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "cris": {
         "converis": "no",
@@ -2501,12 +2502,12 @@
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
-        "status": "unknown",
-        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "cris": {
         "converis": "no",
@@ -2529,8 +2530,8 @@
         "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by Aarhus University's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2558,8 +2559,8 @@
         "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by Technical University of Denmark's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2650,8 +2651,8 @@
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2679,8 +2680,8 @@
         "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by Technical University of Denmark's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2707,8 +2708,8 @@
         "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2735,8 +2736,8 @@
         "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by Aarhus University's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
         "status": "unknown",
@@ -2763,12 +2764,12 @@
         "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       },
       "wos": {
-        "status": "unknown",
-        "evidence": "No public subscriber register for Web of Science in Denmark and nothing found on the institution's own pages; status genuinely unknown rather than absent."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "dimensions": {
-        "status": "unknown",
-        "evidence": "No national agreement to check and nothing conclusive on the institution's own pages. The free Dimensions tier means even a mention would not establish a subscription."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's subscription. A university-owned research centre is part of the university and reads its licences, the same inheritance already applied to Scopus and SciVal."
       },
       "cris": {
         "converis": "no",
