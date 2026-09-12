@@ -38,5 +38,25 @@
     ],
     "autoDiscovered": true,
     "foundDate": "2026-09-06"
+  },
+  {
+    "id": "national-open-research-analytics-research-portal-denmark",
+    "inst": "National Open Research Analytics (NORA) / Research Portal Denmark",
+    "type": "NGO / Research",
+    "status": "active",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "OpenAlex and NORA (the Danish National Open Research Analytics team) jointly announced a collaboration mapping the OpenAlex research classification system to the OECD Fields of Research and Development (FORD) taxonomy, supporting the launch of the new Danish research portal. NORA is a national initiative funded by the Danish Agency for Higher Education and Science (UFS), with the team located at Statistics Denmark. NORA is preparing a consolidated national research database that integrates OpenAlex alongside institutional data sources and Scopus/SciVal data enriched with CWTS indicators — so OpenAlex is being adopted in parallel with, not as a replacement for, Elsevier products. No separate paid OpenAlex subscription or fee for NORA was disclosed; note possible overlap with the existing St",
+    "signal": "ACTIVE, NOT CONFIRMED PAYING. Co-developing OpenAlex-to-OECD FORD mapping for national research portal; hosted at Statistics Denmark.",
+    "sources": [
+      {
+        "label": "OpenAlex blog — 'OpenAlex and NORA Collaborate to connect publications to the OECD FORD Taxonomy'",
+        "url": "https://blog.openalex.org/openalex-and-nora-collaborate-to-connect-publications-to-the-oecd-ford-taxonomy/"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-12"
   }
 ]
