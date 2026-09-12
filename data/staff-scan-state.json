@@ -1,12 +1,12 @@
 {
-  "lastRun": "2026-09-11T12:18:37.978Z",
-  "lastAddedCount": 0,
-  "sources": 40,
+  "lastRun": "2026-09-12T11:41:57.395Z",
+  "lastAddedCount": 60,
+  "sources": 58,
   "issues": [
     {
-      "instId": "ku",
-      "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
-      "error": "HTTP 404"
+      "instId": "aau",
+      "url": "https://www.en.aau.dk/about-aau/organisation/management/executive-directors",
+      "error": "fetch failed"
     },
     {
       "instId": "aau",
@@ -16,6 +16,14 @@
       "instId": "au",
       "url": "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/",
       "error": "HTTP 403"
+    },
+    {
+      "instId": "biosustain",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "cbmr",
+      "note": "no people extracted"
     },
     {
       "instId": "cbs",
@@ -28,7 +36,7 @@
       "error": "HTTP 404"
     },
     {
-      "instId": "sdu",
+      "instId": "danishcancersociety",
       "note": "no people extracted"
     },
     {
@@ -40,20 +48,72 @@
       "note": "no people extracted"
     },
     {
-      "instId": "inano",
-      "url": "https://inano.au.dk/about/committees/management-team/",
-      "error": "HTTP 404"
+      "instId": "ek",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "gnaturinstitut",
+      "url": "https://natur.gl/about-us/the-governors/?lang=en",
+      "error": "fetch failed"
+    },
+    {
+      "instId": "gnaturinstitut",
+      "note": "no people extracted"
     },
     {
       "instId": "inano",
       "note": "no people extracted"
     },
     {
-      "instId": "cbmr",
+      "instId": "itu",
       "note": "no people extracted"
     },
     {
-      "instId": "biosustain",
+      "instId": "kp",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ku",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "lundbeckfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "nationalbanken",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "nbi",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "niph",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "novonordiskfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ouh",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "pioneerai",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "regionmidt",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "regionnord",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "regionsyd",
       "note": "no people extracted"
     },
     {
@@ -61,7 +121,51 @@
       "note": "no people extracted"
     },
     {
-      "instId": "danishcancersociety",
+      "instId": "rockwoolresearch",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "royalacademy",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ruc",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "sdu",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ssi",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "stenoaarhus",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ucl",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "ucn",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "via",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "villumfoundation",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "vive",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "zealanduh",
       "note": "no people extracted"
     }
   ]
