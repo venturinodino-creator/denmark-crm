@@ -1,5 +1,42 @@
 [
   {
+    "id": "news-x72qpj",
+    "title": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research - LinkedIn",
+    "description": "Anthropic Launches Claude Fable 5.1 and Restricted Mythos 5.1 for Advanced Coding, Cybersecurity and Scientific Research&nbsp;&nbsp;LinkedIn",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczZLQWhJUjZVdEs0cnFXVmktX2JTaDFVVEFVX3hQLU8zcmtTQjJzd1Y1cHZVVmNsenBIWDRIOW4zbndpZGZMaEJWVlJQN1FBeWNMck9ObDlEQW5GSmVBSU4zRTIyRWdDSUhiMDV3aGUxd1BGcXRRajJLUldMOWlJOUtEUDBzTjBQRko2MEFyVjNKcDA?oc=5",
+    "sourceName": "LinkedIn",
+    "publishedDate": "2026-09-05",
+    "foundDate": "2026-09-06",
+    "autoDiscovered": true,
+    "bottomLine": "Anthropic advances Claude with Fable 5.1 and Restricted Mythos 5.1, targeting coding, cybersecurity, and scientific research applications.",
+    "keyFindings": [
+      "Anthropic launches two new Claude model variants optimized for specialized domains: coding, cybersecurity, and scientific research.",
+      "Fable 5.1 and Restricted Mythos 5.1 represent incremental improvements in model capabilities and alignment for enterprise use cases.",
+      "Focus on scientific research positioning signals Anthropic's competitive move into academic and research institution markets."
+    ],
+    "whyItMatters": "Danish universities and research institutes evaluating AI writing assistants (like LeapSpace) need clarity on whether competitor Claude models offer superior literature analysis, data interpretation, or research workflows than Elsevier's integrated platform.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 3,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Anthropic",
+      "Claude Fable 5.1",
+      "Restricted Mythos 5.1",
+      "Scientific research"
+    ],
+    "actionItems": [
+      "Request detailed comparison: LeapSpace's research capabilities (literature search, claim-checking, writing coach) vs. Claude 5.1 on real Danish researcher workflows.",
+      "Prepare one-pager on LeapSpace's integration with ScienceDirect/Scopus data advantage that standalone Claude lacks."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-ulddbb",
     "title": "OpenAI Launches GPT-6 Astra, Claiming a New Frontier in Computer Use, Coding, and Science - gHacks",
     "description": "OpenAI Launches GPT-6 Astra, Claiming a New Frontier in Computer Use, Coding, and Science&nbsp;&nbsp;gHacks",
