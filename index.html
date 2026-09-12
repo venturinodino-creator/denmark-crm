@@ -7172,7 +7172,10 @@ function renderRFPOpps() {
     // with no recorded deadline is dimmed — full strength is reserved for rows
     // that have a date, still have time on it, and have not been decided.
     const undated = !deadline || isNaN(deadline.getTime());
-    const faded = expired || decided || undated;
+    // Published in an earlier year than the one we're in: old news, so it
+    // recedes even if it still has a deadline ahead of it.
+    const stale = r.publishedDate && new Date(r.publishedDate).getFullYear() < today.getFullYear();
+    const faded = expired || decided || undated || stale;
     const dim = faded ? ';opacity:.4' : '';
     const hasCompetitor = r.competitor && r.competitor !== '—';
     const isCris = isCrisTender(r);
