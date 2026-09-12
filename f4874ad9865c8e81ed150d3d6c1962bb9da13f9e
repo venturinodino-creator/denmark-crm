@@ -1,0 +1,12 @@
+Also contains the Daily Digest "Your Day" card, which this subject line does not
+mention. That card was in-progress work from a parallel session, which this
+commit swept up alongside the SciVal changes.
+
+What it adds to index.html:
+  - digestActivityHtml(), a same-day read over the CRM's own state: interactions
+    logged today and accounts touched, account next-actions and open-deal close
+    dates that have come round, open deals untouched for 30+ days with the value
+    at stake, and tenders found today. Mounted at the top of renderDailyDigest().
+  - the .dgx-* rules that style it.
+
+Unrelated to the SciVal parent-inheritance work in the same commit.
