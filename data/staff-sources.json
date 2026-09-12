@@ -19,6 +19,14 @@
       ]
     },
     {
+      "instId": "absalon",
+      "instName": "Professionshojskolen Absalon",
+      "emailDomain": "pha.dk",
+      "urls": [
+        "https://phabsalon.dk/forskning/kontakt-forskning-og-udvikling"
+      ]
+    },
+    {
       "instId": "aias",
       "instName": "Aarhus Institute of Advanced Studies",
       "emailDomain": "aias.au.dk",
@@ -185,7 +193,8 @@
       "urls": [
         "https://www.bibliotek.dtu.dk/en/about-and-contact/about/staff-and-organisation",
         "https://www.dtu.dk/english/about/organization/supportfunctions/orai",
-        "https://www.dtu.dk/english/about/organization/executive_board"
+        "https://www.dtu.dk/english/about/organization/executive_board",
+        "https://www.bibliotek.dtu.dk/om-og-kontakt/om-dtu-bibliotek/personale-og-organisation"
       ]
     },
     {
@@ -270,6 +279,15 @@
       "emailDomain": "itu.dk",
       "urls": [
         "https://en.itu.dk/About-ITU/Organisation"
+      ]
+    },
+    {
+      "instId": "kp",
+      "instName": "University College Copenhagen",
+      "emailDomain": "kp.dk",
+      "urls": [
+        "https://www.kp.dk/forskning-og-udvikling/",
+        "https://www.kp.dk/om-koebenhavns-professionshoejskole/direktionen/"
       ]
     },
     {
@@ -427,6 +445,33 @@
       "urls": [
         "https://www.stenoaarhus.dk/english/about-steno-diabetes-center-aarhus/",
         "https://www.stenoaarhus.dk/om-os/bestyrelse/"
+      ]
+    },
+    {
+      "instId": "ucl",
+      "instName": "UCL University College",
+      "emailDomain": "ucl.dk",
+      "urls": [
+        "https://www.ucl.dk/om-ucl",
+        "https://www.ucl.dk/forskning"
+      ]
+    },
+    {
+      "instId": "ucn",
+      "instName": "University College of Northern Denmark",
+      "emailDomain": "ucn.dk",
+      "urls": [
+        "https://www.ucn.dk/om-ucn/organisation",
+        "https://www.ucn.dk/forskning"
+      ]
+    },
+    {
+      "instId": "via",
+      "instName": "VIA University College",
+      "emailDomain": "via.dk",
+      "urls": [
+        "https://www.via.dk/forskning",
+        "https://www.via.dk/om-via/organisation/bestyrelse-og-direktion"
       ]
     },
     {

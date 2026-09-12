@@ -24,7 +24,7 @@
     "companyTypeSweep": "OpenAlex types 234 Danish organisations as 'company', which the >=200-works non-company screen excluded wholesale - the reason SEGES was initially missed. All 63 company-typed organisations with >=200 works were reviewed: Bioneer and Det Danske Sprog- og Litteraturselskab are research institutions mis-filed as companies and were added; DELTA is defunct (merged into FORCE in 2017); IPU restructured in 2022 into a grant-making foundation plus a commercial P/S; Dansk Gasteknisk Center is an a/s owned by the grid operator Evida; Syddansk Innovation no longer resolves. The remainder are genuine commercial firms and are deliberately excluded - Pure is sold to research institutions, so listing pharma and engineering companies would dilute the prospect list rather than extend it.",
     "affiliationRule": "Appearing as an organisation inside another institution's Pure is treated as coverage through a partner, not as a tenancy, and does not remove an institution from this list. Applied to the three regions (whose clinicians publish into university Pures) and, from 2026-09-12, to Alexandra Instituttet, whose organisation page sits in AU's Pure. The test for having Pure is a portal or hosted tenant the institution itself operates.",
     "scopus": "Scopus has a public register. The Royal Danish Library's national consortium agreement with Elsevier for 2025-28 (pro.kb.dk) enumerates every Danish account and its ECR id; it lists 16 Scopus accounts, which expand to 34 tracked institutions once a university account's named university hospital and its own research centres are included. Absence from that register is real evidence, because the consortium is how essentially every Danish public research institution buys - but it is not proof: an institution can contract directly with Elsevier, and the register would not show it.",
-    "scival": "SciVal appears nowhere in the national agreement - it is not a consortium product, so every SciVal sale is direct and there is no register to check. Two things are still usable: a library or research-support page naming SciVal is positive evidence (found for six institutions), and SciVal is an analytics layer over Scopus, so an institution with no Scopus is not running SciVal either. That leaves the institutions that hold Scopus but show no SciVal evidence genuinely open rather than confirmed-absent - they are marked unverified, and they are the best prospects, since the prerequisite is already paid for.",
+    "scival": "SciVal appears nowhere in the national agreement - it is not a consortium product, so every SciVal sale is direct and there is no register to check. Two things are still usable: a library or research-support page naming SciVal is positive evidence (found for six institutions), and SciVal is an analytics layer over Scopus, so an institution with no Scopus is not running SciVal either. That leaves the institutions that hold Scopus but show no SciVal evidence genuinely open rather than confirmed-absent - they are marked unverified, and they are the best prospects, since the prerequisite is already paid for. Parent inheritance applies to SciVal exactly as it does to Scopus: a university hospital or university-owned research centre works off its parent's licence, so 17 such units that first showed as unverified are recorded as covered.",
     "scivalCaveat": "A site crawl of all 73 institutions for the words Scopus and SciVal was run and then discarded as evidence: it returned only two Scopus hits and no SciVal hits, missing even KU and AU, whose library pages sit deeper than the crawl reached. It is recorded here so the negative result is not mistaken for a finding."
   },
   "institutions": {
@@ -1459,7 +1459,43 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Jens Damm Fledelius",
+          "title": "Teamleder, Forskerservice (DTU Bibliotek) - owns research analytics and bibliometrics",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.bibliotek.dtu.dk/om-og-kontakt/om-dtu-bibliotek/personale-og-organisation"
+        },
+        {
+          "name": "Gitte Bruun Jensen",
+          "title": "Bibliotekschef (Head of Library)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.bibliotek.dtu.dk/om-og-kontakt/om-dtu-bibliotek/personale-og-organisation"
+        },
+        {
+          "name": "Lise Ingemann Mikkelsen",
+          "title": "Teamleder, Systeminformation",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.bibliotek.dtu.dk/om-og-kontakt/om-dtu-bibliotek/personale-og-organisation"
+        },
+        {
+          "name": "Christine Nellemann",
+          "title": "Forskningsdirektor (institutional research lead)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.dtu.dk/english/about/organization/executive_board"
+        },
+        {
+          "name": "DTU Bibliotek",
+          "title": "General enquiries - no individual addresses are published",
+          "email": "bibliotek@dtu.dk",
+          "emailStatus": "published",
+          "source": "https://www.bibliotek.dtu.dk/om-og-kontakt"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-268 in the national consortium agreement 2025-28."
@@ -1555,8 +1591,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "auh": {
@@ -1570,8 +1606,8 @@
         "evidence": "Scopus account ECR-246606 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-246606) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "ouh": {
@@ -1585,8 +1621,8 @@
         "evidence": "Scopus account ECR-292 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-292) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "herlevgentofte": {
@@ -1600,8 +1636,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "aalborguh": {
@@ -1615,8 +1651,8 @@
         "evidence": "Scopus account ECR-266 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-266) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by Aalborg University's SciVal licence (https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "bispebjergfrederiksberg": {
@@ -1630,8 +1666,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "amagerhvidovre": {
@@ -1645,8 +1681,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "zealanduh": {
@@ -1705,8 +1741,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "geus": {
@@ -1714,7 +1750,22 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Lars Nielsen",
+          "title": "Managing Director",
+          "email": "larni@geus.dk",
+          "emailStatus": "published",
+          "source": "https://eng.geus.dk/about/organisation/management"
+        },
+        {
+          "name": "GEUS Management Secretariat",
+          "title": "Management secretariat - route to the deputy director",
+          "email": "hds@geus.dk",
+          "emailStatus": "published",
+          "source": "https://eng.geus.dk/about/organisation/management"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-301220 in the national consortium agreement 2025-28."
@@ -1735,8 +1786,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "cbmr": {
@@ -1750,8 +1801,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "renew": {
@@ -1765,8 +1816,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "inano": {
@@ -1780,8 +1831,8 @@
         "evidence": "Scopus account ECR-246606 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-246606) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "dtuspace": {
@@ -1796,7 +1847,8 @@
       },
       "scival": {
         "status": "unverified",
-        "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
+        "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
       }
     },
     "diis": {
@@ -1804,7 +1856,15 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Peter Kragelund",
+          "title": "Director",
+          "email": "pekr@diis.dk",
+          "emailStatus": "published",
+          "source": "https://www.diis.dk/en/about-diis/the-institute/management"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-496833 in the national consortium agreement 2025-28."
@@ -1840,8 +1900,8 @@
         "evidence": "Scopus account ECR-292 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-292) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "biosustain": {
@@ -1856,7 +1916,8 @@
       },
       "scival": {
         "status": "unverified",
-        "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "evidence": "Holds Scopus (ECR-268) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
+        "decisionOwner": "Technical University of Denmark (dtu) — a DTU unit does not license SciVal separately; approach DTU Bibliotek Forskerservice."
       }
     },
     "niph": {
@@ -1870,8 +1931,8 @@
         "evidence": "Scopus account ECR-292 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-292) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "aias": {
@@ -1885,8 +1946,8 @@
         "evidence": "Scopus account ECR-246606 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-246606) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by Aarhus University's SciVal licence (https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "pioneerai": {
@@ -1900,8 +1961,8 @@
         "evidence": "Scopus account ECR-66888 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-66888) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Copenhagen's SciVal licence (https://kub.ku.dk/english/researchsupport/tools-for-researchers/). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "kadk": {
@@ -1945,8 +2006,8 @@
         "evidence": "Scopus account ECR-292 in the national consortium agreement 2025-28."
       },
       "scival": {
-        "status": "unverified",
-        "evidence": "Holds Scopus (ECR-292) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "status": "yes",
+        "evidence": "Covered by University of Southern Denmark's SciVal licence (https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival). A university hospital or university-owned centre works off its parent's licence rather than buying separately."
       }
     },
     "via": {
@@ -1954,7 +2015,39 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Andreas Rasch-Christensen",
+          "title": "Forskningschef",
+          "email": "ar@via.dk",
+          "emailStatus": "published",
+          "phone": "+45 87 55 17 12",
+          "source": "https://www.via.dk/forskning"
+        },
+        {
+          "name": "Helle Kryger Aggerholm",
+          "title": "Forsknings- og udviklingsdirektor",
+          "email": "",
+          "emailStatus": "missing",
+          "phone": "+45 26 25 90 02",
+          "source": "https://via.ritzau.dk/pressemeddelelse/13700348/via-university-college-ansaetter-ny-forsknings-og-udviklingsdirektor"
+        },
+        {
+          "name": "Jeppe Kiel Christensen",
+          "title": "Konstitueret forskningschef",
+          "email": "jkcn@via.dk",
+          "emailStatus": "published",
+          "phone": "+45 87 55 10 14",
+          "source": "https://www.via.dk/forskning"
+        },
+        {
+          "name": "Ingunn Riddervold",
+          "title": "Forsknings- og udviklingschef, Sundhed og Samfund",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.via.dk/forskning"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-548018 in the national consortium agreement 2025-28."
@@ -1976,7 +2069,8 @@
       },
       "scival": {
         "status": "unverified",
-        "evidence": "Holds Scopus (ECR-657306) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "evidence": "Holds Scopus (ECR-657306) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
+        "contactGap": "No named research-support lead found: the site is JavaScript-rendered and the obvious research and organisation paths 404. Added to data/staff-sources.json so the nightly decision-maker scan keeps trying."
       }
     },
     "kp": {
@@ -1984,7 +2078,36 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Erik Caparros Hojbjerg",
+          "title": "Chef for Forskning og Udvikling",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.kp.dk/forskning-og-udvikling/"
+        },
+        {
+          "name": "Charlotte Bredahl Jacobsen",
+          "title": "Leder af Forskning og Udvikling",
+          "email": "cbrj@kp.dk",
+          "emailStatus": "published",
+          "source": "https://www.kp.dk/medarbejdere/cbrj/"
+        },
+        {
+          "name": "Grete Baad Holdt Brorholt",
+          "title": "Leder af Forskning og Udvikling, ISE",
+          "email": "grbo@kp.dk",
+          "emailStatus": "published",
+          "source": "https://www.kp.dk/medarbejdere/grbo/"
+        },
+        {
+          "name": "Nina Blom Andersen",
+          "title": "Leder af Forskning og Udvikling, IFA",
+          "email": "nban@kp.dk",
+          "emailStatus": "published",
+          "source": "https://www.kp.dk/medarbejdere/nban/"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-707528 in the national consortium agreement 2025-28."
@@ -2006,7 +2129,8 @@
       },
       "scival": {
         "status": "unverified",
-        "evidence": "Holds Scopus (ECR-496618) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records."
+        "evidence": "Holds Scopus (ECR-496618) but no SciVal reference was found on its own pages. SciVal is not a consortium product, so there is no register to confirm either way - this needs checking against Elsevier's own records.",
+        "contactGap": "No named research-support lead found: the site is JavaScript-rendered and the obvious research and organisation paths 404. Added to data/staff-sources.json so the nightly decision-maker scan keeps trying."
       }
     },
     "absalon": {
@@ -2014,7 +2138,23 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Kathrine Krageskov Eriksen",
+          "title": "Forskningschef",
+          "email": "kke@pha.dk",
+          "emailStatus": "published",
+          "source": "https://phabsalon.dk/forskning/kontakt-forskning-og-udvikling"
+        },
+        {
+          "name": "Professionshojskolen Absalon",
+          "title": "General enquiries",
+          "email": "absalon@pha.dk",
+          "emailStatus": "published",
+          "phone": "+45 72 48 10 00",
+          "source": "https://phabsalon.dk/forskning/kontakt-forskning-og-udvikling"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-711526 in the national consortium agreement 2025-28."
