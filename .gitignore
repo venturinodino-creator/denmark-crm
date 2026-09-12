@@ -1,3 +1,45 @@
 __pycache__/
 *.pyc
 node_modules/
+.claude-flow/
+
+# Stray 0-byte files — see CLAUDE.md.
+#
+# A fragment of JavaScript can reach cmd.exe, which reads the ">" in an "=>"
+# arrow as an output redirection and drops an empty file named after the next
+# token. These are harmless on their own, but they accumulate as untracked noise
+# and a broad `git add` will eventually commit one. Everything below is anchored
+# with a leading "/" so it only applies to the repo root, where they land.
+#
+# Avoiding inline `node -e` reduces these but does not stop them: they also
+# appear from script files, from text echoed to the terminal, and from messages
+# between sessions. This is the guard that actually holds.
+
+# 1. Names carrying JavaScript punctuation. No legitimate file here contains
+#    these characters, so the patterns are safe to keep broad. A literal "["
+#    has to be written "[[]" because bare brackets open a character class.
+/*(*
+/*)*
+/*[[]*
+/*]*
+/*{*
+/*}*
+/*$*
+/*'*
+/*`*
+/*%*
+/*=*
+
+# 2. Bare identifiers and numbers. These look like ordinary filenames, so they
+#    are listed individually rather than pattern-matched — a wildcard here could
+#    hide something real. Add to this list if a new one shows up.
+/a
+/s
+/cs2
+/48px
+/150
+/6817
+/9054
+/SciVal
+/x.type
+/c.emailStatus
