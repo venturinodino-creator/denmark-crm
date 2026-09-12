@@ -1253,7 +1253,9 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
 #back-to-main .back-btn{margin-bottom:0 !important}
 #back-to-main:not(:empty) + .content{padding-top:10px !important}
 
-/* White Space (Pure prospect list) */
+/* White Space (product prospect list) */
+.ws-caveat{flex-basis:100%;font-size:11px;color:var(--muted,#8a93a3);line-height:1.45;margin-top:2px}
+.ws-card .ws-eviz{font-size:10.5px;line-height:1.4;color:var(--muted,#8a93a3);margin-top:6px;border-left:2px solid var(--border2,rgba(255,255,255,.12));padding-left:7px}
 .ws-chips{display:flex;gap:6px;flex-wrap:wrap}
 .ws-chip{background:var(--card2,rgba(255,255,255,.04));border:1px solid var(--border,rgba(255,255,255,.1));color:var(--text2,#aeb6c4);
   border-radius:99px;padding:4px 10px;font-size:11px;cursor:pointer;transition:.15s}
@@ -1271,6 +1273,71 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
 .ws-person .wp-e{font-size:10.5px;color:#60a5fa;text-decoration:none;word-break:break-all}
 .ws-person .wp-e:hover{text-decoration:underline}
 .wp-warn{font-size:9px;color:#fbbf24;border:1px solid rgba(251,191,36,.4);border-radius:4px;padding:0 4px;margin-left:4px;white-space:nowrap}
+
+/* ── Analytics ─────────────────────────────────────────────
+   One filter row scopes every chart below it. Marks are thin, gridlines are
+   solid hairlines, and no chart uses colour to say something the bar length
+   already says. */
+.an-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.an-bar .flt{min-width:150px}
+.an-seg{display:inline-flex;background:var(--bg3);border:1px solid var(--border2);border-radius:6px;overflow:hidden}
+.an-seg button{padding:6px 11px;font-size:11.5px;font-weight:600;background:transparent;border:none;color:var(--muted2);cursor:pointer;font-family:inherit;transition:background .15s,color .15s}
+.an-seg button:hover{color:var(--text)}
+.an-seg button.on{background:rgba(0,245,196,.13);color:var(--accent)}
+.an-scope{font-size:11px;color:var(--muted);margin-left:auto}
+
+.an-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:10px;margin-bottom:12px}
+.an-kpi{background:var(--card);border:1px solid var(--border);border-radius:var(--card-radius);padding:14px 16px}
+.an-kpi .k-l{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+.an-kpi .k-v{font-size:23px;font-weight:700;color:var(--text2);letter-spacing:-.5px;margin-top:6px;line-height:1.1}
+.an-kpi .k-s{font-size:11px;color:var(--muted);margin-top:4px}
+
+.an-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:12px}
+.an-grid .an-wide{grid-column:1/-1}
+.an-card{background:var(--card);border:1px solid var(--border);border-radius:var(--card-radius);padding:16px 18px}
+.an-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.an-title{font-size:12.5px;font-weight:700;color:var(--text2)}
+.an-sub{font-size:11px;color:var(--muted);margin:3px 0 14px}
+.an-link{font-size:11px;font-weight:600;color:var(--accent);background:none;border:none;cursor:pointer;font-family:inherit;padding:0;white-space:nowrap}
+.an-link:hover{text-decoration:underline}
+.an-empty{font-size:12px;color:var(--muted);padding:18px 0;text-align:center}
+
+/* label · track · value rows — the value is always written out, so nothing on
+   this screen is readable by colour alone */
+.an-row{display:grid;grid-template-columns:1fr auto;gap:5px 10px;align-items:center;padding:8px 0}
+.an-row + .an-row{border-top:1px solid var(--border)}
+.an-rl{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text);min-width:0}
+.an-rl i{width:8px;height:8px;border-radius:2px;flex-shrink:0}
+.an-rl > span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.an-rv{font-size:12px;font-weight:700;color:var(--text2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.an-rv em{font-style:normal;font-weight:600;color:var(--muted);margin-left:5px}
+.an-track{grid-column:1/-1;height:8px;border-radius:0 4px 4px 0;background:rgba(255,255,255,.05)}
+.an-fill{display:block;height:100%;width:0;border-radius:0 4px 4px 0;transition:width .9s cubic-bezier(.22,1,.36,1)}
+.an-step{grid-column:1/-1;font-size:10.5px;color:var(--muted)}
+
+/* activity columns — 18px head-room for the labels, a 28px gutter for the ticks */
+.an-plot{position:relative;display:flex;align-items:flex-end;gap:3px;height:150px;padding:18px 0 0 28px;border-bottom:1px solid var(--border2)}
+.an-gridline{position:absolute;left:28px;right:0;height:1px;background:var(--border);pointer-events:none}
+.an-gridline b{position:absolute;left:-28px;top:-6px;width:24px;text-align:right;font-size:9.5px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.an-col{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;position:relative;background:none;border:none;padding:0;cursor:default;font-family:inherit}
+.an-col:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.an-colbar{width:100%;max-width:24px;border-radius:4px 4px 0 0;transition:height .9s cubic-bezier(.22,1,.36,1),filter .15s}
+.an-col:hover .an-colbar,.an-col:focus-visible .an-colbar{filter:brightness(1.25)}
+.an-colv{position:absolute;top:-15px;font-size:10px;font-weight:700;color:var(--text2);font-variant-numeric:tabular-nums;opacity:0;transition:opacity .12s}
+.an-colv.keep,.an-col:hover .an-colv,.an-col:focus-visible .an-colv{opacity:1}
+.an-xaxis{display:flex;gap:3px;margin-top:7px;padding-left:28px}
+.an-xaxis span{flex:1;min-width:0;text-align:center;font-size:9.5px;color:var(--muted);overflow:hidden;white-space:nowrap}
+
+.an-scrollx{overflow-x:auto}
+.an-tbl{width:100%;border-collapse:collapse;font-size:11.5px;min-width:340px}
+.an-tbl th{text-align:left;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border2)}
+.an-tbl td{padding:7px 8px;border-bottom:1px solid var(--border);color:var(--text)}
+.an-tbl th.num,.an-tbl td.num{text-align:right}
+.an-tbl td.num{font-variant-numeric:tabular-nums;color:var(--text2);font-weight:600}
+.an-tbl tbody tr:hover{background:rgba(255,255,255,.03)}
+.an-tbl tbody tr.clickable{cursor:pointer}
+.an-data{margin-top:12px;border-top:1px solid var(--border);padding-top:10px}
+
 .ws-more{font-size:10.5px;color:var(--muted,#8a93a3)}
 </style>
   <link rel="stylesheet" href="animations.css">
@@ -1287,6 +1354,9 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
     <div class="nav-section">Workspace</div>
     <div class="nav-item active" data-view="dashboard" onclick="nav('dashboard')">
       <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg></div> Dashboard
+    </div>
+    <div class="nav-item" data-view="analytics" onclick="nav('analytics')">
+      <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="21" x2="21" y2="21"/><rect x="5" y="12" width="3.6" height="7" rx="1"/><rect x="10.2" y="7" width="3.6" height="12" rx="1"/><rect x="15.4" y="3" width="3.6" height="16" rx="1"/></svg></div> Analytics
     </div>
     <div class="nav-item" data-view="institutions" onclick="nav('institutions')">
       <div class="nav-icon-box"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div> Institutions
@@ -1659,6 +1729,8 @@ let state = {
   rfps: [],
   currentRole: null, // 'admin' | 'viewer' | null (not signed in yet)
   view: 'dashboard',
+  anRange: localStorage.getItem('crm_an_range') || '12m', // Analytics: 30d | 90d | 12m | all
+  anType: '',                                            // Analytics: institution-type filter
   pipelineStage: 'all',
   instView: 'grid', // grid | table
   contactPage: 1,
@@ -1666,7 +1738,8 @@ let state = {
   instSearch: '',
   instType: '',
   instSort: { field: 'type', dir: 'asc' }, // Institutions table column sort
-  wsView: 'grid', // grid | table | contacts — White Space (no Pure tenancy)
+  wsView: 'grid', // grid | table | contacts — White Space (no tenancy for the selected product)
+  wsProduct: 'pure', // pure | scopus | scival — which Elsevier product the view is about
   whitespace: {}, // instId -> {works, incumbent, evidence, why, contacts[]} from data/whitespace-contacts.json
   wsFilter: 'all', // all | greenfield | rival | unknown
   wsSearch: '',
@@ -1687,7 +1760,7 @@ const PER_PAGE = 20;
 
 //  STORAGE 
 const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu','kadk','via','ucl','kp','ucn','absalon','ilisimatusarfik','dkdm','ek']);
-const SEED_VERSION = 'v10';
+const SEED_VERSION = 'v12';
 
 //  SUPABASE CONFIG 
 const SUPA_URL = 'https://cfhljbexesdrabmadpcc.supabase.co';
@@ -3205,6 +3278,7 @@ function renderBackToMain() {
 function render() {
   const views = {
     dashboard: renderDashboard,
+    analytics: renderAnalytics,
     institutions: renderInstitutions,
     whitespace: renderWhiteSpace,
     contacts: renderContacts,
@@ -3553,7 +3627,7 @@ function dshGrowBars() {
 
 // ── Command palette ─────────────────────────────────────────
 const DSH_PAGES = [
-  ['Dashboard','dashboard'],['Institutions','institutions'],['Contacts','contacts'],
+  ['Dashboard','dashboard'],['Analytics','analytics'],['Institutions','institutions'],['Contacts','contacts'],
   ['New Contacts','pending'],['Competitor Matrix','subscriptions'],['LeapSpace Insights','ai-insights'],
   ['RFP Opps','rfp'],['Map','map'],['News','news'],['Daily Digest','digest'],['Summary','summary'],
 ];
@@ -4467,11 +4541,19 @@ function getProductStatus(instId, key) {
   if (cp && cp[key]) return cp[key];
   return 'unknown';
 }
-const WS_PURE_STATUS = {
+// The three statuses that put an institution on this list. The "no" label names
+// the selected product, so a card never reads "No Pure" while the Scopus view is
+// open; "unknown" says unverified rather than absent, which is the honest word
+// for SciVal, where no register exists to confirm either way.
+const WS_STATUS = {
   no:       { label: 'No Pure',    color: '#f87171' },
   cancelled:{ label: 'Cancelled',  color: '#f87171' },
-  unknown:  { label: 'Unknown',    color: '#fbbf24' },
+  unknown:  { label: 'Unverified', color: '#fbbf24' },
 };
+function wsStatusLabel(code) {
+  if (code !== 'no') return (WS_STATUS[code] || {}).label || code;
+  return 'No ' + ((WS_PRODUCTS[state.wsProduct] || WS_PRODUCTS.pure).label);
+}
 
 // Pure is sold into any research-active organisation, not just universities —
 // a medical centre, an independent research institute, or a research-producing
@@ -4488,7 +4570,7 @@ const WS_EXCLUDE_IDS = new Set(['royalacademy', 'novonordiskfoundation', 'lundbe
 
 const WS_PURE_SORT_ORDER = {no:0, cancelled:1, unknown:2};
 function wsSortVal(i, field) {
-  if (field === 'pure') return WS_PURE_SORT_ORDER[getProductStatus(i.id, 'pure')] ?? 9;
+  if (field === 'pure') return WS_PURE_SORT_ORDER[getProductStatus(i.id, state.wsProduct)] ?? 9;
   // Biggest unserved research output first is the useful default, so sort
   // descending on a negated value rather than making the caller special-case it.
   if (field === 'works') return -((((state.whitespace || {})[i.id] || {}).works) || 0);
@@ -4496,7 +4578,12 @@ function wsSortVal(i, field) {
 }
 
 function wsInfo(id) { return (state.whitespace || {})[id] || {}; }
+// The researched `incumbent` is the competing CRIS an institution runs, which
+// only displaces Pure — Esploro is not an alternative to Scopus or SciVal, so
+// it must not colour those two views. No incumbent data is held for the
+// database products, so under them everything is greenfield or unverified.
 function wsHasRival(id) {
+  if (state.wsProduct !== 'pure') return false;
   const inc = wsInfo(id).incumbent || '';
   return !!inc && !/^none/i.test(inc);
 }
@@ -4505,7 +4592,7 @@ function wsHasRival(id) {
 //   rival      — verified no Pure but a competitor product is already installed
 //   unknown    — not yet researched; no evidence either way
 function wsBucket(id) {
-  const st = getProductStatus(id, 'pure');
+  const st = getProductStatus(id, state.wsProduct);
   if (st === 'unknown') return 'unknown';
   return wsHasRival(id) ? 'rival' : 'greenfield';
 }
@@ -4525,11 +4612,32 @@ function fmtWorks(n) {
 // proper are counted separately so the card can show both.
 function wsContacts(id) { return wsInfo(id).contacts || []; }
 
+// The three Elsevier products this view can be pointed at. 'evidenceKey' is
+// where the per-product evidence lives in data/whitespace-contacts.json;
+// 'caveat' is shown under the toolbar because the strength of a "no" differs
+// sharply between them — Pure can be proven absent, Scopus rests on a public
+// register, SciVal has no register at all.
+const WS_PRODUCTS = {
+  pure:   { label: 'Pure',   title: 'White Space — Pure',
+            sub: 'Research-producing organisations in Denmark, Greenland and the Faroes with no Elsevier Pure tenancy — and who to call',
+            caveat: 'Every listing was checked against all 14 Danish-realm Pure portals and a hosted-tenant lookup, so a "no" here is proven absence.' },
+  scopus: { label: 'Scopus', title: 'White Space — Scopus',
+            sub: 'Institutions with no Scopus account in the national consortium agreement 2025-28',
+            caveat: 'Based on the Royal Danish Library national agreement, which lists every consortium account. An institution could still buy direct, which the register would not show.' },
+  scival: { label: 'SciVal', title: 'White Space — SciVal',
+            sub: 'Institutions with no evidence of SciVal — the strongest are those already paying for Scopus',
+            caveat: 'SciVal is not a consortium product, so there is no register. "Unverified" means the institution holds Scopus but shows no SciVal evidence — the best prospects, and the ones worth checking against Elsevier records.' },
+};
+function wsSetProduct(p) { state.wsProduct = p; state.wsFilter = 'all'; renderWhiteSpace(); }
 function renderWhiteSpace() {
-  document.getElementById('page-title').textContent = 'White Space — Pure';
-  document.getElementById('page-sub').textContent =
-    'Research-producing organisations in Denmark, Greenland and the Faroes with no Elsevier Pure tenancy — and who to call';
+  const prod = WS_PRODUCTS[state.wsProduct] || WS_PRODUCTS.pure;
+  document.getElementById('page-title').textContent = prod.title;
+  document.getElementById('page-sub').textContent = prod.sub;
   document.getElementById('topbar-actions').innerHTML =
+    '<div class="view-toggle" style="margin-right:8px">' +
+    Object.entries(WS_PRODUCTS).map(([k, p]) =>
+      '<button class="vt-btn ' + (state.wsProduct === k ? 'active' : '') + '" onclick="wsSetProduct(\'' + k + '\')">' + p.label + '</button>').join('') +
+    '</div>' +
     '<div class="view-toggle">' +
     ['grid', 'table', 'contacts'].map(v =>
       '<button class="vt-btn ' + (state.wsView === v ? 'active' : '') + '" onclick="state.wsView=\'' + v + '\';renderWhiteSpace()">' +
@@ -4539,8 +4647,8 @@ function renderWhiteSpace() {
   let insts = state.institutions.filter(i => {
     if (!WS_ELIGIBLE_TYPES.includes(i.type)) return false;
     if (WS_EXCLUDE_IDS.has(i.id)) return false;
-    const pureStatus = getProductStatus(i.id, 'pure');
-    if (!(pureStatus in WS_PURE_STATUS)) return false; // yes/likely/expiring already have or probably have Pure
+    const pureStatus = getProductStatus(i.id, state.wsProduct);
+    if (!(pureStatus in WS_STATUS)) return false; // yes/likely/expiring already have or probably have Pure
     if (state.wsFilter !== 'all' && wsBucket(i.id) !== state.wsFilter) return false;
     if (state.wsSearch) {
       const hay = (i.name + ' ' + (i.short || '') + ' ' + i.city + ' ' + (wsInfo(i.id).why || '') + ' ' +
@@ -4552,7 +4660,7 @@ function renderWhiteSpace() {
   insts = sortInstList(insts, state.wsSort, wsSortVal);
 
   const all = state.institutions.filter(i =>
-    WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, 'pure') in WS_PURE_STATUS);
+    WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, state.wsProduct) in WS_STATUS);
   const counts = { all: all.length, greenfield: 0, rival: 0, unknown: 0 };
   all.forEach(i => counts[wsBucket(i.id)]++);
   const chip = (key, label) =>
@@ -4570,7 +4678,8 @@ function renderWhiteSpace() {
       '<span style="font-size:12px;color:var(--muted);margin-left:auto">' + insts.length +
         ' target' + (insts.length !== 1 ? 's' : '') + '</span>' +
       '<button class="btn-sm" onclick="exportWhiteSpaceContacts()">Export contacts CSV</button>' +
-    '</div>';
+    '</div>' +
+    '<div class="ws-caveat">' + esc(prod.caveat) + '</div>';
 
   if (!insts.length) {
     document.getElementById('content').innerHTML = toolbar +
@@ -4583,19 +4692,20 @@ function renderWhiteSpace() {
     document.getElementById('content').innerHTML = toolbar +
       '<div class="inst-grid">' + insts.map(i => {
         const info = wsInfo(i.id), bk = WS_BUCKET_LABEL[wsBucket(i.id)];
-        const st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
+        const st = WS_STATUS[getProductStatus(i.id, state.wsProduct)];
         const works = wsWorks(i.id), cx = wsContacts(i.id), crm = contactsForInst(i.id).length;
         return '<div class="ic ws-card" onclick="nav(\'detail\',{instId:\'' + i.id + '\'})">' +
           '<div class="ic-head">' +
             '<div class="ic-icon ' + i.type + '">' + (TYPE_ICON[i.type] || '') + '</div>' +
             '<span class="badge b-' + i.type + '" style="font-size:10px">' + (TYPE_LABEL[i.type] || i.type) + '</span>' +
-            '<span class="badge" style="font-size:10px;background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(st.label) + '</span>' +
+            '<span class="badge" style="font-size:10px;background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(wsStatusLabel(getProductStatus(i.id, state.wsProduct))) + '</span>' +
             '<span class="badge" title="' + esc(bk.hint) + '" style="font-size:10px;background:' + bk.color + '22;color:' + bk.color + ';border:1px solid ' + bk.color + '55">' + bk.label + '</span>' +
           '</div>' +
           '<h3>' + esc(i.name) + '</h3>' +
           (i.short ? '<div class="short">' + esc(i.short) + '</div>' : '') +
           '<div class="city">' + esc(i.city) + (works !== null && works > 0 ? ' · ' + fmtWorks(works) + ' indexed works' : '') + '</div>' +
           (info.why ? '<div class="ws-why">' + esc(info.why) + '</div>' : '') +
+          ((info[state.wsProduct] || {}).evidence ? '<div class="ws-eviz">' + esc(info[state.wsProduct].evidence) + '</div>' : '') +
           (wsHasRival(i.id) ? '<div class="ws-rival">Incumbent: ' + esc(info.incumbent) + '</div>' : '') +
           (cx.length ? '<div class="ws-people">' + cx.slice(0, 3).map(c =>
               '<div class="ws-person"><span class="wp-n">' + esc(c.name) + '</span>' +
@@ -4620,14 +4730,14 @@ function renderWhiteSpace() {
         '<th class="sortable-th' + sortThStyle('city', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'city\',renderWhiteSpace)">City' + sortArrow('city', state.wsSort) + '</th>' +
         '<th>Contacts</th><th>Actions</th>' +
       '</tr></thead><tbody>' + insts.map(i => {
-        const info = wsInfo(i.id), st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
+        const info = wsInfo(i.id), st = WS_STATUS[getProductStatus(i.id, state.wsProduct)];
         const works = wsWorks(i.id), cx = wsContacts(i.id);
         return '<tr onclick="nav(\'detail\',{instId:\'' + i.id + '\'})">' +
           '<td><div class="name-cell"><span style="font-size:18px">' + (TYPE_ICON[i.type] || '') + '</span><div>' +
             '<div style="font-weight:600">' + esc(i.name) + '</div>' +
             '<div style="font-size:11px;color:var(--muted)">' + esc(i.short || '') + '</div></div></div></td>' +
           '<td><span class="badge b-' + i.type + '">' + (TYPE_LABEL[i.type] || i.type) + '</span></td>' +
-          '<td><span class="badge" style="background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(st.label) + '</span></td>' +
+          '<td><span class="badge" style="background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(wsStatusLabel(getProductStatus(i.id, state.wsProduct))) + '</span></td>' +
           '<td style="white-space:nowrap">' + (works !== null && works > 0 ? fmtWorks(works) : '—') + '</td>' +
           '<td style="font-size:11px;color:' + (wsHasRival(i.id) ? '#fb923c' : 'var(--muted)') + '">' + esc(wsHasRival(i.id) ? info.incumbent : 'none') + '</td>' +
           '<td>' + esc(i.city) + '</td>' +
@@ -4671,13 +4781,13 @@ function renderWhiteSpace() {
 function exportWhiteSpaceContacts() {
   const insts = state.institutions.filter(i =>
     WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) &&
-    getProductStatus(i.id, 'pure') in WS_PURE_STATUS &&
+    getProductStatus(i.id, state.wsProduct) in WS_STATUS &&
     (state.wsFilter === 'all' || wsBucket(i.id) === state.wsFilter));
   const out = [['Name', 'Role', 'Institution', 'Type', 'City', 'Email', 'Email status', 'Phone', 'Pure status', 'Incumbent', 'Indexed works', 'Source']];
   insts.forEach(i => wsContacts(i.id).forEach(c => out.push([
     c.name, c.title, i.name, TYPE_LABEL[i.type] || i.type, i.city,
     c.email || '', c.emailStatus || '', c.phone || '',
-    (WS_PURE_STATUS[getProductStatus(i.id, 'pure')] || {}).label || '',
+    wsStatusLabel(getProductStatus(i.id, state.wsProduct)),
     wsHasRival(i.id) ? wsInfo(i.id).incumbent : 'none',
     wsWorks(i.id) === null ? '' : wsWorks(i.id), c.source || '',
   ])));
@@ -4685,7 +4795,7 @@ function exportWhiteSpaceContacts() {
   const csv = out.map(r => r.map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(',')).join('\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
-  a.download = 'pure_white_space_contacts.csv';
+  a.download = state.wsProduct + '_white_space_contacts.csv';
   a.click();
   URL.revokeObjectURL(a.href);
   toast('Exported ' + (out.length - 1) + ' contacts.', 'ok');
@@ -4698,8 +4808,13 @@ function exportWhiteSpaceContacts() {
 function updateWhiteSpaceBadge() {
   const badge = document.getElementById('nav-whitespace-badge');
   if (!badge) return;
-  const count = state.institutions.filter(i => WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, 'pure') in WS_PURE_STATUS).length;
+  // Deliberately pinned to Pure rather than the view's selected product: the
+  // badge sits in the nav and is read from every screen, so it has to mean one
+  // stable thing. It also only recomputes on a full render(), so following the
+  // in-view product toggle would leave it showing a stale count.
+  const count = state.institutions.filter(i => WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, 'pure') in WS_STATUS).length;
   badge.textContent = count;
+  badge.title = count + ' institutions with no Pure tenancy';
   badge.style.display = count > 0 ? 'inline-block' : 'none';
 }
 
@@ -6848,6 +6963,405 @@ function renderPipeline() {
     <div class="pipeline-board">${cols}</div>`;
 }
 
+// ══ ANALYTICS ═══════════════════════════════════════════════════════════════
+// A reporting layer over the state the rest of the CRM already edits — no new
+// data source, nothing to sync. The filter row at the top scopes every chart
+// below it, so the whole screen always reads one slice.
+//
+// Colour is assigned by the job it does: the funnel is an ordered scale, so it
+// gets a single-hue teal ramp stepped for this surface; account health is a
+// state, so it gets status colours and always ships its label beside the
+// swatch; everything else is one hue per chart, because the bar length already
+// carries the magnitude. Every bar writes its value out in text, so no number
+// on this screen is readable by colour alone.
+const AN_RANGES = { '30d': 30, '90d': 90, '12m': 365, all: null };
+const AN_RANGE_LABEL = { '30d': 'last 30 days', '90d': 'last 90 days', '12m': 'last 12 months', all: 'all time' };
+const AN_RANGE_BTN = { '30d': '30 days', '90d': '90 days', '12m': '12 months', all: 'All time' };
+const AN_HUE = '#2dd4bf';
+const AN_STAGES = [
+  { key: 'prospect',    label: 'Prospect',    color: '#0f766e' },
+  { key: 'engaged',     label: 'Engaged',     color: '#0d9488' },
+  { key: 'proposal',    label: 'Proposal',    color: '#14b8a6' },
+  { key: 'negotiation', label: 'Negotiation', color: '#2dd4bf' },
+  { key: 'closed-won',  label: 'Closed Won',  color: '#5eead4' },
+];
+// Probability by stage — the usual weighting, used only for the weighted figure.
+const AN_WEIGHTS = { prospect: .1, engaged: .25, proposal: .5, negotiation: .75 };
+const AN_HEALTH = [
+  { key: 'active',  label: 'Active',          sub: 'touched in the last 30 days', color: '#10b981', max: 30 },
+  { key: 'warm',    label: 'Warm',            sub: '30–90 days ago',              color: '#f59e0b', max: 90 },
+  { key: 'cooling', label: 'Cooling',         sub: '90–180 days ago',             color: '#f97316', max: 180 },
+  { key: 'cold',    label: 'Cold',            sub: 'over 180 days ago',           color: '#ef4444', max: Infinity },
+  { key: 'never',   label: 'Never contacted', sub: 'no interaction on record',    color: '#64748b', max: null },
+];
+const AN_INT_TYPES = [
+  { key: 'email',    label: 'Email' },
+  { key: 'call',     label: 'Call' },
+  { key: 'meeting',  label: 'Meeting' },
+  { key: 'demo',     label: 'Demo' },
+  { key: 'proposal', label: 'Proposal sent' },
+  { key: 'other',    label: 'Other' },
+];
+
+// ── small helpers ───────────────────────────────────────────
+// Dates are handled as local YYYY-MM-DD throughout; toISOString() would shift a
+// day for anyone east of UTC, which is everyone using this CRM.
+function anISO(d) {
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+function anParse(date) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(date || ''));
+  return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
+}
+function anDaysSince(date) {
+  const d = anParse(date);
+  return d ? Math.floor((Date.now() - d.getTime()) / 86400000) : null;
+}
+function anCutoff() {
+  const days = AN_RANGES[state.anRange];
+  if (!days) return null;
+  const d = new Date(); d.setDate(d.getDate() - days);
+  return anISO(d);
+}
+// No cutoff ("all time") lets undated records through; a cutoff does not.
+function anInRange(date) {
+  const c = anCutoff();
+  if (!c) return true;
+  const d = String(date || '').slice(0, 10);
+  return !!d && d >= c;
+}
+function anMoney(v) {
+  const n = Math.round(Number(v) || 0);
+  if (!n) return '—';
+  if (Math.abs(n) >= 1e6) return '€' + (n / 1e6).toFixed(n % 1e6 ? 1 : 0) + 'M';
+  if (Math.abs(n) >= 1e4) return '€' + Math.round(n / 1e3) + 'k';
+  return '€' + n.toLocaleString();
+}
+function anSum(list, f) { return list.reduce((a, x) => a + (parseFloat(f(x)) || 0), 0); }
+function anPct(n, d) { return d ? Math.round(n / d * 100) : 0; }
+
+// Tenders carry a free-text institution name rather than an id, so the type
+// filter resolves them by matching that text against the institutions in scope.
+function anTenderInst(rfp, insts) {
+  const name = (rfp.institution || '').toLowerCase();
+  if (!name) return null;
+  return insts.find(i =>
+    (i.short && name.includes(i.short.toLowerCase())) ||
+    (i.name && name.includes(i.name.toLowerCase()))) || null;
+}
+
+// The one slice every chart on this screen reads.
+function anScope() {
+  const insts = state.institutions.filter(i => !state.anType || i.type === state.anType);
+  const ids = new Set(insts.map(i => i.id));
+  const allRfps = (typeof getRFPs === 'function' ? getRFPs() : state.rfps) || [];
+  const allActs = state.interactions.filter(n => ids.has(n.instId));
+  return {
+    insts, ids, allActs,
+    contacts: state.contacts.filter(c => ids.has(c.instId)),
+    opps: state.opportunities.filter(o => ids.has(o.instId)),
+    acts: allActs.filter(n => anInRange(n.date)),
+    rfps: allRfps.filter(r =>
+      anInRange(r.publishedDate || r.createdAt) &&
+      (!state.anType || anTenderInst(r, insts))),
+  };
+}
+
+// Time buckets for the activity chart — weeks for the short ranges, months for
+// the long ones, so a bucket always holds enough to be worth plotting.
+function anBuckets() {
+  const out = [];
+  const weekly = state.anRange === '30d' || state.anRange === '90d';
+  if (weekly) {
+    const n = state.anRange === '30d' ? 5 : 13;
+    const start = new Date(); start.setHours(0, 0, 0, 0);
+    start.setDate(start.getDate() - ((start.getDay() + 6) % 7)); // back to Monday
+    for (let i = n - 1; i >= 0; i--) {
+      const from = new Date(start); from.setDate(from.getDate() - i * 7);
+      const to = new Date(from); to.setDate(to.getDate() + 6);
+      out.push({ from: anISO(from), to: anISO(to), label: from.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' }) });
+    }
+  } else {
+    let n = 12;
+    if (state.anRange === 'all') {
+      const dates = state.interactions.map(x => x.date).filter(Boolean).sort();
+      const first = anParse(dates[0]);
+      if (first) {
+        const now = new Date();
+        const months = (now.getFullYear() - first.getFullYear()) * 12 + (now.getMonth() - first.getMonth()) + 1;
+        n = Math.min(24, Math.max(6, months));
+      }
+    }
+    const now = new Date();
+    for (let i = n - 1; i >= 0; i--) {
+      const from = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      const to = new Date(now.getFullYear(), now.getMonth() - i + 1, 0);
+      out.push({
+        from: anISO(from), to: anISO(to),
+        label: from.toLocaleDateString('en-GB', { month: 'short' }) + (n > 12 ? ' ’' + String(from.getFullYear()).slice(2) : ''),
+      });
+    }
+  }
+  return out;
+}
+
+// ── shared pieces ───────────────────────────────────────────
+function anCard(title, sub, body, opts) {
+  const o = opts || {};
+  return `<div class="an-card${o.wide ? ' an-wide' : ''}">
+    <div class="an-head"><span class="an-title">${title}</span>${o.action || ''}</div>
+    <div class="an-sub">${sub}</div>
+    ${body}
+  </div>`;
+}
+// label · track · value. The value is written out as text, so the bar is an aid
+// to comparison rather than the only way to read the number.
+function anRow(label, value, pct, color, opts) {
+  const o = opts || {};
+  return `<div class="an-row">
+    <div class="an-rl">${o.swatch === false ? '' : `<i style="background:${color}"></i>`}<span>${label}</span></div>
+    <div class="an-rv">${value}</div>
+    <span class="an-track"><span class="an-fill" data-w="${Math.max(0, Math.min(100, Math.round(pct)))}" style="background:${color}"></span></span>
+    ${o.note ? `<div class="an-step">${o.note}</div>` : ''}
+  </div>`;
+}
+function anEmpty(msg) { return `<div class="an-empty">${msg}</div>`; }
+
+// A table twin for the charts whose values sit on the marks rather than in a
+// row of text, so every figure stays reachable without hovering.
+let _anTables = {};
+function anToggleTable(id) {
+  _anTables[id] = !_anTables[id];
+  const el = document.getElementById(id);
+  const btn = document.getElementById(id + '-btn');
+  if (el) el.hidden = !_anTables[id];
+  if (btn) btn.textContent = _anTables[id] ? 'Hide data' : 'Show data';
+}
+function anTableBtn(id) {
+  return `<button class="an-link" id="${id}-btn" onclick="anToggleTable('${id}')">${_anTables[id] ? 'Hide data' : 'Show data'}</button>`;
+}
+// Bars are emitted at zero and grown on the next frame so the transition runs.
+function anGrowBars() {
+  document.querySelectorAll('#content .an-fill').forEach(el => { if (el.dataset.w) el.style.width = el.dataset.w + '%'; });
+  document.querySelectorAll('#content .an-colbar').forEach(el => { if (el.dataset.h) el.style.height = el.dataset.h + '%'; });
+}
+
+function anSetRange(r) {
+  state.anRange = r;
+  try { localStorage.setItem('crm_an_range', r); } catch (e) {}
+  renderAnalytics();
+}
+function anSetType(t) { state.anType = t; renderAnalytics(); }
+
+// ── the cards ───────────────────────────────────────────────
+function anKpis(s) {
+  const open = s.opps.filter(o => !['closed-won', 'closed-lost'].includes(o.stage));
+  const openVal = anSum(open, o => o.value);
+  const weighted = open.reduce((a, o) => a + (parseFloat(o.value) || 0) * (AN_WEIGHTS[o.stage] || 0), 0);
+  const closed = s.opps.filter(o => ['closed-won', 'closed-lost'].includes(o.stage) && anInRange(o.closeDate));
+  const won = closed.filter(o => o.stage === 'closed-won');
+  const wonVal = anSum(won, o => o.value);
+  const touched = new Set(s.acts.map(a => a.instId));
+  const avg = won.length ? wonVal / won.length : (open.length ? openVal / open.length : 0);
+  const tiles = [
+    { l: 'Open pipeline',     v: anMoney(openVal),  s: `${open.length} open deal${open.length === 1 ? '' : 's'}` },
+    { l: 'Weighted pipeline', v: anMoney(weighted), s: 'by stage probability' },
+    { l: 'Won',               v: anMoney(wonVal),   s: `${won.length} deal${won.length === 1 ? '' : 's'} · ${AN_RANGE_LABEL[state.anRange]}` },
+    { l: 'Win rate',          v: closed.length ? anPct(won.length, closed.length) + '%' : '—', s: `${won.length} won of ${closed.length} closed` },
+    { l: 'Avg deal size',     v: anMoney(avg),      s: won.length ? 'closed won' : 'open deals' },
+    { l: 'Interactions',      v: String(s.acts.length), s: `${touched.size} of ${s.insts.length} accounts touched` },
+  ];
+  return `<div class="an-kpis">${tiles.map(t => `<div class="an-kpi">
+    <div class="k-l">${esc(t.l)}</div><div class="k-v">${t.v}</div><div class="k-s">${esc(t.s)}</div>
+  </div>`).join('')}</div>`;
+}
+
+function anFunnel(s) {
+  const stages = AN_STAGES.map(st => {
+    const list = s.opps.filter(o => o.stage === st.key);
+    return { key: st.key, label: st.label, color: st.color, n: list.length, val: anSum(list, o => o.value) };
+  });
+  const lost = s.opps.filter(o => o.stage === 'closed-lost');
+  // A deal sits in exactly one stage, so "reached" a stage means it is there or
+  // past it. Lost deals have left the funnel and get their own line.
+  const reach = stages.map((_, i) => stages.slice(i).reduce((a, x) => a + x.n, 0));
+  const top = reach[0] || 1;
+  const body = reach[0]
+    ? stages.map((st, i) => anRow(
+        st.label,
+        `${reach[i]} reached`,
+        reach[i] / top * 100,
+        st.color,
+        { note: `${st.n} here now · ${anMoney(st.val)}` + (i ? ` · ${anPct(reach[i], reach[i - 1])}% advanced from ${stages[i - 1].label}` : '') }
+      )).join('') + `<div class="an-step" style="padding-top:10px">${lost.length} closed lost · ${anMoney(anSum(lost, o => o.value))}</div>`
+    : anEmpty('No deals recorded yet — add one from a institution’s detail page.');
+  return anCard('Deal funnel', 'How far deals get, and what drops out between stages', body);
+}
+
+function anTrend(s) {
+  const weekly = state.anRange === '30d' || state.anRange === '90d';
+  const buckets = anBuckets();
+  const counts = buckets.map(b => s.allActs.filter(a => a.date >= b.from && a.date <= b.to).length);
+  const peak = Math.max(...counts, 0);
+  if (!peak) {
+    return anCard('Activity over time', `Interactions logged per ${weekly ? 'week' : 'month'}`,
+      anEmpty('No interactions logged in this period.'), { wide: true });
+  }
+  const lastIdx = counts.length - 1;
+  const peakIdx = counts.indexOf(peak);
+  // Only the peak and the latest bucket are direct-labelled; the rest are on
+  // hover/focus and in the table twin.
+  const cols = counts.map((n, i) => `<button class="an-col" title="${esc(buckets[i].label)}: ${n} interaction${n === 1 ? '' : 's'}">
+      <span class="an-colv${i === peakIdx || i === lastIdx ? ' keep' : ''}">${n}</span>
+      <span class="an-colbar" data-h="${Math.round(n / peak * 100)}" style="height:0;background:${AN_HUE}"></span>
+    </button>`).join('');
+  const half = Math.round(peak / 2);
+  const plot = `<div class="an-plot">
+      <span class="an-gridline" style="top:18px"><b>${peak}</b></span>
+      ${half && half !== peak ? `<span class="an-gridline" style="top:84px"><b>${half}</b></span>` : ''}
+      ${cols}
+    </div>
+    <div class="an-xaxis">${buckets.map(b => `<span>${esc(b.label)}</span>`).join('')}</div>
+    <div class="an-data" id="an-trend-data"${_anTables['an-trend-data'] ? '' : ' hidden'}>
+      <table class="an-tbl"><thead><tr><th>Period</th><th class="num">Interactions</th></tr></thead>
+      <tbody>${buckets.map((b, i) => `<tr><td>${esc(b.label)}</td><td class="num">${counts[i]}</td></tr>`).join('')}</tbody></table>
+    </div>`;
+  return anCard('Activity over time',
+    // Buckets are whole weeks/months, so their total can sit just under the
+    // headline count — say which span this number covers rather than leaving
+    // two different totals on one screen.
+    `Interactions logged per ${weekly ? 'week' : 'month'} · ${counts.reduce((a, b) => a + b, 0)} across ${esc(buckets[0].label)}–${esc(buckets[lastIdx].label)}`,
+    plot, { wide: true, action: anTableBtn('an-trend-data') });
+}
+
+function anMix(s) {
+  const total = s.acts.length;
+  const rows = AN_INT_TYPES
+    .map(t => ({ key: t.key, label: t.label, n: s.acts.filter(a => (a.type || 'other') === t.key).length }))
+    .filter(t => t.n)
+    .sort((a, b) => b.n - a.n);
+  const body = rows.length
+    ? rows.map(t => anRow(t.label, `${t.n}<em>${anPct(t.n, total)}%</em>`, t.n / rows[0].n * 100, AN_HUE, { swatch: false })).join('')
+    : anEmpty('No interactions logged in this period.');
+  return anCard('How you are reaching out', `Interaction mix · ${AN_RANGE_LABEL[state.anRange]}`, body);
+}
+
+function anHealth(s) {
+  // Health is "as of today" on purpose — scoping it to the selected range would
+  // file every account last touched before that window under "never contacted".
+  const last = {};
+  s.allActs.forEach(a => { if (a.date && (!last[a.instId] || a.date > last[a.instId])) last[a.instId] = a.date; });
+  const counts = {};
+  s.insts.forEach(i => {
+    const d = anDaysSince(last[i.id]);
+    const bucket = d === null ? 'never' : (AN_HEALTH.find(h => h.max !== null && d < h.max) || AN_HEALTH[3]).key;
+    counts[bucket] = (counts[bucket] || 0) + 1;
+  });
+  const total = s.insts.length || 1;
+  const body = AN_HEALTH.map(h => anRow(
+    `${h.label} <span style="color:var(--muted);font-weight:500">· ${h.sub}</span>`,
+    `${counts[h.key] || 0}<em>${anPct(counts[h.key] || 0, total)}%</em>`,
+    (counts[h.key] || 0) / total * 100, h.color
+  )).join('');
+  return anCard('Account health', `When each of the ${s.insts.length} accounts in scope was last touched · as of today`, body);
+}
+
+function anCoverage(s) {
+  const withContact = s.insts.filter(i => s.contacts.some(c => c.instId === i.id)).length;
+  const withEmail = s.contacts.filter(c => c.email).length;
+  const withDeal = s.insts.filter(i => s.opps.some(o => o.instId === i.id && !['closed-won', 'closed-lost'].includes(o.stage))).length;
+  const highPrio = s.contacts.filter(c => c.priority === 'high').length;
+  const rows = [
+    { l: 'Accounts with a named contact', n: withContact, d: s.insts.length },
+    { l: 'Contacts with an email on file', n: withEmail, d: s.contacts.length },
+    { l: 'Accounts with an open deal', n: withDeal, d: s.insts.length },
+    { l: 'High-priority contacts', n: highPrio, d: s.contacts.length },
+  ];
+  const body = rows.map(r => anRow(esc(r.l), `${r.n}<em>of ${r.d}</em>`, anPct(r.n, r.d), AN_HUE, { swatch: false })).join('');
+  return anCard('Coverage', 'How much of the network you actually have a way into', body);
+}
+
+function anAccounts(s) {
+  const rows = s.insts.map(i => {
+    const open = s.opps.filter(o => o.instId === i.id && !['closed-won', 'closed-lost'].includes(o.stage));
+    const dates = s.allActs.filter(a => a.instId === i.id && a.date).map(a => a.date).sort();
+    return {
+      inst: i,
+      acts: s.acts.filter(a => a.instId === i.id).length,
+      contacts: s.contacts.filter(c => c.instId === i.id).length,
+      deals: open.length, val: anSum(open, o => o.value), last: dates[dates.length - 1] || '',
+    };
+  }).sort((a, b) => b.acts - a.acts || b.val - a.val || b.contacts - a.contacts).slice(0, 8);
+  const body = rows.length
+    ? `<div class="an-scrollx"><table class="an-tbl">
+        <thead><tr><th>Account</th><th class="num">Contacts</th><th class="num">Activity</th><th class="num">Open deals</th><th class="num">Pipeline</th><th class="num">Last touch</th></tr></thead>
+        <tbody>${rows.map(r => `<tr class="clickable" onclick="nav('detail',{instId:'${r.inst.id}'})">
+          <td>${esc(r.inst.short || r.inst.name)}</td>
+          <td class="num">${r.contacts}</td>
+          <td class="num">${r.acts}</td>
+          <td class="num">${r.deals}</td>
+          <td class="num">${anMoney(r.val)}</td>
+          <td class="num">${r.last ? anDaysSince(r.last) + 'd ago' : '—'}</td>
+        </tr>`).join('')}</tbody></table></div>`
+    : anEmpty('No accounts in scope.');
+  return anCard('Most engaged accounts', `Ranked by interactions logged · ${AN_RANGE_LABEL[state.anRange]}`, body, { wide: true });
+}
+
+function anTenders(s) {
+  const openRfp = `<button class="an-link" onclick="nav('rfp')">Open RFP Opps</button>`;
+  if (!s.rfps.length) {
+    return anCard('Tenders', `Published · ${AN_RANGE_LABEL[state.anRange]}`,
+      anEmpty('No tenders in this period.'), { action: openRfp });
+  }
+  const byStatus = {};
+  s.rfps.forEach(r => { const k = r.status || 'identified'; (byStatus[k] = byStatus[k] || []).push(r); });
+  const max = Math.max.apply(null, Object.values(byStatus).map(v => v.length));
+  const rows = Object.entries(byStatus).sort((a, b) => b[1].length - a[1].length).map(([k, list]) => {
+    const meta = RFP_STATUSES[k] || { label: k.charAt(0).toUpperCase() + k.slice(1), color: '#64748b' };
+    return anRow(esc(meta.label), `${list.length}<em>${anMoney(anSum(list, r => r.value))}</em>`, list.length / max * 100, meta.color);
+  }).join('');
+  const comps = {};
+  s.rfps.forEach(r => { if (r.competitor) comps[r.competitor] = (comps[r.competitor] || 0) + 1; });
+  const compList = Object.entries(comps).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const compRows = compList.length
+    ? '<div class="an-step" style="padding:12px 0 2px">Incumbent named in the notice</div>' +
+      compList.map(([name, n]) => anRow(esc(name), String(n), n / compList[0][1] * 100, AN_HUE, { swatch: false })).join('')
+    : '';
+  return anCard('Tenders',
+    `${s.rfps.length} published · ${AN_RANGE_LABEL[state.anRange]} · ${anMoney(anSum(s.rfps, r => r.value))} total value`,
+    rows + compRows, { action: openRfp });
+}
+
+function renderAnalytics() {
+  document.getElementById('page-title').textContent = 'Analytics';
+  document.getElementById('page-sub').textContent = 'Pipeline, activity and coverage across the Denmark network';
+  document.getElementById('topbar-actions').innerHTML = '';
+
+  const s = anScope();
+  const ranges = Object.keys(AN_RANGES).map(r =>
+    `<button class="${state.anRange === r ? 'on' : ''}" onclick="anSetRange('${r}')">${AN_RANGE_BTN[r]}</button>`).join('');
+  const types = [''].concat(Object.keys(TYPE_LABEL)).map(t =>
+    `<option value="${t}"${state.anType === t ? ' selected' : ''}>${t ? TYPE_LABEL[t] : 'All institution types'}</option>`).join('');
+
+  document.getElementById('content').innerHTML = `
+    <div class="an-bar">
+      <div class="an-seg">${ranges}</div>
+      <select class="flt" onchange="anSetType(this.value)">${types}</select>
+      <span class="an-scope">${s.insts.length} accounts · ${s.contacts.length} contacts in scope</span>
+    </div>
+    ${anKpis(s)}
+    <div class="an-grid">
+      ${anTrend(s)}
+      ${anFunnel(s)}
+      ${anHealth(s)}
+      ${anMix(s)}
+      ${anCoverage(s)}
+      ${anAccounts(s)}
+      ${anTenders(s)}
+    </div>`;
+  requestAnimationFrame(() => requestAnimationFrame(anGrowBars));
+}
+
 //  AUTH GATE
 // Sign-in itself happens on landing.html (shared Supabase session via localStorage,
 // same origin). This page just requires that a session already exist.
@@ -6994,7 +7508,7 @@ function clearAllOverrides(){
 if (!window.COMP_DATA) {
   window.COMP_DATA = {
     ku: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'yes', scivalRenewal:'', scivalProof:'https://kub.ku.dk/english/researchsupport/tools-for-researchers/',
       pure:'yes', pureRenewal:'', pureProof:'https://researchprofiles.ku.dk/da/home/index/',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7003,7 +7517,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I124055696',
     },
     au: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://library.au.dk/en/subject-areas/slettet/steno-science-studies/databases',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'yes', scivalRenewal:'', scivalProof:'https://assets.ctfassets.net/zlnfaxb2lcqx/6vDPIbwPcOUeWj80WQsTHe/454b84573c69f755293d63e5b83b9f44/Aarhus_University_SciVal_Case-Study.pdf',
       pure:'yes', pureRenewal:'', pureProof:'https://pure.au.dk/portal/',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7012,7 +7526,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I204337017',
     },
     dtu: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://www.bibliotek.dtu.dk/en/find-information/other',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://www.bibliotek.dtu.dk/Forskningsservice/Forskningspublicering/Forsknings-output/DTU-Orbit',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7021,7 +7535,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I96673099',
     },
     sdu: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://libguides.sdu.dk/researchimpact/researchidentifiers',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'yes', scivalRenewal:'', scivalProof:'https://sdunet.dk/da/servicesider/analytics/analyseredskaber/scival',
       pure:'yes', pureRenewal:'', pureProof:'https://sdunet.dk/en/research/pure/vejledninger-til-pure/faq-university-of-southern-denmark-research-portal',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7030,8 +7544,8 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I177969490',
     },
     aau: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://vbn.aau.dk/ws/files/306733394/Keep_Track_of_your_Publications_HST.pdf',
-      scival:'yes', scivalRenewal:'', scivalProof:'https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting-e101025',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
+      scival:'yes', scivalRenewal:'', scivalProof:'https://www.en.aub.aau.dk/scival-an-administrative-tool-for-research-analysis-and-reporting',
       pure:'yes', pureRenewal:'', pureProof:'https://vbn.aau.dk/en/',
       wos:'yes', wosRenewal:'', openalex:'free',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
@@ -7039,7 +7553,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I891191580',
     },
     cbs: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://www.cbs.dk/en/library/search-library/online-resources/scopus',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'yes', scivalRenewal:'', scivalProof:'https://libguides.cbs.dk/newsletter/5426/scival-publication-analyses-on-the-fly',
       pure:'yes', pureRenewal:'', pureProof:'https://research.cbs.dk/',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7048,7 +7562,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I180519160',
     },
     ruc: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://libguides.ruc.dk/bibliometrics',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'yes', scivalRenewal:'', scivalProof:'https://libguides.ruc.dk/bibliometrics',
       pure:'yes', pureRenewal:'', pureProof:'https://forskning.ruc.dk/',
       wos:'yes', wosRenewal:'', openalex:'free',
@@ -7057,8 +7571,8 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I107707843',
     },
     itu: {
-      scopus:'yes', scopusRenewal:'', scopusProof:'https://ethos.itu.dk/scopus-sciencescape/',
-      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
+      scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       pure:'yes', pureRenewal:'', pureProof:'https://pure.itu.dk/en/home/',
       wos:'yes', wosRenewal:'', openalex:'free',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
@@ -7066,7 +7580,7 @@ if (!window.COMP_DATA) {
       proofOpenalex: 'https://openalex.org/institutions/I83467386',
     },
     rigshospitalet: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://research.regionh.dk/en/organisations/hovedortocentret-rigshospitalet/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7074,7 +7588,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     auh: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://pure.au.dk/portal/en/organisations/department-of-clinical-medicine-aarhus-university-hospital/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7082,7 +7596,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     ouh: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/ki-ouh-forskningsenhed-for-akut-medicin-odense/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7090,7 +7604,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     herlevgentofte: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://research.regionh.dk/en/organisations/herlev-og-gentofte-hospital/persons/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7098,7 +7612,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     aalborguh: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://vbn.aau.dk/en/organisations/regionshospital-nordjylland/network-organisations/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7106,7 +7620,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     bispebjergfrederiksberg: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://research.regionh.dk/bispebjerg/da/persons/search.html',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7114,7 +7628,7 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     amagerhvidovre: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
+      scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       scival:'unknown', scivalRenewal:'', scivalProof:'',
       pure:'yes', pureRenewal:'', pureProof:'https://research.regionh.dk/da/organisations/amager-og-hvidovre-hospitaler/persons.html',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
@@ -7122,90 +7636,90 @@ if (!window.COMP_DATA) {
       proofWos: '', proofOpenalex: '',
     },
     zealanduh: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
-      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
+      scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       pure:'yes', pureRenewal:'', pureProof:'https://pure-portal.regsj.dk/en/organisations/sj%C3%A6llands-universitetshospital-k%C3%B8ge-og-roskilde/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
       proofWos: '', proofOpenalex: '',
     },
     stenocph: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
-      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
+      scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       pure:'yes', pureRenewal:'', pureProof:'https://research.regionh.dk/en/organisations/steno-diabetes-center-copenhagen/',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
       proofWos: '', proofOpenalex: '',
     },
     stenoaarhus: {
-      scopus:'unknown', scopusRenewal:'', scopusProof:'',
-      scival:'unknown', scivalRenewal:'', scivalProof:'',
+      scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
+      scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf',
       pure:'yes', pureRenewal:'', pureProof:'https://pure.au.dk/portal/en/organisations/department-of-clinical-medicine-sdca-steno-diabetes-center-aarhus',
       wos:'unknown', wosRenewal:'', openalex:'unknown',
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
       proofWos: '', proofOpenalex: '',
     },
-    ssi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.ssi.dk/om-ssi/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    nbi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/niels-bohr-institutet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ssi:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://www.ssi.dk/om-ssi/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    nbi:              { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/niels-bohr-institutet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     royalacademy:     { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://royalacademy.dk/publikationsplatform/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dmi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.dmi.dk/om-dmi/organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    geus:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pub.geus.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    alexandra:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://alexandra.dk/medarbejdere/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dti:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.teknologisk.dk/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    cpr:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-protein-research/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    cbmr:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-basic-metabolic-research/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    renew:            { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/renew-hub/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    inano:            { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/en/organisations/interdisciplinary-nanoscience-center', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dtuspace:         { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://orbit.dtu.dk/en/organisations/national-space-institute/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    diis:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://research.diis.dk/en/organisations/diis/network-map/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    vive:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.vive.dk/media/pure/rv7dnkvn/17326824', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dias:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/danish-institute-for-advanced-study/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    biosustain:       { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://orbit.dtu.dk/en/organisations/novo-nordisk-foundation-center-for-biosustainability/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    niph:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/statens-institut-for-folkesundhed', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    aias:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/da/organisations/aarhus-institute-of-advanced-studies/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    pioneerai:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/pioneer-ai-p1ai', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    rockwoolresearch: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://en.rockwoolfonden.dk/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    bii:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://bii.dk/about/employees/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dmi:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://www.dmi.dk/om-dmi/organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    geus:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pub.geus.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    alexandra:        { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://alexandra.dk/medarbejdere/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dti:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://www.teknologisk.dk/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    cpr:              { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-protein-research/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    cbmr:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-basic-metabolic-research/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    renew:            { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/renew-hub/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    inano:            { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/en/organisations/interdisciplinary-nanoscience-center', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dtuspace:         { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://orbit.dtu.dk/en/organisations/national-space-institute/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    diis:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://research.diis.dk/en/organisations/diis/network-map/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    vive:             { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://www.vive.dk/media/pure/rv7dnkvn/17326824', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dias:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/danish-institute-for-advanced-study/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    biosustain:       { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://orbit.dtu.dk/en/organisations/novo-nordisk-foundation-center-for-biosustainability/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    niph:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/statens-institut-for-folkesundhed', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    aias:             { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/da/organisations/aarhus-institute-of-advanced-studies/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    pioneerai:        { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/pioneer-ai-p1ai', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    rockwoolresearch: { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://en.rockwoolfonden.dk/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    bii:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://bii.dk/about/employees/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     novonordiskfoundation: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://novonordiskfonden.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     lundbeckfoundation:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.lundbeckfonden.com/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     carlsbergfoundation:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.carlsbergfondet.dk/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     villumfoundation:      { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://villumfonden.dk/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    danishcancersociety:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.cancer.dk/forskning/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    danishcancersociety:   { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://www.cancer.dk/forskning/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     dnrf:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://dg.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    kadk:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/det-kongelige-akademi-arkitektur-design-konservering/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    natmus:            { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.kb.dk/da/organisations/nationalmuseet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    fak:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://research.fak.dk/esploro/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    sygehuslillebaelt: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/da/organisations/irs-sygehus-lilleb%C3%A6lt-kolding/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    via:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/via-university-college-4/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    ucl:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/ucl-university-college/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    kp:                { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://forskningsportal.kp.dk/en/organisations/k%C3%B8benhavns-professionsh%C3%B8jskole/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    ucn:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/fysioterapeutuddannelsen-ucn/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    absalon:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/university-college-absalon/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    stenoodense:       { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/ki-ouh-forskningsenhed-for-sdco-steno-diabetes-center-odense', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    stenosjaelland:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure-portal.regsj.dk/da/organisations/steno-diabetes-center-sj%C3%A6lland/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    stenonordjylland:  { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://vbn.aau.dk/da/organisations/steno-diabetes-center-nordjylland-sdcn/publications.html', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dhi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.dhigroup.com/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    seges:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://segesinnovation.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    regionmidt:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.rm.dk/kontakt/koncern-kvalitet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    regionsyd:         { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://regionsyddanmark.dk/om-region-syddanmark/organisation/omrader-og-stabe/afdelinger-og-omrader-i-den-centrale-administration/kvalitet-og-forskning', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    regionnord:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    gnaturinstitut:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://natur.gl/about-us/the-governors/?lang=en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    ilisimatusarfik:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.uni.gl/opret-publikation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    nationalbanken:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    asiaq:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.asiaq.gl/forskningsprojekter/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    cifs:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.cifs.dk/impact/leadership', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    atv:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.atv.dk/om-atv/organisation/praesidiet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    humanrights:       { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.humanrights.dk/about-us/management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    force:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://forcetechnology.com/en/about-us/force-technology/board-and-management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dkdm:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    nikkb:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://nikkb.dk/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    drc:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://drc.ngo/pages/the-organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dfm:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://dfm.dk/publikationer/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    ek:                { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dignity:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.dignityinstitute.org/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dbi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://brandogsikring.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    bioneer:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://bioneer.dk/about/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dsl:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://dsl.dk/om-dsl/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    kadk:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/det-kongelige-akademi-arkitektur-design-konservering/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    natmus:            { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://pure.kb.dk/da/organisations/nationalmuseet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    fak:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://research.fak.dk/esploro/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    sygehuslillebaelt: { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/da/organisations/irs-sygehus-lilleb%C3%A6lt-kolding/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    via:               { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/via-university-college-4/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ucl:               { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/ucl-university-college/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    kp:                { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://forskningsportal.kp.dk/en/organisations/k%C3%B8benhavns-professionsh%C3%B8jskole/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ucn:               { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/fysioterapeutuddannelsen-ucn/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    absalon:           { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/university-college-absalon/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    stenoodense:       { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/ki-ouh-forskningsenhed-for-sdco-steno-diabetes-center-odense', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    stenosjaelland:    { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://pure-portal.regsj.dk/da/organisations/steno-diabetes-center-sj%C3%A6lland/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    stenonordjylland:  { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'yes',pureRenewal:'',pureProof:'https://vbn.aau.dk/da/organisations/steno-diabetes-center-nordjylland-sdcn/publications.html', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dhi:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://www.dhigroup.com/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    seges:             { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no', pureRenewal:'', pureProof:'https://segesinnovation.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionmidt:        { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.rm.dk/kontakt/koncern-kvalitet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionsyd:         { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://regionsyddanmark.dk/om-region-syddanmark/organisation/omrader-og-stabe/afdelinger-og-omrader-i-den-centrale-administration/kvalitet-og-forskning', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionnord:        { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    gnaturinstitut:    { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://natur.gl/about-us/the-governors/?lang=en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ilisimatusarfik:   { scopus:'yes', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'unknown', scivalRenewal:'', scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.uni.gl/opret-publikation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    nationalbanken:    { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    asiaq:             { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.asiaq.gl/forskningsprojekter/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    cifs:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.cifs.dk/impact/leadership', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    atv:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.atv.dk/om-atv/organisation/praesidiet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    humanrights:       { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.humanrights.dk/about-us/management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    force:             { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://forcetechnology.com/en/about-us/force-technology/board-and-management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dkdm:              { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    nikkb:             { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://nikkb.dk/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    drc:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://drc.ngo/pages/the-organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dfm:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://dfm.dk/publikationer/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ek:                { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dignity:           { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://www.dignityinstitute.org/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dbi:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://brandogsikring.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    bioneer:           { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://bioneer.dk/about/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dsl:               { scopus:'no', scopusRenewal:'', scopusProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', scival:'no', scivalRenewal:'', scivalProof:'https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf', pure:'no',pureRenewal:'',pureProof:'https://dsl.dk/om-dsl/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
   };
 }
 // Merge any localStorage overrides into COMP_DATA
