@@ -1376,6 +1376,13 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
 .an-tbl th{text-align:left;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:6px 8px;border-bottom:1px solid var(--border2)}
 .an-tbl td{padding:7px 8px;border-bottom:1px solid var(--border);color:var(--text)}
 .an-tbl th.num,.an-tbl td.num{text-align:right}
+/* segmented status bar — one span per status, counts spelled out in the legend */
+.an-stack{grid-column:1/-1;display:flex;height:8px;border-radius:0 4px 4px 0;background:rgba(255,255,255,.05);overflow:hidden}
+.an-stk-fill{display:block;height:100%}
+.an-legend{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:10.5px;color:var(--muted)}
+.an-legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.an-a{cursor:pointer}
+.an-a:hover{color:var(--accent);text-decoration:underline}
 .an-tbl td.num{font-variant-numeric:tabular-nums;color:var(--text2);font-weight:600}
 .an-tbl tbody tr:hover{background:rgba(255,255,255,.03)}
 .an-tbl tbody tr.clickable{cursor:pointer}
@@ -7609,27 +7616,238 @@ function anSetRange(r) {
 }
 function anSetType(t) { state.anType = t; renderAnalytics(); }
 
+// ── network intelligence ────────────────────────────────────
+// This CRM records who sits where and what each account runs; it is not a deal
+// pipeline. So the headline figures come from the competitor matrix, the
+// contact base, the decision-maker seats and OpenAlex output. Deals and logged
+// interactions still get their cards, but only once there are some to show.
+const AN_PRODUCTS = [
+  { key: 'scopus', label: 'Scopus',         elsevier: true },
+  { key: 'scival', label: 'SciVal',         elsevier: true },
+  { key: 'pure',   label: 'Pure',           elsevier: true },
+  { key: 'wos',    label: 'Web of Science', elsevier: false },
+];
+const AN_STATUS = [
+  { key: 'yes',      label: 'Active',   color: '#2dd4bf' },
+  { key: 'likely',   label: 'Likely',   color: '#5eead4' },
+  { key: 'expiring', label: 'Expiring', color: '#f59e0b' },
+  { key: 'no',       label: 'None',     color: '#475569' },
+  { key: 'unknown',  label: 'Unknown',  color: '#1e293b' },
+];
+const AN_TYPE_PLURAL = { university: 'universities', medical: 'medical centres', research: 'research institutes', ngo: 'NGOs and foundations' };
+const AN_GLYPH = { yes: ['✓', '#2dd4bf'], likely: ['~', '#5eead4'], expiring: ['!', '#f59e0b'], no: ['—', '#475569'], unknown: ['?', '#64748b'] };
+function anStatus(id, key) {
+  const st = getProductStatus(id, key);
+  return AN_STATUS.some(x => x.key === st) ? st : 'unknown';
+}
+function anHas(id, key) { const st = anStatus(id, key); return st === 'yes' || st === 'likely' || st === 'expiring'; }
+// OpenAlex works — the research-focus scan first, the white-space dossier as fallback.
+function anWorks(id) {
+  const rf = (state.researchFocus || {})[id];
+  if (rf && typeof rf.worksCount === 'number') return rf.worksCount;
+  const w = (state.whitespace || {})[id];
+  return w && typeof w.works === 'number' ? w.works : null;
+}
+function anNum(n) {
+  if (n === null || n === undefined) return '—';
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + 'M';
+  if (n >= 1e4) return Math.round(n / 1e3) + 'k';
+  return n.toLocaleString();
+}
+function anLabel(main, sub) {
+  return sub ? `${main} <span style="color:var(--muted);font-weight:500">· ${sub}</span>` : main;
+}
+function anInstLink(i) {
+  return `<span class="an-a" onclick="nav('detail',{instId:'${i.id}'})">${esc(i.short || i.name)}</span>`;
+}
+// Pure white space, pinned to Pure exactly like the nav badge is.
+function anWsBucket(id) {
+  if (getProductStatus(id, 'pure') === 'unknown') return 'unknown';
+  const inc = wsInfo(id).incumbent || '';
+  const rival = getProductStatus(id, 'converis') === 'yes' || getProductStatus(id, 'symplectic') === 'yes' || (!!inc && !/^none/i.test(inc));
+  return rival ? 'rival' : 'greenfield';
+}
+function anWhiteSpaceList(s) {
+  return s.insts.filter(i => WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, 'pure') in WS_STATUS);
+}
+// A segmented bar with one span per status. The counts sit in the legend, so
+// the colours are an aid to comparison rather than the only way to read it.
+function anStack(counts, total) {
+  const present = AN_STATUS.filter(st => counts[st.key]);
+  const segs = present.map(st =>
+    `<span class="an-stk-fill" style="width:${(counts[st.key] / (total || 1) * 100).toFixed(1)}%;background:${st.color}" title="${st.label}: ${counts[st.key]}"></span>`).join('');
+  const legend = present.map(st => `<span><i style="background:${st.color}"></i>${st.label} ${counts[st.key]}</span>`).join('');
+  return `<span class="an-stack">${segs}</span><span class="an-legend">${legend}</span>`;
+}
+function anRfpOpen(r) { return !['won', 'lost', 'closed'].includes(rfpStatusKey(r.status)); }
+
 // ── the cards ───────────────────────────────────────────────
 function anKpis(s) {
-  const open = s.opps.filter(o => !['closed-won', 'closed-lost'].includes(o.stage));
-  const openVal = anSum(open, o => o.value);
-  const weighted = open.reduce((a, o) => a + (parseFloat(o.value) || 0) * (AN_WEIGHTS[o.stage] || 0), 0);
-  const closed = s.opps.filter(o => ['closed-won', 'closed-lost'].includes(o.stage) && anInRange(o.closeDate));
-  const won = closed.filter(o => o.stage === 'closed-won');
-  const wonVal = anSum(won, o => o.value);
-  const touched = new Set(s.acts.map(a => a.instId));
-  const avg = won.length ? wonVal / won.length : (open.length ? openVal / open.length : 0);
+  const n = s.insts.length;
+  const byType = {};
+  s.insts.forEach(i => { byType[i.type] = (byType[i.type] || 0) + 1; });
+  const typeSub = Object.entries(byType).sort((a, b) => b[1] - a[1])
+    .map(([t, c]) => `${c} ${AN_TYPE_PLURAL[t] || (TYPE_LABEL[t] || t).toLowerCase()}`).join(' · ');
+  const withEmail = s.contacts.filter(c => c.email).length;
+  const covs = s.insts.map(i => keyRoleCoverage(i));
+  const avgCov = covs.length ? Math.round(covs.reduce((a, c) => a + c.pct, 0) / covs.length) : 0;
+  const strong = covs.filter(c => c.pct >= 80).length;
+  const elsevier = s.insts.filter(i => AN_PRODUCTS.some(p => p.elsevier && anHas(i.id, p.key))).length;
+  const ws = anWhiteSpaceList(s);
+  const green = ws.filter(i => anWsBucket(i.id) === 'greenfield').length;
+  const openRfps = s.rfps.filter(anRfpOpen).length;
   const tiles = [
-    { l: 'Open pipeline',     v: anMoney(openVal),  s: `${open.length} open deal${open.length === 1 ? '' : 's'}` },
-    { l: 'Weighted pipeline', v: anMoney(weighted), s: 'by stage probability' },
-    { l: 'Won',               v: anMoney(wonVal),   s: `${won.length} deal${won.length === 1 ? '' : 's'} · ${AN_RANGE_LABEL[state.anRange]}` },
-    { l: 'Win rate',          v: closed.length ? anPct(won.length, closed.length) + '%' : '—', s: `${won.length} won of ${closed.length} closed` },
-    { l: 'Avg deal size',     v: anMoney(avg),      s: won.length ? 'closed won' : 'open deals' },
-    { l: 'Interactions',      v: String(s.acts.length), s: `${touched.size} of ${s.insts.length} accounts touched` },
+    { l: 'Accounts',            v: String(n),              s: typeSub || 'in scope' },
+    { l: 'Contacts',            v: String(s.contacts.length), s: `${anPct(withEmail, s.contacts.length)}% with an email on file` },
+    { l: 'Decision-maker seats', v: avgCov + '%',          s: `${strong} of ${n} accounts at 80% or more` },
+    { l: 'Elsevier footprint',  v: String(elsevier),       s: `of ${n} run Scopus, SciVal or Pure` },
+    { l: 'Pure white space',    v: String(ws.length),      s: `${green} greenfield · no Pure tenancy` },
+    { l: 'Tenders',             v: String(s.rfps.length),  s: `${openRfps} open · ${AN_RANGE_LABEL[state.anRange]}` },
   ];
+  // Only once there is something behind them.
+  if (s.opps.length) {
+    const open = s.opps.filter(o => !['closed-won', 'closed-lost'].includes(o.stage));
+    tiles.push({ l: 'Open pipeline', v: anMoney(anSum(open, o => o.value)), s: `${open.length} open deal${open.length === 1 ? '' : 's'}` });
+  }
+  if (s.allActs.length) {
+    const touched = new Set(s.acts.map(a => a.instId));
+    tiles.push({ l: 'Interactions', v: String(s.acts.length), s: `${touched.size} of ${n} accounts touched · ${AN_RANGE_LABEL[state.anRange]}` });
+  }
   return `<div class="an-kpis">${tiles.map(t => `<div class="an-kpi">
     <div class="k-l">${esc(t.l)}</div><div class="k-v">${t.v}</div><div class="k-s">${esc(t.s)}</div>
   </div>`).join('')}</div>`;
+}
+
+function anFootprint(s) {
+  const n = s.insts.length;
+  const rows = AN_PRODUCTS.map(p => {
+    const counts = {};
+    s.insts.forEach(i => { const k = anStatus(i.id, p.key); counts[k] = (counts[k] || 0) + 1; });
+    const active = (counts.yes || 0) + (counts.likely || 0) + (counts.expiring || 0);
+    return `<div class="an-row">
+      <div class="an-rl"><span>${anLabel(p.label, p.elsevier ? '' : 'competitor')}</span></div>
+      <div class="an-rv">${active}<em>of ${n} · ${anPct(active, n)}%</em></div>
+      ${anStack(counts, n)}
+    </div>`;
+  }).join('');
+  const oa = s.insts.filter(i => { const c = (window.COMP_DATA || {})[i.id]; return !!(c && (c.openalexTier || c.openalex === 'free')); }).length;
+  return anCard('Product footprint', 'What each account runs today, from the competitor matrix',
+    rows + `<div class="an-step" style="padding-top:10px">${oa} of ${n} accounts on OpenAlex (free tier or supporting member)</div>`,
+    { action: `<button class="an-link" onclick="nav('subscriptions')">Open matrix</button>` });
+}
+
+function anSeats(s) {
+  const covs = s.insts.map(i => keyRoleCoverage(i));
+  const total = covs.length || 1;
+  const bands = [
+    { label: 'Complete',       sub: 'every seat filled',   color: '#10b981', test: c => c.pct === 100 },
+    { label: 'Strong',         sub: '80–99%',          color: '#2dd4bf', test: c => c.pct >= 80 && c.pct < 100 },
+    { label: 'Partial',        sub: '50–79%',          color: '#fbbf24', test: c => c.pct >= 50 && c.pct < 80 },
+    { label: 'Thin',           sub: '1–49%',           color: '#f97316', test: c => c.pct > 0 && c.pct < 50 },
+    { label: 'No seat filled', sub: 'no decision-maker on file', color: '#ef4444', test: c => c.pct === 0 },
+  ];
+  const rows = bands.map(b => {
+    const k = covs.filter(b.test).length;
+    return anRow(anLabel(b.label, b.sub), `${k}<em>${anPct(k, total)}%</em>`, k / total * 100, b.color);
+  }).join('');
+  // Which seats sit empty most often — those are the roles to go and find.
+  const seat = {};
+  covs.forEach(c => c.slots.forEach(sl => {
+    const e = seat[sl.key] = seat[sl.key] || { label: sl.label, filled: 0, total: 0 };
+    e.total++; if (sl.contact) e.filled++;
+  }));
+  const seatRows = Object.values(seat).sort((a, b) => a.filled / a.total - b.filled / b.total)
+    .map(e => anRow(esc(e.label), `${e.filled}<em>of ${e.total}</em>`, e.filled / e.total * 100, AN_HUE, { swatch: false })).join('');
+  return anCard('Decision-maker seats',
+    'President, rector, library, research dean, research director and grants seats with a named contact',
+    rows + '<div class="an-step" style="padding:12px 0 2px">Seats filled, across the accounts where the seat exists</div>' + seatRows,
+    { action: `<button class="an-link" onclick="nav('institutions')">Open institutions</button>` });
+}
+
+function anContacts(s) {
+  const c = s.contacts, n = c.length || 1;
+  const prio = { high: 0, medium: 0, low: 0 };
+  c.forEach(x => { const k = cxPriority(x); prio[k] = (prio[k] || 0) + 1; });
+  const rows = [
+    ['High priority',   'senior and signing roles', prio.high,   '#f87171'],
+    ['Medium priority', '',                         prio.medium, '#fbbf24'],
+    ['Low priority',    '',                         prio.low,    '#64748b'],
+  ].map(([l, sub, v, col]) => anRow(anLabel(l, sub), `${v}<em>${anPct(v, n)}%</em>`, v / n * 100, col)).join('');
+  const reach = [
+    ['Email on file',    c.filter(x => x.email).length],
+    ['Phone on file',    c.filter(x => x.phone).length],
+    ['LinkedIn on file', c.filter(x => x.linkedin).length],
+    ['Verified',         c.filter(x => x.quality === 'verified').length],
+  ].map(([l, v]) => anRow(l, `${v}<em>of ${c.length}</em>`, anPct(v, n), AN_HUE, { swatch: false })).join('');
+  return anCard('Contact base', `${c.length} contacts across ${s.insts.length} accounts`,
+    rows + '<div class="an-step" style="padding:12px 0 2px">Ways to reach them</div>' + reach,
+    { action: `<button class="an-link" onclick="nav('contacts')">Open contacts</button>` });
+}
+
+function anResearch(s) {
+  const rows = s.insts.map(i => ({ inst: i, works: anWorks(i.id) })).filter(r => r.works !== null).sort((a, b) => b.works - a.works);
+  const open = `<button class="an-link" onclick="nav('openalex')">Open OpenAlex</button>`;
+  if (!rows.length) return anCard('Research output', 'Works indexed in OpenAlex', anEmpty('No OpenAlex output on file for the accounts in scope.'), { action: open });
+  const total = rows.reduce((a, r) => a + r.works, 0);
+  const top = rows.slice(0, 8);
+  const body = top.map(r => anRow(anInstLink(r.inst), `${anNum(r.works)}<em>${anPct(r.works, total)}%</em>`, r.works / top[0].works * 100, AN_HUE, { swatch: false })).join('');
+  // Fields, weighted by each account's output so a big university's spread
+  // counts for more than a small institute's.
+  const fields = {};
+  s.insts.forEach(i => {
+    const rf = (state.researchFocus || {})[i.id];
+    if (!rf || !Array.isArray(rf.fields)) return;
+    rf.fields.forEach(f => { fields[f.name] = (fields[f.name] || 0) + (rf.worksCount || 0) * (f.pct || 0) / 100; });
+  });
+  const fl = Object.entries(fields).sort((a, b) => b[1] - a[1]).slice(0, 5);
+  const fRows = fl.length
+    ? '<div class="an-step" style="padding:12px 0 2px">Largest fields, weighted by output</div>' +
+      fl.map(([name, w]) => anRow(esc(name), anNum(Math.round(w)), w / fl[0][1] * 100, '#a78bfa', { swatch: false })).join('')
+    : '';
+  return anCard('Research output', `${anNum(total)} works across ${rows.length} accounts with OpenAlex data`, body + fRows, { action: open });
+}
+
+function anWhiteSpace(s) {
+  const list = anWhiteSpaceList(s);
+  const open = `<button class="an-link" onclick="nav('whitespace')">Open White Space</button>`;
+  if (!list.length) return anCard('Pure white space', 'Universities and medical centres with no Pure tenancy', anEmpty('Every eligible account in scope runs Pure.'), { action: open });
+  const b = { greenfield: 0, rival: 0, unknown: 0 };
+  list.forEach(i => { b[anWsBucket(i.id)]++; });
+  const subs = { greenfield: 'no rival CRIS either', rival: 'a rival CRIS is installed', unknown: 'not yet verified' };
+  const rows = Object.entries(WS_BUCKET_LABEL).map(([k, m]) =>
+    anRow(anLabel(m.label, subs[k]), `${b[k]}<em>${anPct(b[k], list.length)}%</em>`, b[k] / list.length * 100, m.color)).join('');
+  const top = list.map(i => ({ inst: i, works: anWorks(i.id) })).filter(r => r.works !== null).sort((a, b) => b.works - a.works).slice(0, 5);
+  const topRows = top.length
+    ? '<div class="an-step" style="padding:12px 0 2px">Biggest unmanaged output</div>' +
+      top.map(r => anRow(anInstLink(r.inst), `${anNum(r.works)}<em>works</em>`, r.works / top[0].works * 100, '#fb923c', { swatch: false })).join('')
+    : '';
+  return anCard('Pure white space', `${list.length} universities and medical centres with no Pure tenancy`, rows + topRows, { action: open });
+}
+
+function anGaps(s) {
+  const has = (i, k) => anHas(i.id, k);
+  const gaps = [
+    { l: 'Scopus without SciVal',      sub: 'SciVal upsell',     n: s.insts.filter(i => has(i, 'scopus') && !has(i, 'scival')).length },
+    { l: 'Pure without Scopus',        sub: 'Scopus cross-sell', n: s.insts.filter(i => has(i, 'pure') && !has(i, 'scopus')).length },
+    { l: 'Scopus without Pure',        sub: 'Pure cross-sell',   n: s.insts.filter(i => has(i, 'scopus') && !has(i, 'pure')).length },
+    { l: 'Web of Science, no Scopus',  sub: 'displacement',      n: s.insts.filter(i => has(i, 'wos') && !has(i, 'scopus')).length },
+    { l: 'No Elsevier product at all', sub: 'greenfield',        n: s.insts.filter(i => !AN_PRODUCTS.some(p => p.elsevier && has(i, p.key))).length },
+  ];
+  const max = Math.max.apply(null, gaps.map(g => g.n).concat([1]));
+  const body = gaps.map(g => anRow(anLabel(esc(g.l), g.sub), `${g.n}<em>of ${s.insts.length}</em>`, g.n / max * 100, AN_HUE, { swatch: false })).join('');
+  // Renewal dates are the one time-bound fact the matrix holds.
+  const ren = [];
+  s.insts.forEach(i => {
+    const c = (window.COMP_DATA || {})[i.id]; if (!c) return;
+    AN_PRODUCTS.forEach(p => { const d = c[p.key + 'Renewal']; if (d) ren.push({ inst: i, p: p.label, d: String(d) }); });
+  });
+  ren.sort((a, b) => a.d.localeCompare(b.d));
+  const renRows = ren.length
+    ? '<div class="an-step" style="padding:12px 0 2px">Known renewal dates</div>' +
+      ren.slice(0, 6).map(r => `<div class="an-row"><div class="an-rl"><span>${anInstLink(r.inst)} · ${r.p}</span></div><div class="an-rv">${esc(r.d)}</div></div>`).join('')
+    : '<div class="an-step" style="padding-top:12px">No renewal dates recorded in the matrix yet.</div>';
+  return anCard('Expansion openings', 'Accounts where one Elsevier product is in and another is not', body + renRows,
+    { action: `<button class="an-link" onclick="nav('subscriptions')">Open matrix</button>` });
 }
 
 function anFunnel(s) {
@@ -7722,45 +7940,32 @@ function anHealth(s) {
   return anCard('Account health', `When each of the ${s.insts.length} accounts in scope was last touched · as of today`, body);
 }
 
-function anCoverage(s) {
-  const withContact = s.insts.filter(i => s.contacts.some(c => c.instId === i.id)).length;
-  const withEmail = s.contacts.filter(c => c.email).length;
-  const withDeal = s.insts.filter(i => s.opps.some(o => o.instId === i.id && !['closed-won', 'closed-lost'].includes(o.stage))).length;
-  const highPrio = s.contacts.filter(c => c.priority === 'high').length;
-  const rows = [
-    { l: 'Accounts with a named contact', n: withContact, d: s.insts.length },
-    { l: 'Contacts with an email on file', n: withEmail, d: s.contacts.length },
-    { l: 'Accounts with an open deal', n: withDeal, d: s.insts.length },
-    { l: 'High-priority contacts', n: highPrio, d: s.contacts.length },
-  ];
-  const body = rows.map(r => anRow(esc(r.l), `${r.n}<em>of ${r.d}</em>`, anPct(r.n, r.d), AN_HUE, { swatch: false })).join('');
-  return anCard('Coverage', 'How much of the network you actually have a way into', body);
-}
-
 function anAccounts(s) {
-  const rows = s.insts.map(i => {
-    const open = s.opps.filter(o => o.instId === i.id && !['closed-won', 'closed-lost'].includes(o.stage));
-    const dates = s.allActs.filter(a => a.instId === i.id && a.date).map(a => a.date).sort();
-    return {
-      inst: i,
-      acts: s.acts.filter(a => a.instId === i.id).length,
-      contacts: s.contacts.filter(c => c.instId === i.id).length,
-      deals: open.length, val: anSum(open, o => o.value), last: dates[dates.length - 1] || '',
-    };
-  }).sort((a, b) => b.acts - a.acts || b.val - a.val || b.contacts - a.contacts).slice(0, 8);
+  const glyph = (id, k) => {
+    const st = anStatus(id, k), g = AN_GLYPH[st];
+    return `<span title="${AN_STATUS.find(x => x.key === st).label}" style="color:${g[1]};font-weight:700">${g[0]}</span>`;
+  };
+  const rows = s.insts.map(i => ({
+    inst: i, works: anWorks(i.id), cov: keyRoleCoverage(i),
+    contacts: s.contacts.filter(c => c.instId === i.id).length,
+  })).sort((a, b) => (b.works || 0) - (a.works || 0) || b.contacts - a.contacts).slice(0, 10);
   const body = rows.length
     ? `<div class="an-scrollx"><table class="an-tbl">
-        <thead><tr><th>Account</th><th class="num">Contacts</th><th class="num">Activity</th><th class="num">Open deals</th><th class="num">Pipeline</th><th class="num">Last touch</th></tr></thead>
+        <thead><tr><th>Account</th><th>Type</th><th class="num">Works</th><th class="num">Scopus</th><th class="num">SciVal</th><th class="num">Pure</th><th class="num">WoS</th><th class="num">Key roles</th><th class="num">Contacts</th></tr></thead>
         <tbody>${rows.map(r => `<tr class="clickable" onclick="nav('detail',{instId:'${r.inst.id}'})">
           <td>${esc(r.inst.short || r.inst.name)}</td>
+          <td style="color:var(--muted)">${esc(TYPE_LABEL[r.inst.type] || r.inst.type || '')}</td>
+          <td class="num">${anNum(r.works)}</td>
+          <td class="num">${glyph(r.inst.id, 'scopus')}</td>
+          <td class="num">${glyph(r.inst.id, 'scival')}</td>
+          <td class="num">${glyph(r.inst.id, 'pure')}</td>
+          <td class="num">${glyph(r.inst.id, 'wos')}</td>
+          <td class="num" style="color:${keyRoleColor(r.cov.pct)};font-weight:700">${r.cov.filled}/${r.cov.total}</td>
           <td class="num">${r.contacts}</td>
-          <td class="num">${r.acts}</td>
-          <td class="num">${r.deals}</td>
-          <td class="num">${anMoney(r.val)}</td>
-          <td class="num">${r.last ? anDaysSince(r.last) + 'd ago' : '—'}</td>
-        </tr>`).join('')}</tbody></table></div>`
+        </tr>`).join('')}</tbody></table></div>
+      <div class="an-step" style="padding-top:8px">✓ active · ~ likely · ! expiring · — none · ? unknown</div>`
     : anEmpty('No accounts in scope.');
-  return anCard('Most engaged accounts', `Ranked by interactions logged · ${AN_RANGE_LABEL[state.anRange]}`, body, { wide: true });
+  return anCard('Largest accounts', 'The ten biggest research producers in scope, and where you stand with each', body, { wide: true });
 }
 
 function anTenders(s) {
@@ -7790,7 +7995,7 @@ function anTenders(s) {
 
 function renderAnalytics() {
   document.getElementById('page-title').textContent = 'Analytics';
-  document.getElementById('page-sub').textContent = 'Pipeline, activity and coverage across the Denmark network';
+  document.getElementById('page-sub').textContent = 'Footprint, coverage and research output across the Denmark network';
   document.getElementById('topbar-actions').innerHTML = '';
 
   const s = anScope();
@@ -7799,22 +8004,23 @@ function renderAnalytics() {
   const types = [''].concat(Object.keys(TYPE_LABEL)).map(t =>
     `<option value="${t}"${state.anType === t ? ' selected' : ''}>${t ? TYPE_LABEL[t] : 'All institution types'}</option>`).join('');
 
+  const cards = [
+    anFootprint(s), anSeats(s), anContacts(s),
+    anResearch(s), anWhiteSpace(s), anGaps(s),
+    anAccounts(s), anTenders(s),
+  ];
+  // Deals and logged activity only earn a card once there is some of it.
+  if (s.opps.length) cards.push(anFunnel(s));
+  if (s.allActs.length) cards.push(anTrend(s), anHealth(s), anMix(s));
+
   document.getElementById('content').innerHTML = `
     <div class="an-bar">
       <div class="an-seg">${ranges}</div>
       <select class="flt" onchange="anSetType(this.value)">${types}</select>
-      <span class="an-scope">${s.insts.length} accounts · ${s.contacts.length} contacts in scope</span>
+      <span class="an-scope">${s.insts.length} accounts · ${s.contacts.length} contacts in scope · the period applies to tenders and activity</span>
     </div>
     ${anKpis(s)}
-    <div class="an-grid">
-      ${anTrend(s)}
-      ${anFunnel(s)}
-      ${anHealth(s)}
-      ${anMix(s)}
-      ${anCoverage(s)}
-      ${anAccounts(s)}
-      ${anTenders(s)}
-    </div>`;
+    <div class="an-grid">${cards.join('')}</div>`;
   requestAnimationFrame(() => requestAnimationFrame(anGrowBars));
 }
 
