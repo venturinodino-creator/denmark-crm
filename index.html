@@ -1252,6 +1252,26 @@ tbody td { padding: 11px 16px !important; color: rgba(255,255,255,.72) !importan
 #back-to-main:not(:empty){padding:22px 28px 0}
 #back-to-main .back-btn{margin-bottom:0 !important}
 #back-to-main:not(:empty) + .content{padding-top:10px !important}
+
+/* White Space (Pure prospect list) */
+.ws-chips{display:flex;gap:6px;flex-wrap:wrap}
+.ws-chip{background:var(--card2,rgba(255,255,255,.04));border:1px solid var(--border,rgba(255,255,255,.1));color:var(--text2,#aeb6c4);
+  border-radius:99px;padding:4px 10px;font-size:11px;cursor:pointer;transition:.15s}
+.ws-chip:hover{color:var(--text,#fff);border-color:rgba(255,255,255,.25)}
+.ws-chip.active{background:rgba(96,165,250,.16);border-color:rgba(96,165,250,.5);color:#93c5fd}
+.ws-chip b{font-weight:700;margin-left:2px}
+.ws-card .ws-why{font-size:11px;line-height:1.45;color:var(--text2,#aeb6c4);margin-top:8px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ws-card .ws-rival{font-size:11px;color:#fb923c;margin-top:6px;font-weight:600}
+.ws-people{margin-top:10px;border-top:1px solid var(--border,rgba(255,255,255,.08));padding-top:8px;display:flex;flex-direction:column;gap:5px}
+.ws-people.ws-none{font-size:11px;color:var(--muted,#6b7280);font-style:italic}
+.ws-person{display:flex;flex-direction:column;gap:1px;line-height:1.3}
+.ws-person .wp-n{font-size:11.5px;font-weight:600;color:var(--text,#e6eaf2)}
+.ws-person .wp-t{font-size:10.5px;color:var(--muted,#8a93a3)}
+.ws-person .wp-e{font-size:10.5px;color:#60a5fa;text-decoration:none;word-break:break-all}
+.ws-person .wp-e:hover{text-decoration:underline}
+.wp-warn{font-size:9px;color:#fbbf24;border:1px solid rgba(251,191,36,.4);border-radius:4px;padding:0 4px;margin-left:4px;white-space:nowrap}
+.ws-more{font-size:10.5px;color:var(--muted,#8a93a3)}
 </style>
   <link rel="stylesheet" href="animations.css">
 </head>
@@ -1605,6 +1625,24 @@ const SEED_INSTITUTIONS = [
   {id:'stenonordjylland',name:'Steno Diabetes Center North Denmark',short:'Steno Nordjylland',type:'medical',city:'Aalborg',website:'https://www.stenonordjylland.dk',founded:'2021',description:"Region Nordjylland's diabetes research centre, part of Aalborg University Hospital.",researchDirector:'',libraryDirector:''},
   {id:'dhi',name:'DHI (Danish Hydraulic Institute)',short:'DHI',type:'research',city:'Hørsholm',website:'https://www.dhigroup.com',founded:'1964',description:'Government-recognized GTS research and technology organisation on water and environment (~1,050 employees), DTU spin-out.',researchDirector:'',libraryDirector:''},
   {id:'seges',name:'SEGES Innovation',short:'SEGES',type:'research',city:'Aarhus',website:'https://en.seges.dk',founded:'1971',description:"Denmark's leading independent nonprofit agricultural R&D and innovation centre (~500 staff).",researchDirector:'',libraryDirector:''},
+  {id:'regionmidt',name:'Central Denmark Region (Region Midtjylland)',short:'Region Midt',type:'medical',city:'Viborg',website:'https://www.rm.dk',founded:2007,description:'One of the three Danish regions with no Pure of its own. Runs Hospitalsenhed Midt, Hospitalsenheden Vest, Horsens and Randers alongside Aarhus UH; research support sits in Koncern Kvalitet and DEFACTUM.',researchDirector:'Mette Just Kjolby',libraryDirector:''},
+  {id:'regionsyd',name:'Region of Southern Denmark (Region Syddanmark)',short:'Region Syd',type:'medical',city:'Vejle',website:'https://regionsyddanmark.dk',founded:2007,description:'Regional health authority behind OUH, Sygehus Lillebaelt, Sydvestjysk Sygehus and Sygehus Sonderjylland. Kvalitet og Forskning runs regional research support and the LMS-Syd forum with SDU.',researchDirector:'',libraryDirector:''},
+  {id:'regionnord',name:'North Denmark Region (Region Nordjylland)',short:'Region Nord',type:'medical',city:'Aalborg',website:'https://rn.dk',founded:2007,description:'Regional health authority for North Jutland, covering Aalborg UH and Regionshospital Nordjylland. Research and university collaboration sit with a named koncerndirektor.',researchDirector:'Anne Bukh',libraryDirector:''},
+  {id:'gnaturinstitut',name:'Greenland Institute of Natural Resources (Pinngortitaleriffik)',short:'GINR',type:'research',city:'Nuuk',website:'https://natur.gl',founded:1995,description:'Greenland\'s principal research institute for fisheries, wildlife and environment, host of the Greenland Climate Research Centre.',researchDirector:'Josephine Nymand',libraryDirector:''},
+  {id:'ilisimatusarfik',name:'Ilisimatusarfik (University of Greenland)',short:'Ilisimatusarfik',type:'university',city:'Nuuk',website:'https://uni.gl',founded:1987,description:'Greenland\'s national university, teaching and researching across humanities, social science and health. Publications are still registered through a web form.',researchDirector:'',libraryDirector:''},
+  {id:'nationalbanken',name:'Danmarks Nationalbank',short:'Nationalbanken',type:'research',city:'Copenhagen',website:'https://www.nationalbanken.dk',founded:1818,description:'Denmark\'s central bank. Its Economics and Monetary Policy department runs a substantial working-paper and economic-research programme.',researchDirector:'Thomas Harr',libraryDirector:''},
+  {id:'asiaq',name:'Asiaq Greenland Survey',short:'Asiaq',type:'research',city:'Nuuk',website:'https://www.asiaq.gl',founded:1976,description:'Greenland\'s survey and environmental-monitoring agency, producing hydrological, climate and geospatial data for government and research.',researchDirector:'',libraryDirector:''},
+  {id:'cifs',name:'Copenhagen Institute for Futures Studies',short:'CIFS',type:'research',city:'Copenhagen',website:'https://www.cifs.dk',founded:1969,description:'Independent, member-funded futures-research institute holding a UNESCO chair and publishing across foresight and strategy.',researchDirector:'',libraryDirector:''},
+  {id:'atv',name:'Danish Academy of Technical Sciences (ATV)',short:'ATV',type:'ngo',city:'Kongens Lyngby',website:'https://www.atv.dk',founded:1937,description:'Independent academy convening Danish technical-science leadership; its praesidium is drawn from the rectors and R&D directors of institutions that already run Pure.',researchDirector:'Lia Leffland',libraryDirector:''},
+  {id:'humanrights',name:'Danish Institute for Human Rights',short:'DIHR',type:'research',city:'Copenhagen',website:'https://www.humanrights.dk',founded:1987,description:'Denmark\'s national human-rights institution, with a formal research programme and a standing Director of Research.',researchDirector:'Katharina O Cathaoir',libraryDirector:''},
+  {id:'force',name:'FORCE Technology',short:'FORCE',type:'research',city:'Brondby',website:'https://forcetechnology.com',founded:1940,description:'Approved GTS technological-service institute with a formal R&D obligation under its performance contract with the Danish state.',researchDirector:'',libraryDirector:''},
+  {id:'dkdm',name:'Royal Danish Academy of Music (Det Kgl. Danske Musikkonservatorium)',short:'DKDM',type:'university',city:'Frederiksberg',website:'https://musikkons.dk',founded:1867,description:'Denmark\'s principal conservatoire and an artistic-research institution under the Ministry of Culture, outside the ADK artistic-research Pure consortium.',researchDirector:'',libraryDirector:''},
+  {id:'nikkb',name:'Nordic Institute of Chiropractic and Clinical Biomechanics',short:'NIKKB',type:'research',city:'Odense',website:'https://nikkb.dk',founded:1990,description:'Nordic knowledge and research centre for chiropractic, working alongside the University of Southern Denmark.',researchDirector:'',libraryDirector:''},
+  {id:'drc',name:'Danish Refugee Council (Dansk Flygtningehjaelp)',short:'DRC',type:'ngo',city:'Copenhagen',website:'https://drc.ngo',founded:1956,description:'Denmark\'s largest humanitarian organisation, producing evaluation and applied research at scale for institutional donors.',researchDirector:'',libraryDirector:''},
+  {id:'dfm',name:'Danish National Metrology Institute (DFM)',short:'DFM',type:'research',city:'Horsholm',website:'https://dfm.dk',founded:1993,description:'Denmark\'s designated national metrology institute, maintaining national measurement standards and publishing alongside European peer NMIs.',researchDirector:'',libraryDirector:''},
+  {id:'ek',name:'Erhvervsakademi Kobenhavn (KEA)',short:'EK / KEA',type:'university',city:'Copenhagen',website:'https://www.ek.dk',founded:2008,description:'Copenhagen\'s business academy for design and technology. The erhvervsakademier carry the same applied-research duty as the professionshojskoler but have no shared portal like UC Viden.',researchDirector:'',libraryDirector:''},
+  {id:'dignity',name:'DIGNITY - Danish Institute Against Torture',short:'DIGNITY',type:'ngo',city:'Copenhagen',website:'https://www.dignityinstitute.org',founded:1982,description:'Research-active NGO combining clinical rehabilitation with documentation research and long-standing university co-authorship.',researchDirector:'',libraryDirector:''},
+  {id:'dbi',name:'Danish Institute of Fire and Security Technology (DBI)',short:'DBI',type:'research',city:'Hvidovre',website:'https://brandogsikring.dk',founded:1993,description:'Approved GTS institute for fire and security technology, running its own forskning-og-udvikling programme.',researchDirector:'',libraryDirector:''},
 ];
 
 const SEED_CONTACTS = [];
@@ -1626,7 +1664,9 @@ let state = {
   instSearch: '',
   instType: '',
   instSort: { field: 'type', dir: 'asc' }, // Institutions table column sort
-  wsView: 'grid', // grid | table — White Space (universities without Pure)
+  wsView: 'grid', // grid | table | contacts — White Space (no Pure tenancy)
+  whitespace: {}, // instId -> {works, incumbent, evidence, why, contacts[]} from data/whitespace-contacts.json
+  wsFilter: 'all', // all | greenfield | rival | unknown
   wsSearch: '',
   wsSort: { field: 'type', dir: 'asc' }, // White Space table column sort
   contactSearch: '',
@@ -1644,8 +1684,8 @@ let state = {
 const PER_PAGE = 20;
 
 //  STORAGE 
-const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu','kadk','via','ucl','kp','ucn','absalon']);
-const SEED_VERSION = 'v6';
+const APPROVED_UNIVERSITIES = new Set(['ku','au','dtu','sdu','aau','cbs','ruc','itu','kadk','via','ucl','kp','ucn','absalon','ilisimatusarfik','dkdm','ek']);
+const SEED_VERSION = 'v7';
 
 //  SUPABASE CONFIG 
 const SUPA_URL = 'https://cfhljbexesdrabmadpcc.supabase.co';
@@ -1876,9 +1916,28 @@ async function loadResearchFocus() {
     if (cached) state.researchFocus = JSON.parse(cached);
   } catch (e) {}
 }
+// The White Space dossier is researched offline (see data/whitespace-contacts.json
+// for the method) and shipped as a static file, exactly like research-focus.json —
+// none of it is per-user state, so it does not belong in Supabase.
+async function loadWhiteSpace() {
+  try {
+    const res = await fetch('data/whitespace-contacts.json?t=' + Date.now());
+    if (res.ok) {
+      const json = await res.json();
+      state.whitespace = (json && json.institutions) || {};
+      localStorage.setItem('dk_crm_whitespace', JSON.stringify(state.whitespace));
+      return;
+    }
+  } catch (e) { /* fall through to cache below */ }
+  try {
+    const cached = localStorage.getItem('dk_crm_whitespace');
+    if (cached) state.whitespace = JSON.parse(cached);
+  } catch (e) {}
+}
 async function load() {
   showLoadingScreen();
   const researchFocusPromise = loadResearchFocus();
+  const whiteSpacePromise = loadWhiteSpace();
   try {
     const [instRows, contRows, oppRows, intRows, rfpRows] = await Promise.all([
       supaFetch('crm_institutions?select=*&order=name'),
@@ -1943,6 +2002,7 @@ async function load() {
     toast('Working offline — changes will sync when connection restores', 'warn');
   }
   await researchFocusPromise;
+  await whiteSpacePromise;
   hideLoadingScreen();
 }
 function save() {
@@ -4427,90 +4487,206 @@ const WS_EXCLUDE_IDS = new Set(['royalacademy', 'novonordiskfoundation', 'lundbe
 const WS_PURE_SORT_ORDER = {no:0, cancelled:1, unknown:2};
 function wsSortVal(i, field) {
   if (field === 'pure') return WS_PURE_SORT_ORDER[getProductStatus(i.id, 'pure')] ?? 9;
+  // Biggest unserved research output first is the useful default, so sort
+  // descending on a negated value rather than making the caller special-case it.
+  if (field === 'works') return -((((state.whitespace || {})[i.id] || {}).works) || 0);
   return instSortVal(i, field);
 }
 
+function wsInfo(id) { return (state.whitespace || {})[id] || {}; }
+function wsHasRival(id) {
+  const inc = wsInfo(id).incumbent || '';
+  return !!inc && !/^none/i.test(inc);
+}
+// Three buckets a rep actually works differently:
+//   greenfield — verified no Pure and no rival CRIS at all
+//   rival      — verified no Pure but a competitor product is already installed
+//   unknown    — not yet researched; no evidence either way
+function wsBucket(id) {
+  const st = getProductStatus(id, 'pure');
+  if (st === 'unknown') return 'unknown';
+  return wsHasRival(id) ? 'rival' : 'greenfield';
+}
+const WS_BUCKET_LABEL = {
+  greenfield: { label: 'Greenfield',   color: '#4ade80', hint: 'No Pure and no competing CRIS' },
+  rival:      { label: 'Displacement', color: '#fb923c', hint: 'No Pure, but a competitor is installed' },
+  unknown:    { label: 'Unverified',   color: '#fbbf24', hint: 'No evidence either way yet' },
+};
+function wsWorks(id) { const w = wsInfo(id).works; return typeof w === 'number' ? w : null; }
+function fmtWorks(n) {
+  if (n === null) return '';
+  return n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, '') + 'k' : String(n);
+}
+// Contacts shown on a White Space card come from the researched dossier, not
+// from state.contacts: these institutions are pre-CRM, so they have no
+// crm_contacts rows yet. Any that the staff scan later promotes into the CRM
+// proper are counted separately so the card can show both.
+function wsContacts(id) { return wsInfo(id).contacts || []; }
+
 function renderWhiteSpace() {
-  document.getElementById('page-title').textContent = 'White Space';
-  document.getElementById('page-sub').textContent = 'Universities, medical centres, research institutes and NGOs with no active Pure subscription — outreach targets';
-  document.getElementById('topbar-actions').innerHTML = `
-    <div class="view-toggle">
-      <button class="vt-btn ${state.wsView==='grid'?'active':''}" onclick="state.wsView='grid';renderWhiteSpace()"> Grid</button>
-      <button class="vt-btn ${state.wsView==='table'?'active':''}" onclick="state.wsView='table';renderWhiteSpace()"> Table</button>
-    </div>`;
+  document.getElementById('page-title').textContent = 'White Space — Pure';
+  document.getElementById('page-sub').textContent =
+    'Research-producing organisations in Denmark, Greenland and the Faroes with no Elsevier Pure tenancy — and who to call';
+  document.getElementById('topbar-actions').innerHTML =
+    '<div class="view-toggle">' +
+    ['grid', 'table', 'contacts'].map(v =>
+      '<button class="vt-btn ' + (state.wsView === v ? 'active' : '') + '" onclick="state.wsView=\'' + v + '\';renderWhiteSpace()">' +
+      (v === 'grid' ? 'Grid' : v === 'table' ? 'Table' : 'Contacts') + '</button>').join('') +
+    '</div>';
 
   let insts = state.institutions.filter(i => {
     if (!WS_ELIGIBLE_TYPES.includes(i.type)) return false;
     if (WS_EXCLUDE_IDS.has(i.id)) return false;
     const pureStatus = getProductStatus(i.id, 'pure');
     if (!(pureStatus in WS_PURE_STATUS)) return false; // yes/likely/expiring already have or probably have Pure
-    if (state.wsSearch && !`${i.name} ${i.short} ${i.city}`.toLowerCase().includes(state.wsSearch.toLowerCase())) return false;
+    if (state.wsFilter !== 'all' && wsBucket(i.id) !== state.wsFilter) return false;
+    if (state.wsSearch) {
+      const hay = (i.name + ' ' + (i.short || '') + ' ' + i.city + ' ' + (wsInfo(i.id).why || '') + ' ' +
+        wsContacts(i.id).map(c => c.name + ' ' + c.title).join(' ')).toLowerCase();
+      if (!hay.includes(state.wsSearch.toLowerCase())) return false;
+    }
     return true;
   });
   insts = sortInstList(insts, state.wsSort, wsSortVal);
 
-  const toolbar = `
-    <div class="toolbar">
-      <div class="search-wrap"><span class="search-icon"></span>
-        <input id="ws-search-input" placeholder="Search institutions..." value="${esc(state.wsSearch)}"
-          oninput="state.wsSearch=this.value;renderWhiteSpace()">
-      </div>
-      <span style="font-size:12px;color:var(--muted)">${insts.length} target${insts.length!==1?'s':''}</span>
-    </div>`;
+  const all = state.institutions.filter(i =>
+    WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) && getProductStatus(i.id, 'pure') in WS_PURE_STATUS);
+  const counts = { all: all.length, greenfield: 0, rival: 0, unknown: 0 };
+  all.forEach(i => counts[wsBucket(i.id)]++);
+  const chip = (key, label) =>
+    '<button class="ws-chip' + (state.wsFilter === key ? ' active' : '') + '" onclick="state.wsFilter=\'' + key + '\';renderWhiteSpace()">' +
+    esc(label) + ' <b>' + counts[key] + '</b></button>';
+
+  const toolbar =
+    '<div class="toolbar">' +
+      '<div class="search-wrap"><span class="search-icon"></span>' +
+        '<input id="ws-search-input" placeholder="Search institutions, contacts, rationale..." value="' + esc(state.wsSearch) + '" ' +
+          'oninput="state.wsSearch=this.value;renderWhiteSpace()">' +
+      '</div>' +
+      '<div class="ws-chips">' + chip('all', 'All') + chip('greenfield', 'Greenfield') +
+        chip('rival', 'Displacement') + chip('unknown', 'Unverified') + '</div>' +
+      '<span style="font-size:12px;color:var(--muted);margin-left:auto">' + insts.length +
+        ' target' + (insts.length !== 1 ? 's' : '') + '</span>' +
+      '<button class="btn-sm" onclick="exportWhiteSpaceContacts()">Export contacts CSV</button>' +
+    '</div>';
 
   if (!insts.length) {
-    document.getElementById('content').innerHTML = toolbar + `<div class="empty"><div class="ei"></div><h3>No white space right now</h3><p>Every tracked institution either has Pure or is likely/expiring. Try adjusting your search.</p></div>`;
+    document.getElementById('content').innerHTML = toolbar +
+      '<div class="empty"><div class="ei"></div><h3>Nothing in this slice</h3>' +
+      '<p>No institution matches the current filter and search. Clear them to see the full Pure white space.</p></div>';
     return;
   }
 
   if (state.wsView === 'grid') {
-    const cards = insts.map(i => {
-      const cc = contactsForInst(i.id).length;
-      const st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
-      return `<div class="ic" onclick="nav('detail',{instId:'${i.id}'})">
-        <div class="ic-head">
-          <div class="ic-icon ${i.type}">${TYPE_ICON[i.type]||''}</div>
-          <span class="badge b-${i.type}" style="font-size:10px">${TYPE_LABEL[i.type]||i.type}</span>
-          <span class="badge" style="font-size:10px;background:${st.color}22;color:${st.color};border:1px solid ${st.color}55">${esc(st.label)}</span>
-        </div>
-        <h3>${esc(i.name)}</h3>
-        ${i.short?`<div class="short">${esc(i.short)}</div>`:''}
-        <div class="city"><span style="display:inline-flex;vertical-align:middle;margin-right:3px;opacity:.55"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>${esc(i.city)}${i.founded?' · Est. '+i.founded:''}</div>
-        ${i.researchDirector?`<div style="font-size:11px;color:var(--muted);margin-top:6px;display:flex;align-items:center;gap:4px"><span style="font-weight:600;color:var(--text2)">${esc(i.researchDirector)}</span></div>`:''}
-        <div class="ic-footer">
-          <span><span style="opacity:.6;display:inline-flex;margin-right:3px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span>${cc} contact${cc!==1?'s':''}</span>
-        </div>
-      </div>`;
-    }).join('');
-    document.getElementById('content').innerHTML = toolbar + `<div class="inst-grid">${cards}</div>`;
+    document.getElementById('content').innerHTML = toolbar +
+      '<div class="inst-grid">' + insts.map(i => {
+        const info = wsInfo(i.id), bk = WS_BUCKET_LABEL[wsBucket(i.id)];
+        const st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
+        const works = wsWorks(i.id), cx = wsContacts(i.id), crm = contactsForInst(i.id).length;
+        return '<div class="ic ws-card" onclick="nav(\'detail\',{instId:\'' + i.id + '\'})">' +
+          '<div class="ic-head">' +
+            '<div class="ic-icon ' + i.type + '">' + (TYPE_ICON[i.type] || '') + '</div>' +
+            '<span class="badge b-' + i.type + '" style="font-size:10px">' + (TYPE_LABEL[i.type] || i.type) + '</span>' +
+            '<span class="badge" style="font-size:10px;background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(st.label) + '</span>' +
+            '<span class="badge" title="' + esc(bk.hint) + '" style="font-size:10px;background:' + bk.color + '22;color:' + bk.color + ';border:1px solid ' + bk.color + '55">' + bk.label + '</span>' +
+          '</div>' +
+          '<h3>' + esc(i.name) + '</h3>' +
+          (i.short ? '<div class="short">' + esc(i.short) + '</div>' : '') +
+          '<div class="city">' + esc(i.city) + (works !== null && works > 0 ? ' · ' + fmtWorks(works) + ' indexed works' : '') + '</div>' +
+          (info.why ? '<div class="ws-why">' + esc(info.why) + '</div>' : '') +
+          (wsHasRival(i.id) ? '<div class="ws-rival">Incumbent: ' + esc(info.incumbent) + '</div>' : '') +
+          (cx.length ? '<div class="ws-people">' + cx.slice(0, 3).map(c =>
+              '<div class="ws-person"><span class="wp-n">' + esc(c.name) + '</span>' +
+              '<span class="wp-t">' + esc(c.title) + '</span>' +
+              (c.email ? '<a class="wp-e" onclick="event.stopPropagation()" href="mailto:' + esc(c.email) + '">' + esc(c.email) + '</a>' +
+                (c.emailStatus === 'constructed' ? '<span class="wp-warn" title="Constructed from the institution address pattern — verify before sending">unverified</span>' : '') : '') +
+              '</div>').join('') +
+            (cx.length > 3 ? '<div class="ws-more">+' + (cx.length - 3) + ' more</div>' : '') + '</div>'
+            : '<div class="ws-people ws-none">No named contact researched yet</div>') +
+          '<div class="ic-footer"><span>' + cx.length + ' researched · ' + crm + ' in CRM</span></div>' +
+        '</div>';
+      }).join('') + '</div>';
+
+  } else if (state.wsView === 'table') {
+    document.getElementById('content').innerHTML = toolbar +
+      '<div class="table-wrap"><table><thead><tr>' +
+        '<th class="sortable-th' + sortThStyle('name', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'name\',renderWhiteSpace)">Institution' + sortArrow('name', state.wsSort) + '</th>' +
+        '<th class="sortable-th' + sortThStyle('type', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'type\',renderWhiteSpace)">Type' + sortArrow('type', state.wsSort) + '</th>' +
+        '<th class="sortable-th' + sortThStyle('pure', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'pure\',renderWhiteSpace)">Pure status' + sortArrow('pure', state.wsSort) + '</th>' +
+        '<th class="sortable-th' + sortThStyle('works', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'works\',renderWhiteSpace)">Output' + sortArrow('works', state.wsSort) + '</th>' +
+        '<th>Incumbent</th>' +
+        '<th class="sortable-th' + sortThStyle('city', state.wsSort) + '" onclick="toggleSort(state.wsSort,\'city\',renderWhiteSpace)">City' + sortArrow('city', state.wsSort) + '</th>' +
+        '<th>Contacts</th><th>Actions</th>' +
+      '</tr></thead><tbody>' + insts.map(i => {
+        const info = wsInfo(i.id), st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
+        const works = wsWorks(i.id), cx = wsContacts(i.id);
+        return '<tr onclick="nav(\'detail\',{instId:\'' + i.id + '\'})">' +
+          '<td><div class="name-cell"><span style="font-size:18px">' + (TYPE_ICON[i.type] || '') + '</span><div>' +
+            '<div style="font-weight:600">' + esc(i.name) + '</div>' +
+            '<div style="font-size:11px;color:var(--muted)">' + esc(i.short || '') + '</div></div></div></td>' +
+          '<td><span class="badge b-' + i.type + '">' + (TYPE_LABEL[i.type] || i.type) + '</span></td>' +
+          '<td><span class="badge" style="background:' + st.color + '22;color:' + st.color + ';border:1px solid ' + st.color + '55">' + esc(st.label) + '</span></td>' +
+          '<td style="white-space:nowrap">' + (works !== null && works > 0 ? fmtWorks(works) : '—') + '</td>' +
+          '<td style="font-size:11px;color:' + (wsHasRival(i.id) ? '#fb923c' : 'var(--muted)') + '">' + esc(wsHasRival(i.id) ? info.incumbent : 'none') + '</td>' +
+          '<td>' + esc(i.city) + '</td>' +
+          '<td>' + cx.length + '</td>' +
+          '<td onclick="event.stopPropagation()" style="white-space:nowrap">' +
+            (i.website ? '<a class="ext-link" href="' + esc(safeHref(i.website)) + '" target="_blank">Website</a>' : '') + '</td>' +
+        '</tr>';
+      }).join('') + '</tbody></table></div>';
+
   } else {
-    const rows = insts.map(i => {
-      const cc = contactsForInst(i.id).length;
-      const st = WS_PURE_STATUS[getProductStatus(i.id, 'pure')];
-      return `<tr onclick="nav('detail',{instId:'${i.id}'})">
-        <td><div class="name-cell"><span style="font-size:18px">${TYPE_ICON[i.type]||''}</span><div><div style="font-weight:600">${esc(i.name)}</div><div style="font-size:11px;color:var(--muted)">${esc(i.short||'')}</div></div></div></td>
-        <td><span class="badge b-${i.type}">${TYPE_LABEL[i.type]||i.type}</span></td>
-        <td><span class="badge" style="background:${st.color}22;color:${st.color};border:1px solid ${st.color}55">${esc(st.label)}</span></td>
-        <td>${esc(i.city)}</td>
-        <td>${cc} contact${cc!==1?'s':''}</td>
-        <td onclick="event.stopPropagation()" style="white-space:nowrap">${i.website?`<a class="ext-link" href="${esc(safeHref(i.website))}" target="_blank"> Website</a>`:''}</td>
-      </tr>`;
-    }).join('');
-    document.getElementById('content').innerHTML = toolbar + `
-      <div class="table-wrap">
-        <table>
-          <thead><tr>
-            <th class="sortable-th${sortThStyle('name',state.wsSort)}" onclick="toggleSort(state.wsSort,'name',renderWhiteSpace)">Institution${sortArrow('name',state.wsSort)}</th>
-            <th class="sortable-th${sortThStyle('type',state.wsSort)}" onclick="toggleSort(state.wsSort,'type',renderWhiteSpace)">Type${sortArrow('type',state.wsSort)}</th>
-            <th class="sortable-th${sortThStyle('pure',state.wsSort)}" onclick="toggleSort(state.wsSort,'pure',renderWhiteSpace)">Pure status${sortArrow('pure',state.wsSort)}</th>
-            <th class="sortable-th${sortThStyle('city',state.wsSort)}" onclick="toggleSort(state.wsSort,'city',renderWhiteSpace)">City${sortArrow('city',state.wsSort)}</th>
-            <th class="sortable-th${sortThStyle('contacts',state.wsSort)}" onclick="toggleSort(state.wsSort,'contacts',renderWhiteSpace)">Contacts${sortArrow('contacts',state.wsSort)}</th>
-            <th>Actions</th>
-          </tr></thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>`;
+    // Contacts view — the flat prospecting list, every researched decision-maker
+    // across the whole white space in one table.
+    const rows = [];
+    insts.forEach(i => wsContacts(i.id).forEach(c => rows.push({ i, c })));
+    if (!rows.length) {
+      document.getElementById('content').innerHTML = toolbar +
+        '<div class="empty"><div class="ei"></div><h3>No contacts researched for this slice</h3>' +
+        '<p>Widen the filter, or let the nightly decision-maker scan fill these in.</p></div>';
+      return;
+    }
+    document.getElementById('content').innerHTML = toolbar +
+      '<div class="table-wrap"><table><thead><tr>' +
+        '<th>Name</th><th>Role</th><th>Institution</th><th>Email</th><th>Phone</th><th>Source</th>' +
+      '</tr></thead><tbody>' + rows.map(({ i, c }) =>
+        '<tr>' +
+          '<td style="font-weight:600">' + esc(c.name) + '</td>' +
+          '<td style="font-size:12px">' + esc(c.title) + '</td>' +
+          '<td style="font-size:12px"><a class="ext-link" onclick="event.stopPropagation();nav(\'detail\',{instId:\'' + i.id + '\'})">' + esc(i.short || i.name) + '</a></td>' +
+          '<td style="font-size:12px">' + (c.email
+            ? '<a class="ext-link" href="mailto:' + esc(c.email) + '">' + esc(c.email) + '</a>' +
+              (c.emailStatus === 'constructed' ? ' <span class="wp-warn" title="Constructed from the institution address pattern — verify before sending">unverified</span>' : '')
+            : '<span style="color:var(--muted)">—</span>') + '</td>' +
+          '<td style="font-size:12px;white-space:nowrap">' + esc(c.phone || '—') + '</td>' +
+          '<td style="font-size:11px">' + (c.source ? '<a class="ext-link" href="' + esc(safeHref(c.source)) + '" target="_blank">page</a>' : '—') + '</td>' +
+        '</tr>').join('') + '</tbody></table></div>';
   }
+}
+
+// Exports exactly the rows the Contacts view is showing, so whatever the rep has
+// filtered down to is what lands in the CSV.
+function exportWhiteSpaceContacts() {
+  const insts = state.institutions.filter(i =>
+    WS_ELIGIBLE_TYPES.includes(i.type) && !WS_EXCLUDE_IDS.has(i.id) &&
+    getProductStatus(i.id, 'pure') in WS_PURE_STATUS &&
+    (state.wsFilter === 'all' || wsBucket(i.id) === state.wsFilter));
+  const out = [['Name', 'Role', 'Institution', 'Type', 'City', 'Email', 'Email status', 'Phone', 'Pure status', 'Incumbent', 'Indexed works', 'Source']];
+  insts.forEach(i => wsContacts(i.id).forEach(c => out.push([
+    c.name, c.title, i.name, TYPE_LABEL[i.type] || i.type, i.city,
+    c.email || '', c.emailStatus || '', c.phone || '',
+    (WS_PURE_STATUS[getProductStatus(i.id, 'pure')] || {}).label || '',
+    wsHasRival(i.id) ? wsInfo(i.id).incumbent : 'none',
+    wsWorks(i.id) === null ? '' : wsWorks(i.id), c.source || '',
+  ])));
+  if (out.length === 1) { toast('No researched contacts in the current filter.', 'warn'); return; }
+  const csv = out.map(r => r.map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+  a.download = 'pure_white_space_contacts.csv';
+  a.click();
+  URL.revokeObjectURL(a.href);
+  toast('Exported ' + (out.length - 1) + ' contacts.', 'ok');
 }
 
 // Recomputed on every render() — cheap (tens of institutions) and the count
@@ -6967,13 +7143,13 @@ if (!window.COMP_DATA) {
       dimensions:'unknown', converis:'unknown', symplectic:'unknown',
       proofWos: '', proofOpenalex: '',
     },
-    ssi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/activities/statens-serum-institut-ekstern-organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ssi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.ssi.dk/om-ssi/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     nbi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/niels-bohr-institutet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     royalacademy:     { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://royalacademy.dk/publikationsplatform/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dmi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'http://research.dmi.dk/en/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dmi:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.dmi.dk/om-dmi/organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     geus:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pub.geus.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     alexandra:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/en/organisations/alexandra-instituttet-as/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dti:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.dti.dk/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dti:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.teknologisk.dk/organisation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     cpr:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-protein-research/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     cbmr:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/novo-nordisk-foundation-center-for-basic-metabolic-research/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     renew:            { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/renew-hub/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
@@ -6987,16 +7163,16 @@ if (!window.COMP_DATA) {
     aias:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.au.dk/portal/da/organisations/aarhus-institute-of-advanced-studies/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     pioneerai:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://researchprofiles.ku.dk/en/organisations/pioneer-ai-p1ai', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     rockwoolresearch: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://en.rockwoolfonden.dk/research/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    bii:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://bii.dk/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    bii:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://bii.dk/about/employees/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     novonordiskfoundation: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://novonordiskfonden.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     lundbeckfoundation:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.lundbeckfonden.com/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     carlsbergfoundation:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.carlsbergfondet.dk/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     villumfoundation:      { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://villumfonden.dk/en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    danishcancersociety:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.cancer.dk/danish-cancer-institute/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    danishcancersociety:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.cancer.dk/forskning/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     dnrf:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://dg.dk/en/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     kadk:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/det-kongelige-akademi-arkitektur-design-konservering/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     natmus:            { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.kb.dk/da/organisations/nationalmuseet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    fak:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure.fak.dk/en/organisations/dekan', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    fak:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://research.fak.dk/esploro/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     sygehuslillebaelt: { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/da/organisations/irs-sygehus-lilleb%C3%A6lt-kolding/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     via:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/da/organisations/via-university-college-4/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     ucl:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/ucl-university-college/publications/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
@@ -7006,8 +7182,26 @@ if (!window.COMP_DATA) {
     stenoodense:       { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://portal.findresearcher.sdu.dk/en/organisations/ki-ouh-forskningsenhed-for-sdco-steno-diabetes-center-odense', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     stenosjaelland:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://pure-portal.regsj.dk/da/organisations/steno-diabetes-center-sj%C3%A6lland/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     stenonordjylland:  { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'yes',pureRenewal:'',pureProof:'https://vbn.aau.dk/da/organisations/steno-diabetes-center-nordjylland-sdcn/publications.html', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
-    dhi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://www.dhigroup.com/reports/annual-report-2023/ownership-and-company-structure.html', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dhi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no', pureRenewal:'', pureProof:'https://www.dhigroup.com/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
     seges:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'unknown',pureRenewal:'',pureProof:'https://en.seges.dk/About-us', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionmidt:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.rm.dk/kontakt/koncern-kvalitet/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionsyd:         { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://regionsyddanmark.dk/om-region-syddanmark/organisation/omrader-og-stabe/afdelinger-og-omrader-i-den-centrale-administration/kvalitet-og-forskning', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    regionnord:        { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    gnaturinstitut:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://natur.gl/about-us/the-governors/?lang=en', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ilisimatusarfik:   { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.uni.gl/opret-publikation', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    nationalbanken:    { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    asiaq:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.asiaq.gl/forskningsprojekter/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    cifs:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.cifs.dk/impact/leadership', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    atv:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.atv.dk/om-atv/organisation/praesidiet', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    humanrights:       { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.humanrights.dk/about-us/management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    force:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://forcetechnology.com/en/about-us/force-technology/board-and-management', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dkdm:              { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://adk.elsevierpure.com/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    nikkb:             { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://nikkb.dk/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    drc:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://drc.ngo/pages/the-organisation/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dfm:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://dfm.dk/publikationer/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    ek:                { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.ucviden.dk/en/organisations/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dignity:           { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://www.dignityinstitute.org/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
+    dbi:               { scopus:'unknown',scopusRenewal:'',scopusProof:'', scival:'unknown',scivalRenewal:'',scivalProof:'', pure:'no',pureRenewal:'',pureProof:'https://brandogsikring.dk/forskning-og-udvikling/', wos:'unknown',wosRenewal:'',openalex:'unknown', dimensions:'unknown',converis:'unknown',symplectic:'unknown', proofWos:'',proofOpenalex:'' },
   };
 }
 // Merge any localStorage overrides into COMP_DATA

@@ -1,0 +1,274 @@
+{
+  "_comment": "Pure white-space research for the Denmark region. Each institution here was checked against every Danish-realm Elsevier Pure portal (14 found, listed in _method.portals) plus its own domain and a <slug>.elsevierpure.com lookup, and showed no Pure tenancy. Contacts are the people who hold research-information budget or influence: rectors/CEOs, research directors, library and research-support leads, data/IT leadership and AI teams. emailStatus 'published' = the address is printed on the cited page; 'constructed' = built from the institution's visible address pattern and NOT yet verified. Extend via scripts/discover-staff.js, which now carries these institutions in data/staff-sources.json.",
+  "generated": "2026-09-12",
+  "_method": {
+    "universe": "OpenAlex institutions in DK/GL/FO (726 distinct), filtered to 194 non-company organisations with >=200 indexed works.",
+    "portals": [
+      "researchprofiles.ku.dk",
+      "pure.au.dk",
+      "orbit.dtu.dk",
+      "portal.findresearcher.sdu.dk",
+      "vbn.aau.dk",
+      "research.cbs.dk",
+      "forskning.ruc.dk",
+      "researcher.itu.dk",
+      "www.ucviden.dk (professionshojskole consortium)",
+      "adk.elsevierpure.com (Royal Danish Academy + Design School Kolding + Aarhus School of Architecture)",
+      "research.regionh.dk (Region Hovedstaden)",
+      "pure-portal.regsj.dk (Region Sjaelland)",
+      "pure.kb.dk (Kulturministeriets Pure-konsortium)",
+      "www.pure.fo (national Faroese consortium)"
+    ],
+    "negativeTest": "4,828 organisation names were enumerated across those portals via each portal's /en/organisations/?format=rss feed and matched against every candidate name and OpenAlex alias; a candidate also had to have no resolving <slug>.elsevierpure.com host.",
+    "ruledOut": "NFA (nfa.elsevierpure.com) and GEUS (pub.geus.dk) were on the draft list until the hosted-tenant check found live Pure instances - both are customers, not white space. University of the Faroe Islands, Rigsarkivet, Moesgaard Museum, Naturhistorisk Museum Aarhus and Kong Christian X's Gigthospital were likewise removed after they turned up inside a consortium portal."
+  },
+  "institutions": {
+    "ssi": {
+      "works": 17099,
+      "incumbent": "none detected",
+      "evidence": "No org match on any of the 14 portals; ssi.elsevierpure.com does not resolve.",
+      "why": "Denmark's largest non-university research producer with no CRIS at all. National infectious-disease preparedness plus a very large publication and biobank output, currently unmanaged.",
+      "contacts": [
+        {"name": "Henrik Ullum", "title": "Administrerende direktor (CEO)", "email": "heul@ssi.dk", "emailStatus": "constructed", "source": "https://www.ssi.dk/om-ssi/kontakt/medarbejdere/h/henrik-ullum-heul"},
+        {"name": "Ole Jensen", "title": "Vicedirektor / Executive Vice President", "email": "olj@ssi.dk", "emailStatus": "constructed", "source": "https://www.ssi.dk/om-ssi/kontakt/medarbejdere/o/ole-jensen-olj"},
+        {"name": "Tyra Grove Krause", "title": "Faglig direktor, Epidemiologisk Infektionsberedskab", "email": "", "emailStatus": "missing", "source": "https://en.ssi.dk/about-us/organisation"},
+        {"name": "Anne-Marie Vangsted", "title": "Faglig direktor, Biobank, Medfodte Sygdomme & Vaccineberedskab", "email": "amva@ssi.dk", "emailStatus": "constructed", "source": "https://www.ssi.dk/om-ssi/kontakt/medarbejdere/a/anne-marie-vangsted-amva"},
+        {"name": "Christian Ostergaard Andersen", "title": "Faglig direktor, Diagnostisk Infektionsberedskab", "email": "", "emailStatus": "missing", "source": "https://en.ssi.dk/about-us/organisation"}
+      ]
+    },
+    "danishcancersociety": {
+      "works": 9872,
+      "incumbent": "none detected",
+      "evidence": "No org match on any portal; cancer.elsevierpure.com does not resolve.",
+      "why": "Runs its own Center for Kraeftforskning with a large epidemiological output and its own grant programme - a funder and a publisher at once, so both reporting and grant-tracking are in scope.",
+      "contacts": [
+        {"name": "Jesper Fisker", "title": "Administrerende direktor (CEO)", "email": "jf@cancer.dk", "emailStatus": "published", "source": "https://www.cancer.dk/om-os/organisation/admdirektoer/"},
+        {"name": "Mads Melbye", "title": "Forskningsdirektor / Leder, Center for Kraeftforskning", "email": "", "emailStatus": "missing", "source": "https://www.cancer.dk/forskning/"},
+        {"name": "Pia Egede Hansen", "title": "Direktionssekretaer", "email": "pieh@cancer.dk", "emailStatus": "published", "source": "https://www.cancer.dk/om-os/organisation/admdirektoer/"}
+      ]
+    },
+    "regionmidt": {
+      "works": 2519,
+      "incumbent": "none detected",
+      "evidence": "No portal; rm.elsevierpure.com and regionmidtjylland.elsevierpure.com do not resolve; forskning.rm.dk is a CMS page, not a CRIS.",
+      "why": "Two of Denmark's five regions (Hovedstaden, Sjaelland) already run their own regional Pure. Region Midtjylland does not - its hospitals outside Aarhus UH (Hospitalsenhed Midt, Hospitalsenheden Vest, Horsens, Randers) have no institutional research registry. Direct peer precedent to sell against.",
+      "contacts": [
+        {"name": "Mette Just Kjolby", "title": "Direktor for Kvalitet og Forskning", "email": "", "emailStatus": "missing", "phone": "+45 4089 3164", "source": "https://www.rm.dk/kontakt/koncern-kvalitet/"},
+        {"name": "Camilla Palmhoj Nielsen", "title": "Forskningschef, DEFACTUM", "email": "", "emailStatus": "missing", "source": "https://www.rm.dk/kontakt/koncern-kvalitet/"},
+        {"name": "Jonas Dahl", "title": "Regionsdirektor", "email": "", "emailStatus": "missing", "source": "https://www.rm.dk/kontakt/direktion/"},
+        {"name": "Thomas Larsen", "title": "Laegefaglig koncerndirektor", "email": "", "emailStatus": "missing", "source": "https://www.rm.dk/kontakt/direktion/"},
+        {"name": "Poul Michaelsen", "title": "Koncerndirektor", "email": "", "emailStatus": "missing", "source": "https://www.rm.dk/kontakt/direktion/"}
+      ]
+    },
+    "regionsyd": {
+      "works": 3654,
+      "incumbent": "none detected",
+      "evidence": "No portal; regionsyddanmark.elsevierpure.com / rsyd.elsevierpure.com do not resolve. SDU's Pure carries OUH and Sygehus Lillebaelt units, but the region itself has no tenancy.",
+      "why": "Same regional-Pure precedent as Midtjylland. Kvalitet og Forskning already runs the region's research support and the LMS-Syd research leadership forum with SDU - an owner already exists for the system.",
+      "contacts": [
+        {"name": "Jane Kraglund", "title": "Regionsdirektor", "email": "jak@rsyd.dk", "emailStatus": "published", "phone": "+45 28 99 32 40", "source": "https://regionsyddanmark.dk/om-region-syddanmark/kontakt/den-centrale-administration/kontakt-direktorer-og-afdelingschefer-i-administrationen"},
+        {"name": "Kurt Espersen", "title": "Koncerndirektor", "email": "ke@rsyd.dk", "emailStatus": "published", "phone": "+45 21 67 90 21", "source": "https://regionsyddanmark.dk/om-region-syddanmark/kontakt/den-centrale-administration/kontakt-direktorer-og-afdelingschefer-i-administrationen"},
+        {"name": "Jorgen Bjelskou", "title": "Koncerndirektor", "email": "jbj@rsyd.dk", "emailStatus": "published", "phone": "+45 30 36 79 10", "source": "https://regionsyddanmark.dk/om-region-syddanmark/kontakt/den-centrale-administration/kontakt-direktorer-og-afdelingschefer-i-administrationen"}
+      ]
+    },
+    "regionnord": {
+      "works": 1375,
+      "incumbent": "none detected",
+      "evidence": "No portal; rn.elsevierpure.com / regionnordjylland.elsevierpure.com do not resolve. AAU's VBN carries Aalborg UH units; the region has no tenancy.",
+      "why": "Third region without Pure. Anne Bukh's brief explicitly covers research and university collaboration, so the buying centre is unusually easy to identify.",
+      "contacts": [
+        {"name": "Anne Bukh", "title": "Koncerndirektor - ansvar for forskning og universitetssamarbejde", "email": "a.bukh@rn.dk", "emailStatus": "published", "phone": "+45 97 64 83 75", "source": "https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion"},
+        {"name": "Jakob Krogh", "title": "Regionsdirektor", "email": "jakob.krogh@rn.dk", "emailStatus": "published", "source": "https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion"},
+        {"name": "Mette Jensen", "title": "Koncerndirektor", "email": "m.jensen@rn.dk", "emailStatus": "published", "source": "https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion"}
+      ]
+    },
+    "dmi": {
+      "works": 4575,
+      "incumbent": "none detected",
+      "evidence": "No org match on any portal; dmi.elsevierpure.com does not resolve.",
+      "why": "National climate and meteorological research, including Nationalt Center for Klimaforskning. Already has a named Data og Digitalisering department - an existing owner for a CRIS.",
+      "contacts": [
+        {"name": "Marianne Thyrring", "title": "Direktor", "email": "mth@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Adrian Lema", "title": "Afdelingschef, Nationalt Center for Klimaforskning", "email": "adle@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Rasmus Anker Pedersen", "title": "Afdelingschef, Vejrforskning", "email": "rap@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Morten Thaarup", "title": "Afdelingschef, Data og Digitalisering", "email": "mot@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Morten Hald Nielsen", "title": "Afdelingschef, IT og Observationer", "email": "mha@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Ulrik Korsholm", "title": "Vicedirektor", "email": "usn@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"},
+        {"name": "Thomas Kjellberg Christensen", "title": "Vicedirektor", "email": "tkc@dmi.dk", "emailStatus": "published", "source": "https://www.dmi.dk/om-dmi/organisation/"}
+      ]
+    },
+    "dti": {
+      "works": 2690,
+      "incumbent": "none detected",
+      "evidence": "No portal; dti.elsevierpure.com and teknologisk.elsevierpure.com do not resolve.",
+      "why": "Largest Danish GTS institute. Contract research across five divisions with no institutional publication registry - reporting to the GTS performance contract is manual.",
+      "contacts": [
+        {"name": "Juan Farre", "title": "Administrerende direktor (CEO)", "email": "", "emailStatus": "missing", "source": "https://www.teknologisk.dk/organisation"},
+        {"name": "Anne-Lise Hog Lejre", "title": "Direktor, Fodevarer og Produktion", "email": "", "emailStatus": "missing", "source": "https://www.atv.dk/om-atv/organisation/praesidiet"},
+        {"name": "Carsten Toft Boesen", "title": "Bestyrelsesformand", "email": "", "emailStatus": "missing", "source": "https://www.teknologisk.dk/organisation/bestyrelse/6848,4"},
+        {"name": "Jukka Pertola", "title": "Naestformand, bestyrelsen", "email": "", "emailStatus": "missing", "source": "https://www.teknologisk.dk/organisation/bestyrelse/6848,4"}
+      ]
+    },
+    "gnaturinstitut": {
+      "works": 2484,
+      "incumbent": "none detected",
+      "evidence": "No Greenland Pure portal exists (pure.gl does not resolve) and no org match on any Danish or Faroese portal.",
+      "why": "Greenland's principal research institute - fisheries, wildlife and the Greenland Climate Research Centre. The Faroe Islands solved the same problem with a single national Pure consortium (pure.fo); Greenland has no equivalent.",
+      "contacts": [
+        {"name": "Josephine Nymand", "title": "Direktor", "email": "", "emailStatus": "missing", "source": "https://natur.gl/about-us/the-governors/?lang=en"},
+        {"name": "Gert Mulvad", "title": "Bestyrelsesformand", "email": "", "emailStatus": "missing", "source": "https://natur.gl/about-us/the-governors/?lang=en"}
+      ]
+    },
+    "ilisimatusarfik": {
+      "works": 0,
+      "incumbent": "none detected",
+      "evidence": "No Greenland Pure portal (pure.gl does not resolve); not listed on any Danish or Faroese portal. uni.gl runs a manual 'Opret publikation' web form instead.",
+      "why": "A national university registering publications through a web form. The clearest greenfield university left in the Danish realm, and a natural anchor tenant for a Greenland consortium mirroring pure.fo.",
+      "contacts": [
+        {"name": "Gitte Adler Reimer", "title": "Rektor", "email": "gitr@uni.gl", "emailStatus": "published", "phone": "+299 38 56 52", "source": "https://da.uni.gl/om-os/ledelse/"},
+        {"name": "Per Arnfjord", "title": "Konstitueret universitetsdirektor", "email": "per@uni.gl", "emailStatus": "published", "phone": "+299 38 56 24", "source": "https://da.uni.gl/om-os/ledelse/"},
+        {"name": "Suzanne Moller", "title": "Bestyrelsesformand", "email": "", "emailStatus": "missing", "source": "https://da.uni.gl/om-os/ledelse/"},
+        {"name": "Annemette Nyborg Lauritsen", "title": "Institutleder", "email": "", "emailStatus": "missing", "source": "https://da.uni.gl/om-os/ledelse/"},
+        {"name": "Britta Lohmann", "title": "Institutleder", "email": "", "emailStatus": "missing", "source": "https://da.uni.gl/om-os/ledelse/"}
+      ]
+    },
+    "dhi": {
+      "works": 1982,
+      "incumbent": "none detected",
+      "evidence": "No portal; dhi.elsevierpure.com and dhigroup.elsevierpure.com do not resolve.",
+      "why": "GTS institute for water and environment with roughly a thousand staff and a sustained peer-reviewed output across international offices - no central registry of it.",
+      "contacts": []
+    },
+    "nationalbanken": {
+      "works": 1805,
+      "incumbent": "none detected",
+      "evidence": "No portal; nationalbanken.elsevierpure.com does not resolve.",
+      "why": "Publishes a substantial working-paper and economic-research series through Economics and Monetary Policy, with no research-output system behind it.",
+      "contacts": [
+        {"name": "Thomas Harr", "title": "Assistant Governor & Head of Economics and Monetary Policy", "email": "", "emailStatus": "missing", "source": "https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments/economics-and-monetary-policies"},
+        {"name": "Signe Krogstrup", "title": "Nationalbankdirektor (Governor)", "email": "", "emailStatus": "missing", "source": "https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments"},
+        {"name": "Christian Kettel Thomsen", "title": "Formand for direktionen (Chairman, Board of Governors)", "email": "", "emailStatus": "missing", "source": "https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments"},
+        {"name": "Ulrik Nodgaard", "title": "Nationalbankdirektor (Governor)", "email": "", "emailStatus": "missing", "source": "https://www.nationalbanken.dk/en/about-us/board-of-governors-group-management-and-departments"}
+      ]
+    },
+    "fak": {
+      "works": 1462,
+      "incumbent": "Esploro (Ex Libris / Clarivate)",
+      "evidence": "pure.fak.dk serves a default nginx page; research.fak.dk redirects to /esploro/ - a live Ex Libris Esploro instance.",
+      "why": "Displacement rather than greenfield: they have already bought the idea of a CRIS and chose a competitor. Every other Danish defence- and security-research producer sits in a Pure portal.",
+      "contacts": [
+        {"name": "Vilhelm Holsting", "title": "Institutchef, Institut for Ledelse og Organisation", "email": "", "emailStatus": "missing", "source": "https://www.fak.dk/da/forskning-og-udvikling/institut-for-ledelse-og-organisation/"}
+      ]
+    },
+    "asiaq": {
+      "works": 12344,
+      "incumbent": "none detected",
+      "evidence": "No Greenland Pure portal; asiaq.elsevierpure.com does not resolve.",
+      "why": "Greenland's survey and environmental-monitoring agency. The OpenAlex count is inflated by dataset records, but the underlying monitoring output is real and entirely unregistered.",
+      "contacts": []
+    },
+    "cifs": {
+      "works": 1206,
+      "incumbent": "none detected",
+      "evidence": "No portal; cifs.elsevierpure.com does not resolve.",
+      "why": "Independent think tank with a member-funded research programme and a UNESCO chair - publishes steadily with no institutional registry.",
+      "contacts": []
+    },
+    "atv": {
+      "works": 862,
+      "incumbent": "none detected",
+      "evidence": "No portal; atv.elsevierpure.com does not resolve.",
+      "why": "The Danish academy of technical sciences: a convening body whose praesidium is drawn from the rectors and R&D directors of institutions that already run Pure. Low seat count, high referral value.",
+      "contacts": [
+        {"name": "Lia Leffland", "title": "Akademidirektor", "email": "", "emailStatus": "missing", "source": "https://www.atv.dk/om-atv/medarbejdere"},
+        {"name": "Per Michael Johansen", "title": "Praesident (rektor, Aalborg Universitet)", "email": "", "emailStatus": "missing", "source": "https://www.atv.dk/om-atv/organisation/praesidiet"},
+        {"name": "Marianne Thellersen", "title": "Praesidiemedlem - koncerndirektor for Innovation og Entreprenorskab, DTU", "email": "", "emailStatus": "missing", "source": "https://www.atv.dk/om-atv/organisation/praesidiet"},
+        {"name": "Anders Eldrup", "title": "Praesidiemedlem - formand, Innovationsfonden", "email": "", "emailStatus": "missing", "source": "https://www.atv.dk/om-atv/organisation/praesidiet"}
+      ]
+    },
+    "humanrights": {
+      "works": 756,
+      "incumbent": "none detected",
+      "evidence": "No portal; humanrights.elsevierpure.com does not resolve.",
+      "why": "Denmark's national human-rights institution has a standing Director of Research and a formal research programme - a named research owner with no system underneath.",
+      "contacts": [
+        {"name": "Katharina O Cathaoir", "title": "Director of Research", "email": "", "emailStatus": "missing", "source": "https://www.humanrights.dk/about-us/management"},
+        {"name": "Louise Holck", "title": "Executive Director", "email": "", "emailStatus": "missing", "source": "https://www.humanrights.dk/about-us/management"},
+        {"name": "Johan Busse", "title": "Acting National Director", "email": "", "emailStatus": "missing", "source": "https://www.humanrights.dk/about-us/management"},
+        {"name": "Line Vikkelso Slot", "title": "Chief Adviser", "email": "", "emailStatus": "missing", "source": "https://www.humanrights.dk/staff"},
+        {"name": "Simon Agerlin Lund", "title": "CFO", "email": "", "emailStatus": "missing", "source": "https://www.humanrights.dk/about-us/management"}
+      ]
+    },
+    "bii": {
+      "works": 558,
+      "incumbent": "none detected",
+      "evidence": "No portal; bii.elsevierpure.com does not resolve.",
+      "why": "Novo Nordisk Foundation-funded life-science incubator. Its sister NNF centres (CBMR, CPR, reNEW, Biosustain) all report through a university Pure; BII sits outside that and reports to the same funder.",
+      "contacts": [
+        {"name": "Christian Brix Tillegreen", "title": "Director", "email": "", "emailStatus": "missing", "source": "https://bii.dk/about/employees/"},
+        {"name": "Trine Bartholdy", "title": "Chief Business Officer for Life Science", "email": "", "emailStatus": "missing", "source": "https://bii.dk/about/employees/"},
+        {"name": "Anne Almind Vind", "title": "Head of Program Management", "email": "", "emailStatus": "missing", "source": "https://bii.dk/about/employees/"},
+        {"name": "Johanna Roostalu", "title": "Director", "email": "", "emailStatus": "missing", "source": "https://bii.dk/about/employees/"}
+      ]
+    },
+    "force": {
+      "works": 0,
+      "incumbent": "none detected",
+      "evidence": "No portal; force.elsevierpure.com and forcetechnology.elsevierpure.com do not resolve.",
+      "why": "GTS institute with a formal R&D obligation under its performance contract and no publication registry to evidence it.",
+      "contacts": [
+        {"name": "Niels Ovesen", "title": "Managing Director", "email": "", "emailStatus": "missing", "source": "https://forcetechnology.com/en/about-us/force-technology/board-and-management"},
+        {"name": "Niels Ahrengot", "title": "Chair of the Board", "email": "", "emailStatus": "missing", "source": "https://forcetechnology.com/en/about-us/force-technology/board-and-management"}
+      ]
+    },
+    "dkdm": {
+      "works": 844,
+      "incumbent": "none detected",
+      "evidence": "Not on adk.elsevierpure.com (which carries Royal Danish Academy, Design School Kolding and Aarhus School of Architecture) nor pure.kb.dk; musikkons.elsevierpure.com does not resolve.",
+      "why": "The strongest precedent play in the region: Denmark's architecture, design and conservation schools share one artistic-research Pure portal, and the performing-arts conservatories were simply never brought onto it.",
+      "contacts": []
+    },
+    "nikkb": {
+      "works": 496,
+      "incumbent": "none detected",
+      "evidence": "No portal; nikkb.elsevierpure.com does not resolve.",
+      "why": "Nordic knowledge centre for chiropractic sitting beside SDU, whose own Pure carries comparable clinical institutes.",
+      "contacts": []
+    },
+    "drc": {
+      "works": 454,
+      "incumbent": "none detected",
+      "evidence": "No portal; drc.elsevierpure.com does not resolve.",
+      "why": "Denmark's largest humanitarian NGO, producing evaluation and applied research at scale for institutional donors who increasingly ask for structured outputs.",
+      "contacts": []
+    },
+    "dfm": {
+      "works": 389,
+      "incumbent": "none detected",
+      "evidence": "No portal; dfm.elsevierpure.com does not resolve; dfm.dk/publikationer is a hand-maintained CMS list.",
+      "why": "Denmark's national metrology institute. Small but publication-dense, and its peer NMIs across Europe run CRIS systems.",
+      "contacts": []
+    },
+    "ek": {
+      "works": 266,
+      "incumbent": "none detected",
+      "evidence": "Not on UC Viden (which carries the professionshojskoler); kea.elsevierpure.com and ek.elsevierpure.com do not resolve.",
+      "why": "The professionshojskoler share UC Viden; the erhvervsakademier have the same statutory applied-research duty and no equivalent. A consortium-shaped opening, not a single seat.",
+      "contacts": []
+    },
+    "dignity": {
+      "works": 260,
+      "incumbent": "none detected",
+      "evidence": "No portal; dignity.elsevierpure.com does not resolve.",
+      "why": "Research-active NGO with a clinical and documentation research programme and long-standing university co-authorship.",
+      "contacts": []
+    },
+    "dbi": {
+      "works": 243,
+      "incumbent": "none detected",
+      "evidence": "No portal; dbi.elsevierpure.com and brandogsikring.elsevierpure.com do not resolve.",
+      "why": "GTS institute for fire and security with a visible forskning-og-udvikling programme and no registry behind it.",
+      "contacts": []
+    }
+  }
+}
