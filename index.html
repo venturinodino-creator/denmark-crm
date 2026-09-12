@@ -2465,7 +2465,7 @@ function contactsForInst(id) { return state.contacts.filter(c=>c.instId===id); }
 // equivalents. Universities carry the full academic set; institutes, medical
 // centers and NGOs skip the rector/dean seats that do not exist there.
 const KEY_ROLES = [
-  { key:'exec',    label:'President / Exec Board', re:/\b(president|chair(man|woman)?|executive (board|chairman|director)|director[- ]general|general director|ceo|managing director|administrerende direkt[øo]r|adm\.? ?direkt[øo]r|universitetsdirekt[øo]r|university director|bestyrelsesformand|bestyrelsesforkvinde)\b|^\s*(interim |deputy |vice |acting |konstitueret )?(director|direkt[øo]r|formand)\s*$/i },
+  { key:'exec',    label:'President / Exec Board', re:/\b(president|chair(man|woman)?|executive (board|chairman|director)|director[- ]general|general director|ceo|chief executive|managing director|administrerende direkt[øo]r|adm\.? ?direkt[øo]r|(professionsh[øo]jskole|ressource|sygehus|hospitals|regions|cent(er|re)|akademi|koncern|universitets)direkt[øo]r|direkt[øo]r for ressource\S*|general[- ]?major|university director|institutleder|centerleder|(acting |interim )?cent(er|re) director|bestyrelsesformand|bestyrelsesforkvinde|bestyrelsesleder|bestyrelsesforperson|generalsekret[æa]r|secretary general)\b|^\s*(interim |deputy |vice |acting |konstitueret )?(director|direkt[øo]r|formand)(\s*,\s*(professor|institut[^,(]*))?(\s*\([^)]*\))?\s*$/i },
   { key:'rector',  label:'Rector', types:['university'], re:/\b(rector|rektor|prorektor)\b/i },
   { key:'library', label:'Library Director', re:/\b(librar(y|ian|ies)|bibliotek)/i, and:/(direkt[øo]r|chef|leder|\b(director|head|chief|lead|manager|librarian|cio)\b)/i },
   { key:'dean',    label:'Dean / Vice-Dean Research', types:['university','medical'], re:/\b(dean|dekan|prodekan)\b/i },
@@ -2473,7 +2473,11 @@ const KEY_ROLES = [
   { key:'grants',  label:'Grants / Funding Lead', re:/\b(grant|grants|funding|fundrais\w*|valori[sz]ation|research support)\b|bevilling|tilskud|fondsmidler|forskningsst[øo]tte/i },
 ];
 function keyRolesFor(inst) { const t = (inst && inst.type) || ''; return KEY_ROLES.filter(r => !r.types || r.types.includes(t)); }
-function keyRoleMatch(role, c) { const title = (c && c.title) || ''; if (!role.re.test(title)) return false; return role.and ? role.and.test(title) : true; }
+// A director's PA carries the director's own job title in theirs ("... PA/
+// chefsekretær for <name>"), which would otherwise fill the seat with the
+// assistant instead of the person they work for.
+const KR_ASSISTANT_RE = /\b(chefsekret[æa]r|sekret[æa]r for|personal assistant|assistant to|secretary to|directiesecretaris|managementassistent|secr[eé]taire de direction)\b|\bpa\s*\//i;
+function keyRoleMatch(role, c) { const title = (c && c.title) || ''; if (KR_ASSISTANT_RE.test(title)) return false; if (!role.re.test(title)) return false; return role.and ? role.and.test(title) : true; }
 function keyRoleCoverage(inst) {
   const contacts = contactsForInst(inst.id);
   const slots = keyRolesFor(inst).map(r => {
