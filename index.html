@@ -7033,6 +7033,18 @@ const RFP_STATUSES = {
 // holds rows with status 'closed'.)
 const rfpStatusKey = s => RFP_STATUSES[s] ? s : 'identified';
 
+// The table opens already sorted by Status, so a plain toggle would read the
+// first click on Status as "reverse" and bury the Active Deals at the bottom.
+// Until a header has actually been clicked, the next click just asserts that
+// column ascending; after that it toggles the way every other table does.
+function rfpSortBy(field) {
+  const s = state.rfpSort;
+  if (!s.touched) { s.touched = true; s.field = field; s.dir = 'asc'; }
+  else if (s.field === field) { s.dir = s.dir === 'asc' ? 'desc' : 'asc'; }
+  else { s.field = field; s.dir = 'asc'; }
+  renderRFPOpps();
+}
+
 function refreshTenders() {
   const btn = document.getElementById('refresh-tenders-btn');
   if (btn) { btn.textContent = '↻ Refreshing...'; btn.disabled = true; }
@@ -7137,9 +7149,34 @@ function renderRFPOpps() {
       default:          return (r.title || '').toLowerCase();
     }
   };
+  // A row is greyed out once it is no longer something to act on — its
+  // deadline has passed, it has been decided either way, it has no deadline to
+  // work towards, or it was published in an earlier year than the one we are
+  // in. Greyed rows come back to full strength on hover, and they always sort
+  // below the live ones whatever column is chosen, so an old tender never sits
+  // above this year's work just because its title happens to start with an A.
+  const thisYear = new Date().getFullYear();
+  const todayStart = new Date(); todayStart.setHours(0, 0, 0, 0);
+  const rfpIsFaded = r => {
+    const dl = r.deadline ? new Date(r.deadline) : null;
+    const decided = ['won', 'lost'].includes(rfpStatusKey(r.status));
+    const expired = !!(dl && dl < todayStart);
+    // A missing deadline usually means no clock, so the row reads as
+    // background — but not when the deal is actively being worked. That is a
+    // gap in the record, not evidence that nothing is happening, and burying
+    // an Active Deal because nobody typed a date is the wrong way round.
+    const working = rfpStatusKey(r.status) === 'inprogress';
+    const undated = !dl || isNaN(dl.getTime());
+    const stale = !!(r.publishedDate && new Date(r.publishedDate).getFullYear() < thisYear);
+    return expired || decided || (undated && !working) || stale;
+  };
   const _rs = state.rfpSort;
   const _rsMult = _rs.dir === 'asc' ? 1 : -1;
   const sortedRfps = [...rfps].sort((a, b) => {
+    // Greyed-out rows sink to the bottom whatever the column, so the live work
+    // is always what you see first.
+    const fa = rfpIsFaded(a), fb = rfpIsFaded(b);
+    if (fa !== fb) return fa ? 1 : -1;
     const av = rfpSortVal(a, _rs.field), bv = rfpSortVal(b, _rs.field);
     if (av < bv) return -1 * _rsMult;
     if (av > bv) return 1 * _rsMult;
@@ -7157,26 +7194,7 @@ function renderRFPOpps() {
     const deadline = r.deadline ? new Date(r.deadline) : null;
     const today = new Date(); today.setHours(0,0,0,0);
     const overdue = deadline && r.status !== 'won' && r.status !== 'lost' && deadline < today;
-    // A row is dimmed once it is no longer something to act on — either its
-    // deadline has passed, or it has been decided one way or the other. Won and
-    // lost are dimmed even with a future deadline: the date stops mattering
-    // once the outcome is known. Dimmed rows come back to full strength on
-    // hover, so they stay readable rather than becoming unusable. The deadline
-    // is compared against today rather than a fixed cut-off, so it keeps being
-    // right as the year moves on.
-    const decided = ['won', 'lost'].includes(rfpStatusKey(r.status));
-    const expired = !!(deadline && deadline < today);
-    // No deadline usually means no clock, so the row reads as background — but
-    // not when the deal is actively being worked. A missing deadline is a gap
-    // in the record, not evidence that nothing is happening, and burying an
-    // Active Deal because nobody typed a date is the wrong way round: those are
-    // the rows the page exists to surface.
-    const working = rfpStatusKey(r.status) === 'inprogress';
-    const undated = !deadline || isNaN(deadline.getTime());
-    // Published in an earlier year than the one we're in: old news, so it
-    // recedes even if it still has a deadline ahead of it.
-    const stale = r.publishedDate && new Date(r.publishedDate).getFullYear() < today.getFullYear();
-    const faded = expired || decided || (undated && !working) || stale;
+    const faded = rfpIsFaded(r);
     const dim = faded ? ';opacity:.4' : '';
     const hasCompetitor = r.competitor && r.competitor !== '—';
     const isCris = isCrisTender(r);
@@ -7228,7 +7246,7 @@ function renderRFPOpps() {
     if (!field) return `<th style="${base};color:#475569">${txt}</th>`;
     const on = state.rfpSort.field === field;
     const hover = on ? '' : ` onmouseover="this.style.color='#94a3b8'" onmouseout="this.style.color='#475569'"`;
-    return `<th onclick="toggleSort(state.rfpSort,'${field}',renderRFPOpps)" title="Sort by ${esc(txt)}"${hover}
+    return `<th onclick="rfpSortBy('${field}')" title="Sort by ${esc(txt)}"${hover}
       style="${base};color:${on ? '#00f5c4' : '#475569'};cursor:pointer;user-select:none${on ? ';background:rgba(0,245,196,.07)' : ''}">${txt}${sortArrow(field, state.rfpSort)}</th>`;
   };
 
