@@ -19,7 +19,7 @@
       "pure.kb.dk (Kulturministeriets Pure-konsortium)",
       "www.pure.fo (national Faroese consortium)"
     ],
-    "negativeTest": "4,828 organisation names were enumerated across those portals via each portal's /en/organisations/?format=rss feed and matched against every candidate name and OpenAlex alias; a candidate also had to have no resolving <slug>.elsevierpure.com host.",
+    "negativeTest": "4,885 organisation names were enumerated across those portals via each portal's /en/organisations/?format=rss feed and matched against every candidate name and OpenAlex alias; a candidate also had to have no resolving <slug>.elsevierpure.com host.",
     "ruledOut": "NFA (nfa.elsevierpure.com) and GEUS (pub.geus.dk) were on the draft list until the hosted-tenant check found live Pure instances - both are customers, not white space. University of the Faroe Islands, Rigsarkivet, Moesgaard Museum, Naturhistorisk Museum Aarhus and Kong Christian X's Gigthospital were likewise removed after they turned up inside a consortium portal."
   },
   "institutions": {
@@ -903,6 +903,120 @@
           "email": "",
           "emailStatus": "missing",
           "source": "https://brandogsikring.dk/om-dbi/bestyrelsen/"
+        }
+      ]
+    },
+    "rockwoolresearch": {
+      "works": 760,
+      "incumbent": "none detected (disciplinary repositories only)",
+      "evidence": "No org match across 4,885 organisation names on the 14 portals (checked as Rockwool, Rockwoolfonden and forskningsenhed); rockwool/rockwoolfonden/rff/rockwoolfoundation.elsevierpure.com do not resolve; en.rockwoolfonden.dk/publications is a hand-maintained CMS list with no repository links.",
+      "why": "The producing arm of the foundation, not the grant-making one, so unlike the other Danish foundations it belongs on this list. Around a dozen research professors and unit heads publishing a working-paper series that is currently discoverable only through RePEc/EDIRC - there is no institutional record of its own output, and a Berlin branch makes that harder still.",
+      "contacts": [
+        {
+          "name": "Jan Rose Skaksen",
+          "title": "Forskningsdirektor (Research Director, since 2015)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://rockwoolfonden.dk/forskning/"
+        },
+        {
+          "name": "Miriam Gensowski",
+          "title": "Senior Researcher and Head of Research in Education",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://en.rockwoolfonden.dk/employees/"
+        },
+        {
+          "name": "Jeanette Ostergaard",
+          "title": "Research Professor, Head of Development",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://en.rockwoolfonden.dk/employees/"
+        },
+        {
+          "name": "Mille Bjork",
+          "title": "Head of Analysis Unit",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://en.rockwoolfonden.dk/employees/"
+        },
+        {
+          "name": "Katrine Stenild Petersen",
+          "title": "Head of Programme",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://en.rockwoolfonden.dk/employees/"
+        },
+        {
+          "name": "Christian Dustmann",
+          "title": "Professor, head of the Berlin research branch",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://en.rockwoolfonden.dk/research/"
+        },
+        {
+          "name": "ROCKWOOL Fonden hovedkontakt",
+          "title": "General enquiries - no individual addresses are published",
+          "email": "kontakt@rockwoolfonden.dk",
+          "emailStatus": "published",
+          "phone": "+45 33 34 47 00",
+          "source": "https://en.rockwoolfonden.dk/employees/"
+        }
+      ]
+    },
+    "seges": {
+      "works": 1716,
+      "incumbent": "none detected",
+      "evidence": "No org match on the 14 portals (checked as both SEGES and SEGES Innovation); seges/segesinnovation/lf.elsevierpure.com do not resolve; segesinnovation.dk publishes its research through its own CMS. Note the live site is segesinnovation.dk - seges.dk is the older domain, still used for staff email.",
+      "why": "Private, independent R&D organisation for Danish agriculture and food with roughly 500 staff and two named SVPs covering Research & Business Development and Innovation & Impact - an unusually clear buying centre. OpenAlex still files it under its former name, Knowledge Centre for Agriculture, and types it as a company, which is why a research-output screen misses it; the 1,716 indexed works are real.",
+      "contacts": [
+        {
+          "name": "Kent Myllerup",
+          "title": "Senior Vice President, Research & Business Development",
+          "email": "kmy@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 29 65 66 73",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        },
+        {
+          "name": "Jens Elbaek",
+          "title": "Senior Vice President, Innovation & Impact",
+          "email": "jeel@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 23 81 54 51",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        },
+        {
+          "name": "Lisbeth Henricksen",
+          "title": "Chief Executive Officer",
+          "email": "lish@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 61 28 44 35",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        },
+        {
+          "name": "Anne Cathrine Thorup",
+          "title": "Senior Vice President, Operations",
+          "email": "acat@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 30 62 27 93",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        },
+        {
+          "name": "Carsten Jespersen",
+          "title": "Chief Financial Officer",
+          "email": "carj@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 24 61 36 38",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
+        },
+        {
+          "name": "Helle Lehmann Staun",
+          "title": "Senior Vice President, HR & Culture",
+          "email": "hels@seges.dk",
+          "emailStatus": "published",
+          "phone": "+45 24 61 08 05",
+          "source": "https://segesinnovation.dk/om-os/find-medarbejder/"
         }
       ]
     }
