@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-09-13T18:47:57.352Z",
-  "lastAddedCount": 0,
-  "sources": 58,
+  "lastRun": "2026-09-13T19:47:53.656Z",
+  "lastAddedCount": 60,
+  "sources": 64,
   "issues": [
     {
       "instId": "aau",
@@ -93,6 +93,26 @@
     },
     {
       "instId": "via",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "kadk",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "sygehuslillebaelt",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "nikkb",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dsl",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dbi",
       "note": "no people extracted"
     }
   ]
