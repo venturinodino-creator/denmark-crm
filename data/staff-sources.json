@@ -497,6 +497,55 @@
       "urls": [
         "https://www.sjaellandsuniversitetshospital.dk/servicemenu/om-os/sygehusledelsen"
       ]
+    },
+    {
+      "instId": "seges",
+      "instName": "SEGES Innovation",
+      "emailDomain": "seges.dk",
+      "urls": [
+        "https://segesinnovation.com/about-us/find-an-employee"
+      ]
+    },
+    {
+      "instId": "kadk",
+      "instName": "Royal Danish Academy — Architecture, Design, Conservation",
+      "emailDomain": "kglakademi.dk",
+      "urls": [
+        "https://kglakademi.dk/da/find-medarbejdere"
+      ]
+    },
+    {
+      "instId": "sygehuslillebaelt",
+      "instName": "Lillebælt Hospital (Sygehus Lillebælt)",
+      "emailDomain": "rsyd.dk",
+      "urls": [
+        "https://sygehuslillebaelt.dk/afdelinger/direktionen"
+      ]
+    },
+    {
+      "instId": "nikkb",
+      "instName": "Kiropraktorernes Videnscenter (formerly NIKKB)",
+      "emailDomain": "kiroviden.dk",
+      "urls": [
+        "https://www.kiroviden.dk/om-os/medarbejdere"
+      ]
+    },
+    {
+      "instId": "dsl",
+      "instName": "Det Danske Sprog- og Litteraturselskab",
+      "emailDomain": "dsl.dk",
+      "urls": [
+        "https://dsl.dk/om-dsl/"
+      ]
+    },
+    {
+      "instId": "dbi",
+      "instName": "Danish Institute of Fire and Security Technology (DBI)",
+      "emailDomain": "brandogsikring.dk",
+      "urls": [
+        "https://brandogsikring.dk/kurser/kontakt",
+        "https://brandogsikring.dk/sikring/business-continuity-management-bcm"
+      ]
     }
   ]
 }
