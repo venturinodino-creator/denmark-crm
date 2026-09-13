@@ -1,13 +1,8 @@
 {
-  "lastRun": "2026-09-12T11:41:57.395Z",
-  "lastAddedCount": 60,
+  "lastRun": "2026-09-13T12:51:05.732Z",
+  "lastAddedCount": 55,
   "sources": 58,
   "issues": [
-    {
-      "instId": "aau",
-      "url": "https://www.en.aau.dk/about-aau/organisation/management/executive-directors",
-      "error": "fetch failed"
-    },
     {
       "instId": "aau",
       "note": "no people extracted"
@@ -62,58 +57,30 @@
     },
     {
       "instId": "inano",
-      "note": "no people extracted"
+      "url": "https://inano.au.dk/about/committees/management-team/",
+      "error": "HTTP 404"
     },
     {
-      "instId": "itu",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "kp",
+      "instId": "inano",
       "note": "no people extracted"
     },
     {
       "instId": "ku",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "lundbeckfoundation",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "nationalbanken",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "nbi",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "niph",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "novonordiskfoundation",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "ouh",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "pioneerai",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "regionmidt",
-      "note": "no people extracted"
+      "url": "https://about.ku.dk/organisation/councils-boards-committees/kufir/",
+      "error": "HTTP 404"
     },
     {
       "instId": "regionnord",
-      "note": "no people extracted"
+      "url": "https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Direktion",
+      "error": "HTTP 404"
     },
     {
-      "instId": "regionsyd",
+      "instId": "regionnord",
+      "url": "https://rn.dk/Om-Region-Nordjylland/Organisation-og-ledelse/Ledelsen-i-Region-Nordjylland/Koncernledelsen",
+      "error": "HTTP 404"
+    },
+    {
+      "instId": "regionnord",
       "note": "no people extracted"
     },
     {
@@ -121,51 +88,11 @@
       "note": "no people extracted"
     },
     {
-      "instId": "rockwoolresearch",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "royalacademy",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "ruc",
-      "note": "no people extracted"
-    },
-    {
       "instId": "sdu",
       "note": "no people extracted"
     },
     {
-      "instId": "ssi",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "stenoaarhus",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "ucl",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "ucn",
-      "note": "no people extracted"
-    },
-    {
       "instId": "via",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "villumfoundation",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "vive",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "zealanduh",
       "note": "no people extracted"
     }
   ]
