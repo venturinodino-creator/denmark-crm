@@ -4860,7 +4860,8 @@ function renderWhiteSpace() {
     ['grid', 'table', 'contacts'].map(v =>
       '<button class="vt-btn ' + (state.wsView === v ? 'active' : '') + '" onclick="state.wsView=\'' + v + '\';renderWhiteSpace()">' +
       (v === 'grid' ? 'Grid' : v === 'table' ? 'Table' : 'Contacts') + '</button>').join('') +
-    '</div>';
+    '</div>' +
+    '<button class="btn btn-outline" onclick="exportWhiteSpaceContacts()" title="Download the current target list, one row per contact">Export CSV</button>';
 
   let insts = state.institutions.filter(i => {
     if (!WS_ELIGIBLE_TYPES.includes(i.type)) return false;
@@ -4895,7 +4896,6 @@ function renderWhiteSpace() {
         chip('rival', 'Displacement') + chip('unknown', 'Unverified') + '</div>' +
       '<span style="font-size:12px;color:var(--muted);margin-left:auto">' + insts.length +
         ' target' + (insts.length !== 1 ? 's' : '') + '</span>' +
-      '<button class="btn-sm" onclick="exportWhiteSpaceContacts()">Export contacts CSV</button>' +
     '</div>' +
     '<div class="ws-caveat">' + esc(prod.caveat) + '</div>';
 
