@@ -5010,7 +5010,7 @@ function exportWhiteSpaceContacts() {
     wsWorks(i.id) === null ? '' : wsWorks(i.id), c.source || '',
   ])));
   if (out.length === 1) { toast('No researched contacts in the current filter.', 'warn'); return; }
-  const csv = out.map(r => r.map(v => '"' + String(v == null ? '' : v).replace(/"/g, '""') + '"').join(',')).join('\n');
+  const csv = out.map(r => r.map(v => '"' + csvSafe(v).replace(/"/g, '""') + '"').join(',')).join('\n');
   const a = document.createElement('a');
   a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
   a.download = state.wsProduct + '_white_space_contacts.csv';
