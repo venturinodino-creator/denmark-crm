@@ -42,11 +42,32 @@
   "city": "Aarhus"
  },
  {
+  "id": "asiaq",
+  "name": "Asiaq Greenland Survey",
+  "short": "Asiaq",
+  "type": "research",
+  "city": "Nuuk"
+ },
+ {
   "id": "bii",
   "name": "BioInnovation Institute",
   "short": "BII",
   "type": "research",
   "city": "Copenhagen"
+ },
+ {
+  "id": "bioneer",
+  "name": "Bioneer A/S",
+  "short": "Bioneer",
+  "type": "research",
+  "city": "Horsholm"
+ },
+ {
+  "id": "biosustain",
+  "name": "BRIGHT — Biotechnology Research Institute for the Green Transition (DTU)",
+  "short": "BRIGHT",
+  "type": "research",
+  "city": "Kongens Lyngby"
  },
  {
   "id": "carlsbergfoundation",
@@ -56,11 +77,25 @@
   "city": "Copenhagen"
  },
  {
+  "id": "regionmidt",
+  "name": "Central Denmark Region (Region Midtjylland)",
+  "short": "Region Midt",
+  "type": "medical",
+  "city": "Viborg"
+ },
+ {
   "id": "cbs",
   "name": "Copenhagen Business School",
   "short": "CBS",
   "type": "university",
   "city": "Frederiksberg"
+ },
+ {
+  "id": "cifs",
+  "name": "Copenhagen Institute for Futures Studies",
+  "short": "CIFS",
+  "type": "research",
+  "city": "Copenhagen"
  },
  {
   "id": "amagerhvidovre",
@@ -84,6 +119,13 @@
   "city": "Herlev"
  },
  {
+  "id": "atv",
+  "name": "Danish Academy of Technical Sciences (ATV)",
+  "short": "ATV",
+  "type": "ngo",
+  "city": "Kongens Lyngby"
+ },
+ {
   "id": "danishcancersociety",
   "name": "Danish Cancer Society",
   "short": "Kræftens Bekæmpelse",
@@ -98,11 +140,25 @@
   "city": "Odense"
  },
  {
+  "id": "humanrights",
+  "name": "Danish Institute for Human Rights",
+  "short": "DIHR",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
   "id": "diis",
   "name": "Danish Institute for International Studies",
   "short": "DIIS",
   "type": "research",
   "city": "Copenhagen"
+ },
+ {
+  "id": "dbi",
+  "name": "Danish Institute of Fire and Security Technology (DBI)",
+  "short": "DBI",
+  "type": "research",
+  "city": "Hvidovre"
  },
  {
   "id": "dmi",
@@ -112,9 +168,23 @@
   "city": "Copenhagen"
  },
  {
+  "id": "dfm",
+  "name": "Danish National Metrology Institute (DFM)",
+  "short": "DFM",
+  "type": "research",
+  "city": "Horsholm"
+ },
+ {
   "id": "dnrf",
   "name": "Danish National Research Foundation",
   "short": "DNRF",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "drc",
+  "name": "Danish Refugee Council (Dansk Flygtningehjaelp)",
+  "short": "DRC",
   "type": "ngo",
   "city": "Copenhagen"
  },
@@ -126,11 +196,53 @@
   "city": "Taastrup"
  },
  {
+  "id": "nationalbanken",
+  "name": "Danmarks Nationalbank",
+  "short": "Nationalbanken",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dsl",
+  "name": "Det Danske Sprog- og Litteraturselskab",
+  "short": "DSL",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dhi",
+  "name": "DHI (Danish Hydraulic Institute)",
+  "short": "DHI",
+  "type": "research",
+  "city": "Hørsholm"
+ },
+ {
+  "id": "dignity",
+  "name": "DIGNITY - Danish Institute Against Torture",
+  "short": "DIGNITY",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
   "id": "dtuspace",
   "name": "DTU Space – National Space Institute",
   "short": "DTU Space",
   "type": "research",
   "city": "Kongens Lyngby"
+ },
+ {
+  "id": "ek",
+  "name": "Erhvervsakademi Kobenhavn",
+  "short": "EK / KEA",
+  "type": "university",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "force",
+  "name": "FORCE Technology",
+  "short": "FORCE",
+  "type": "research",
+  "city": "Brondby"
  },
  {
   "id": "geus",
@@ -140,8 +252,22 @@
   "city": "Copenhagen"
  },
  {
+  "id": "gnaturinstitut",
+  "name": "Greenland Institute of Natural Resources (Pinngortitaleriffik)",
+  "short": "GINR",
+  "type": "research",
+  "city": "Nuuk"
+ },
+ {
+  "id": "ilisimatusarfik",
+  "name": "Ilisimatusarfik (University of Greenland)",
+  "short": "Ilisimatusarfik",
+  "type": "university",
+  "city": "Nuuk"
+ },
+ {
   "id": "inano",
-  "name": "Interdisciplinary Nanoscience Center",
+  "name": "Interdisciplinary Nanoscience Center (winding down)",
   "short": "iNANO",
   "type": "research",
   "city": "Aarhus"
@@ -152,6 +278,20 @@
   "short": "ITU",
   "type": "university",
   "city": "Copenhagen"
+ },
+ {
+  "id": "nikkb",
+  "name": "Kiropraktorernes Videnscenter (formerly NIKKB)",
+  "short": "NIKKB",
+  "type": "research",
+  "city": "Odense"
+ },
+ {
+  "id": "sygehuslillebaelt",
+  "name": "Lillebælt Hospital (Sygehus Lillebælt)",
+  "short": "Sygehus Lillebælt",
+  "type": "medical",
+  "city": "Kolding/Vejle"
  },
  {
   "id": "lundbeckfoundation",
@@ -168,11 +308,25 @@
   "city": "Odense"
  },
  {
+  "id": "natmus",
+  "name": "National Museum of Denmark (Nationalmuseet)",
+  "short": "Nationalmuseet",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
   "id": "nbi",
   "name": "Niels Bohr Institute",
   "short": "NBI",
   "type": "research",
   "city": "Copenhagen"
+ },
+ {
+  "id": "regionnord",
+  "name": "North Denmark Region (Region Nordjylland)",
+  "short": "Region Nord",
+  "type": "medical",
+  "city": "Aalborg"
  },
  {
   "id": "novonordiskfoundation",
@@ -187,13 +341,6 @@
   "short": "CBMR",
   "type": "research",
   "city": "Copenhagen"
- },
- {
-  "id": "biosustain",
-  "name": "Novo Nordisk Foundation Center for Biosustainability",
-  "short": "DTU Biosustain",
-  "type": "research",
-  "city": "Kongens Lyngby"
  },
  {
   "id": "cpr",
@@ -224,6 +371,20 @@
   "city": "Copenhagen"
  },
  {
+  "id": "absalon",
+  "name": "Professionshøjskolen Absalon",
+  "short": "Absalon",
+  "type": "university",
+  "city": "Slagelse"
+ },
+ {
+  "id": "regionsyd",
+  "name": "Region of Southern Denmark (Region Syddanmark)",
+  "short": "Region Syd",
+  "type": "medical",
+  "city": "Vejle"
+ },
+ {
   "id": "rigshospitalet",
   "name": "Rigshospitalet (Copenhagen University Hospital)",
   "short": "Rigshospitalet",
@@ -245,11 +406,39 @@
   "city": "Roskilde"
  },
  {
+  "id": "kadk",
+  "name": "Royal Danish Academy — Architecture, Design, Conservation",
+  "short": "KADK",
+  "type": "university",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "dkdm",
+  "name": "Royal Danish Academy of Music (Det Kgl. Danske Musikkonservatorium)",
+  "short": "DKDM",
+  "type": "university",
+  "city": "Frederiksberg"
+ },
+ {
   "id": "royalacademy",
   "name": "Royal Danish Academy of Sciences and Letters",
   "short": "RDAS",
   "type": "research",
   "city": "Copenhagen"
+ },
+ {
+  "id": "fak",
+  "name": "Royal Danish Defence College",
+  "short": "FAK",
+  "type": "research",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "seges",
+  "name": "SEGES Innovation",
+  "short": "SEGES",
+  "type": "research",
+  "city": "Aarhus"
  },
  {
   "id": "ssi",
@@ -273,11 +462,53 @@
   "city": "Herlev"
  },
  {
+  "id": "stenonordjylland",
+  "name": "Steno Diabetes Center North Denmark",
+  "short": "Steno Nordjylland",
+  "type": "medical",
+  "city": "Aalborg"
+ },
+ {
+  "id": "stenoodense",
+  "name": "Steno Diabetes Center Odense",
+  "short": "Steno Odense",
+  "type": "medical",
+  "city": "Odense"
+ },
+ {
+  "id": "stenosjaelland",
+  "name": "Steno Diabetes Center Sjælland",
+  "short": "Steno Sjælland",
+  "type": "medical",
+  "city": "Holbæk"
+ },
+ {
   "id": "dtu",
   "name": "Technical University of Denmark",
   "short": "DTU",
   "type": "university",
   "city": "Kongens Lyngby"
+ },
+ {
+  "id": "ucl",
+  "name": "UCL University College",
+  "short": "UCL",
+  "type": "university",
+  "city": "Odense"
+ },
+ {
+  "id": "kp",
+  "name": "University College Copenhagen",
+  "short": "KP",
+  "type": "university",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "ucn",
+  "name": "University College of Northern Denmark",
+  "short": "UCN",
+  "type": "university",
+  "city": "Aalborg"
  },
  {
   "id": "ku",
@@ -292,6 +523,13 @@
   "short": "SDU",
   "type": "university",
   "city": "Odense"
+ },
+ {
+  "id": "via",
+  "name": "VIA University College",
+  "short": "VIA UC",
+  "type": "university",
+  "city": "Aarhus"
  },
  {
   "id": "villumfoundation",
