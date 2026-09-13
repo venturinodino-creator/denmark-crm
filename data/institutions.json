@@ -266,6 +266,20 @@
   "city": "Nuuk"
  },
  {
+  "id": "dff",
+  "name": "Independent Research Fund Denmark",
+  "short": "DFF",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
+  "id": "innofund",
+  "name": "Innovation Fund Denmark",
+  "short": "Innovationsfonden",
+  "type": "ngo",
+  "city": "Copenhagen"
+ },
+ {
   "id": "inano",
   "name": "Interdisciplinary Nanoscience Center (winding down)",
   "short": "iNANO",
@@ -320,6 +334,13 @@
   "short": "NBI",
   "type": "research",
   "city": "Copenhagen"
+ },
+ {
+  "id": "noh",
+  "name": "Nordsjællands Hospital",
+  "short": "NOH",
+  "type": "medical",
+  "city": "Hillerød"
  },
  {
   "id": "regionnord",

@@ -2113,7 +2113,26 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Thomas Balle Kristensen",
+          "title": "Sundheds- og hospitalsdirektør (Health and Hospital Director)",
+          "email": "tbk@auh.rm.dk",
+          "emailStatus": "published",
+          "source": "https://www.en.auh.dk/About-the-Hospital/executive-management/",
+          "notes": "Top hospital executive; matches the existing key-role-contacts.json entry. AUH has a co-equal executive team (also Charlotte Rosenkrantz Josefsen, chajos@rm.dk).",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "(unresolved — Research Support Unit head)",
+          "title": "Forskningsstøtteenheden (Research Support Unit)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.fagperson.auh.dk/afdelinger/hospitalsstaben/strategisk-tvargaende-funktioner/forskningsstotteenheden/",
+          "notes": "fagperson.auh.dk returns HTTP 404 to non-browser requests despite being Google-indexed — almost certainly bot-protected like the regionh.dk network, not genuinely missing. Needs a browser-based follow-up pass. No hospital-wide research-director exec identified on the main executive-management page; the Research Support Unit (shared with Aarhus University and Central Denmark Region) is the most likely home for that role. No library-director equivalent found.",
+          "foundDate": "2026-09-13"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-246606 in the national consortium agreement 2025-28."
@@ -2141,7 +2160,26 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Niels Nørgaard Pedersen",
+          "title": "CEO (Administrerende direktør)",
+          "email": "niels.noergaard.pedersen@rsyd.dk",
+          "emailStatus": "published",
+          "source": "https://en.ouh.dk/about-ouh",
+          "notes": "Top hospital executive. Personal email published directly on OUH's own About page.",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "Katrine Hass Rubin",
+          "title": "Forskningsleder (Research Leader), Forskningsenheden OPEN",
+          "email": "katrine.rubin@rsyd.dk",
+          "emailStatus": "published",
+          "source": "https://open.rsyd.dk/forskningsenheden-open",
+          "notes": "Head of OUH's hospital-wide research support unit (OPEN) — the closest match to a \"research director\" role. Personal email published directly on the unit's own page. No dedicated library-director role found; OUH clinical staff use University of Southern Denmark's library rather than a separate hospital library.",
+          "foundDate": "2026-09-13"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-292 in the national consortium agreement 2025-28."
@@ -2197,7 +2235,35 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Lars Dahl Pedersen",
+          "title": "Hospitalsdirektør (Hospital Director)",
+          "email": "lars.dahl@rn.dk",
+          "emailStatus": "published",
+          "source": "https://aalborguh.rn.dk/Service/Om-Aalborg-Universitetshospital/Ledelse-og-organisation/Ledelse",
+          "notes": "Top hospital executive. Personal email published directly on the hospital's own leadership page.",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "Egon (Steen) Toft",
+          "title": "Forskningschef (Research Director)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://dagensmedicin.dk/fra-qatar-til-nordjylland-aalborg-universitetshospital-faar-ny-forskningschef/",
+          "notes": "Confirmed via two independent sources (Dagens Medicin news article + web search) as the (newly appointed, returning from 7 years as dean at Qatar University) research director. Region Nordjylland does not use one consistent email pattern (mix of firstname.lastname@rn.dk and initials@rn.dk on the same leadership page), so no email was constructed — an \"egon.toft@rn.dk\" address surfaced only from an AI search-summary's inference, not confirmed on any primary page, and is deliberately NOT recorded here.",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "Jane Bjerregaard Rasmussen",
+          "title": "Kontorchef (Office Manager), Research Office",
+          "email": "jane.bjerregaard@rn.dk",
+          "emailStatus": "published",
+          "source": "https://aalborguh.rn.dk/da/Forskning/Kontakt",
+          "notes": "Practical day-to-day research-office contact with a verified, published email — useful alongside Egon Toft while his own email is unconfirmed. No library-director equivalent found on the research contact page.",
+          "foundDate": "2026-09-13"
+        }
+      ],
       "scopus": {
         "status": "yes",
         "evidence": "Scopus account ECR-266 in the national consortium agreement 2025-28."
@@ -2281,7 +2347,26 @@
       "incumbent": "none detected",
       "evidence": "",
       "why": "",
-      "contacts": [],
+      "contacts": [
+        {
+          "name": "Kirsten Ohm Kyvik",
+          "title": "Forskningschef (Research Director), Region Sjælland Research Support Center",
+          "email": "kohk@regionsjaelland.dk",
+          "emailStatus": "published",
+          "source": "https://www.regionsjaelland.dk/fagfolk/forskning/ledelse-og-organisering",
+          "notes": "Region-wide research director based at Zealand University Hospital (Køge), overseeing the Research Support Center that serves the hospital. Personal email published directly on Region Sjælland's own leadership page. No library-director equivalent found — page explicitly notes no library/knowledge-center contact listed.",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "Tanja Schwartzbach Frederiksen",
+          "title": "Funktionschef (Function Chief), Research Support Center",
+          "email": "tarf@regionsjaelland.dk",
+          "emailStatus": "published",
+          "source": "https://www.regionsjaelland.dk/fagfolk/forskning/ledelse-og-organisering",
+          "notes": "Deputy/co-lead of the Research Support Center alongside Kirsten Ohm Kyvik. Personal email published directly on the same page.",
+          "foundDate": "2026-09-13"
+        }
+      ],
       "scopus": {
         "status": "no",
         "evidence": "Not among the 16 Scopus accounts in the national consortium agreement 2025-28 (https://pro.kb.dk/licensservice/elsevier-og-det-kgl-bibliotek-2025-28/elsevier-og-det-kgl-bibliotek-2025-28.pdf). Direct purchase outside the consortium would not appear there."
@@ -3194,6 +3279,205 @@
         "converis": "no",
         "symplectic": "no",
         "evidence": "Runs Pure, and an institution operates one CRIS. The Danish university-sector CRIS report records no Converis or Symplectic presence in the country."
+      }
+    },
+    "innofund": {
+      "works": 0,
+      "incumbent": "not yet researched",
+      "evidence": "",
+      "why": "Government-backed innovation/research grant fund. Pure grant administrator — no research output of its own, so not part of the original 194-institution white-space universe; added here for contact coverage per direct request.",
+      "contacts": [
+        {
+          "name": "Cecilie Brøkner",
+          "title": "CEO",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://innovationsfonden.dk/en/about-innovation-fund-denmark",
+          "notes": "Current CEO per the fund's own leadership page (2026-09-13). No personal email published — only the shared kontakt@innofond.dk mailbox. A web search separately surfaced \"Anne Marie Levy Rasmussen\" as director, which is stale/outdated per the live page.",
+          "foundDate": "2026-09-13"
+        },
+        {
+          "name": "Søren Asp Mikkelsen",
+          "title": "VP Programs / CPO",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://innovationsfonden.dk/en/about-innovation-fund-denmark",
+          "notes": "Closest role to a \"research director\" — oversees the fund's grant programmes. No dedicated research-director or library-director role exists at this institution: it is a grant-distributing body, not a research-performing one, and has no library function.",
+          "foundDate": "2026-09-13"
+        }
+      ],
+      "scopus": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass — this update focused on research-director/library-director contact discovery, not the full Pure/Scopus white-space assessment."
+      },
+      "scival": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "cris": {
+        "converis": "unknown",
+        "symplectic": "unknown",
+        "evidence": "Not yet researched in this pass."
+      }
+    },
+    "dff": {
+      "works": 0,
+      "incumbent": "not yet researched",
+      "evidence": "",
+      "why": "Largest public fund for basic/independent research in Denmark. Secretariat is administratively part of the Danish Agency for Higher Education and Science (ufm.dk), not an independent research-performing institution — no library function.",
+      "contacts": [
+        {
+          "name": "Jesper Risom",
+          "title": "Head of Division (Secretariat lead)",
+          "email": "jspr@ufm.dk",
+          "emailStatus": "published",
+          "source": "https://dff.dk/en/about-the-fund/independent-research-fund-denmark/organisation/secretariat/",
+          "notes": "Top administrator of DFF's secretariat — closest equivalent to a research director for this fund. Personal email published directly on the secretariat staff page. The Fund's Chair of the Board (Prof. Søren Serritzlew, Aarhus University) is an unpaid academic chair, not an employee of the fund itself.",
+          "foundDate": "2026-09-13"
+        }
+      ],
+      "scopus": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass — this update focused on research-director/library-director contact discovery, not the full Pure/Scopus white-space assessment."
+      },
+      "scival": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "cris": {
+        "converis": "unknown",
+        "symplectic": "unknown",
+        "evidence": "Not yet researched in this pass."
+      }
+    },
+    "noh": {
+      "works": 0,
+      "incumbent": "not yet researched",
+      "evidence": "",
+      "why": "Region Hovedstaden hospital. Own site (nordsjaellandshospital.dk) sits behind the same regionh.dk bot-detection wall documented for the region's other hospitals — needs browser-based verification, not yet done in this pass.",
+      "contacts": [
+        {
+          "name": "Eva Zeuthen Bentsen",
+          "title": "Hospitalsdirektør (Hospital Director)",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://www.regionh.dk/presse-og-nyt/pressemeddelelser-og-nyheder/Sider/Ny-direktoer-for-Nordsjaellands-Hospital-ansat.aspx",
+          "notes": "Confirmed via Region Hovedstaden's own press release (took office 1 April 2025), cross-checked against a second independent news source. Could not reach nordsjaellandshospital.dk's own organisation page directly — it redirected to a security-check.regionh.dk bot-detection challenge page that requires a real browser session (not available in this pass). No research-director or library-director contact found yet; needs a follow-up browser-based pass, same as the other Region Hovedstaden hospitals (Rigshospitalet, Herlev-Gentofte, Bispebjerg-Frederiksberg, Amager-Hvidovre).",
+          "foundDate": "2026-09-13"
+        }
+      ],
+      "scopus": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass — this update focused on research-director/library-director contact discovery, not the full Pure/Scopus white-space assessment."
+      },
+      "scival": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "cris": {
+        "converis": "unknown",
+        "symplectic": "unknown",
+        "evidence": "Not yet researched in this pass."
+      }
+    },
+    "dnrf": {
+      "works": 0,
+      "incumbent": "not yet researched",
+      "evidence": "",
+      "why": "Elite basic-research funding foundation (Centres of Excellence programme). Pure grant administrator, no research output of its own and no library function.",
+      "contacts": [
+        {
+          "name": "Niels Mejlgaard",
+          "title": "CEO",
+          "email": "nm@dg.dk",
+          "emailStatus": "constructed",
+          "source": "https://dg.dk/en/new-ceo-of-the-danish-national-research-foundation/",
+          "notes": "CEO since 13 January 2025, succeeding Prof. Søren-Peter Olesen. No personal email published on any DNRF page found; email constructed from the secretariat's consistent two-initial@dg.dk pattern (10+ published examples on the secretariat page, e.g. Steen Marcus -> sm@dg.dk, Lotte Mathiesen -> lm@dg.dk) — NOT independently verified, flag for confirmation before outreach.",
+          "foundDate": "2026-09-13"
+        }
+      ],
+      "scopus": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass — this update focused on research-director/library-director contact discovery, not the full Pure/Scopus white-space assessment."
+      },
+      "scival": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "cris": {
+        "converis": "unknown",
+        "symplectic": "unknown",
+        "evidence": "Not yet researched in this pass."
+      }
+    },
+    "lundbeckfoundation": {
+      "works": 0,
+      "incumbent": "not yet researched",
+      "evidence": "",
+      "why": "Major private research-funding foundation (owns Lundbeck, ALK, Falck). Grant administrator with a dedicated science/grants leadership role but no library function.",
+      "contacts": [
+        {
+          "name": "Jan Egebjerg",
+          "title": "Senior Vice President, Grants & Prizes / Director of Science",
+          "email": "",
+          "emailStatus": "missing",
+          "source": "https://lundbeckfonden.com/about-us/the-organisation/board-of-directors-and-management",
+          "notes": "The individual most directly responsible for research funding programmes — closest match to \"research director\" at this foundation. No personal email published; the Foundation only offers a web contact form for Grants & Prizes (https://lundbeckfonden.com/contact-the-lundbeck-foundation/contact-grants-prizes).",
+          "foundDate": "2026-09-13"
+        }
+      ],
+      "scopus": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass — this update focused on research-director/library-director contact discovery, not the full Pure/Scopus white-space assessment."
+      },
+      "scival": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "wos": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "dimensions": {
+        "status": "unknown",
+        "evidence": "Not yet researched in this pass."
+      },
+      "cris": {
+        "converis": "unknown",
+        "symplectic": "unknown",
+        "evidence": "Not yet researched in this pass."
       }
     }
   }
