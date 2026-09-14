@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-09-13T19:47:53.656Z",
-  "lastAddedCount": 60,
+  "lastRun": "2026-09-14T14:20:47.357Z",
+  "lastAddedCount": 45,
   "sources": 64,
   "issues": [
     {
@@ -23,12 +23,12 @@
     {
       "instId": "cbs",
       "url": "https://www.cbs.dk/en/library/about-the-library/organisation/director-of-library-and-campus-services",
-      "error": "HTTP 500"
+      "error": "HTTP 404"
     },
     {
       "instId": "cbs",
       "url": "https://www.cbs.dk/en/about-cbs/organisation/research-and-phd-support-office/staff",
-      "error": "HTTP 500"
+      "error": "HTTP 404"
     },
     {
       "instId": "danishcancersociety",
@@ -93,26 +93,6 @@
     },
     {
       "instId": "via",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "kadk",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "sygehuslillebaelt",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "nikkb",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dsl",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dbi",
       "note": "no people extracted"
     }
   ]
