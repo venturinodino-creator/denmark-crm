@@ -1,5 +1,128 @@
 [
   {
+    "id": "news-3wp5oc",
+    "title": "Google’s India-first AI models for agriculture | Key Details - Utkarsh Classes",
+    "description": "Google’s India-first AI models for agriculture | Key Details&nbsp;&nbsp;Utkarsh Classes",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdG43dC1ydk42Y1BsYzhkTkZLTURoTjkyazlCTko3WkEydnlSb3ljbjRwZGN6dG95Sm0zT3FuV3FuZjB5TG5OYUEybklDSE92TTlWTEc5T2ZnQmhoS0FfNzcwNjl3MGhGbHJUQ1NaRGRYM2F4VVVMc3pFVWZhN19CT09TNFdwSHJkMlNQTGJDNDBubHFOOUQ3R25hOFNab2Nmb3F3UFlBNWhnQlY0RnNjSW9ZRG1HYkFjMVMzb1BYRjdOd1VUUmgxcndxUUg?oc=5",
+    "sourceName": "Utkarsh Classes",
+    "publishedDate": "2026-09-07",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "Google develops India-first AI agriculture models, demonstrating region-specific AI strategy and potential global expansion of specialized AI tools beyond general research.",
+    "keyFindings": [
+      "Google launches locally optimized AI models for agricultural applications in India, tailored to regional crop, soil, and climate data.",
+      "Strategy shows AI research tools can be regionalized and domain-specialized, not just generalist global platforms.",
+      "Models likely depend on localized agricultural research literature, datasets, and institutional partnerships.",
+      "Success in India could trigger similar regional AI initiatives in Europe, creating fragmented, specialized AI research tool landscape."
+    ],
+    "whyItMatters": "While geographically distant, this signals to Danish agribusiness and climate research institutions that specialized, locally relevant AI research tools are possible; Elsevier should consider whether LeapSpace can be customized for Danish/Nordic agricultural, climate, and sustainability research communities (e.g., regional literature indexing, local funding databases) to compete with region-specific tools Google or…",
+    "impact": {
+      "novelty": 3,
+      "commercial": 2,
+      "threat": 2,
+      "urgency": 2
+    },
+    "entities": [
+      "Google",
+      "India-first AI models",
+      "Agricultural AI",
+      "Regional AI strategy",
+      "Climate research",
+      "Crop science"
+    ],
+    "actionItems": [
+      "Research whether Google launches similar Nordic/European agriculture AI; monitor for direct Danish market implications.",
+      "Assess Scopus coverage of Danish and Nordic agricultural research; quantify dataset for potential LeapSpace customization.",
+      "Explore partnership with Danish agribusiness institutes (e.g., SEGES, university agronomy departments) to develop region-specific LeapSpace features (climate data, crop research, sustainability)…"
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-4wqswm",
+    "title": "OpenAI Scientist Warns of AI Risk as GPT-6 Astra Launches - The Tech Buzz",
+    "description": "OpenAI Scientist Warns of AI Risk as GPT-6 Astra Launches&nbsp;&nbsp;The Tech Buzz",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb3lxc2JxMVpfUDY2MzlFMnQyLWZQbWpuX21DTW8wZDZrWFRNcmxWMGU0b205QTJxMXNZeW1IOE9ISXVFUTBlakdITzZMV085N0lpcG9HVTNVQW1EZnFXdDlGa1RHQW1kLUdwamtudXhRWlZteVdFZzRFcTJQSVEyZmUzN2h0UzAxTy0zaUdlcTdKajFD?oc=5",
+    "sourceName": "The Tech Buzz",
+    "publishedDate": "2026-09-07",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI scientist publicly warns of AI risks amid GPT-6 launch, raising governance and verification concerns that validate Elsevier's 'trusted, verified data' positioning.",
+    "keyFindings": [
+      "Senior OpenAI researcher articulates safety and risk concerns about advanced AI model deployment without adequate governance.",
+      "Warning highlights potential for AI-generated misinformation, hallucinations, and unreliable research outputs from unvetted generalist models.",
+      "Concern validates institutional need for expert-vetted, curated research data sources (Scopus) over raw, unfiltered AI outputs.",
+      "Safety debate may drive institutional buyer preference for 'trusted source' research assistants over open generalist LLMs."
+    ],
+    "whyItMatters": "This warning is a gift to Elsevier sales: pitch Danish medical, biomedical, and research institutions that LeapSpace's claim-checking and expert-vetted Scopus-backed literature foundation offer safety guarantees GPT-6 cannot; emphasize regulatory and ethical liability concerns if institutions rely on unvetted AI for clinical/research decision-making.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 2,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "AI safety",
+      "AI risk governance",
+      "Research integrity",
+      "Hallucinations"
+    ],
+    "actionItems": [
+      "Draft one-pager: 'Research Integrity & AI Risk: Why Verified Data Matters' positioning LeapSpace's claim-checking and Scopus vetting as answer to AI safety concerns.",
+      "Target outreach to Danish medical research centers (Rigshospitalet, Herlev Hospital) emphasizing liability and regulatory risk of unvetted AI in clinical research.",
+      "Request LeapSpace product team highlight AI hallucination detection, source verification, and expert review features in marketing collateral."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-3s13ho",
+    "title": "Jensen Huang says ‘AGI has arrived’ after OpenAI launches GPT-6 Astra: What makes the new AI model different? - Open Magazine",
+    "description": "Jensen Huang says ‘AGI has arrived’ after OpenAI launches GPT-6 Astra: What makes the new AI model different?&nbsp;&nbsp;Open Magazine",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQl95Und0d2h2RDgyb3dUMVdIbWg3SWNHMFlDUDFYMmtHcGdLQldGZDBOaU4wNzFkMVRQdTEzV1M4THlvZVFnOFM2RTFabUlkUmE2ZV9jOHZqS0FuYTdvRnc5azlXU18zZEdOTDZjZEpMdU10YllNYWlzRTdJZUFBR2xaXzZ6VTByNU1vVnNzcDh6RVV4X19pWjYzbnJJOGx2Y3V1MkQ1dXVzSmJJNHZMdDJwRk91UUlXUVltUFlra1FsUjFZdFE0TnR5b3cyZWszMXpqWnl6akJtZEpV?oc=5",
+    "sourceName": "Open Magazine",
+    "publishedDate": "2026-09-07",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI claims GPT-6 Astra represents 'AGI arrival,' escalating AI capability race and prompting urgent reassessment of AI research assistant competition.",
+    "keyFindings": [
+      "OpenAI announces GPT-6 Astra as next-generation AI model with claimed advanced reasoning and multimodal capabilities.",
+      "CEO Jensen Huang's 'AGI has arrived' claim signals major capability jump, raising stakes for all AI-assisted research tools.",
+      "Model may outperform narrower, domain-specific research assistants on complex multi-step literature synthesis and discovery tasks.",
+      "If claims hold, generalist AI models could disrupt specialized research assistant markets, including Elsevier's LeapSpace positioning."
+    ],
+    "whyItMatters": "Danish research leadership (DTU, Copenhagen University) and institutional CIOs will closely monitor GPT-6 Astra's capabilities against commercial research tools; Elsevier must quickly benchmark LeapSpace against Astra's performance on literature search, claim-checking, and research report generation to defend institutional subscriptions and articulate unique value (proprietary indexing, expert-vetted data,…",
+    "impact": {
+      "novelty": 5,
+      "commercial": 5,
+      "threat": 5,
+      "urgency": 5
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Jensen Huang",
+      "Artificial General Intelligence (AGI)",
+      "Multimodal AI",
+      "Research assistant tools"
+    ],
+    "actionItems": [
+      "Immediately commission competitive benchmark: test GPT-6 Astra vs. LeapSpace on 10-15 real Danish research queries (genomics, climate, medicine); document strengths and gaps.",
+      "Prepare messaging for Danish institution CIOs distinguishing LeapSpace's verified-source indexing and integration with ScienceDirect from generalist AI model risks.",
+      "Escalate to Elsevier product leadership: recommend accelerated LeapSpace feature roadmap (e.g., real-time literature alerts, deep integration with Scopus data quality checks) to stay ahead of…"
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-hzd8bm",
     "title": "Anthropic Launches Fable 5.1, Its Most Capable AI Yet - Digital Pakistan",
     "description": "Anthropic Launches Fable 5.1, Its Most Capable AI Yet&nbsp;&nbsp;Digital Pakistan",
