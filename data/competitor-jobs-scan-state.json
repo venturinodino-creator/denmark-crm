@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-13T19:10:22.009Z",
+  "lastRun": "2026-09-14T13:33:08.496Z",
   "totalOpenRoles": 2,
   "totalListed": 4,
   "newCount": 0,
@@ -16,19 +16,19 @@
       "dkOrRemote": 0
     },
     "Clarivate": {
-      "total": 174,
+      "total": 180,
       "dkOrRemote": 0
     },
     "Springer Nature": {
-      "total": 62,
+      "total": 61,
       "dkOrRemote": 0
     },
     "Wiley": {
-      "total": 75,
+      "total": 72,
       "dkOrRemote": 0
     },
     "OpenAI": {
-      "total": 794,
+      "total": 797,
       "dkOrRemote": 1
     },
     "Anthropic": {
