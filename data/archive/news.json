@@ -1,5 +1,283 @@
 [
   {
+    "id": "news-folz4l",
+    "title": "BioInnovation Institute allocates €8 million - BeBeez International",
+    "description": "BioInnovation Institute allocates €8 million&nbsp;&nbsp;BeBeez International",
+    "institution": "BioInnovation Institute",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yaFdRSm43OVpKVDV4amVsTTh5TjJBNFdfYzNjbkNheVhJMlNRUXRkcFhoTnJrYl9GXzlLWGFJenFUbE5kbjlHbk02ZDBlZjhrMkJWdGZGOWJrNHk3SG4zMFBhcXduNF9idUIzcXBDSkRXY1QtRWRwcW5yeHFqWEk?oc=5",
+    "sourceName": "BeBeez International",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "BioInnovation Institute commits €8M to advance biotech startups, signalling increased market demand for research intelligence tools.",
+    "keyFindings": [
+      "€8M allocation indicates sustained and growing investment in Nordic early-stage biotech companies.",
+      "Investment targets high-risk, high-reward deep-tech sectors requiring extensive scientific validation.",
+      "Startups will need rigorous literature and funding landscape research to de-risk product development.",
+      "AI-driven research tools are increasingly critical for startups to compete in complex, fast-moving domains."
+    ],
+    "whyItMatters": "Startups receiving BioInnovation funding—and their Danish institutional partners—depend on AI-assisted literature search and research acceleration tools to validate claims, map prior art, and access funding intelligence; LeapSpace directly reduces time-to-market and peer-review friction for portfolio companies.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 4
+    },
+    "entities": [
+      "BioInnovation Institute",
+      "Biotech startups (portfolio)",
+      "Deep-tech sector",
+      "AI research assistance",
+      "Nordic innovation ecosystem"
+    ],
+    "actionItems": [
+      "Pitch LeapSpace AI-assisted research features directly to BioInnovation Institute as portfolio-wide platform to improve startup success rates and reduce due-diligence overhead.",
+      "Create bundle offer (Scopus + ScienceDirect + LeapSpace) targeted at Danish biotech accelerators and corporate VC arms supporting these funded startups."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-g3cc5t",
+    "title": "BioInnovation Institute allocates €7.8M to help six companies bring technologies to market - Tech.eu",
+    "description": "BioInnovation Institute allocates €7.8M to help six companies bring technologies to market&nbsp;&nbsp;Tech.eu",
+    "institution": "BioInnovation Institute",
+    "category": "funding",
+    "categoryLabel": "Funding Received",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYWEtQXBGcW10OFU1LVpNSENvMzV4X1RPOG1rZHVKYVo3NUlEQmhyeEpRZmlKQzJiOFQzZC1iVEtZOE9YbndOQzFkeXhKUTVwRlJ3QjFtRWhoSDlsUzNqenpzVlJrdEZsNHZ0UFIwUmhQeTdMVFQzQzRZS0RsMFl0clJuUElqYVVXSW80R1J1VEl5c3NoV29CWC1ueGtOdlVW?oc=5",
+    "sourceName": "Tech.eu",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "€7.8M BioInnovation Institute fund across six startups underscores Nordic biotech commercialisation momentum and research support needs.",
+    "keyFindings": [
+      "BioInnovation Institute commits €7.8M total to help six companies reach market commercialisation stage.",
+      "Startups address critical sectors: oncology, infectious disease, agriculture, and decarbonisation.",
+      "Funding model emphasises bringing academic research outcomes to commercial products and services.",
+      "Initiative reflects EU and Nordic investment in translational research and deep-tech entrepreneurship."
+    ],
+    "whyItMatters": "Danish universities and research institutes working with these startups require integrated literature review, author tracking, and claims validation—LeapSpace's writing coach and claim-checking features accelerate peer-review readiness and market-facing technical documentation for commercialising spin-outs.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 2,
+      "urgency": 3
+    },
+    "entities": [
+      "BioInnovation Institute",
+      "Six portfolio companies",
+      "Oncology",
+      "Infectious disease",
+      "Agricultural biotech",
+      "Decarbonisation"
+    ],
+    "actionItems": [
+      "Contact Danish biotech incubators and research parks to position LeapSpace as a shared research workspace for portfolio company due diligence.",
+      "Develop case study with one BioInnovation Institute-backed startup showing ROI of Scopus/ScienceDirect for regulatory and competitive intelligence."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-jo2w3p",
+    "title": "BioInnovation Institute injects €1.3 million each into six startups tackling cancer, disease, pest control and decarbonisation - eu-startups.com",
+    "description": "BioInnovation Institute injects €1.3 million each into six startups tackling cancer, disease, pest control and decarbonisation&nbsp;&nbsp;eu-startups.com",
+    "institution": "BioInnovation Institute",
+    "category": "funding",
+    "categoryLabel": "Funding Received",
+    "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcjdZcHhfRjJ4ZC1IRHdGblcwUXd6TVFjVEVnbFJVcU0talRYbF9GcXZmQjRyNlRJcHpGbENGRFFCUEU5V242b3JialQ3RG0xTkRzUWgyUVZWUFpNcnVTaUVLalFPYXhMYkxuSWo0YlFvR1E2Qm54blVJa0JNenFUcWVGemRic3hHSGlOaUZGaS14NEZaQnJzWHZhU1BWdkpka0xGRmk5dEVMZGpoZWtjVEw2TjVfOVN1SF9WLVJsbFc5MTgyVmJYUXYybDAyTTNrQ1h1Z2lLRVRmSE0zRktvVEdSVW42Wm1tTlZCYg?oc=5",
+    "sourceName": "eu-startups.com",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "BioInnovation Institute deploys €7.8M across six biotech startups in cancer, disease, pest control, and decarbonisation.",
+    "keyFindings": [
+      "Six startups each receive €1.3M in funding from BioInnovation Institute for deep-tech commercialisation.",
+      "Focus areas span cancer treatment, disease prevention, agricultural pest control, and carbon reduction technologies.",
+      "Total allocation of €7.8M signals significant growth in Nordic biotech startup ecosystem support.",
+      "Companies are positioned in high-impact sectors aligned with EU climate and health priorities."
+    ],
+    "whyItMatters": "Danish biotech and life-science institutions backing these startups need comprehensive literature discovery, competitor analysis, and funding-landscape intelligence—LeapSpace's funding discovery and deep research reports directly support due diligence and grant-writing workflows for emerging research collaborators.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 2,
+      "urgency": 3
+    },
+    "entities": [
+      "BioInnovation Institute",
+      "Six funded startups (unnamed)",
+      "Cancer therapeutics",
+      "Pest control technology",
+      "Decarbonisation/climate tech"
+    ],
+    "actionItems": [
+      "Identify which Danish research institutions are collaborating with or advising these six startups to target institutional relationships.",
+      "Map the scientific publications and patent landscape in cancer, disease, and decarbonisation to demonstrate Scopus/ScienceDirect value to startup advisory boards."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-uykf6t",
+    "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+    "description": "GPT-6 Astra: A new generation of intelligence&nbsp;&nbsp;OpenAI",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+    "sourceName": "OpenAI",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-08",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI releases GPT-6 Astra with advanced multimodal and reasoning capabilities, establishing new benchmark for AI research tools that LeapSpace must match or exceed.",
+    "keyFindings": [
+      "GPT-6 Astra features claimed improvements in reasoning, multimodal understanding, and complex task execution across domains.",
+      "Official announcement confirms model is production-ready and available to enterprise customers and institutions.",
+      "Capabilities likely include real-time information retrieval, document analysis, and multi-step research workflows.",
+      "Launch signals industry-wide expectation that AI research assistants will converge on advanced multimodal, reasoning-first design."
+    ],
+    "whyItMatters": "Danish university research offices and library procurement teams will evaluate GPT-6 Astra as potential alternative or complement to ScienceDirect/Scopus/LeapSpace; Elsevier must rapidly demonstrate that LeapSpace's integration with 19M+ proprietary ScienceDirect articles, Scopus indexing, and domain-specific workflows (funding discovery, author tracking, paper comparison) deliver capabilities and trust that generic…",
+    "impact": {
+      "novelty": 4,
+      "commercial": 5,
+      "threat": 5,
+      "urgency": 5
+    },
+    "entities": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Multimodal AI",
+      "Advanced reasoning",
+      "Enterprise AI",
+      "Research workflows"
+    ],
+    "actionItems": [
+      "Launch 'LeapSpace vs. GPT-6 Astra' positioning document for Danish sales team highlighting proprietary indexing, trusted sources, and integration with ScienceDirect/Scopus.",
+      "Coordinate with Elsevier product marketing to accelerate advanced features (multimodal document analysis, real-time literature monitoring, AI-powered collaboration tools).",
+      "Schedule urgent demos at major Danish research institutions (Copenhagen University, Aarhus, DTU) to showcase LeapSpace capabilities before Astra adoption takes hold."
+    ],
+    "sourceType": "primary"
+  },
+  {
+    "id": "news-lukjw5",
+    "title": "BioInnovation Institute commits €8 million to six companies advancing health and sustainability - - ArcticStartup",
+    "description": "BioInnovation Institute commits €8 million to six companies advancing health and sustainability -&nbsp;&nbsp;ArcticStartup",
+    "institution": "BioInnovation Institute",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BelU1ZjZLWDNIUVVVQmpWVkhrUnlpYVFGMFI1Tk8tYm5xMFQyM1Iwc3NOak9oVUZWT0YtemNzV1N5a2s3SVltNEZQUDMxNlpOQ05RX21TZ1cydmM5TnFXZTZVNGw4WHZZWUlIUVp0Y2VOQ2tDVTVaMGdBY9IBe0FVX3lxTE1BelU1ZjZLWDNIUVVVQmpWVkhrUnlpYVFGMFI1Tk8tYm5xMFQyM1Iwc3NOak9oVUZWT0YtemNzV1N5a2s3SVltNEZQUDMxNlpOQ05RX21TZ1cydmM5TnFXZTZVNGw4WHZZWUlIUVp0Y2VOQ2tDVTVaMGdBYw?oc=5",
+    "sourceName": "ArcticStartup",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-09",
+    "autoDiscovered": true,
+    "bottomLine": "Denmark's BioInnovation Institute commits €8M to six health/sustainability startups, signaling strong innovation funding ecosystem and research commercialization opportunity.",
+    "keyFindings": [
+      "BioInnovation Institute (Danish biotech accelerator) deploying significant capital to early-stage health and sustainability companies.",
+      "Six portfolio companies now actively conducting R&D, likely publishing and seeking partnerships with Danish research institutions.",
+      "Funding commitment indicates strong domestic demand for translational research infrastructure and evidence discovery tools.",
+      "Startups will need access to peer-reviewed literature, competitive landscape analysis, and funding intelligence—core LeapSpace features."
+    ],
+    "whyItMatters": "These six companies and their parent accelerator represent high-value sales prospects: they need Scopus for competitor and partner tracking, ScienceDirect for rapid literature access, and LeapSpace for funding intelligence and claim-checking as they scale; engage BioInnovation Institute as consortium gateway to pitch bundle subscriptions.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 4,
+      "threat": 1,
+      "urgency": 4
+    },
+    "entities": [
+      "BioInnovation Institute",
+      "Danish biotech ecosystem",
+      "Health startups",
+      "Sustainability innovation",
+      "Translational research"
+    ],
+    "actionItems": [
+      "Contact BioInnovation Institute directly to offer startup-focused Scopus/ScienceDirect/LeapSpace bundle at consortium rate.",
+      "Identify and research the six portfolio companies; pitch LeapSpace funding discovery and competitive landscape reports.",
+      "Develop 'startup acceleration package' positioning (lower-cost tier for early-stage companies) to capture ecosystem-wide adoption."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-tpdosy",
+    "title": "Google’s Atlas of the human genome could pave the way for new treatments - The Verge",
+    "description": "Google’s Atlas of the human genome could pave the way for new treatments&nbsp;&nbsp;The Verge",
+    "institution": "Google",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUlctSm91ckpOSzRmSzVhUTJfNzFmcTVFLTVFTEpzT252MEJHMl8xMzZ6LTM2WC1ZU3BKUGJnbFNQUjlDMFpqR3RWV0dtX2NLR1hfYTg0Q25JLUZGTWZpSWRGXzI0UkM5VFRhSUE2UmxSYVZXRjBCUlFEM2tLN21MMmdVWXNnWHg4U3JZTk9SZ3Q1bEM3V0xZUQ?oc=5",
+    "sourceName": "The Verge",
+    "publishedDate": "2026-09-08",
+    "foundDate": "2026-09-11",
+    "autoDiscovered": true,
+    "bottomLine": "Google publishes comprehensive human genome atlas, accelerating precision medicine discovery and genomic research applications.",
+    "keyFindings": [
+      "Google's Atlas provides detailed human genome mapping for disease understanding and treatment development.",
+      "High-resolution genomic data enables researchers to identify new therapeutic targets and biomarkers.",
+      "Atlas democratizes access to complex genomic reference data previously siloed in specialized databases.",
+      "Tool supports personalized medicine research across multiple disease areas and populations."
+    ],
+    "whyItMatters": "Danish biomedical and genomics researchers at Aarhus, Copenhagen, and Karolinska institutes need comprehensive, discoverable genome literature and funding sources—LeapSpace's funding discovery and deep research reports help institutions identify collaborative opportunities and justify Atlas adoption alongside ScienceDirect's biomedics journals.",
+    "impact": {
+      "novelty": 4,
+      "commercial": 4,
+      "threat": 3,
+      "urgency": 3
+    },
+    "entities": [
+      "Google",
+      "Atlas of the human genome",
+      "Precision medicine",
+      "Genomic research",
+      "Disease biomarkers"
+    ],
+    "actionItems": [
+      "Pitch Scopus + ScienceDirect genome/precision medicine journal bundle to Danish university life sciences libraries as complementary to Google Atlas.",
+      "Highlight LeapSpace's literature search and author discovery for genomics research teams tracking Google-enabled studies.",
+      "Map Danish biotech/pharma companies leveraging Atlas to identify funding and partnership leads via LeapSpace."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-rvaf4q",
+    "title": "Saida Hadjab receives second Novo Nordisk Foundation grant to advance chronic pain research - Karolinska institutet",
+    "description": "Saida Hadjab receives second Novo Nordisk Foundation grant to advance chronic pain research&nbsp;&nbsp;Karolinska institutet",
+    "institution": "Novo Nordisk Foundation",
+    "category": "ai_adoption",
+    "categoryLabel": "AI Development & Adoption",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlpUVHlZbmQtbVA2NTNqVE5aZThJZXQ0N2ZmZDR2WXJjZkxpWmZpdWRkUUJHUEdBTGtBX0JadUtBRWdKOXhzczJtTFppUXg4blFwcEJnUWZmd0l5ZVE3ejFma1o4bHh2NTFONDVSTnBQejNUeXRHWWpOdEVhWWRxcE5zU1YxVzR2My1lS2NoNk9mdUZsdWxKRUFVaTM2RjZGWkRVNkVROEFFWjRuN204?oc=5",
+    "sourceName": "Karolinska institutet",
+    "publishedDate": "2026-09-07",
+    "foundDate": "2026-09-15",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-co7se0",
+    "title": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities - CNBC",
+    "description": "OpenAI begins rolling out Astra model after warning of its advanced cyber capabilities&nbsp;&nbsp;CNBC",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1iUlVPODl5bTBweko3Y1pHY1Y3RzZua3FHak9hVm5aa3hZWmNQcmVrVW1VMHdXME04cDJITVM4TmlBdUZWZ3JIQlgtdUZPMjlEd3pUdmNkV3BsT3FRMTEwNm1GcnRJU2NXeElBYVZhcw?oc=5",
+    "sourceName": "CNBC",
+    "publishedDate": "2026-09-03",
+    "foundDate": "2026-09-15",
+    "autoDiscovered": true
+  },
+  {
+    "id": "news-ilgzf3",
+    "title": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions - The Indian Express",
+    "description": "OpenAI launches GPT-6 Astra, the AI model built to do more than answer questions&nbsp;&nbsp;The Indian Express",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSmZCNl9FQ0RXNmJTemhxVmxOdFV2TFJ1bGN3TUdTeGpiN3QwRUNVbUNJRjBqY2NCQVFuNEdUNzRqT2hQTTVsQkliZHFNemdKRC1kYVBWRkotaXRIRWhWNVR2U3pSRTlHbERRVkl3aV9MSUJGNmp4cHdQU09rak5LTjZCMU05Z3A3b1hKajU4UzJ1RXhZb19JYjltZEFBSzFiMWJFSkRQRmFZdFZ2X0NSbEZFb0V2aUJUb01DMkV1QXnSAccBQVVfeXFMT1FqNzYtOVVoTnZ4c2tjT09fRl9SeE9MMFZrUllzdVA2NVBpcUE4VjE5YjJfTElzR1Z1WDdvSzhPT0NWQ1JaVHE2YnpleUFjMTB4LTlUNndsN2cwOVdqTERSeElMaDYyQl80VEJub1FTU1VoNld1TTZjaUdIOXkzQUhzMzJxckhVS0pHWHVfVzdCR29",
+    "sourceName": "The Indian Express",
+    "publishedDate": "2026-09-06",
+    "foundDate": "2026-09-15",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-3wp5oc",
     "title": "Google’s India-first AI models for agriculture | Key Details - Utkarsh Classes",
     "description": "Google’s India-first AI models for agriculture | Key Details&nbsp;&nbsp;Utkarsh Classes",
