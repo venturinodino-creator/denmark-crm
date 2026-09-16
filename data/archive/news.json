@@ -1,5 +1,58 @@
 [
   {
+    "id": "news-6b86d",
+    "title": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke - Neurology® Journals",
+    "description": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke&nbsp;&nbsp;Neurology® Journals",
+    "institution": null,
+    "category": "policy",
+    "categoryLabel": "Denmark Research Policy",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81LUo5bjJkLTdndEJqZHVzZmc0UGlBSVhWWWYwbUZkLTZScVFtVUVVQURrVGNzZGxkOHVZVS1RMHVGVXVLRkkySGo3QmhvS3dwZ3JmS3dfYXp1cC01X0MwRDZlWUtmZlVQaVE?oc=5",
+    "sourceName": "Neurology® Journals",
+    "publishedDate": "2026-09-09",
+    "foundDate": "2026-09-11",
+    "autoDiscovered": true,
+    "bottomLine": "Major neurology outcome study on perioperative stroke published, exemplifying high-impact clinical research Danish medical institutions must discover and track.",
+    "keyFindings": [
+      "Five-year follow-up data comparing perioperative vs. nonperioperative stroke outcomes published in peer-reviewed neurology journal.",
+      "Long-term outcome studies are critical for clinical decision-making and guideline updates in Scandinavian healthcare.",
+      "Study demonstrates value of longitudinal research—often underindexed by generic search tools, well-surfaced by Scopus and ScienceDirect.",
+      "Type of research Danish medical centers (Copenhagen University Hospital, Rigshospitalet) conduct and cite regularly."
+    ],
+    "whyItMatters": "Danish clinical neurologists and cardiac surgeons at major hospitals rely on ScienceDirect and Scopus to discover outcome studies for evidence-based practice; this article shows the kind of high-impact clinical evidence Elsevier platforms excel at indexing and making discoverable—pitch as proof of ScienceDirect/Scopus superiority for clinical literature vs. Google Scholar.",
+    "impact": {
+      "novelty": 2,
+      "commercial": 3,
+      "threat": 1,
+      "urgency": 2
+    },
+    "entities": [
+      "Neurology® Journals",
+      "Perioperative stroke",
+      "Five-year outcomes",
+      "Clinical neurology",
+      "Evidence-based medicine"
+    ],
+    "actionItems": [
+      "Use this article as anchor example in ScienceDirect pitch to Copenhagen University Hospital and Rigshospitalet clinical libraries.",
+      "Query Scopus for perioperative stroke study citations to show clinical impact and interdisciplinary reach.",
+      "Develop 'clinical evidence trail' infographic showing how Scopus citation tracking helps clinicians identify landmark long-term studies like this."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-i0jbjy",
+    "title": "Anthropic researcher's resignation sends warning about the dangers of AI development - PBS",
+    "description": "Anthropic researcher's resignation sends warning about the dangers of AI development&nbsp;&nbsp;PBS",
+    "institution": "Anthropic",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOXY4MndxQmFFbWQ2TktCNVI3bHdSMUhzODdfdHFUMTB3Nk9lQkgxNFRWV285dWtLZGFHWWl2S01GX0FOOEdsdUhzdjZ2Y1gwUlZ4aDZGdnk0MnNmWWdZd1owV0lCTFFENXBuRUY4ZzVGM1JaSmdhNzRuS0g1NVhRMFB3TkgxeS1zZmdKMXYwYTI3Qm5pSlI5WFZYQWVmM2tfeDNMekxjSmlrTFZ1bTNScDRoRzVsZkRaTk8zWg?oc=5",
+    "sourceName": "PBS",
+    "publishedDate": "2026-09-09",
+    "foundDate": "2026-09-16",
+    "autoDiscovered": true
+  },
+  {
     "id": "news-folz4l",
     "title": "BioInnovation Institute allocates €8 million - BeBeez International",
     "description": "BioInnovation Institute allocates €8 million&nbsp;&nbsp;BeBeez International",

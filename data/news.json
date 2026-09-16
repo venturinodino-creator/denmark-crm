@@ -1,5 +1,85 @@
 [
   {
+    "id": "news-gapqlu",
+    "title": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research - PR Newswire",
+    "description": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research&nbsp;&nbsp;PR Newswire",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONC1iQW5zREF2WE5FNUFwS3Z0blNxV2Z3aEU5bWVBRnpmR3l0LS03N2NfaUROemE3b1hnUllMY0M0TGt2eTM3M1RkZW13Vkw4UmVYQmxUejVhaXFZRzV2UmJjcVc1MVNNaG00SkFFS29qcUQxTUNuSWRiYV9xNU1fb0lvR2p3R0lHS1NkTW5pc1JLRWpfeWV5TGhxUEozWnk3WEM2b0VsaTdnUElfMXNHNXhqS01DZ01vZTBOdVZRNmphemZaanZQTWZjbUFvSVpBajF5RmtOcTlQclJjTi1aRHVnX0pwRXRvMThWMHp6M0pEVTBu?oc=5",
+    "sourceName": "PR Newswire",
+    "publishedDate": "2026-09-10",
+    "foundDate": "2026-09-16",
+    "autoDiscovered": true,
+    "bottomLine": "IEEE launches AI Research Suite—a direct competitor to LeapSpace and Scopus AI features, built on verified research.",
+    "keyFindings": [
+      "IEEE Xplore AI Research Suite is a new AI assistant designed for research discovery and analysis.",
+      "The tool emphasizes verified, expert-vetted research as a differentiator from other AI tools.",
+      "This directly competes with LeapSpace's literature search and deep research capabilities.",
+      "IEEE Xplore is a major abstract/citation database similar to Scopus in scope and reach.",
+      "Product is now live; adoption by institutions will signal competitive threat to Elsevier's AI strategy."
+    ],
+    "whyItMatters": "IEEE Xplore AI Research Suite is a direct competitor product launch that mirrors LeapSpace's core value proposition (AI-assisted research discovery on verified research). Sales agents should monitor institutional adoption, especially at research-heavy Danish universities, to defend existing Scopus/ScienceDirect relationships.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "IEEE",
+      "IEEE Xplore AI Research Suite",
+      "Scopus",
+      "LeapSpace"
+    ],
+    "actionItems": [
+      "Identify which Danish universities subscribe to IEEE Xplore and assess if they are evaluating or piloting the new AI Suite.",
+      "Prepare comparative messaging on LeapSpace advantages (integration with ScienceDirect full-text, Scopus depth, writing coach) vs. IEEE's offer.",
+      "Proactively contact key accounts at major Danish research universities to clarify LeapSpace roadmap and lock in renewal commitments."
+    ],
+    "sourceType": "primary"
+  },
+  {
+    "id": "news-ojaw5a",
+    "title": "IEEE unveils IEEE Xplore AI Research Suite - a new AI assistant built on verified, expert vetted research - EdTech Innovation Hub",
+    "description": "IEEE unveils IEEE Xplore AI Research Suite - a new AI assistant built on verified, expert vetted research&nbsp;&nbsp;EdTech Innovation Hub",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNkxTOTVMRG9Wa1JRLWJKRWdURUpaSDhTMTVfYkFIRVdSNVo4ZWRuS29PVkR1dTZSM1BMeDNVWkl2S1dzRFczSHFmeUJNdVlKOGs3MVV5TzlGZ29SRHRxNF8yN3Myemlxb01VdWdqbUxoOG9URl9nVDY2ZnQ5OWZVaGY5UnlBd24xLVRoOFp6ajlhQVBkUzZ2bVJEYWdBYTZMY1l0YzltZ3B6Vms3VEJMMlItWmF4YUc3ZDhleHJnTVcyT05yQVF2a29NUE1KQjJlNUcwTkM3ZHU2MmVVMVBjdw?oc=5",
+    "sourceName": "EdTech Innovation Hub",
+    "publishedDate": "2026-09-16",
+    "foundDate": "2026-09-16",
+    "autoDiscovered": true,
+    "bottomLine": "IEEE launches AI Research Suite—a direct competitor to LeapSpace and Scopus AI features, built on verified research.",
+    "keyFindings": [
+      "IEEE Xplore AI Research Suite is a new AI assistant designed for research discovery and analysis.",
+      "The tool emphasizes verified, expert-vetted research as a differentiator from other AI tools.",
+      "This directly competes with LeapSpace's literature search and deep research capabilities.",
+      "IEEE Xplore is a major abstract/citation database similar to Scopus in scope and reach.",
+      "Product is now live; adoption by institutions will signal competitive threat to Elsevier's AI strategy."
+    ],
+    "whyItMatters": "IEEE Xplore AI Research Suite is a direct competitor product launch that mirrors LeapSpace's core value proposition (AI-assisted research discovery on verified research). Sales agents should monitor institutional adoption, especially at research-heavy Danish universities, to defend existing Scopus/ScienceDirect relationships.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "IEEE",
+      "IEEE Xplore AI Research Suite",
+      "Scopus",
+      "LeapSpace"
+    ],
+    "actionItems": [
+      "Identify which Danish universities subscribe to IEEE Xplore and assess if they are evaluating or piloting the new AI Suite.",
+      "Prepare comparative messaging on LeapSpace advantages (integration with ScienceDirect full-text, Scopus depth, writing coach) vs. IEEE's offer.",
+      "Proactively contact key accounts at major Danish research universities to clarify LeapSpace roadmap and lock in renewal commitments."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-s3m7zo",
     "title": "OpenAI Launches Data Agent as Enterprise Analytics Race Heats Up - HPCwire",
     "description": "OpenAI Launches Data Agent as Enterprise Analytics Race Heats Up&nbsp;&nbsp;HPCwire",
@@ -10,7 +90,35 @@
     "sourceName": "HPCwire",
     "publishedDate": "2026-09-11",
     "foundDate": "2026-09-15",
-    "autoDiscovered": true
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI's new Data Agent enters enterprise analytics, intensifying competition in AI-powered research and data discovery tools that Elsevier platforms must match.",
+    "keyFindings": [
+      "OpenAI has launched a Data Agent product designed for enterprise analytics and data exploration use cases.",
+      "The move signals OpenAI's expansion beyond conversational AI into structured data analysis and research workflows.",
+      "Enterprise analytics market is heating up with multiple vendors—including Elsevier competitors—racing to embed AI agents.",
+      "Data Agent aims to automate complex analytical tasks previously requiring specialized skills or manual effort.",
+      "This positions OpenAI as a direct competitor to specialized research analytics platforms and AI assistants."
+    ],
+    "whyItMatters": "Danish universities and research institutes now face pressure to adopt integrated AI-powered analytics tools. Elsevier's LeapSpace and Scopus must demonstrate superior domain expertise in scholarly discovery and claim verification versus generic OpenAI agents to justify institutional subscriptions and retain competitive edge.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "Data Agent",
+      "HPCwire",
+      "LeapSpace",
+      "Scopus"
+    ],
+    "actionItems": [
+      "Conduct competitive audit: map Data Agent's capabilities against LeapSpace features; identify feature gaps or differentiation opportunities.",
+      "Schedule briefings with key Danish institution research offices to understand adoption risk and gather requirements for enhanced AI-assisted research tools.",
+      "Develop messaging emphasizing Elsevier's domain-specific indexing, verified citation data, and research ethics safeguards versus generic AI agents."
+    ],
+    "sourceType": "secondary"
   },
   {
     "id": "news-1vf95d",
@@ -50,46 +158,6 @@
       "Conduct competitive analysis: audit IEEE Xplore AI capabilities vs. LeapSpace on engineering/computing queries; document gaps in life sciences, medical, and social science coverage.",
       "Launch targeted DTU/Aalborg/IT University outreach emphasizing LeapSpace's multidisciplinary depth beyond engineering.",
       "Develop case study showing Danish researchers using LeapSpace + ScienceDirect across engineering + biomedicine in single workflow."
-    ],
-    "sourceType": "secondary"
-  },
-  {
-    "id": "news-6b86d",
-    "title": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke - Neurology® Journals",
-    "description": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke&nbsp;&nbsp;Neurology® Journals",
-    "institution": null,
-    "category": "policy",
-    "categoryLabel": "Denmark Research Policy",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81LUo5bjJkLTdndEJqZHVzZmc0UGlBSVhWWWYwbUZkLTZScVFtVUVVQURrVGNzZGxkOHVZVS1RMHVGVXVLRkkySGo3QmhvS3dwZ3JmS3dfYXp1cC01X0MwRDZlWUtmZlVQaVE?oc=5",
-    "sourceName": "Neurology® Journals",
-    "publishedDate": "2026-09-09",
-    "foundDate": "2026-09-11",
-    "autoDiscovered": true,
-    "bottomLine": "Major neurology outcome study on perioperative stroke published, exemplifying high-impact clinical research Danish medical institutions must discover and track.",
-    "keyFindings": [
-      "Five-year follow-up data comparing perioperative vs. nonperioperative stroke outcomes published in peer-reviewed neurology journal.",
-      "Long-term outcome studies are critical for clinical decision-making and guideline updates in Scandinavian healthcare.",
-      "Study demonstrates value of longitudinal research—often underindexed by generic search tools, well-surfaced by Scopus and ScienceDirect.",
-      "Type of research Danish medical centers (Copenhagen University Hospital, Rigshospitalet) conduct and cite regularly."
-    ],
-    "whyItMatters": "Danish clinical neurologists and cardiac surgeons at major hospitals rely on ScienceDirect and Scopus to discover outcome studies for evidence-based practice; this article shows the kind of high-impact clinical evidence Elsevier platforms excel at indexing and making discoverable—pitch as proof of ScienceDirect/Scopus superiority for clinical literature vs. Google Scholar.",
-    "impact": {
-      "novelty": 2,
-      "commercial": 3,
-      "threat": 1,
-      "urgency": 2
-    },
-    "entities": [
-      "Neurology® Journals",
-      "Perioperative stroke",
-      "Five-year outcomes",
-      "Clinical neurology",
-      "Evidence-based medicine"
-    ],
-    "actionItems": [
-      "Use this article as anchor example in ScienceDirect pitch to Copenhagen University Hospital and Rigshospitalet clinical libraries.",
-      "Query Scopus for perioperative stroke study citations to show clinical impact and interdisciplinary reach.",
-      "Develop 'clinical evidence trail' infographic showing how Scopus citation tracking helps clinicians identify landmark long-term studies like this."
     ],
     "sourceType": "secondary"
   }
