@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-15T12:24:23.732Z",
+  "lastRun": "2026-09-16T12:21:21.720Z",
   "totalOpenRoles": 2,
   "totalListed": 4,
   "newCount": 0,
@@ -12,11 +12,11 @@
       "dkOrRemote": 0
     },
     "Allen Institute for AI": {
-      "total": 20,
+      "total": 21,
       "dkOrRemote": 0
     },
     "Clarivate": {
-      "total": 177,
+      "total": 181,
       "dkOrRemote": 0
     },
     "Springer Nature": {
@@ -24,15 +24,15 @@
       "dkOrRemote": 0
     },
     "Wiley": {
-      "total": 75,
+      "total": 73,
       "dkOrRemote": 0
     },
     "OpenAI": {
-      "total": 808,
+      "total": 813,
       "dkOrRemote": 1
     },
     "Anthropic": {
-      "total": 596,
+      "total": 595,
       "dkOrRemote": 0
     },
     "Elicit": {
