@@ -1,9 +1,11 @@
 {
-  "lastRun": "2026-09-17T12:06:29.013693Z",
-  "lastNewCount": 0,
-  "sourcesReached": 2,
-  "sourcesTotal": 2,
-  "itemsExamined": 23,
+  "lastRun": "2026-09-17T19:15:43.914192Z",
+  "lastNewCount": 1,
+  "sourcesReached": 11,
+  "sourcesTotal": 11,
+  "itemsExamined": 829,
   "failedSources": [],
-  "seenUrls": []
+  "seenUrls": [
+    "https://www.aub.aau.dk/sog#06f2878f-8c3f-4fc9-8163-5f90e8034d4c"
+  ]
 }
