@@ -1,5 +1,86 @@
 [
   {
+    "id": "news-1vf95d",
+    "title": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research - Yahoo Finance",
+    "description": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research&nbsp;&nbsp;Yahoo Finance",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYmtuVEpUQThSNU9PTjRKNzJTc1BJOGJFNEloZWpXT0RoVmVHbER2cThKNFlMSjN6TWVMN2RDMTZ2Y0U2eWlLZTBYM053c3V6ZnlGSUR5R2xWWUVHQmRuTllCY2Q5MHhaWW84dklWdjByTkkzMnd3Z3hiNG5uRFV2cmdtWTl4YnhFeUFTSElHVFhMbjNTR2c?oc=5",
+    "sourceName": "Yahoo Finance",
+    "publishedDate": "2026-09-10",
+    "foundDate": "2026-09-11",
+    "autoDiscovered": true,
+    "bottomLine": "IEEE launches AI-powered research assistant on verified expert-vetted literature, directly competing with Elsevier's LeapSpace positioning.",
+    "keyFindings": [
+      "IEEE Xplore AI Research Suite delivers AI-assisted search and navigation of IEEE's peer-reviewed engineering and tech corpus.",
+      "Tool emphasizes expert vetting and verification—differentiator against generalist AI research assistants.",
+      "Integration into IEEE Xplore reduces friction for engineers already subscribing to IEEE content.",
+      "Positions IEEE as credible alternative to emerging AI research tools like Elicit, Semantic Scholar, and scite."
+    ],
+    "whyItMatters": "Danish engineering and IT research institutions (DTU, Aalborg, IT University) may consolidate subscriptions around IEEE if Xplore's AI suite feels complete; Elsevier must emphasize LeapSpace's cross-disciplinary span (life sciences, medicine, social science) and deeper integration with ScienceDirect's 19M+ articles to avoid subscription overlap losses.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 5,
+      "urgency": 5
+    },
+    "entities": [
+      "IEEE",
+      "IEEE Xplore AI Research Suite",
+      "Expert-vetted research",
+      "Elicit",
+      "Semantic Scholar",
+      "scite"
+    ],
+    "actionItems": [
+      "Conduct competitive analysis: audit IEEE Xplore AI capabilities vs. LeapSpace on engineering/computing queries; document gaps in life sciences, medical, and social science coverage.",
+      "Launch targeted DTU/Aalborg/IT University outreach emphasizing LeapSpace's multidisciplinary depth beyond engineering.",
+      "Develop case study showing Danish researchers using LeapSpace + ScienceDirect across engineering + biomedicine in single workflow."
+    ],
+    "sourceType": "secondary"
+  },
+  {
+    "id": "news-gapqlu",
+    "title": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research - PR Newswire",
+    "description": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research&nbsp;&nbsp;PR Newswire",
+    "institution": "IEEE",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONC1iQW5zREF2WE5FNUFwS3Z0blNxV2Z3aEU5bWVBRnpmR3l0LS03N2NfaUROemE3b1hnUllMY0M0TGt2eTM3M1RkZW13Vkw4UmVYQmxUejVhaXFZRzV2UmJjcVc1MVNNaG00SkFFS29qcUQxTUNuSWRiYV9xNU1fb0lvR2p3R0lHS1NkTW5pc1JLRWpfeWV5TGhxUEozWnk3WEM2b0VsaTdnUElfMXNHNXhqS01DZ01vZTBOdVZRNmphemZaanZQTWZjbUFvSVpBajF5RmtOcTlQclJjTi1aRHVnX0pwRXRvMThWMHp6M0pEVTBu?oc=5",
+    "sourceName": "PR Newswire",
+    "publishedDate": "2026-09-10",
+    "foundDate": "2026-09-16",
+    "autoDiscovered": true,
+    "bottomLine": "IEEE launches AI Research Suite—a direct competitor to LeapSpace and Scopus AI features, built on verified research.",
+    "keyFindings": [
+      "IEEE Xplore AI Research Suite is a new AI assistant designed for research discovery and analysis.",
+      "The tool emphasizes verified, expert-vetted research as a differentiator from other AI tools.",
+      "This directly competes with LeapSpace's literature search and deep research capabilities.",
+      "IEEE Xplore is a major abstract/citation database similar to Scopus in scope and reach.",
+      "Product is now live; adoption by institutions will signal competitive threat to Elsevier's AI strategy."
+    ],
+    "whyItMatters": "IEEE Xplore AI Research Suite is a direct competitor product launch that mirrors LeapSpace's core value proposition (AI-assisted research discovery on verified research). Sales agents should monitor institutional adoption, especially at research-heavy Danish universities, to defend existing Scopus/ScienceDirect relationships.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "IEEE",
+      "IEEE Xplore AI Research Suite",
+      "Scopus",
+      "LeapSpace"
+    ],
+    "actionItems": [
+      "Identify which Danish universities subscribe to IEEE Xplore and assess if they are evaluating or piloting the new AI Suite.",
+      "Prepare comparative messaging on LeapSpace advantages (integration with ScienceDirect full-text, Scopus depth, writing coach) vs. IEEE's offer.",
+      "Proactively contact key accounts at major Danish research universities to clarify LeapSpace roadmap and lock in renewal commitments."
+    ],
+    "sourceType": "primary"
+  },
+  {
     "id": "news-6b86d",
     "title": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke - Neurology® Journals",
     "description": "Five-Year Outcomes of Perioperative vs Nonperioperative Stroke&nbsp;&nbsp;Neurology® Journals",
