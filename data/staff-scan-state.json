@@ -1,7 +1,10 @@
 {
-  "lastRun": "2026-09-17T12:44:55.167Z",
+  "lastRun": "2026-09-17T19:19:44.203Z",
   "lastAddedCount": 0,
   "sources": 64,
+  "blockedSources": [
+    "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/"
+  ],
   "issues": [
     {
       "instId": "aau",
@@ -89,34 +92,10 @@
     },
     {
       "instId": "sdu",
-      "url": "https://www.sdu.dk/en/bibliotek/om-biblioteket/organisation",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "sdu",
-      "url": "https://www.sdu.dk/en/om-sdu/ledelse-administration/sdurio/kontakt-os",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "sdu",
-      "url": "https://www.sdu.dk/en/om-sdu/ledelse-administration/direktion",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "sdu",
       "note": "no people extracted"
     },
     {
       "instId": "via",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dsl",
-      "url": "https://dsl.dk/om-dsl/",
-      "error": "fetch failed"
-    },
-    {
-      "instId": "dsl",
       "note": "no people extracted"
     }
   ]
