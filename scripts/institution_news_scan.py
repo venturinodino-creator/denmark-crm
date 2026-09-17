@@ -49,14 +49,22 @@ COUNTRY = "Denmark"
 # Sources verified reachable on 2026-09-12. "feed" entries are RSS/Atom;
 # "html" entries are news index pages scraped for headline links.
 SOURCES = [
-    # Denmark publishes no institutional RSS we could find (checked DTU,
-    # AU, KU, AAU, SDU, CBS and the Royal Danish Library on 2026-09-12),
-    # so every Danish source here is HTML headline extraction. This is the
-    # thinnest coverage of the three countries — a known gap, not an
-    # oversight. Danish CRIS activity also barely reaches TED, so this
-    # channel matters more here than anywhere else.
+    # No Danish university publishes an institutional RSS we could find
+    # (DTU, AU, KU, AAU, SDU, CBS and the Royal Danish Library were checked on
+    # 2026-09-12), so most Danish coverage is HTML headline extraction. The
+    # list was widened on 2026-09-17: two library news pages alone had
+    # produced nothing in five days of scanning.
     {"institution": "DTU Library", "url": "https://www.bibliotek.dtu.dk/en/news", "type": "html"},
     {"institution": "Royal Danish Library", "url": "https://www.kb.dk/en/news", "type": "html"},
+    {"institution": "University of Copenhagen", "url": "https://news.ku.dk/all_news/?get_rss=1", "type": "feed"},
+    {"institution": "AU Library", "url": "https://library.au.dk/en/news", "type": "html"},
+    {"institution": "Aarhus University", "url": "https://newsroom.au.dk/en/news/", "type": "html"},
+    {"institution": "DTU", "url": "https://www.dtu.dk/english/news", "type": "html"},
+    {"institution": "AAU Library", "url": "https://www.aub.aau.dk/", "type": "html"},
+    {"institution": "SDU Library", "url": "https://www.sdu.dk/en/bibliotek", "type": "html"},
+    {"institution": "CBS Library", "url": "https://www.cbs.dk/en/library", "type": "html"},
+    {"institution": "DeiC (Danish e-Infrastructure Consortium)", "url": "https://www.deic.dk/en/news", "type": "html"},
+    {"institution": "Universities Denmark", "url": "https://dkuni.dk/nyheder/", "type": "html"},
 ]
 
 MAX_STORED   = 400
@@ -80,6 +88,31 @@ STRONG = [
     "symplectic", "worktribe", "esploro", "openalex", "dimensions",
     "bibliometric", "bibliometrisch", "bibliometrie", "bibliometrisk",
     "scientometric", "metis",
+    # Library-platform and research-tool vendors that sit next to Elsevier in
+    # the same budgets, added 2026-09-17.
+    "altmetric", "figshare", "mendeley", "digital commons", "ex libris",
+    "primo", "leganto", "ebsco", "proquest", "orcid", "overton",
+    "lens.org", "researchfish", "research professional",
+]
+
+# Licensing or subscription language next to research-content context also
+# fires: a library announcing a cancelled or renewed publisher deal is exactly
+# the kind of announcement this scan exists for, and none of it names a
+# system. Added 2026-09-17 after the strong-term-only rule produced nothing
+# for Denmark and Belgium in five days.
+LICENSING = [
+    "subscription", "subscriptions", "licence", "license", "licensing",
+    "read-and-publish", "read and publish", "publish-and-read",
+    "transformative agreement", "open access agreement", "publisher agreement",
+    "big deal", "cancel", "cancellation", "cancelled", "renewal", "renewed",
+    "abonnement", "licens", "aftale", "overeenkomst", "accord", "opzegging",
+]
+CONTENT_CONTEXT = [
+    "publisher", "publishers", "journal", "journals", "database", "databases",
+    "e-resources", "electronic resources", "e-journals", "citation",
+    "impact factor", "research support", "research data management",
+    "open access", "open science", "scholarly", "forlag", "tidsskrift",
+    "uitgever", "tijdschrift", "éditeur", "revue", "revues",
 ]
 
 # PROCUREMENT + SYSTEM together also fire, which is what catches a headline
@@ -96,6 +129,14 @@ SYSTEM = [
     "publication database", "publicatiedatabank", "repository",
     "library system", "bibliotheeksysteem", "discovery system",
     "research data", "onderzoeksdata", "research analytics",
+]
+
+# "Alma" (Ex Libris' library platform) is just as hopeless: KU Leuven's
+# canteens are called Alma and "alma mater" is everywhere, so it only counts
+# next to a library-system qualifier.
+ALMA_QUALIFIERS = [
+    "ex libris", "library system", "library platform", "catalogue", "catalog",
+    "discovery", "leganto", "primo", "bibliotheeksysteem", "bibliotekssystem",
 ]
 
 # "Pure" is hopeless on its own in news text ("pure research", "pure maths"),
@@ -152,6 +193,14 @@ def is_signal(title: str, summary: str = "") -> tuple:
     syst = _has(SYSTEM, text)
     if proc and syst:
         return True, f"{proc} + {syst}", "procurement language on a research system"
+
+    lic = _has(LICENSING, text)
+    ctx = _has(CONTENT_CONTEXT, text)
+    if lic and ctx:
+        return True, f"{lic} + {ctx}", "licensing language around research content"
+
+    if _has(["alma"], text) and _has(ALMA_QUALIFIERS, text):
+        return True, "alma", "Ex Libris Alma in a library-system context"
 
     if _has(["pure"], text) and _has(PURE_QUALIFIERS, text):
         return True, "pure", "Elsevier Pure in a research-information context"
