@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-16T12:44:05.850Z",
+  "lastRun": "2026-09-17T12:44:55.167Z",
   "lastAddedCount": 0,
   "sources": 64,
   "issues": [
@@ -89,10 +89,34 @@
     },
     {
       "instId": "sdu",
+      "url": "https://www.sdu.dk/en/bibliotek/om-biblioteket/organisation",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "sdu",
+      "url": "https://www.sdu.dk/en/om-sdu/ledelse-administration/sdurio/kontakt-os",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "sdu",
+      "url": "https://www.sdu.dk/en/om-sdu/ledelse-administration/direktion",
+      "error": "This operation was aborted"
+    },
+    {
+      "instId": "sdu",
       "note": "no people extracted"
     },
     {
       "instId": "via",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dsl",
+      "url": "https://dsl.dk/om-dsl/",
+      "error": "fetch failed"
+    },
+    {
+      "instId": "dsl",
       "note": "no people extracted"
     }
   ]
