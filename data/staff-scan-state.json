@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-17T19:19:44.203Z",
+  "lastRun": "2026-09-18T12:21:47.364Z",
   "lastAddedCount": 0,
   "sources": 64,
   "blockedSources": [
@@ -96,6 +96,15 @@
     },
     {
       "instId": "via",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dsl",
+      "url": "https://dsl.dk/om-dsl/",
+      "error": "fetch failed"
+    },
+    {
+      "instId": "dsl",
       "note": "no people extracted"
     }
   ]
