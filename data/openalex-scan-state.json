@@ -1,7 +1,51 @@
 {
-  "lastRun": "2026-09-18T11:59:28.746Z",
-  "lastAddedCount": 0,
-  "lastUpdatedCount": 0,
-  "lastCandidateCount": 0,
-  "lastWebSearches": 12
+  "lastRun": "2026-09-18T21:49:24.946Z",
+  "lastAddedCount": 4,
+  "lastUpdatedCount": 2,
+  "lastCandidateCount": 7,
+  "lastWebSearches": 42,
+  "lastBatch": [
+    "aau",
+    "au",
+    "cbs",
+    "ek",
+    "ilisimatusarfik",
+    "itu"
+  ],
+  "cursor": 6,
+  "institutionsTotal": 79,
+  "nationalLastRun": "2026-09-18T21:32:54.877Z",
+  "checked": {
+    "aau": {
+      "lastChecked": "2026-09-18",
+      "result": "active",
+      "searches": 6
+    },
+    "au": {
+      "lastChecked": "2026-09-18",
+      "result": "active",
+      "searches": 6
+    },
+    "cbs": {
+      "lastChecked": "2026-09-18",
+      "result": "none",
+      "searches": 6
+    },
+    "ek": {
+      "lastChecked": "2026-09-18",
+      "result": "none",
+      "searches": 6
+    },
+    "ilisimatusarfik": {
+      "lastChecked": "2026-09-18",
+      "result": "none",
+      "searches": 6
+    },
+    "itu": {
+      "lastChecked": "2026-09-18",
+      "result": "none",
+      "searches": 6
+    }
+  },
+  "errors": {}
 }

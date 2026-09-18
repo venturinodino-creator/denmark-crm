@@ -58,5 +58,99 @@
     ],
     "autoDiscovered": true,
     "foundDate": "2026-09-12"
+  },
+  {
+    "id": "royal-danish-library",
+    "inst": "Royal Danish Library",
+    "type": "NGO / Research",
+    "status": "active",
+    "signalType": "national_initiative",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "Found on the library's 'Support for Open Science services' page (pro.kb.dk), which states that since 2020 it has supported initiatives promoting the transition to Open Science and not-for-profit OA infrastructure, and applies five assessment principles including community-driven, non-commercial ownership. The page cites the Barcelona Declaration as a reason institutions should invest in open research information, though no OpenAlex subscription is named. As Denmark's national licence negotiator (the body that took over DEFF's consortium mandate), a library that budgets for open infrastructure and reasons from Barcelona principles is a consortium-level risk factor for Scopus and Web of Science renewals.",
+    "signal": "The Royal Danish Library's professional site says it has set aside earmarked funds in a support pool for open scholarly infrastructure and services, framing this with POSI, the Jussieu Call and the Barcelona Declaration on Open Research Information.",
+    "sources": [
+      {
+        "label": "Support for Open Science services | For professionals | pro.kb.dk",
+        "url": "https://pro.kb.dk/en/open-science/support-open-science-services"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-18"
+  },
+  {
+    "id": "independent-research-fund-denmark",
+    "inst": "Independent Research Fund Denmark",
+    "type": "NGO / Research",
+    "status": "active",
+    "signalType": "staff_advocacy",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "Seen on the conference page of forskningsportal.dk, the site of Research Portal Denmark/NORA, where the OurResearch/OpenAlex founder is profiled alongside the DFF chairman's talk on research-evaluation paradigms. This links Denmark's main public research council to the national open research information agenda rather than to proprietary indicators. It is engagement rather than a procurement decision, but funder-level interest in OpenAlex-based evaluation weakens the case for national Scopus or Web of Science spend at renewal.",
+    "signal": "The chairman of Independent Research Fund Denmark is billed to speak on new paradigms for research evaluation at the Danish Research Portal (Danmarks Forskningsportal) conference, on a programme that also features OurResearch co-founder Jason Priem presenting OpenAlex.",
+    "sources": [
+      {
+        "label": "Konference – Danmarks Forskningsportal",
+        "url": "https://forskningsportal.dk/conference/"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-18"
+  },
+  {
+    "id": "aalborg-university",
+    "inst": "Aalborg University",
+    "type": "University",
+    "status": "active",
+    "signalType": "staff_advocacy",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "Seen on the Aalborg University Library 'Fingerprint' page of the VBN research portal, where 'OpenAlex' appears as a topic concept (16%) derived from library staff output, together with topics such as Research Indicators, Journal Impact Factor and Open Access Policy. It indicates OpenAlex is an established subject of professional work and dissemination by the library's Research Information & Analysis / VBN team, not a one-off mention. For a publisher's renewal conversation this points to in-house bibliometric expertise at AAU that is publicly engaging with open citation infrastructure as an alternative to proprietary indexes.",
+    "signal": "Aalborg University Library's organisational profile lists OpenAlex among the recurring research topics generated from its own staff's publications and presentations, alongside bibliometrics, research indicators and PlumX.",
+    "sources": [
+      {
+        "label": "Bridging data gaps in a Research Information Management System with OpenAlex — Aalborg University's Research Portal",
+        "url": "https://vbn.aau.dk/en/publications/bridging-data-gaps-in-a-research-information-management-system-wi/"
+      },
+      {
+        "label": "Aalborg University Library - Fingerprint - Aalborg University's Research Portal",
+        "url": "https://vbn.aau.dk/en/organisations/aalborg-universitetsbibliotek/fingerprints/?sortBy=alphabetically"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-18",
+    "lastConfirmed": "2026-09-18"
+  },
+  {
+    "id": "aarhus-university",
+    "inst": "Aarhus University",
+    "type": "University",
+    "status": "active",
+    "signalType": "other",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "The Coimbra Group announcement of its signature lists Aarhus University among the network's 21 founding members, so AU is covered indirectly by a network-level commitment to open research information; no page was found in this session showing AU itself as a direct signatory on the Barcelona Declaration signatory list. Treat as indirect exposure, not an institutional commitment. It raises the probability that AU research-support staff will be asked to justify closed-metadata subscriptions at renewal, but no AU-level policy or cancellation evidence was located.",
+    "signal": "The Coimbra Group, of which Aarhus University is a founding member, has signed the Barcelona Declaration on Open Research Information.",
+    "sources": [
+      {
+        "label": "Fagside for Statskundskab - AU Library - Aarhus Universitet",
+        "url": "https://library.au.dk/en/subject-areas/political-science"
+      },
+      {
+        "label": "Coimbra Group signs the Barcelona Declaration on Open Research Information",
+        "url": "https://www.coimbra-group.eu/coimbra-group-signs-the-barcelona-declaration-on-open-research-information/"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-18",
+    "lastConfirmed": "2026-09-18"
   }
 ]
