@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-09-18T12:21:47.364Z",
-  "lastAddedCount": 0,
+  "lastRun": "2026-09-18T17:21:21.015Z",
+  "lastAddedCount": 21,
   "sources": 64,
   "blockedSources": [
     "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/"
@@ -96,15 +96,6 @@
     },
     {
       "instId": "via",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dsl",
-      "url": "https://dsl.dk/om-dsl/",
-      "error": "fetch failed"
-    },
-    {
-      "instId": "dsl",
       "note": "no people extracted"
     }
   ]
