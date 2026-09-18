@@ -1,111 +1,24 @@
 {
-  "lastRun": "2026-09-18T17:43:56.353Z",
-  "lastAddedCount": 72,
+  "lastRun": "2026-09-18T17:54:14.898Z",
+  "lastAddedCount": 7,
   "lastBatch": [
-    "aau",
-    "au",
-    "cbs",
-    "ek",
     "ilisimatusarfik",
-    "itu",
-    "absalon",
-    "ruc",
-    "kadk",
-    "dkdm",
-    "dtu",
-    "ucl",
-    "kp",
-    "ucn",
-    "ku"
+    "ruc"
   ],
-  "lastWebSearches": 128,
+  "lastWebSearches": 20,
   "cursor": 15,
   "institutions": 79,
   "perInstitution": [
     {
-      "instId": "aau",
-      "named": 7,
-      "kept": 6,
-      "searches": 10
-    },
-    {
-      "instId": "au",
-      "named": 7,
-      "kept": 7,
-      "searches": 10
-    },
-    {
-      "instId": "cbs",
-      "named": 7,
-      "kept": 7,
-      "searches": 10
-    },
-    {
-      "instId": "ek",
-      "named": 2,
-      "kept": 2,
-      "searches": 10
-    },
-    {
       "instId": "ilisimatusarfik",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "itu",
-      "named": 4,
-      "kept": 3,
-      "searches": 10
-    },
-    {
-      "instId": "absalon",
-      "named": 4,
-      "kept": 3,
-      "searches": 10
-    },
-    {
-      "instId": "ruc",
-      "error": "This operation was aborted"
-    },
-    {
-      "instId": "kadk",
-      "named": 7,
-      "kept": 7,
-      "searches": 10
-    },
-    {
-      "instId": "dkdm",
-      "named": 1,
+      "named": 5,
       "kept": 1,
       "searches": 10
     },
     {
-      "instId": "dtu",
-      "named": 9,
-      "kept": 9,
-      "searches": 10
-    },
-    {
-      "instId": "ucl",
-      "named": 5,
-      "kept": 5,
-      "searches": 10
-    },
-    {
-      "instId": "kp",
-      "named": 7,
-      "kept": 7,
-      "searches": 10
-    },
-    {
-      "instId": "ucn",
-      "named": 7,
+      "instId": "ruc",
+      "named": 8,
       "kept": 6,
-      "searches": 8
-    },
-    {
-      "instId": "ku",
-      "named": 12,
-      "kept": 9,
       "searches": 10
     }
   ]
