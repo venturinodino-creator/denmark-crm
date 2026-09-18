@@ -1,5 +1,46 @@
 [
   {
+    "id": "news-s3m7zo",
+    "title": "OpenAI Launches Data Agent as Enterprise Analytics Race Heats Up - HPCwire",
+    "description": "OpenAI Launches Data Agent as Enterprise Analytics Race Heats Up&nbsp;&nbsp;HPCwire",
+    "institution": "OpenAI",
+    "category": "competitor_announcements",
+    "categoryLabel": "Competitor Announcements",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFlkR1BzamR2QTNlYmRfOXh6Wnk0YVJUeFIzUmpOXzlQcndvOXhCSlI3N2hPLUxTY1Z0TmlWSGtqT2huc0xCclFEQi1xNDFtVE0tcDlTZ2ZQbXI2X2VHcHhNeG9ndkxMZHFjUmU5cE1Ecy1fV2F5aURJak1obThJVnBSMVdOX2ZBR0VBUXM3WUpQUU1lM2lWcW9IeUJ3LU4zbk54WGQ3RXpZMHluR09CMnp3?oc=5",
+    "sourceName": "HPCwire",
+    "publishedDate": "2026-09-11",
+    "foundDate": "2026-09-15",
+    "autoDiscovered": true,
+    "bottomLine": "OpenAI's new Data Agent enters enterprise analytics, intensifying competition in AI-powered research and data discovery tools that Elsevier platforms must match.",
+    "keyFindings": [
+      "OpenAI has launched a Data Agent product designed for enterprise analytics and data exploration use cases.",
+      "The move signals OpenAI's expansion beyond conversational AI into structured data analysis and research workflows.",
+      "Enterprise analytics market is heating up with multiple vendors—including Elsevier competitors—racing to embed AI agents.",
+      "Data Agent aims to automate complex analytical tasks previously requiring specialized skills or manual effort.",
+      "This positions OpenAI as a direct competitor to specialized research analytics platforms and AI assistants."
+    ],
+    "whyItMatters": "Danish universities and research institutes now face pressure to adopt integrated AI-powered analytics tools. Elsevier's LeapSpace and Scopus must demonstrate superior domain expertise in scholarly discovery and claim verification versus generic OpenAI agents to justify institutional subscriptions and retain competitive edge.",
+    "impact": {
+      "novelty": 3,
+      "commercial": 4,
+      "threat": 4,
+      "urgency": 4
+    },
+    "entities": [
+      "OpenAI",
+      "Data Agent",
+      "HPCwire",
+      "LeapSpace",
+      "Scopus"
+    ],
+    "actionItems": [
+      "Conduct competitive audit: map Data Agent's capabilities against LeapSpace features; identify feature gaps or differentiation opportunities.",
+      "Schedule briefings with key Danish institution research offices to understand adoption risk and gather requirements for enhanced AI-assisted research tools.",
+      "Develop messaging emphasizing Elsevier's domain-specific indexing, verified citation data, and research ethics safeguards versus generic AI agents."
+    ],
+    "sourceType": "secondary"
+  },
+  {
     "id": "news-1vf95d",
     "title": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research - Yahoo Finance",
     "description": "IEEE Unveils the IEEE Xplore® AI Research Suite™: A New AI Assistant Built on Verified, Expert-Vetted Research&nbsp;&nbsp;Yahoo Finance",
