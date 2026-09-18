@@ -1,10 +1,16 @@
 {
-  "lastRun": "2026-09-17T19:15:43.914192Z",
-  "lastNewCount": 1,
-  "sourcesReached": 11,
+  "lastRun": "2026-09-18T11:52:18.624970Z",
+  "lastNewCount": 0,
+  "sourcesReached": 10,
   "sourcesTotal": 11,
-  "itemsExamined": 829,
-  "failedSources": [],
+  "itemsExamined": 792,
+  "failedSources": [
+    {
+      "institution": "DeiC (Danish e-Infrastructure Consortium)",
+      "url": "https://www.deic.dk/en/news",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    }
+  ],
   "seenUrls": [
     "https://www.aub.aau.dk/sog#06f2878f-8c3f-4fc9-8163-5f90e8034d4c"
   ]
