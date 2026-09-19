@@ -209,7 +209,9 @@ async function main() {
   // Free pass: search every institution and shortlist people to enrich.
   const shortlist = []; // { inst, id, first, lastHint, title, family }
   const perInst = {};
+  let planError = null; // Apollo refuses the endpoint for this plan: no point asking 79 times
   for (const inst of targets) {
+    if (planError) break;
     try {
       const people = await searchPeople(inst.domain);
       let matched = 0, withEmail = 0;
@@ -231,6 +233,11 @@ async function main() {
     } catch (e) {
       perInst[inst.id] = { domain: inst.domain, error: e.message.slice(0, 200) };
       console.warn(`  ${inst.name} (${inst.domain}): search failed — ${e.message.slice(0, 160)}`);
+      if (/not included in your .* plan|not accessible/i.test(e.message)) {
+        planError = e.message.replace(/^Apollo [^:]+: HTTP \d+ /, '').slice(0, 220);
+        console.error(`[apollo-import] Apollo refused the People Search API for this plan — stopping. ${planError}`);
+        if (process.env.GITHUB_ACTIONS) console.log('::error::Apollo People Search is not included in the current Apollo plan; the importer needs a plan with API access (Basic or above).');
+      }
     }
     await sleep(1500);
   }
@@ -241,7 +248,19 @@ async function main() {
     const byFamily = {};
     shortlist.forEach(r => { byFamily[r.family] = (byFamily[r.family] || 0) + 1; });
     Object.entries(byFamily).sort((a, b) => b[1] - a[1]).forEach(([f, n]) => console.log(`    ${String(n).padStart(4)}  ${f}`));
-    console.log('[apollo-import] Dry run — nothing enriched, nothing written.');
+    // A dry run writes only its own summary, so the dashboard card can show
+    // it and the workflow's commit step has a file to commit; the enriched-id
+    // list and last real-run counts are left as they were.
+    saveJSON(STATE_FILE, {
+      ...state,
+      lastDryRun: new Date().toISOString(),
+      lastDryRunShortlist: shortlist.length,
+      lastDryRunByFamily: byFamily,
+      perInstitution: perInst,
+      error: planError || undefined,
+    });
+    console.log('[apollo-import] Dry run — nothing enriched, no contacts written.');
+    if (planError) process.exit(2);
     return;
   }
 
@@ -296,6 +315,7 @@ async function main() {
     remaining: Math.max(0, shortlist.length - toEnrich.length),
     perInstitution: perInst,
     enriched,
+    error: planError || undefined,
   });
   console.log(`[apollo-import] Done — ${added} contact(s) queued for review; ${Math.max(0, shortlist.length - toEnrich.length)} more remain for the next run.`);
 }
