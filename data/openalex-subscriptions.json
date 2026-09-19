@@ -152,5 +152,26 @@
     "autoDiscovered": true,
     "foundDate": "2026-09-18",
     "lastConfirmed": "2026-09-18"
+  },
+  {
+    "id": "roskilde-university",
+    "inst": "Roskilde University",
+    "type": "University",
+    "status": "active",
+    "signalType": "national_initiative",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": "2025-01-27",
+    "effectiveDate": null,
+    "notes": "The Research Portal Denmark 'Coverage of Danish Research' report (dated 27.01.2025) names Roskilde University (RUC) explicitly, reporting a 70.7% match (491 outputs) when comparing local/BFI records with OpenAlex and other sources. RUC therefore participates, via its CRIS feed, in a Danish national open research-information infrastructure that treats OpenAlex as a primary comparison index rather than Scopus or Web of Science alone. For a publisher, this means national-level open metadata is already available for RUC's output, weakening the coverage argument at a Scopus or Web of Science renewal, though no RUC-specific contract or policy decision was found.",
+    "signal": "Roskilde University's publication output is benchmarked against OpenAlex in the national Research Portal Denmark coverage report, which uses OpenAlex as a data source alongside universities' local CRIS records.",
+    "sources": [
+      {
+        "label": "Research Portal Denmark - Coverage of Danish Research (Coverage Report 3, 2024)",
+        "url": "https://forskningsportal.dk/wp-content/uploads/2025/02/Research-Portal-Denmark-Coverage-Report-3-2024-FINAL.pdf"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-19"
   }
 ]

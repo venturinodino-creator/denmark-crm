@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-09-18T21:49:24.946Z",
-  "lastAddedCount": 4,
-  "lastUpdatedCount": 2,
-  "lastCandidateCount": 7,
-  "lastWebSearches": 42,
+  "lastRun": "2026-09-19T11:51:09.681Z",
+  "lastAddedCount": 1,
+  "lastUpdatedCount": 0,
+  "lastCandidateCount": 1,
+  "lastWebSearches": 18,
   "lastBatch": [
-    "aau",
-    "au",
-    "cbs",
-    "ek",
-    "ilisimatusarfik",
-    "itu"
+    "absalon",
+    "ruc",
+    "kadk",
+    "dkdm",
+    "dtu",
+    "ucl"
   ],
-  "cursor": 6,
+  "cursor": 12,
   "institutionsTotal": 79,
   "nationalLastRun": "2026-09-18T21:32:54.877Z",
   "checked": {
@@ -45,7 +45,26 @@
       "lastChecked": "2026-09-18",
       "result": "none",
       "searches": 6
+    },
+    "absalon": {
+      "lastChecked": "2026-09-19",
+      "result": "none",
+      "searches": 6
+    },
+    "ruc": {
+      "lastChecked": "2026-09-19",
+      "result": "active",
+      "searches": 6
+    },
+    "kadk": {
+      "lastChecked": "2026-09-19",
+      "result": "none",
+      "searches": 6
     }
   },
-  "errors": {}
+  "errors": {
+    "dkdm": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkHDQz7D8cyXucZwMLs\"}",
+    "dtu": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkQV5WUZthGUN3qCqu6\"}",
+    "ucl": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkQVhieTBQ6zAqsGLZb\"}"
+  }
 }
