@@ -1,14 +1,14 @@
 {
-  "lastRun": "2026-09-18T19:10:13.726Z",
+  "lastRun": "2026-09-19T11:51:09.278Z",
   "totalOpenRoles": 27,
   "openByRegion": {
     "domestic": 0,
     "remote": 27,
     "europe": 35,
-    "global": 166
+    "global": 167
   },
   "totalListed": 27,
-  "newCount": 25,
+  "newCount": 0,
   "reopenedCount": 0,
   "closedCount": 0,
   "archivedCount": 0,
@@ -30,7 +30,7 @@
       "global": 0
     },
     "Clarivate": {
-      "total": 182,
+      "total": 183,
       "dkOrRemote": 9,
       "domestic": 0,
       "remote": 9,
@@ -38,7 +38,7 @@
       "global": 11
     },
     "Springer Nature": {
-      "total": 76,
+      "total": 75,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -54,7 +54,7 @@
       "global": 5
     },
     "OpenAI": {
-      "total": 814,
+      "total": 818,
       "dkOrRemote": 8,
       "domestic": 0,
       "remote": 8,
@@ -62,12 +62,12 @@
       "global": 67
     },
     "Anthropic": {
-      "total": 605,
+      "total": 609,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
       "europe": 19,
-      "global": 81
+      "global": 82
     },
     "Elicit": {
       "total": 10,
@@ -116,25 +116,23 @@
       "remote": 0,
       "europe": 0,
       "global": 0
-    },
-    "IEEE": {
-      "total": 0,
-      "dkOrRemote": 0,
-      "domestic": 0,
-      "remote": 0,
-      "europe": 0,
-      "global": 0
-    },
-    "Google": {
-      "total": 0,
-      "dkOrRemote": 0,
-      "domestic": 0,
-      "remote": 0,
-      "europe": 0,
-      "global": 0
     }
   },
-  "errors": {},
-  "untracked": [],
+  "errors": {
+    "IEEE": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkHGndkbcspxMf6mFfk\"}",
+    "Google": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkQTayKiRp8yYigpyym\"}"
+  },
+  "untracked": [
+    {
+      "company": "IEEE",
+      "reason": "Web search failed this run: Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to ",
+      "url": "https://ieee.taleo.net/careersection/2/jobsearch.ftl"
+    },
+    {
+      "company": "Google",
+      "reason": "Web search failed this run: Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to ",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/"
+    }
+  ],
   "source": "Company career-page ATS APIs (Greenhouse/Ashby/SmartRecruiters/Pinpoint/Workday), plus a Claude web search for companies without one — see file header"
 }
