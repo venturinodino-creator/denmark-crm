@@ -48,8 +48,9 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
-          git add data/apollo-import-state.json
-          [ -f data/apollo-imported-contacts.json ] && git add data/apollo-imported-contacts.json
+          for f in data/apollo-import-state.json data/apollo-imported-contacts.json; do
+            [ -f "$f" ] && git add "$f"
+          done
           if git diff --staged --quiet; then
             echo "Nothing to commit"
             exit 0
