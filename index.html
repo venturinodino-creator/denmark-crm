@@ -3442,6 +3442,11 @@ const DSH_AGENTS = [
       statusEl: 'agent-roles-lastrun', view: 'pending', workflow: 'discover-roles.yml',
     },
     {
+      id: 'agent-apollo', name: 'Apollo Contact Import', icon: '🛰️',
+      status: 'active', cadence: 'On demand · spends Apollo credits · GitHub Actions', source: 'Apollo.io people search + enrichment per institution',
+      statusEl: 'agent-apollo-lastrun', view: 'pending', workflow: 'apollo-import.yml',
+    },
+    {
       id: 'agent-tenders', name: 'Tender / RFP Scraper', icon: '📄',
       status: 'active', cadence: 'Daily · 06:30 UTC · GitHub Actions', source: 'TED Europa',
       statusEl: 'agent-tenders-lastrun', view: 'rfp', workflow: 'tenders.yml',
@@ -4174,6 +4179,7 @@ function _syncAgentFrom(elId, jsonPath, extra) {
 function syncAgentStatus() {
   _syncAgentFrom('agent-discovery-lastrun', 'data/staff-scan-state.json', d => d.lastAddedCount != null ? ` · +${d.lastAddedCount}` : '');
   _syncAgentFrom('agent-roles-lastrun', 'data/roles-scan-state.json', d => d.error ? ` · ${d.error}` : d.lastAddedCount != null ? ` · +${d.lastAddedCount}` : '');
+  _syncAgentFrom('agent-apollo-lastrun', 'data/apollo-import-state.json', d => d.error ? ` · ${d.error}` : d.lastAddedCount != null ? ` · +${d.lastAddedCount}${d.remaining ? `, ${d.remaining} more to enrich` : ''}` : '');
   _syncAgentFrom('agent-tenders-lastrun', 'data/tenders-scan-state.json', d => d.lastNewCount ? ` · +${d.lastNewCount}` : '');
   _syncAgentFrom('agent-openalex-subs-lastrun', 'data/openalex-scan-state.json', d => d.error === 'missing_api_key' ? ' · needs ANTHROPIC_API_KEY' : d.lastAddedCount ? ` · +${d.lastAddedCount}` : '');
   _syncAgentFrom('agent-news-lastrun', 'data/news-scan-state.json', d => d.error === 'missing_api_key' ? ' · needs ANTHROPIC_API_KEY' : d.lastAddedCount ? ` · +${d.lastAddedCount}` : '');
