@@ -1,0 +1,112 @@
+{
+  "orgIds": {
+    "035b05819": {
+      "id": "openorgs____::ff2275b420f1146110af3cb7327de306",
+      "name": "University of Copenhagen",
+      "via": "ror"
+    },
+    "01aj84f44": {
+      "id": "openorgs____::d4ceca70c60317a8c1e79c4dd0260a31",
+      "name": "Aarhus University",
+      "via": "ror"
+    },
+    "04qtj9h94": {
+      "id": "openorgs____::b15b534e576535e50a702454bb728cca",
+      "name": "Technical University of Denmark",
+      "via": "ror"
+    },
+    "03yrrjy16": {
+      "id": "openorgs____::6fc85e4a8f7ecaf4b0c738d010e967ea",
+      "name": "University of Southern Denmark",
+      "via": "ror"
+    },
+    "04m5j1k67": {
+      "id": "openorgs____::8a345b7c6970d9d2b8e718dcafc80033",
+      "name": "Aalborg University",
+      "via": "ror"
+    },
+    "04sppb023": {
+      "id": "openorgs____::0a45de396fc864dc70d42d13f4e786e1",
+      "name": "Copenhagen Business School",
+      "via": "ror"
+    },
+    "014axpa37": {
+      "id": "openorgs____::7c4399e5beb105205c685f465ce36a00",
+      "name": "Roskilde University",
+      "via": "ror"
+    },
+    "02309jg23": {
+      "id": "openorgs____::0921749613f645d13f18c00a0cfcd102",
+      "name": "IT University of Copenhagen",
+      "via": "ror"
+    },
+    "040r8fr65": {
+      "id": "openorgs____::63b49718c6b9df67760a7e8ac75b3991",
+      "name": "Aarhus University Hospital",
+      "via": "ror"
+    },
+    "00ey0ed83": {
+      "id": "openorgs____::8311c707598dfda9d64a05b43129c8e2",
+      "name": "Odense University Hospital",
+      "via": "ror"
+    },
+    "02jk5qe80": {
+      "id": "openorgs____::ccf2a6c0bb6f2d63e567f09a9a031ef2",
+      "name": "Aalborg Hospital",
+      "via": "ror"
+    },
+    "0417ye583": {
+      "id": "openorgs____::592ebe213f90714fe4bebe54f6018c71",
+      "name": "Statens Serum Institut",
+      "via": "ror"
+    },
+    "03hvzdf94": {
+      "id": "openorgs____::645a26630e42fd5b49e8e973869f7ca7",
+      "name": "The Royal Danish Academy of Sciences and Letters",
+      "via": "ror"
+    },
+    "01b40r146": {
+      "id": "openorgs____::455bc8700352c786cc184ec1e710266d",
+      "name": "Geological Survey of Finland",
+      "via": "ror"
+    },
+    "00n87rr37": {
+      "id": "openorgs____::9822bbd2472ba19aaa400d234c0d877b",
+      "name": "Danish Technological Institute",
+      "via": "ror"
+    },
+    "02asy9212": {
+      "id": "openorgs____::eaaabaafe2c865f22ccb90602236f6db",
+      "name": "Danish Institute for International Studies",
+      "via": "ror"
+    },
+    "0523ssa79": {
+      "id": "openorgs____::501a504341a825b31d7355875f45a8d6",
+      "name": "Danish National Centre for Social Research",
+      "via": "ror"
+    },
+    "048b3qc73": {
+      "id": "pending_org_::17cc6699be34f2769bf11c64cd5daf0c",
+      "name": "BIOINNOVATION INSTITUTE FONDEN",
+      "via": "ror"
+    },
+    "04txyc737": {
+      "id": "openorgs____::5492d5fbb6512316ef878aec24cf055b",
+      "name": "Novo Nordisk Foundation",
+      "via": "ror"
+    },
+    "01kpjmx04": {
+      "id": "openorgs____::83fd7de694863326f598a164a284c43f",
+      "name": "Carlsberg Foundation",
+      "via": "ror"
+    },
+    "03ytt7k16": {
+      "id": "openorgs____::743fe21b41970a427a182e82956c1f06",
+      "name": "Danish Cancer Society",
+      "via": "ror"
+    }
+  },
+  "lastRun": "2026-09-19T20:46:33.804Z",
+  "lastScanned": 21,
+  "lastFailed": 0
+}

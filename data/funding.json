@@ -1,0 +1,2450 @@
+{
+  "generatedAt": "2026-09-19T20:45:58.737Z",
+  "source": "OpenAIRE Graph API (projects by organisation; CORDIS and national funders)",
+  "since": "2023-09-19",
+  "institutions": {
+    "ku": {
+      "ror": "035b05819",
+      "openaireId": "openorgs____::ff2275b420f1146110af3cb7327de306",
+      "openaireName": "University of Copenhagen",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3Aff2275b420f1146110af3cb7327de306"
+    },
+    "au": {
+      "ror": "01aj84f44",
+      "openaireId": "openorgs____::d4ceca70c60317a8c1e79c4dd0260a31",
+      "openaireName": "Aarhus University",
+      "since": "2023-09-19",
+      "numFound": 1746,
+      "fetched": 300,
+      "active": 300,
+      "fundedTotal": 19133758,
+      "fundedKnown": 9,
+      "byFunder": {
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 23,
+          "amount": 0
+        },
+        "LF": {
+          "name": "Lundbeck Foundation",
+          "count": 17,
+          "amount": 0
+        },
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 116,
+          "amount": 0
+        },
+        "VE": {
+          "name": "Villum Foundation",
+          "count": 25,
+          "amount": 0
+        },
+        "IRFD": {
+          "name": "Independent Research Fund Denmark",
+          "count": 106,
+          "amount": 0
+        },
+        "VF": {
+          "name": "VELUX FOUNDATION",
+          "count": 4,
+          "amount": 0
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 9,
+          "amount": 19133758
+        }
+      },
+      "projects": [
+        {
+          "id": "cf__________::7d99542868ae6b79d00c7cec41e375b2",
+          "code": "CF24-2137",
+          "acronym": "",
+          "title": "Instrumented Nano-Bio-Indentation/Scratch equipment",
+          "funder": "CF",
+          "stream": "Research Infrastructure",
+          "call": "",
+          "start": "2035-01-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A7d99542868ae6b79d00c7cec41e375b2"
+        },
+        {
+          "id": "lf__________::2ff9f1fafca8d88467a5a184bd32ef37",
+          "code": "R491-2024-1966",
+          "acronym": "",
+          "title": "Lundbeck Foundation Parkinson’s Disease Research Center (PACE)",
+          "funder": "LF",
+          "stream": "Strategic project",
+          "call": "",
+          "start": "2034-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=lf__________%3A%3A2ff9f1fafca8d88467a5a184bd32ef37"
+        },
+        {
+          "id": "nnf_________::50706f664cbb887e5206b0beda93761d",
+          "code": "NNF24OC0087882",
+          "acronym": "",
+          "title": "Deciphering the role of circadian rhythms disruption on the pathophysiology of metabolic diseases",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2031-08-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A50706f664cbb887e5206b0beda93761d"
+        },
+        {
+          "id": "nnf_________::756923aba6cdd0ef217b935cdbc647b4",
+          "code": "NNF23OC0078934",
+          "acronym": "",
+          "title": "Unpicking the metabolic contribution to cancer",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2031-11-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A756923aba6cdd0ef217b935cdbc647b4"
+        },
+        {
+          "id": "nnf_________::92f05732e76180a8ed268f677c298b9c",
+          "code": "NNF24OC0089742",
+          "acronym": "",
+          "title": "SABiOS: guiding Sustainable Agriculture and Biodiversity management with earth Observing Satellites",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2031-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A92f05732e76180a8ed268f677c298b9c"
+        },
+        {
+          "id": "nnf_________::ca6b2719e6cea2f2cb6b7bf40c673b35",
+          "code": "NNF24OC0089089",
+          "acronym": "",
+          "title": "Chromatin mechanisms of neurodevelopment and disease",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2031-05-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Aca6b2719e6cea2f2cb6b7bf40c673b35"
+        },
+        {
+          "id": "nnf_________::dec41b458f75230961567faadb55eb5d",
+          "code": "NNF24OC0089849",
+          "acronym": "",
+          "title": "Unravelling plant-soil symbiosis: A key to sustainable agriculture and ecosystem stability",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2031-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Adec41b458f75230961567faadb55eb5d"
+        },
+        {
+          "id": "ve__________::c75c42433daf2654fb56eeb13db3c8d6",
+          "code": "37363",
+          "acronym": "",
+          "title": "Villum Kann Rasmussens Årslegat 2021",
+          "funder": "VE",
+          "stream": "Villum Kann Rasmussen Annual Award",
+          "call": "",
+          "start": "2031-01-23",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3Ac75c42433daf2654fb56eeb13db3c8d6"
+        },
+        {
+          "id": "cf__________::1397e7f1f3b2b463f42a8e4426eea9c4",
+          "code": "CF24-0920",
+          "acronym": "",
+          "title": "Novel magnets through interdisiplinarity and nanocomposites (NOMAGIC)",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2030-03-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A1397e7f1f3b2b463f42a8e4426eea9c4"
+        },
+        {
+          "id": "cf__________::684cc48f1bf5f0d77d1d400625f30a22",
+          "code": "CF24-2082",
+          "acronym": "",
+          "title": "Enabling waste-efficient synthesis of bioactive organic molecules through improved NMR facilities",
+          "funder": "CF",
+          "stream": "Research Infrastructure",
+          "call": "",
+          "start": "2030-06-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A684cc48f1bf5f0d77d1d400625f30a22"
+        },
+        {
+          "id": "cf__________::6c4a8309ec404c65d1f3637b2093e488",
+          "code": "CF24-0791",
+          "acronym": "",
+          "title": "Fate determination of nuclear polyadenylated RNA",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2030-06-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A6c4a8309ec404c65d1f3637b2093e488"
+        },
+        {
+          "id": "cf__________::9ae61b4e2e61175816b2048556c63413",
+          "code": "CF24-1527",
+          "acronym": "",
+          "title": "Catching photoactive materials in action",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2030-08-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A9ae61b4e2e61175816b2048556c63413"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3Ad4ceca70c60317a8c1e79c4dd0260a31"
+    },
+    "dtu": {
+      "ror": "04qtj9h94",
+      "openaireId": "openorgs____::b15b534e576535e50a702454bb728cca",
+      "openaireName": "Technical University of Denmark",
+      "since": "2023-09-19",
+      "numFound": 291,
+      "fetched": 291,
+      "active": 275,
+      "fundedTotal": 1358215928,
+      "fundedKnown": 291,
+      "byFunder": {
+        "EC": {
+          "name": "European Commission",
+          "count": 291,
+          "amount": 1358215928
+        }
+      },
+      "projects": [
+        {
+          "id": "corda_____he::0410e6437bcc796ab6a7f58d4002cf3b",
+          "code": "101311964",
+          "acronym": "MOBIDIC",
+          "title": "hybrid MOdel-Based optImal DesIgn and Control of energy systems​",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-03-01",
+          "end": "2031-02-28",
+          "amount": 4473180,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A0410e6437bcc796ab6a7f58d4002cf3b"
+        },
+        {
+          "id": "corda_____he::1c6ebd340920d9fb51f6ce1adceb7ba0",
+          "code": "101279183",
+          "acronym": "FG2E",
+          "title": "Next-Generation Self-Supported Electrocatalysts for Direct Conversion of Flue Gas into Ethylene (FG2E)",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2025-PF",
+          "start": "2027-01-01",
+          "end": "2028-12-31",
+          "amount": 263393,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A1c6ebd340920d9fb51f6ce1adceb7ba0"
+        },
+        {
+          "id": "corda_____he::3786f8498505f798b8bd029bfadaf686",
+          "code": "101312447",
+          "acronym": "WILD-MAIDN",
+          "title": "Why does It Look Different? - Material Appearance International Doctoral Network",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 4790340,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A3786f8498505f798b8bd029bfadaf686"
+        },
+        {
+          "id": "corda_____he::6de9b128ecdc27406a5d06c2c345fee2",
+          "code": "101275041",
+          "acronym": "RESNOT",
+          "title": "Resilient net-zero decarbonisation in Europe through near-optimal transition pathways of the energy system",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2025-PF",
+          "start": "2027-01-01",
+          "end": "2028-12-31",
+          "amount": 247553,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A6de9b128ecdc27406a5d06c2c345fee2"
+        },
+        {
+          "id": "corda_____he::7c2ac10f89865090e3f52bc3a434911d",
+          "code": "101312421",
+          "acronym": "RENEWME",
+          "title": "Integrated Pathways to RENEWable MEthane: Multidisciplinary Approaches for a Green Energy",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 3435830,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A7c2ac10f89865090e3f52bc3a434911d"
+        },
+        {
+          "id": "corda_____he::9e8a5735284331b7dd2ea2dd5c48f828",
+          "code": "101272200",
+          "acronym": "SPHERE",
+          "title": "Small Pelagic fish Habitats, Ecology and Resource Evaluation",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2025-PF",
+          "start": "2027-09-01",
+          "end": "2029-08-31",
+          "amount": 247553,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A9e8a5735284331b7dd2ea2dd5c48f828"
+        },
+        {
+          "id": "corda_____he::9fceb1e5bf567f1d330cd51410541442",
+          "code": "101312868",
+          "acronym": "PHOTONIQC",
+          "title": "A Photonic Quantum Computer",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-01-01",
+          "end": "2030-12-31",
+          "amount": 4650020,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A9fceb1e5bf567f1d330cd51410541442"
+        },
+        {
+          "id": "corda_____he::a054c6dea6390f1dd3c25969b72e88c8",
+          "code": "101312096",
+          "acronym": "Hy-DETAILS",
+          "title": "HyDrogen genEration, Transportation, And utILization ecoSystem",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-01-01",
+          "end": "2030-12-31",
+          "amount": 4527320,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Aa054c6dea6390f1dd3c25969b72e88c8"
+        },
+        {
+          "id": "corda_____he::c1ab4e5662076186ccca7eb38a3d9cdb",
+          "code": "101309938",
+          "acronym": "MultiMAM",
+          "title": "Multimaterial Additive Manufacturing",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-01-01",
+          "end": "2030-12-31",
+          "amount": 4386130,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ac1ab4e5662076186ccca7eb38a3d9cdb"
+        },
+        {
+          "id": "corda_____he::c7ce20a251dd05afbc7ce9c32ed91e1c",
+          "code": "101312848",
+          "acronym": "TRAIN-FAST",
+          "title": "Training researchers in safe, resilient and economically viable ultra-fast battery charging systems",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 4761900,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ac7ce20a251dd05afbc7ce9c32ed91e1c"
+        },
+        {
+          "id": "corda_____he::ce96799bf02f0426800c43d2033b22a4",
+          "code": "101311350",
+          "acronym": "TURBO-IMPACT",
+          "title": "TURBOmachinery Innovative Manufacturing, Processing, Analysis, Characterization, and Topology",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 4449540,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ace96799bf02f0426800c43d2033b22a4"
+        },
+        {
+          "id": "corda_____he::01ef1197c9bda738c4564ed215107b7c",
+          "code": "101269474",
+          "acronym": "AVANGUARD",
+          "title": "Advanced Data-Driven Strategies for Optimized Long Duration Energy Storage Deployment in Multi-Energy Networks",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL5-2025-02",
+          "start": "2026-06-01",
+          "end": "2030-05-31",
+          "amount": 6998770,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A01ef1197c9bda738c4564ed215107b7c"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3Ab15b534e576535e50a702454bb728cca"
+    },
+    "sdu": {
+      "ror": "03yrrjy16",
+      "openaireId": "openorgs____::6fc85e4a8f7ecaf4b0c738d010e967ea",
+      "openaireName": "University of Southern Denmark",
+      "since": "2023-09-19",
+      "numFound": 91,
+      "fetched": 91,
+      "active": 84,
+      "fundedTotal": 371867775,
+      "fundedKnown": 91,
+      "byFunder": {
+        "EC": {
+          "name": "European Commission",
+          "count": 91,
+          "amount": 371867775
+        }
+      },
+      "projects": [
+        {
+          "id": "corda_____he::071e135e404452e5b5b9f0edf23d12a5",
+          "code": "101310414",
+          "acronym": "BiWPT",
+          "title": "MSCA Doctoral Network on Bidirectional Wireless Power Transfer for Next-Generation Electric Mobility",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-01-01",
+          "end": "2030-12-31",
+          "amount": 4516920,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A071e135e404452e5b5b9f0edf23d12a5"
+        },
+        {
+          "id": "corda_____he::5aa03c2f9ddfe7f17eb066809f0e6f68",
+          "code": "101308482",
+          "acronym": "MINARET",
+          "title": "A Sociology of Post-Imperial Islamic Legal Cultures: Insights from Central Asia, the Middle East, North Africa, and Southeast Asia",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 4728270,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A5aa03c2f9ddfe7f17eb066809f0e6f68"
+        },
+        {
+          "id": "corda_____he::9a9283e9e2d515f6185b1d35fda7c8f9",
+          "code": "101312753",
+          "acronym": "DECODES",
+          "title": "Deciphering the Splicing Code in Human Disease",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-01-01",
+          "end": "2030-12-31",
+          "amount": 4589820,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A9a9283e9e2d515f6185b1d35fda7c8f9"
+        },
+        {
+          "id": "corda_____he::a297fd2c831758edcacc171dc3a243e9",
+          "code": "101278369",
+          "acronym": "SECURE-RES",
+          "title": "Secure Energy through Cyber-Resilient Unified Control and Embedded Intelligence for Renewable Systems",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2025-PF",
+          "start": "2027-03-01",
+          "end": "2029-02-28",
+          "amount": 263393,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Aa297fd2c831758edcacc171dc3a243e9"
+        },
+        {
+          "id": "corda_____he::e5a582790dcc98a00633ab4637a3467f",
+          "code": "101309754",
+          "acronym": "SUSTAIN",
+          "title": "SUSTAIN Europe’s workforce. Actionable Knowledge and Training towards a Sustainable European Workforce for Future Health, Well-Being, and Prosperity",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-03-01",
+          "end": "2031-02-28",
+          "amount": 4740250,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ae5a582790dcc98a00633ab4637a3467f"
+        },
+        {
+          "id": "corda_____he::0db555ff893d86549ab6e271a928d517",
+          "code": "101205445",
+          "acronym": "WatTs",
+          "title": "The Writers and the Totalitarians: The Scandinavian-speaking Writers’ Associations in the European Schism, 1933-1953",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2024-PF-01",
+          "start": "2026-05-01",
+          "end": "2028-04-30",
+          "amount": 263393,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A0db555ff893d86549ab6e271a928d517"
+        },
+        {
+          "id": "corda_____he::2cbbe7ffbde5be2ca7098d373e3945fd",
+          "code": "101291482",
+          "acronym": "GUIDEPREP2",
+          "title": "Growing Up In Digital Europe Preparatory Phase 2",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-INFRA-2025-01",
+          "start": "2026-10-01",
+          "end": "2029-09-30",
+          "amount": 1392190,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A2cbbe7ffbde5be2ca7098d373e3945fd"
+        },
+        {
+          "id": "corda_____he::316e43cbf988304054ce519b730aff7d",
+          "code": "101202118",
+          "acronym": "GoalFlex",
+          "title": "Developing an integrative framework of goal flexibility, depression, and anxiety symptomatology",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Postdoctoral Fellowships - European Fellowships",
+          "call": "HORIZON-MSCA-2024-PF-01",
+          "start": "2026-02-01",
+          "end": "2028-01-31",
+          "amount": 247553,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A316e43cbf988304054ce519b730aff7d"
+        },
+        {
+          "id": "corda_____he::3816bb4602b6414af775307b06dfd355",
+          "code": "101226672",
+          "acronym": "E-CoRe",
+          "title": "Energy-efficient Computing via Reversibility",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2024-DN-01",
+          "start": "2026-02-01",
+          "end": "2030-01-31",
+          "amount": 4052010,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A3816bb4602b6414af775307b06dfd355"
+        },
+        {
+          "id": "corda_____he::3ccdecba25d84f9382d4e90965ae8ae0",
+          "code": "101294054",
+          "acronym": "SPHERE",
+          "title": "STRICT PROTECTION & HUMAN-ENVIRONMENTAL RESILIENCE FOR EUROPEAN SEAS",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON  Research and Innovation Actions",
+          "call": "HORIZON-MISS-2025-03",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 4999570,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A3ccdecba25d84f9382d4e90965ae8ae0"
+        },
+        {
+          "id": "corda_____he::4853de4365b82e5e4742c4b61efdafa6",
+          "code": "101327095",
+          "acronym": "GENDERACTIONplus2027",
+          "title": "Gender Equality Network to Develop ERA Communities To activate Inclusive policy coordinatiON with Practical Learning for Uptake and Sustainability 2027",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-WIDERA-2026-06-IBA",
+          "start": "2026-06-01",
+          "end": "2028-05-31",
+          "amount": 1998940,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A4853de4365b82e5e4742c4b61efdafa6"
+        },
+        {
+          "id": "corda_____he::4ee7b261851b348384fb882db5d20f30",
+          "code": "101230722",
+          "acronym": "METABOA",
+          "title": "Exploring the Unexplored with a Crawling Soft Robot",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - European Research Council - HORIZON ERC Grants",
+          "call": "ERC-2025-COG",
+          "start": "2026-06-01",
+          "end": "2031-05-31",
+          "amount": 2000000,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A4ee7b261851b348384fb882db5d20f30"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A6fc85e4a8f7ecaf4b0c738d010e967ea"
+    },
+    "aau": {
+      "ror": "04m5j1k67",
+      "openaireId": "openorgs____::8a345b7c6970d9d2b8e718dcafc80033",
+      "openaireName": "Aalborg University",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A8a345b7c6970d9d2b8e718dcafc80033"
+    },
+    "cbs": {
+      "ror": "04sppb023",
+      "openaireId": "openorgs____::0a45de396fc864dc70d42d13f4e786e1",
+      "openaireName": "Copenhagen Business School",
+      "since": "2023-09-19",
+      "numFound": 118,
+      "fetched": 118,
+      "active": 118,
+      "fundedTotal": 88740377,
+      "fundedKnown": 28,
+      "byFunder": {
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 52,
+          "amount": 0
+        },
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 4,
+          "amount": 0
+        },
+        "VF": {
+          "name": "VELUX FOUNDATION",
+          "count": 6,
+          "amount": 0
+        },
+        "IRFD": {
+          "name": "Independent Research Fund Denmark",
+          "count": 26,
+          "amount": 0
+        },
+        "LF": {
+          "name": "Lundbeck Foundation",
+          "count": 2,
+          "amount": 0
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 27,
+          "amount": 88492658
+        },
+        "ANR": {
+          "name": "French National Research Agency (ANR)",
+          "count": 1,
+          "amount": 247719
+        }
+      },
+      "projects": [
+        {
+          "id": "cf__________::3195cedade201ae161560d27ddac1770",
+          "code": "CF24-1933",
+          "acronym": "",
+          "title": "Dark Side of Corporate Responsibility: Content Moderation as Emotional Dirty Work in the Digital Age",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accelerate",
+          "call": "",
+          "start": "2029-07-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A3195cedade201ae161560d27ddac1770"
+        },
+        {
+          "id": "cf__________::4200a7ec536127ccf03d2e7c06ffb578",
+          "code": "CF23-1006",
+          "acronym": "",
+          "title": "Frontiers of natural resource and sustainability governance for a just energy transition",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accomplish",
+          "call": "",
+          "start": "2029-03-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A4200a7ec536127ccf03d2e7c06ffb578"
+        },
+        {
+          "id": "nnf_________::f7246472b721ee112e04aeef147a141e",
+          "code": "NNF23SA0084231",
+          "acronym": "",
+          "title": "The impact of big funding on the outcomes and institutionalized form of the university",
+          "funder": "NNF",
+          "stream": "Symposia and conferences",
+          "call": "",
+          "start": "2029-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Af7246472b721ee112e04aeef147a141e"
+        },
+        {
+          "id": "vf__________::43f6f2dcbc8dfe137cf31636e1267631",
+          "code": "73850",
+          "acronym": "",
+          "title": "AGIL work-life balance: borgere, politikker og virksomheder - Tillægsbevilling",
+          "funder": "VF",
+          "stream": "Core Group Projects",
+          "call": "",
+          "start": "2029-06-24",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=vf__________%3A%3A43f6f2dcbc8dfe137cf31636e1267631"
+        },
+        {
+          "id": "vf__________::e2a6a1c40165b0789b9e107f2bbdf2b9",
+          "code": "67495",
+          "acronym": "",
+          "title": "AGIL work-life balance: borgere, politikker og virksomheder",
+          "funder": "VF",
+          "stream": "Core Group Projects",
+          "call": "",
+          "start": "2029-06-24",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=vf__________%3A%3Ae2a6a1c40165b0789b9e107f2bbdf2b9"
+        },
+        {
+          "id": "cf__________::162a234f01134ff42a853490d75d76bb",
+          "code": "CF24-1899",
+          "acronym": "",
+          "title": "Uncovering the origins and evolution of behavioral biases",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accelerate",
+          "call": "",
+          "start": "2028-12-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A162a234f01134ff42a853490d75d76bb"
+        },
+        {
+          "id": "cf__________::3de6bb7a9187f799dfe0d81117c71902",
+          "code": "CF22-1148",
+          "acronym": "",
+          "title": "The Entrepreneurial Age: Rethinking Entrepreneurship in Society",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2028-04-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A3de6bb7a9187f799dfe0d81117c71902"
+        },
+        {
+          "id": "cf__________::540ea2972b0571a23d9fa09ab0577dc3",
+          "code": "CF23-1746",
+          "acronym": "",
+          "title": "Do Auditors Matter?",
+          "funder": "CF",
+          "stream": "Research Infrastructure",
+          "call": "",
+          "start": "2028-12-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A540ea2972b0571a23d9fa09ab0577dc3"
+        },
+        {
+          "id": "cf__________::ed16056b5443a76de599928b2206575d",
+          "code": "CF22-1329",
+          "acronym": "",
+          "title": "Inclusive Entrepreneurship: Women and Immigrant Entrepreneurs",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2028-09-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3Aed16056b5443a76de599928b2206575d"
+        },
+        {
+          "id": "irfd________::06ab8019f9764ea1d13e21f053fddd82",
+          "code": "4252-00045A",
+          "acronym": "",
+          "title": "Building Research on Artificial Intelligence for Innovation",
+          "funder": "IRFD",
+          "stream": "Sapere Aude: DFF-Forskningsleder",
+          "call": "",
+          "start": "2028-08-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A06ab8019f9764ea1d13e21f053fddd82"
+        },
+        {
+          "id": "irfd________::c98a550b9a87d89ed8daf65e71fa2c3c",
+          "code": "4304-00025A",
+          "acronym": "",
+          "title": "The Politics of Time – Navigating Conflicting Imaginaries",
+          "funder": "IRFD",
+          "stream": "Inge Lehmann-programmet",
+          "call": "",
+          "start": "2028-11-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Ac98a550b9a87d89ed8daf65e71fa2c3c"
+        },
+        {
+          "id": "lf__________::f141e540df2e5c01b16e0cdafb062453",
+          "code": "R491-2024-1569",
+          "acronym": "",
+          "title": "Feedback to applicants and reapplication behavior",
+          "funder": "LF",
+          "stream": "Other grants",
+          "call": "",
+          "start": "2028-09-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=lf__________%3A%3Af141e540df2e5c01b16e0cdafb062453"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A0a45de396fc864dc70d42d13f4e786e1"
+    },
+    "ruc": {
+      "ror": "014axpa37",
+      "openaireId": "openorgs____::7c4399e5beb105205c685f465ce36a00",
+      "openaireName": "Roskilde University",
+      "since": "2023-09-19",
+      "numFound": 120,
+      "fetched": 120,
+      "active": 119,
+      "fundedTotal": 60304560,
+      "fundedKnown": 18,
+      "byFunder": {
+        "Other": {
+          "name": "Other",
+          "count": 1,
+          "amount": 0
+        },
+        "VF": {
+          "name": "VELUX FOUNDATION",
+          "count": 12,
+          "amount": 0
+        },
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 26,
+          "amount": 0
+        },
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 7,
+          "amount": 0
+        },
+        "IRFD": {
+          "name": "Independent Research Fund Denmark",
+          "count": 50,
+          "amount": 0
+        },
+        "VE": {
+          "name": "Villum Foundation",
+          "count": 6,
+          "amount": 0
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 17,
+          "amount": 59904561
+        },
+        "ANR": {
+          "name": "French National Research Agency (ANR)",
+          "count": 1,
+          "amount": 399999
+        }
+      },
+      "projects": [
+        {
+          "id": "ve__________::2073652e55aa1ecad6f87df8f1df77a5",
+          "code": "39017",
+          "acronym": "",
+          "title": "Algoritmer, Data og Demokrati - ADD",
+          "funder": "",
+          "stream": "",
+          "call": "",
+          "start": "2031-04-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3A2073652e55aa1ecad6f87df8f1df77a5"
+        },
+        {
+          "id": "vf__________::bbbbd43f98a71e0d67a800f6f8bd1e24",
+          "code": "37102",
+          "acronym": "",
+          "title": "Algoritmer, Data og Demokrati - ADD",
+          "funder": "VF",
+          "stream": "Algorithms, Data and Democracy",
+          "call": "",
+          "start": "2031-04-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=vf__________%3A%3Abbbbd43f98a71e0d67a800f6f8bd1e24"
+        },
+        {
+          "id": "cf__________::47ceff6e3a292af638489b75a50761bf",
+          "code": "CF24-1608",
+          "acronym": "",
+          "title": "Criminal Justice and Artificial Intelligence: The Ethics of the Use of Algorithms at Sentencing",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2030-08-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A47ceff6e3a292af638489b75a50761bf"
+        },
+        {
+          "id": "nnf_________::09a717c4d6027edb9ed179f21b28ed10",
+          "code": "NNF23OC0083282",
+          "acronym": "",
+          "title": "Assemble Against Resistance",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2030-09-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A09a717c4d6027edb9ed179f21b28ed10"
+        },
+        {
+          "id": "cf__________::1faca18c52b79c25e2633fc9c09d60eb",
+          "code": "CF24-1958",
+          "acronym": "",
+          "title": "The Privatisation Paradox: Evaluating Social Services in Denmark",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accelerate",
+          "call": "",
+          "start": "2029-07-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A1faca18c52b79c25e2633fc9c09d60eb"
+        },
+        {
+          "id": "irfd________::fcff88ce70e631c06185eff4871b92bc",
+          "code": "4310-00022A",
+          "acronym": "",
+          "title": "The first 1000 days – ambiguities of parental involvement",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt2 - Styrkelse af forskning i udsatte børn og unge samt mistrivsel",
+          "call": "",
+          "start": "2029-11-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Afcff88ce70e631c06185eff4871b92bc"
+        },
+        {
+          "id": "ve__________::fb042e7a5b7716fd0836e25316482bf9",
+          "code": "60791",
+          "acronym": "",
+          "title": "Greenhouse gas dynamics in seagrass meadows in the Anthropocene",
+          "funder": "VE",
+          "stream": "Villum Young Investigator",
+          "call": "",
+          "start": "2029-12-27",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3Afb042e7a5b7716fd0836e25316482bf9"
+        },
+        {
+          "id": "vf__________::91f598bf985c56bf8aca7f1903ea981c",
+          "code": "65417",
+          "acronym": "",
+          "title": "Det intuitive møde. Eksistens og etik i Bindeleddets ekspanderende arbejde med unge",
+          "funder": "VF",
+          "stream": "Humanities - Social Projects",
+          "call": "",
+          "start": "2029-06-24",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=vf__________%3A%3A91f598bf985c56bf8aca7f1903ea981c"
+        },
+        {
+          "id": "cf__________::29700e15309b1421b66f7c5803a7ea4b",
+          "code": "CF23-1077",
+          "acronym": "",
+          "title": "Understanding how coalition governments shape individual ministers’ role in policymaking",
+          "funder": "CF",
+          "stream": "Reintegration Fellowships",
+          "call": "",
+          "start": "2028-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A29700e15309b1421b66f7c5803a7ea4b"
+        },
+        {
+          "id": "irfd________::014b880a3257c190af7c64eb87d079fa",
+          "code": "4304-00035A",
+          "acronym": "",
+          "title": "Social Mechanisms of Genetic Effects on Education",
+          "funder": "IRFD",
+          "stream": "Inge Lehmann-programmet",
+          "call": "",
+          "start": "2028-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A014b880a3257c190af7c64eb87d079fa"
+        },
+        {
+          "id": "irfd________::1354f7a33d8836e8f881f116649a2bec",
+          "code": "4307-00168A",
+          "acronym": "",
+          "title": "Politics of Green Investments: The Green Transition and Recognition of Colonial Relations in Greenland and Sápmi",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Grøn omstilling/forskning",
+          "call": "",
+          "start": "2028-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A1354f7a33d8836e8f881f116649a2bec"
+        },
+        {
+          "id": "irfd________::14a850ab2d00086d7f0b916323eb15aa",
+          "code": "4282-00192A",
+          "acronym": "",
+          "title": "Linguistic Constructions of Sexual Abuse and Consent in Danish Rape Trials (LingCoRT)",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1",
+          "call": "",
+          "start": "2028-06-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A14a850ab2d00086d7f0b916323eb15aa"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A7c4399e5beb105205c685f465ce36a00"
+    },
+    "itu": {
+      "ror": "02309jg23",
+      "openaireId": "openorgs____::0921749613f645d13f18c00a0cfcd102",
+      "openaireName": "IT University of Copenhagen",
+      "since": "2023-09-19",
+      "numFound": 66,
+      "fetched": 66,
+      "active": 65,
+      "fundedTotal": 38153434,
+      "fundedKnown": 17,
+      "byFunder": {
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 6,
+          "amount": 0
+        },
+        "VE": {
+          "name": "Villum Foundation",
+          "count": 13,
+          "amount": 0
+        },
+        "IRFD": {
+          "name": "Independent Research Fund Denmark",
+          "count": 22,
+          "amount": 0
+        },
+        "VF": {
+          "name": "VELUX FOUNDATION",
+          "count": 2,
+          "amount": 0
+        },
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 5,
+          "amount": 0
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 14,
+          "amount": 36932677
+        },
+        "UKRI": {
+          "name": "UK Research and Innovation",
+          "count": 3,
+          "amount": 1220757
+        },
+        "LF": {
+          "name": "Lundbeck Foundation",
+          "count": 1,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "nnf_________::2ab17ca61ce2c44994532582f95ca829",
+          "code": "NNF24SA0093828",
+          "acronym": "",
+          "title": "InForM: Inference, Forecasting, and Mitigation of future pandemics",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2030-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A2ab17ca61ce2c44994532582f95ca829"
+        },
+        {
+          "id": "nnf_________::3103ec7f301d29c3593f5250d8eff794",
+          "code": "NNF24OC0092612",
+          "acronym": "",
+          "title": "CHEeTAh: CHallenges of Evaluating Teams and Algorithms",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2030-08-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A3103ec7f301d29c3593f5250d8eff794"
+        },
+        {
+          "id": "ve__________::5c913593e0b9650b966ca4c4fa7535c9",
+          "code": "60860",
+          "acronym": "",
+          "title": "PlagAIrism project: getting generative AI to provide references to its training data",
+          "funder": "VE",
+          "stream": "Villum Young Investigator",
+          "call": "",
+          "start": "2029-12-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3A5c913593e0b9650b966ca4c4fa7535c9"
+        },
+        {
+          "id": "irfd________::37018494e0c05f6263fd0faaec234914",
+          "code": "4313-00011A",
+          "acronym": "",
+          "title": "The Datafication of Wellbeing (DATAWELL): New Pedagogical Practices and Interventions in the Danish public school",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Læring og trivsel i grundskolen",
+          "call": "",
+          "start": "2028-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A37018494e0c05f6263fd0faaec234914"
+        },
+        {
+          "id": "irfd________::4a2a5ea49d597cf8b9bb82b33e1f66ac",
+          "code": "4283-00354A",
+          "acronym": "",
+          "title": "PROBABILIstic Session Types (PROBABILIST)",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1",
+          "call": "",
+          "start": "2028-07-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A4a2a5ea49d597cf8b9bb82b33e1f66ac"
+        },
+        {
+          "id": "nnf_________::9642ee5b509da159f1cd144636c3e769",
+          "code": "NNF24OC0091339",
+          "acronym": "",
+          "title": "Start package for associate professor Martin Hentschel: Open Data Management for Scientific Innovation",
+          "funder": "NNF",
+          "stream": "Investigators",
+          "call": "",
+          "start": "2028-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A9642ee5b509da159f1cd144636c3e769"
+        },
+        {
+          "id": "ve__________::5ea9714805ba78b144d1e7cb5751db22",
+          "code": "69261",
+          "acronym": "",
+          "title": "AInterviewer: a framework for using Generative AI to collect large-scale qualitative interview data",
+          "funder": "VE",
+          "stream": "Villum Synergy",
+          "call": "",
+          "start": "2028-10-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3A5ea9714805ba78b144d1e7cb5751db22"
+        },
+        {
+          "id": "ve__________::8a06615d4abacff23bb8cde6c87e911c",
+          "code": "53093",
+          "acronym": "",
+          "title": "Beyond exact counting: Approximation and symmetry",
+          "funder": "VE",
+          "stream": "Villum Young Investigator",
+          "call": "",
+          "start": "2028-05-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=ve__________%3A%3A8a06615d4abacff23bb8cde6c87e911c"
+        },
+        {
+          "id": "vf__________::0e25020354bb64d9bef717f5c6ccde10",
+          "code": "56654",
+          "acronym": "",
+          "title": "Transformationer i Omsorg (TRACE): En Undersøgelse af Menneske-Teknologi Interaktion i Omsorgspraksisser",
+          "funder": "VF",
+          "stream": "Core Group Projects",
+          "call": "",
+          "start": "2028-06-22",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=vf__________%3A%3A0e25020354bb64d9bef717f5c6ccde10"
+        },
+        {
+          "id": "cf__________::06bbe4c9a8c897d03bdf22a22ccc88ea",
+          "code": "CF23-0836",
+          "acronym": "",
+          "title": "Rank4QO: Revolutionizing Query Optimization with Ranking Algorithms",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accelerate",
+          "call": "",
+          "start": "2027-08-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A06bbe4c9a8c897d03bdf22a22ccc88ea"
+        },
+        {
+          "id": "cf__________::2b0d81472b7963c218fdfac97650ff87",
+          "code": "CF22-1030",
+          "acronym": "",
+          "title": "Quantum-inspired algorithms: probably the best differential solvers in the world",
+          "funder": "CF",
+          "stream": "Semper Ardens: Accelerate",
+          "call": "",
+          "start": "2027-01-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A2b0d81472b7963c218fdfac97650ff87"
+        },
+        {
+          "id": "irfd________::48d50ef5eede2a21f1e857142d6b2fab",
+          "code": "2101-00006A",
+          "acronym": "",
+          "title": "Usable Coercion-Resistant Internet Voting (UCORV)",
+          "funder": "IRFD",
+          "stream": "Inge Lehmann-programmet",
+          "call": "",
+          "start": "2027-06-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A48d50ef5eede2a21f1e857142d6b2fab"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A0921749613f645d13f18c00a0cfcd102"
+    },
+    "rigshospitalet": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "auh": {
+      "ror": "040r8fr65",
+      "openaireId": "openorgs____::63b49718c6b9df67760a7e8ac75b3991",
+      "openaireName": "Aarhus University Hospital",
+      "since": "2023-09-19",
+      "numFound": 1,
+      "fetched": 1,
+      "active": 1,
+      "fundedTotal": 1275540,
+      "fundedKnown": 1,
+      "byFunder": {
+        "UKRI": {
+          "name": "UK Research and Innovation",
+          "count": 1,
+          "amount": 1275540
+        }
+      },
+      "projects": [
+        {
+          "id": "ukri________::2da19d997d146b4444188e7ef0faae35",
+          "code": "EP/Z531182/1",
+          "acronym": "",
+          "title": "EPSRC Centre for Future PCI Planning",
+          "funder": "UKRI",
+          "stream": "EPSRC",
+          "call": "",
+          "start": "2024-11-01",
+          "end": "2028-10-31",
+          "amount": 1275540,
+          "currency": "GBP",
+          "url": "https://explore.openaire.eu/search/project?projectId=ukri________%3A%3A2da19d997d146b4444188e7ef0faae35"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A63b49718c6b9df67760a7e8ac75b3991"
+    },
+    "ouh": {
+      "ror": "00ey0ed83",
+      "openaireId": "openorgs____::8311c707598dfda9d64a05b43129c8e2",
+      "openaireName": "Odense University Hospital",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A8311c707598dfda9d64a05b43129c8e2"
+    },
+    "herlevgentofte": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "aalborguh": {
+      "ror": "02jk5qe80",
+      "openaireId": "openorgs____::ccf2a6c0bb6f2d63e567f09a9a031ef2",
+      "openaireName": "Aalborg Hospital",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3Accf2a6c0bb6f2d63e567f09a9a031ef2"
+    },
+    "bispebjergfrederiksberg": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "amagerhvidovre": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "zealanduh": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 00363z010.",
+      "ror": "00363z010"
+    },
+    "stenocph": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 03gqzdg87.",
+      "ror": "03gqzdg87"
+    },
+    "stenoaarhus": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 02qwvry66.",
+      "ror": "02qwvry66"
+    },
+    "ssi": {
+      "ror": "0417ye583",
+      "openaireId": "openorgs____::592ebe213f90714fe4bebe54f6018c71",
+      "openaireName": "Statens Serum Institut",
+      "since": "2023-09-19",
+      "numFound": 9,
+      "fetched": 9,
+      "active": 8,
+      "fundedTotal": 147404650,
+      "fundedKnown": 9,
+      "byFunder": {
+        "EC": {
+          "name": "European Commission",
+          "count": 9,
+          "amount": 147404650
+        }
+      },
+      "projects": [
+        {
+          "id": "corda_____he::f4cf3e6acdcc76d2d389819c3be84bbd",
+          "code": "101311814",
+          "acronym": "Vax4eU",
+          "title": "Vaccinologists for Europe:\nTraining network for developing next generation vaccines against mucosal pathogens",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2025-DN-01",
+          "start": "2027-02-01",
+          "end": "2031-01-31",
+          "amount": 4640640,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Af4cf3e6acdcc76d2d389819c3be84bbd"
+        },
+        {
+          "id": "corda_____he::6eb41f9768d6ec36cc7a77229926f2f7",
+          "code": "101293306",
+          "acronym": "ISIDORe II",
+          "title": "INTEGRATED SERVICES FOR INFECTIOUS DISEASE OUTBREAK RESEARCH II",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON  Research and Innovation Actions",
+          "call": "HORIZON-INFRA-2025-01",
+          "start": "2026-06-01",
+          "end": "2029-05-31",
+          "amount": 10456500,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A6eb41f9768d6ec36cc7a77229926f2f7"
+        },
+        {
+          "id": "corda_____he::93fb6ec074a16fb8a5b97f5447202bc2",
+          "code": "101226682",
+          "acronym": "BE READY NOW",
+          "title": "BE READY NOW - EUROPEAN PARTNERSHIP FOR PANDEMIC PREPAREDNESS",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Programme Cofund Actions",
+          "call": "HORIZON-HLTH-2024-DISEASE-12",
+          "start": "2026-01-01",
+          "end": "2032-12-31",
+          "amount": 57281200,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A93fb6ec074a16fb8a5b97f5447202bc2"
+        },
+        {
+          "id": "corda_____he::1e2d564e817327d9193cb2405c5eb02c",
+          "code": "101195079",
+          "acronym": "BE READY PLUS",
+          "title": "Building a European strategic Research and Innovation Area in Direct Synergy with EU and International Initiatives for Pandemic Preparedness PLUS",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-HLTH-2024-DISEASE-17",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "amount": 1092480,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A1e2d564e817327d9193cb2405c5eb02c"
+        },
+        {
+          "id": "corda_____he::2a4f8e1d5cf4c3bda17f994d9439a42b",
+          "code": "101119534",
+          "acronym": "CLEAR",
+          "title": "“CLEAR”: Cell Envelope Antibacterials",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2022-DN-01",
+          "start": "2024-01-01",
+          "end": "2027-12-31",
+          "amount": 2706540,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A2a4f8e1d5cf4c3bda17f994d9439a42b"
+        },
+        {
+          "id": "corda_____he::69e7f628854af9635c04e9024d449316",
+          "code": "101136346",
+          "acronym": "EUPAHW",
+          "title": "European Partnership Animal health and Welfare",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Programme Cofund Actions",
+          "call": "HORIZON-CL6-2023-FARM2FORK-01",
+          "start": "2024-01-01",
+          "end": "2030-12-31",
+          "amount": 57233700,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A69e7f628854af9635c04e9024d449316"
+        },
+        {
+          "id": "corda_____he::8193def330bc8ad0e87338bf0e0a3910",
+          "code": "101168881",
+          "acronym": "NATPRIME",
+          "title": "Effective Delivery of Nucleic Acid Therapeutics via Designed Nanocarriers",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON TMA MSCA Doctoral Networks",
+          "call": "HORIZON-MSCA-2023-DN-01",
+          "start": "2024-10-01",
+          "end": "2028-09-30",
+          "amount": 4000130,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A8193def330bc8ad0e87338bf0e0a3910"
+        },
+        {
+          "id": "corda_____he::a31b00b9582fa83a4902cb9d14805414",
+          "code": "101133191",
+          "acronym": "PAIR",
+          "title": "Pandemic Information to Support Rapid Response",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-HLTH-2023-TOOL-05",
+          "start": "2024-01-01",
+          "end": "2028-12-31",
+          "amount": 6993860,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Aa31b00b9582fa83a4902cb9d14805414"
+        },
+        {
+          "id": "corda_____he::1152cc3b65a116fe629c4ae56a35e91c",
+          "code": "101094685",
+          "acronym": "LEAPS",
+          "title": "Integrating Multi-Disciplinary Expertise in a Learning and Adaptive European Pandemic Preparedness System",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON  Research and Innovation Actions",
+          "call": "HORIZON-HLTH-2022-DISEASE-07",
+          "start": "2023-10-01",
+          "end": "2027-09-30",
+          "amount": 2999600,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A1152cc3b65a116fe629c4ae56a35e91c"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A592ebe213f90714fe4bebe54f6018c71"
+    },
+    "nbi": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "royalacademy": {
+      "ror": "03hvzdf94",
+      "openaireId": "openorgs____::645a26630e42fd5b49e8e973869f7ca7",
+      "openaireName": "The Royal Danish Academy of Sciences and Letters",
+      "since": "2023-09-19",
+      "numFound": 3,
+      "fetched": 3,
+      "active": 3,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 3,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "cf__________::2409b296276cdfae68f701ac1ea7668f",
+          "code": "CF24-0806",
+          "acronym": "",
+          "title": "Carving the Individual",
+          "funder": "CF",
+          "stream": "Conferences",
+          "call": "",
+          "start": "2025-03-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A2409b296276cdfae68f701ac1ea7668f"
+        },
+        {
+          "id": "cf__________::0dde3217bf9544e92678c937d1091eb9",
+          "code": "CF22-0186",
+          "acronym": "",
+          "title": "Symposium: Green transition by culinary science, art & craft",
+          "funder": "CF",
+          "stream": "Conferences",
+          "call": "",
+          "start": "2023-09-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A0dde3217bf9544e92678c937d1091eb9"
+        },
+        {
+          "id": "cf__________::18bf87804f5804dc4803fbf1347f5b31",
+          "code": "CF23-0386",
+          "acronym": "",
+          "title": "Turning the page",
+          "funder": "CF",
+          "stream": "Conferences",
+          "call": "",
+          "start": "2023-11-29",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A18bf87804f5804dc4803fbf1347f5b31"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A645a26630e42fd5b49e8e973869f7ca7"
+    },
+    "dmi": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 020m6x732.",
+      "ror": "020m6x732"
+    },
+    "geus": {
+      "ror": "01b40r146",
+      "openaireId": "openorgs____::455bc8700352c786cc184ec1e710266d",
+      "openaireName": "Geological Survey of Finland",
+      "since": "2023-09-19",
+      "numFound": 72,
+      "fetched": 72,
+      "active": 62,
+      "fundedTotal": 161390341,
+      "fundedKnown": 72,
+      "byFunder": {
+        "AKA": {
+          "name": "Research Council of Finland",
+          "count": 43,
+          "amount": 14097549
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 20,
+          "amount": 143961940
+        },
+        "IBF": {
+          "name": "Innovaatiorahoituskeskus Business Finland",
+          "count": 8,
+          "amount": 3030464
+        },
+        "ANR": {
+          "name": "French National Research Agency (ANR)",
+          "count": 1,
+          "amount": 300388
+        }
+      },
+      "projects": [
+        {
+          "id": "aka_________::212927ed609bb2be8b48cc4531bb75a5",
+          "code": "367727",
+          "acronym": "",
+          "title": "Finnish Marine Research Infrastructure",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "FIRI2024 Roadmap for national research infrastructures 2025–2028, second stage",
+          "start": "2026-01-01",
+          "end": "2027-12-31",
+          "amount": 178463,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3A212927ed609bb2be8b48cc4531bb75a5"
+        },
+        {
+          "id": "aka_________::3f544ddcc740192b37ae86a530345f15",
+          "code": "367724",
+          "acronym": "",
+          "title": "Finnish Marine Research Infrastructure",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "FIRI2024 Roadmap for national research infrastructures 2025–2028, second stage",
+          "start": "2026-01-01",
+          "end": "2027-12-31",
+          "amount": 118755,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3A3f544ddcc740192b37ae86a530345f15"
+        },
+        {
+          "id": "aka_________::4ce1d4693695a6de93cf384c995b194d",
+          "code": "367723",
+          "acronym": "",
+          "title": "Finnish Marine Research Infrastructure",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "FIRI2024 Roadmap for national research infrastructures 2025–2028, second stage",
+          "start": "2026-01-01",
+          "end": "2027-12-31",
+          "amount": 149243,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3A4ce1d4693695a6de93cf384c995b194d"
+        },
+        {
+          "id": "aka_________::7fa3c903e68133de4825f2e05905a624",
+          "code": "375223",
+          "acronym": "",
+          "title": "AI-supported advanced imaging for Geo",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2026 Academy Project Funding",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 287695,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3A7fa3c903e68133de4825f2e05905a624"
+        },
+        {
+          "id": "aka_________::7fcab1482b40fb5bab791d42b75e4d90",
+          "code": "373639",
+          "acronym": "",
+          "title": "InterpAI-CoM: Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2025 Special funding for international collaboration in high-performance computing",
+          "start": "2026-01-01",
+          "end": "2028-12-31",
+          "amount": 300641,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3A7fcab1482b40fb5bab791d42b75e4d90"
+        },
+        {
+          "id": "aka_________::aff3b9a6b963b60f5348d9a1f8f8561f",
+          "code": "375225",
+          "acronym": "",
+          "title": "AI-supported advanced imaging for Geo",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2026 Academy Project Funding",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 207393,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3Aaff3b9a6b963b60f5348d9a1f8f8561f"
+        },
+        {
+          "id": "aka_________::b859a4d2ac4821ae8071d592b93d6f1d",
+          "code": "375226",
+          "acronym": "",
+          "title": "AI-supported advanced imaging for Geo",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2026 Academy Project Funding",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 262888,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3Ab859a4d2ac4821ae8071d592b93d6f1d"
+        },
+        {
+          "id": "aka_________::cb572d4ea1f18997e51d0a353e76be57",
+          "code": "375224",
+          "acronym": "",
+          "title": "AI-supported advanced imaging for Geo",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2026 Academy Project Funding",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 210302,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3Acb572d4ea1f18997e51d0a353e76be57"
+        },
+        {
+          "id": "aka_________::f9ea68dbbaae4455b4c5abf0b8f2fdfb",
+          "code": "372518",
+          "acronym": "",
+          "title": "InterpAI-CoM: Interpretable Physics-AI Hybrid Modeling for Groundwater Contamination Dynamics and Mitigation",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "2025 Special funding for international collaboration in high-performance computing",
+          "start": "2026-01-01",
+          "end": "2028-12-31",
+          "amount": 410288,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3Af9ea68dbbaae4455b4c5abf0b8f2fdfb"
+        },
+        {
+          "id": "aka_________::f9f2e8d1c8b19c7b509531682678163e",
+          "code": "367722",
+          "acronym": "",
+          "title": "Finnish Marine Research Infrastructure",
+          "funder": "AKA",
+          "stream": "null",
+          "call": "FIRI2024 Roadmap for national research infrastructures 2025–2028, second stage",
+          "start": "2026-01-01",
+          "end": "2027-12-31",
+          "amount": 202591,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=aka_________%3A%3Af9f2e8d1c8b19c7b509531682678163e"
+        },
+        {
+          "id": "corda_____he::00f2137926fe4ae2f4cd9226fdfe0f86",
+          "code": "101287905",
+          "acronym": "PEAT-GENIE",
+          "title": "Simulating Management Decisions with Peatland Digital Twins and Generative AI",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON  Research and Innovation Actions",
+          "call": "HORIZON-INFRA-2025-01",
+          "start": "2026-09-01",
+          "end": "2030-08-31",
+          "amount": 8819100,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A00f2137926fe4ae2f4cd9226fdfe0f86"
+        },
+        {
+          "id": "corda_____he::5955da36a6c28f43bec5c3b67a07e022",
+          "code": "101295807",
+          "acronym": "BMB2030",
+          "title": "BlueMissionBANOS2030",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-MISS-2025-03",
+          "start": "2026-09-01",
+          "end": "2029-08-31",
+          "amount": 3549590,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A5955da36a6c28f43bec5c3b67a07e022"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A455bc8700352c786cc184ec1e710266d"
+    },
+    "alexandra": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 054z83b16.",
+      "ror": "054z83b16"
+    },
+    "dti": {
+      "ror": "00n87rr37",
+      "openaireId": "openorgs____::9822bbd2472ba19aaa400d234c0d877b",
+      "openaireName": "Danish Technological Institute",
+      "since": "2023-09-19",
+      "numFound": 29,
+      "fetched": 29,
+      "active": 28,
+      "fundedTotal": 154004924,
+      "fundedKnown": 27,
+      "byFunder": {
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 2,
+          "amount": 0
+        },
+        "EC": {
+          "name": "European Commission",
+          "count": 27,
+          "amount": 154004924
+        }
+      },
+      "projects": [
+        {
+          "id": "nnf_________::aef98894f0bf99c8d23e9bc56ee76c28",
+          "code": "NNF24SA0091172",
+          "acronym": "",
+          "title": "SmartField - an innovation platform for N2O mitigation in agriculture",
+          "funder": "NNF",
+          "stream": "Projects",
+          "call": "",
+          "start": "2029-05-14",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Aaef98894f0bf99c8d23e9bc56ee76c28"
+        },
+        {
+          "id": "nnf_________::d56cffbaac15c103b7a911a99ab0c160",
+          "code": "NNF22SA0082148",
+          "acronym": "",
+          "title": "Odense Robotics StartUp Fund",
+          "funder": "NNF",
+          "stream": "Sponsorships",
+          "call": "",
+          "start": "2028-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Ad56cffbaac15c103b7a911a99ab0c160"
+        },
+        {
+          "id": "corda_____he::01ef1197c9bda738c4564ed215107b7c",
+          "code": "101269474",
+          "acronym": "AVANGUARD",
+          "title": "Advanced Data-Driven Strategies for Optimized Long Duration Energy Storage Deployment in Multi-Energy Networks",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL5-2025-02",
+          "start": "2026-06-01",
+          "end": "2030-05-31",
+          "amount": 6998770,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A01ef1197c9bda738c4564ed215107b7c"
+        },
+        {
+          "id": "corda_____he::338a474cbdcb082933300511fd1bff18",
+          "code": "101269212",
+          "acronym": "ANEMOS",
+          "title": "Automated and sustaiNablE digital Manufacturing fOr reSilient and integrated wind energy systems",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL5-2025-02",
+          "start": "2026-05-01",
+          "end": "2029-10-31",
+          "amount": 6483150,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A338a474cbdcb082933300511fd1bff18"
+        },
+        {
+          "id": "corda_____he::4224297d9f6949d2d92512e95f4028a4",
+          "code": "101262970",
+          "acronym": "FERM4FOOD",
+          "title": "SCALABLE CO2-BASED PRECISION FERMENTATION FOR FUNCTIONAL FOOD INGREDIENTS",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL6-2025-02",
+          "start": "2026-06-01",
+          "end": "2030-05-31",
+          "amount": 5999990,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A4224297d9f6949d2d92512e95f4028a4"
+        },
+        {
+          "id": "corda_____he::b2156eff28d350aca439733bdec35508",
+          "code": "101295795",
+          "acronym": "HPT",
+          "title": "Heat Pump Testing",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-CL5-2025-PUMPS-IBA",
+          "start": "2026-04-01",
+          "end": "2028-03-31",
+          "amount": 1999970,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ab2156eff28d350aca439733bdec35508"
+        },
+        {
+          "id": "corda_____he::6ddb50fa1d407e86bc9d6e90054cf837",
+          "code": "101204218",
+          "acronym": "InnoMatSyn",
+          "title": "Innovative Materials Ecosystem to Gain Synergies of regional, national and EU Initiatives",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-CL4-2024-HUMAN-02",
+          "start": "2025-03-01",
+          "end": "2028-02-29",
+          "amount": 3999340,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3A6ddb50fa1d407e86bc9d6e90054cf837"
+        },
+        {
+          "id": "corda_____he::adcce964834118d3b1cd8088adfff742",
+          "code": "101223300",
+          "acronym": "ECOSYSTEM",
+          "title": "Emerging eco-active materials by sustainable tools from natural renewable residues",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON EIC Grants",
+          "call": "HORIZON-EIC-2024-PATHFINDERCHALLENGES-01",
+          "start": "2025-10-01",
+          "end": "2029-09-30",
+          "amount": 3933650,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Aadcce964834118d3b1cd8088adfff742"
+        },
+        {
+          "id": "corda_____he::b8014cd0016cb8aa78fadbc9e7725901",
+          "code": "101257435",
+          "acronym": "RTI Summit 2025",
+          "title": "RTI Summit 2025",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Coordination and Support Actions",
+          "call": "HORIZON-INFRA-2025-DK-CONF-IBA",
+          "start": "2025-06-01",
+          "end": "2026-01-31",
+          "amount": 149652,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ab8014cd0016cb8aa78fadbc9e7725901"
+        },
+        {
+          "id": "corda_____he::c1254594eaa947c9c433ad927585686b",
+          "code": "101177771",
+          "acronym": "E-OILE",
+          "title": "Sustainable End-of-life routes for single-use monodose packaging for oily products",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL4-2024-RESILIENCE-01-TWO-STAGE",
+          "start": "2025-06-01",
+          "end": "2029-05-31",
+          "amount": 6616780,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ac1254594eaa947c9c433ad927585686b"
+        },
+        {
+          "id": "corda_____he::d7a0cd9b33b23ceffe92ab2e7c5fde4a",
+          "code": "101188263",
+          "acronym": "ACTNXT",
+          "title": "ADVANCED CHARACTERIZATION OF TECHNICAL COMPONENTS FOR NEW POWER-TO-X TECHNOLOGIES",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON  Research and Innovation Actions",
+          "call": "HORIZON-INFRA-2024-TECH-01",
+          "start": "2025-03-01",
+          "end": "2029-02-28",
+          "amount": 9229260,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Ad7a0cd9b33b23ceffe92ab2e7c5fde4a"
+        },
+        {
+          "id": "corda_____he::ff751e3d06526b58993b0f927d3d5926",
+          "code": "101235544",
+          "acronym": "SPHEERE",
+          "title": "SUSTAINABLE PACKAGE FOR HIGH ENERGY EFFICIENT RETROFIT",
+          "funder": "EC",
+          "stream": "Horizon Europe Framework Programme - HORIZON Innovation Actions",
+          "call": "HORIZON-CL5-2024-D4-02",
+          "start": "2025-11-01",
+          "end": "2028-12-31",
+          "amount": 7864850,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=corda_____he%3A%3Aff751e3d06526b58993b0f927d3d5926"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A9822bbd2472ba19aaa400d234c0d877b"
+    },
+    "cpr": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "cbmr": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "renew": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 03nqjyg83.",
+      "ror": "03nqjyg83"
+    },
+    "inano": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "dtuspace": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "diis": {
+      "ror": "02asy9212",
+      "openaireId": "openorgs____::eaaabaafe2c865f22ccb90602236f6db",
+      "openaireName": "Danish Institute for International Studies",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3Aeaaabaafe2c865f22ccb90602236f6db"
+    },
+    "vive": {
+      "ror": "0523ssa79",
+      "openaireId": "openorgs____::501a504341a825b31d7355875f45a8d6",
+      "openaireName": "Danish National Centre for Social Research",
+      "since": "2023-09-19",
+      "numFound": 39,
+      "fetched": 39,
+      "active": 39,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 4,
+          "amount": 0
+        },
+        "IRFD": {
+          "name": "Independent Research Fund Denmark",
+          "count": 31,
+          "amount": 0
+        },
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 4,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "cf__________::fdeb734aca997a23e31866422b841f26",
+          "code": "CF22-0875",
+          "acronym": "",
+          "title": "European Social Survey 11th round",
+          "funder": "CF",
+          "stream": "Research Infrastructure",
+          "call": "",
+          "start": "2030-12-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3Afdeb734aca997a23e31866422b841f26"
+        },
+        {
+          "id": "irfd________::13b579240df2a8c0fd28da1aa5785592",
+          "code": "4310-00025A",
+          "acronym": "",
+          "title": "Critical moments when transitioning out of care among young people with a Greenlandic background in Denmark",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Styrkelse af forskning i udsatte børn og unge samt mistrivsel",
+          "call": "",
+          "start": "2028-07-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A13b579240df2a8c0fd28da1aa5785592"
+        },
+        {
+          "id": "irfd________::1a72c3c1c8513dd43976f84dae47c8ff",
+          "code": "4311-00003A",
+          "acronym": "",
+          "title": "Care provisions for older ethnic minorities – understanding diverse approaches",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Ældreforskning",
+          "call": "",
+          "start": "2028-03-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A1a72c3c1c8513dd43976f84dae47c8ff"
+        },
+        {
+          "id": "irfd________::36b7f6b92c35f906a40956ab7af033bc",
+          "code": "4250-00010A",
+          "acronym": "",
+          "title": "Working at the Boundaries of Dying: Dying Trajectories, Medical Futility and Transition Work in the 21st century",
+          "funder": "IRFD",
+          "stream": "Sapere Aude: DFF-Forskningsleder",
+          "call": "",
+          "start": "2028-12-01",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A36b7f6b92c35f906a40956ab7af033bc"
+        },
+        {
+          "id": "irfd________::4b09d33bbc0d766e1a16a8fd117d3a0c",
+          "code": "4357-00013A",
+          "acronym": "",
+          "title": "Work-duty and the call for utility: Redrawing state-citizen relations through a Danish activation scheme",
+          "funder": "IRFD",
+          "stream": "Forskeruddannelse uden for universiteterne",
+          "call": "",
+          "start": "2028-01-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A4b09d33bbc0d766e1a16a8fd117d3a0c"
+        },
+        {
+          "id": "irfd________::76cc2f556f9cc0543b2958d12faa7403",
+          "code": "4311-00034A",
+          "acronym": "",
+          "title": "Mental health consequences of having a spouse with dementia",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Ældreforskning",
+          "call": "",
+          "start": "2028-02-01",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A76cc2f556f9cc0543b2958d12faa7403"
+        },
+        {
+          "id": "irfd________::a3a325d2f6d66f5d390acdba5a3c26f9",
+          "code": "3167-00022A",
+          "acronym": "",
+          "title": "\"System Child\". Clientization when growing up with multiple system contacts",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt2 - Styrkelse af forskning i udsatte børn og unge",
+          "call": "",
+          "start": "2028-11-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Aa3a325d2f6d66f5d390acdba5a3c26f9"
+        },
+        {
+          "id": "irfd________::eccd8002d2aaea7b80f5bfc1553a2432",
+          "code": "4312-00003A",
+          "acronym": "",
+          "title": "Loneliness and activity participation among older adults",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Forskning i ensomhed",
+          "call": "",
+          "start": "2028-06-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Aeccd8002d2aaea7b80f5bfc1553a2432"
+        },
+        {
+          "id": "irfd________::67c8c72c68ad30b30fdc35273cf18525",
+          "code": "3169-00004A",
+          "acronym": "",
+          "title": "Recruitment and Retention of VET Students and VET Teachers",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt2 - Stærkere forskningsmiljøer for erhvervsuddannelserne",
+          "call": "",
+          "start": "2027-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A67c8c72c68ad30b30fdc35273cf18525"
+        },
+        {
+          "id": "irfd________::8b22c2ef2ad72cc64c7ca905412fbf6d",
+          "code": "3161-00011A",
+          "acronym": "",
+          "title": "The family child as a moral agent in contemporary childhood",
+          "funder": "IRFD",
+          "stream": "Inge Lehmann-programmet",
+          "call": "",
+          "start": "2027-02-28",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3A8b22c2ef2ad72cc64c7ca905412fbf6d"
+        },
+        {
+          "id": "irfd________::a48d2a28f8846ac4297c289b32593bc4",
+          "code": "3168-00006A",
+          "acronym": "",
+          "title": "Skill building for wellbeing: Understanding an effective, targeted, primary school literacy intervention",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1 - Læring og trivsel i folkeskolen",
+          "call": "",
+          "start": "2027-01-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Aa48d2a28f8846ac4297c289b32593bc4"
+        },
+        {
+          "id": "irfd________::ab11adc94b7384f39367c255d2233f6e",
+          "code": "4284-00086A",
+          "acronym": "",
+          "title": "Exam Grades, Student Behaviour, and Wellbeing",
+          "funder": "IRFD",
+          "stream": "DFF-Forskningsprojekt1",
+          "call": "",
+          "start": "2027-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=irfd________%3A%3Aab11adc94b7384f39367c255d2233f6e"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A501a504341a825b31d7355875f45a8d6"
+    },
+    "dias": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "biosustain": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "niph": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 012bzsw43.",
+      "ror": "012bzsw43"
+    },
+    "aias": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 03m42ee08.",
+      "ror": "03m42ee08"
+    },
+    "pioneerai": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "rockwoolresearch": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "bii": {
+      "ror": "048b3qc73",
+      "openaireId": "pending_org_::17cc6699be34f2769bf11c64cd5daf0c",
+      "openaireName": "BIOINNOVATION INSTITUTE FONDEN",
+      "since": "2023-09-19",
+      "numFound": 4,
+      "fetched": 4,
+      "active": 4,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 4,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "nnf_________::4af9e7f9fa1b8669fd50b03dfaf7a719",
+          "code": "NNF20SA0068096",
+          "acronym": "",
+          "title": "The BioInnovation Institute Initiative 2021",
+          "funder": "NNF",
+          "stream": "Own initiatives for later spinout",
+          "call": "",
+          "start": "2030-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A4af9e7f9fa1b8669fd50b03dfaf7a719"
+        },
+        {
+          "id": "nnf_________::c6f252e27c80e8c440e4e38a3dcfc573",
+          "code": "NNF22SA0081416",
+          "acronym": "",
+          "title": "Collaboration between NNF, BII & Bill and Melinda Gates Foundation",
+          "funder": "NNF",
+          "stream": "Partnerships",
+          "call": "",
+          "start": "2025-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3Ac6f252e27c80e8c440e4e38a3dcfc573"
+        },
+        {
+          "id": "nnf_________::3c3b915194ae0b00329bda3e1a77809d",
+          "code": "NNF22SA0082146",
+          "acronym": "",
+          "title": "Texas Medical Center (TMC) – Denmark BioBridge Pilot Accelerator programme 2023-2024",
+          "funder": "NNF",
+          "stream": "Programmes and collaborations",
+          "call": "",
+          "start": "2024-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A3c3b915194ae0b00329bda3e1a77809d"
+        },
+        {
+          "id": "nnf_________::4c5380150b87721d5531d1df19bed6a3",
+          "code": "NNF22SA0082001",
+          "acronym": "",
+          "title": "BioInnovation Institute Initiative 2023",
+          "funder": "NNF",
+          "stream": "Own initiatives for later spinout",
+          "call": "",
+          "start": "2023-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A4c5380150b87721d5531d1df19bed6a3"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=pending_org_%3A%3A17cc6699be34f2769bf11c64cd5daf0c"
+    },
+    "novonordiskfoundation": {
+      "ror": "04txyc737",
+      "openaireId": "openorgs____::5492d5fbb6512316ef878aec24cf055b",
+      "openaireName": "Novo Nordisk Foundation",
+      "since": "2023-09-19",
+      "numFound": 1,
+      "fetched": 1,
+      "active": 1,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {
+        "NNF": {
+          "name": "Novo Nordisk Foundation",
+          "count": 1,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "nnf_________::491e9e2c9309fa5b0f2cb2fd65763f29",
+          "code": "NNF22SA0074226",
+          "acronym": "",
+          "title": "2022 Novozymes Prize Symposium",
+          "funder": "NNF",
+          "stream": "Awards and prizes",
+          "call": "",
+          "start": "2023-12-31",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=nnf_________%3A%3A491e9e2c9309fa5b0f2cb2fd65763f29"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A5492d5fbb6512316ef878aec24cf055b"
+    },
+    "lundbeckfoundation": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 03hz8wd80.",
+      "ror": "03hz8wd80"
+    },
+    "carlsbergfoundation": {
+      "ror": "01kpjmx04",
+      "openaireId": "openorgs____::83fd7de694863326f598a164a284c43f",
+      "openaireName": "Carlsberg Foundation",
+      "since": "2023-09-19",
+      "numFound": 1,
+      "fetched": 1,
+      "active": 1,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {
+        "CF": {
+          "name": "Carlsberg Foundation",
+          "count": 1,
+          "amount": 0
+        }
+      },
+      "projects": [
+        {
+          "id": "cf__________::0c294dd5713fba7b6239cfc8297c7746",
+          "code": "CF20-0352",
+          "acronym": "",
+          "title": "Crops for the future - Tackling the challenges of changing climates",
+          "funder": "CF",
+          "stream": "Semper Ardens: Advance",
+          "call": "",
+          "start": "2026-12-30",
+          "end": "",
+          "amount": null,
+          "currency": "EUR",
+          "url": "https://explore.openaire.eu/search/project?projectId=cf__________%3A%3A0c294dd5713fba7b6239cfc8297c7746"
+        }
+      ],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A83fd7de694863326f598a164a284c43f"
+    },
+    "villumfoundation": {
+      "notFound": true,
+      "reason": "No ROR id resolved for this organisation, so OpenAIRE cannot be queried."
+    },
+    "danishcancersociety": {
+      "ror": "03ytt7k16",
+      "openaireId": "openorgs____::743fe21b41970a427a182e82956c1f06",
+      "openaireName": "Danish Cancer Society",
+      "since": "2023-09-19",
+      "numFound": 0,
+      "fetched": 0,
+      "active": 0,
+      "fundedTotal": 0,
+      "fundedKnown": 0,
+      "byFunder": {},
+      "projects": [],
+      "sourceUrl": "https://explore.openaire.eu/search/advanced/projects?relorganizationid=openorgs____%3A%3A743fe21b41970a427a182e82956c1f06"
+    },
+    "dnrf": {
+      "notFound": true,
+      "reason": "OpenAIRE has no organisation record for ROR 00znyv691.",
+      "ror": "00znyv691"
+    }
+  }
+}
