@@ -1,35 +1,16 @@
 {
-  "generatedAt": "2026-09-18T12:12:55.108Z",
-  "articleCount": 9,
-  "headline": "Nordic biotech pivots to specialized AI; OpenAI courts legal sector amid verification arms race",
-  "bottomLine": "Novo Nordisk's strategic shift to Anthropic's Claude for drug discovery, paired with Nordic research funding coordination and OpenAI's legal platform launch, signals that life sciences and professional services institutions are now…",
-  "keyFindings": [
-    "Novo Nordisk has committed to Anthropic's Claude for drug discovery, aiming to compress development timelines; Anthropic simultaneously launched a Life Sciences Verification Program in beta,…",
-    "The Novo Nordisk Foundation and NordForsk framework agreement coordinates Nordic research funding, likely to influence institutional research priorities and subscription bundling across Denmark,…",
-    "OpenAI's new legal-focused AI platform escalates competition beyond general research tools into professional services, fragmenting researcher and analyst workflows across multiple specialized vendors…",
-    "Specialized AI verification programs (Anthropic's Life Sciences track) now compete directly with Scopus/ScienceDirect's integrated discovery-to-evidence workflows, forcing Danish institutions to…"
-  ],
-  "whyItMatters": "Danish research institutions and pharma-adjacent organizations are now evaluating AI capabilities alongside traditional research infrastructure. Novo Nordisk's public commitment to Anthropic raises institutional awareness of alternative workflows, while coordinated Nordic funding signals procurement consolidation opportunities—but also risks that LeapSpace's AI features must visibly outperform or integrate with…",
+  "generatedAt": "2026-09-20T12:14:59.369Z",
+  "articleCount": 0,
+  "headline": "",
+  "bottomLine": "No live stories to summarize yet.",
+  "keyFindings": [],
+  "whyItMatters": "",
   "impact": {
-    "novelty": 4,
-    "commercial": 4,
-    "threat": 4,
-    "urgency": 4
+    "novelty": 3,
+    "commercial": 3,
+    "threat": 3,
+    "urgency": 3
   },
-  "entities": [
-    "Novo Nordisk",
-    "Anthropic",
-    "Claude",
-    "OpenAI",
-    "Novo Nordisk Foundation",
-    "NordForsk",
-    "LeapSpace",
-    "Life Sciences Verification Program"
-  ],
-  "actionItems": [
-    "Map Danish pharma and biotech institutions' current AI tool adoption (Anthropic, OpenAI, Elicit, scite); prioritize Novo-adjacent suppliers and university partners to pitch LeapSpace's…",
-    "Request Elsevier product intel on LeapSpace's roadmap for life-sciences verification and regulatory compliance features; determine if integration partnerships with verification-standard bodies (e.g.,…",
-    "Engage Novo Nordisk Foundation and NordForsk contacts to understand research-infrastructure preferences emerging from their framework agreement; identify bundling or consortium opportunities before…",
-    "Prepare competitive comparison deck: LeapSpace's integrated literature, funding, and AI-assisted workflow vs."
-  ]
+  "entities": [],
+  "actionItems": []
 }
