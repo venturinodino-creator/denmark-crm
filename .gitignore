@@ -44,3 +44,14 @@ node_modules/
 /SciVal
 /x.type
 /c.emailStatus
+
+# Local tooling state, test copies of the page (sign-in bypassed), local
+# helper scripts and their output, secrets and OS clutter
+.claude/
+push.bat
+push_log.txt
+_test_ws.html
+.env
+.env.*
+.DS_Store
+Thumbs.db
