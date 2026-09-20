@@ -1,14 +1,14 @@
 {
-  "lastRun": "2026-09-19T11:51:09.278Z",
-  "totalOpenRoles": 27,
+  "lastRun": "2026-09-20T12:08:44.128Z",
+  "totalOpenRoles": 28,
   "openByRegion": {
     "domestic": 0,
-    "remote": 27,
+    "remote": 28,
     "europe": 35,
-    "global": 167
+    "global": 166
   },
-  "totalListed": 27,
-  "newCount": 0,
+  "totalListed": 28,
+  "newCount": 1,
   "reopenedCount": 0,
   "closedCount": 0,
   "archivedCount": 0,
@@ -38,15 +38,15 @@
       "global": 11
     },
     "Springer Nature": {
-      "total": 75,
+      "total": 72,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
       "europe": 1,
-      "global": 2
+      "global": 1
     },
     "Wiley": {
-      "total": 78,
+      "total": 79,
       "dkOrRemote": 7,
       "domestic": 0,
       "remote": 7,
@@ -62,7 +62,7 @@
       "global": 67
     },
     "Anthropic": {
-      "total": 609,
+      "total": 611,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -116,23 +116,25 @@
       "remote": 0,
       "europe": 0,
       "global": 0
-    }
-  },
-  "errors": {
-    "IEEE": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkHGndkbcspxMf6mFfk\"}",
-    "Google": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfCkQTayKiRp8yYigpyym\"}"
-  },
-  "untracked": [
-    {
-      "company": "IEEE",
-      "reason": "Web search failed this run: Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to ",
-      "url": "https://ieee.taleo.net/careersection/2/jobsearch.ftl"
     },
-    {
-      "company": "Google",
-      "reason": "Web search failed this run: Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to ",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/"
+    "IEEE": {
+      "total": 1,
+      "dkOrRemote": 0,
+      "domestic": 0,
+      "remote": 0,
+      "europe": 0,
+      "global": 0
+    },
+    "Google": {
+      "total": 3,
+      "dkOrRemote": 1,
+      "domestic": 0,
+      "remote": 1,
+      "europe": 0,
+      "global": 0
     }
-  ],
+  },
+  "errors": {},
+  "untracked": [],
   "source": "Company career-page ATS APIs (Greenhouse/Ashby/SmartRecruiters/Pinpoint/Workday), plus a Claude web search for companies without one — see file header"
 }
