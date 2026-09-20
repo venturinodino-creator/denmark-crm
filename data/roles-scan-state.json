@@ -1,77 +1,81 @@
 {
-  "lastRun": "2026-09-19T17:36:03.986Z",
-  "lastAddedCount": 37,
+  "lastRun": "2026-09-20T13:22:07.524Z",
+  "lastAddedCount": 43,
   "lastBatch": [
-    "bispebjergfrederiksberg",
-    "herlevgentofte",
-    "sygehuslillebaelt",
-    "regionnord",
-    "ouh",
-    "regionsyd",
-    "rigshospitalet",
-    "stenoaarhus",
-    "stenocph",
-    "stenonordjylland"
+    "stenoodense",
+    "stenosjaelland",
+    "zealanduh",
+    "aias",
+    "alexandra",
+    "asiaq",
+    "bii",
+    "bioneer",
+    "biosustain",
+    "cifs"
   ],
-  "lastWebSearches": 80,
-  "cursor": 31,
+  "lastWebSearches": 99,
+  "cursor": 41,
   "institutions": 79,
   "perInstitution": [
     {
-      "instId": "bispebjergfrederiksberg",
+      "instId": "stenoodense",
+      "named": 10,
+      "kept": 7,
+      "searches": 10
+    },
+    {
+      "instId": "stenosjaelland",
+      "named": 10,
+      "kept": 8,
+      "searches": 10
+    },
+    {
+      "instId": "zealanduh",
+      "named": 9,
+      "kept": 5,
+      "searches": 10
+    },
+    {
+      "instId": "aias",
+      "named": 6,
+      "kept": 2,
+      "searches": 10
+    },
+    {
+      "instId": "alexandra",
+      "named": 8,
+      "kept": 1,
+      "searches": 10
+    },
+    {
+      "instId": "asiaq",
+      "named": 4,
+      "kept": 4,
+      "searches": 10
+    },
+    {
+      "instId": "bii",
       "named": 5,
       "kept": 3,
       "searches": 10
     },
     {
-      "instId": "herlevgentofte",
+      "instId": "bioneer",
       "named": 4,
-      "kept": 3,
+      "kept": 4,
       "searches": 10
     },
     {
-      "instId": "sygehuslillebaelt",
-      "error": "fetch failed"
-    },
-    {
-      "instId": "regionnord",
-      "named": 9,
-      "kept": 8,
-      "searches": 10
-    },
-    {
-      "instId": "ouh",
+      "instId": "biosustain",
       "named": 6,
       "kept": 3,
       "searches": 10
     },
     {
-      "instId": "regionsyd",
-      "error": "fetch failed"
-    },
-    {
-      "instId": "rigshospitalet",
-      "named": 5,
-      "kept": 4,
-      "searches": 10
-    },
-    {
-      "instId": "stenoaarhus",
-      "named": 8,
+      "instId": "cifs",
+      "named": 6,
       "kept": 6,
-      "searches": 10
-    },
-    {
-      "instId": "stenocph",
-      "named": 3,
-      "kept": 2,
-      "searches": 10
-    },
-    {
-      "instId": "stenonordjylland",
-      "named": 9,
-      "kept": 8,
-      "searches": 10
+      "searches": 9
     }
   ]
 }
