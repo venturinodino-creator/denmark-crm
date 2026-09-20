@@ -173,5 +173,26 @@
     ],
     "autoDiscovered": true,
     "foundDate": "2026-09-19"
+  },
+  {
+    "id": "university-of-copenhagen",
+    "inst": "University of Copenhagen",
+    "type": "University",
+    "status": "active",
+    "signalType": "library_guide",
+    "tier": null,
+    "annualFee": null,
+    "announceDate": null,
+    "effectiveDate": null,
+    "notes": "On kub.ku.dk the library's researcher-tools guide presents OpenAlex as an open non-profit bibliographic database of publications, researchers and institutions with an open API and CC0-licensed data, and explicitly frames it as an open alternative to Web of Science, Scopus and Dimensions. No paid OpenAlex subscription, Barcelona Declaration signature, or CRIS (CURIS) integration was evidenced in this session. For a Scopus or Web of Science renewal this is a soft but real signal: the library is already steering researchers toward a free substitute and articulating the substitution argument in its own guidance, so renewal conversations should expect price and value-for-money scrutiny.",
+    "signal": "Copenhagen University Library's \"Tools for researchers\" (Værktøjer til forskere) page lists and links OpenAlex as a recommended research database, describing it as an open alternative to commercial databases.",
+    "sources": [
+      {
+        "label": "Værktøjer til forskere – Københavns Universitet (Copenhagen University Library)",
+        "url": "https://kub.ku.dk/forskerservice/vaerktoejer-til-forskere/"
+      }
+    ],
+    "autoDiscovered": true,
+    "foundDate": "2026-09-20"
   }
 ]
