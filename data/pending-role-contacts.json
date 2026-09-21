@@ -2065,5 +2065,83 @@
     "source": "https://www.cifs.dk/people/bugge-holm-hansen",
     "confidence": "high",
     "foundDate": "2026-09-20"
+  },
+  {
+    "first": "Simon",
+    "last": "Kamber",
+    "title": "Databeskyttelsesrådgiver (DPO)",
+    "department": "DPO / Legal Counsel",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "dpo@sdu.dk",
+    "constructed": false,
+    "source": "https://www.sdu.dk/da/om-sdu/om-dette-websted/databeskyttelse",
+    "confidence": "high",
+    "foundDate": "2026-09-21"
+  },
+  {
+    "first": "Jesper",
+    "last": "Lundorff Hoffmann",
+    "title": "Indkøbs- og Udbudschef",
+    "department": "Procurement",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "jesper.lundorffhoffmann@danish-ias.dk",
+    "constructed": true,
+    "source": "https://jobbank.dk/job/2799520/",
+    "confidence": "medium",
+    "foundDate": "2026-09-21"
+  },
+  {
+    "first": "Søren",
+    "last": "E. Frandsen",
+    "title": "RIO Chef",
+    "department": "Research Support / Grants Office",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "sfr@sdu.dk",
+    "constructed": false,
+    "source": "https://www.altinget.dk/karriere/sdu-research-og-innovation-organisation-rio-soeger-en-dygtig-leder-til-at-styrke-sdus-position-som-et-af-danmarks-staerkeste-studenterrettede-ivaerksaettermiljoeer",
+    "confidence": "medium",
+    "foundDate": "2026-09-21"
+  },
+  {
+    "first": "Marianne",
+    "last": "Holmer",
+    "title": "Dean of the Faculty of Science",
+    "department": "Dean / Research Group Lead",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "marianne.holmer@danish-ias.dk",
+    "constructed": true,
+    "source": "https://sdunet.dk/en/nyheder/nyheder_fra_sdu/sten-rynning-bliver-ny-direktoer-for-the-danish-institute-for-advanced-study",
+    "confidence": "medium",
+    "foundDate": "2026-09-21"
+  },
+  {
+    "first": "Helle",
+    "last": "Waagepetersen",
+    "title": "Prorektor",
+    "department": "Vice-Rector / Pro-Rector Research",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "helle.waagepetersen@danish-ias.dk",
+    "constructed": true,
+    "source": "https://www.sdu.dk/da/nyheder/ny-prorektor-paa-sdu",
+    "confidence": "medium",
+    "foundDate": "2026-09-21"
+  },
+  {
+    "first": "Berit",
+    "last": "Elisabeth Alving",
+    "title": "Bibliotekar / kontaktperson, forskningsstøtte (OUH-guide)",
+    "department": "Research Support Librarian / Research Advisor",
+    "instId": "dias",
+    "instName": "Danish Institute for Advanced Study",
+    "email": "berit.elisabethalving@danish-ias.dk",
+    "constructed": true,
+    "source": "https://libguides.sdu.dk/OUH-guide",
+    "confidence": "medium",
+    "foundDate": "2026-09-21"
   }
 ]

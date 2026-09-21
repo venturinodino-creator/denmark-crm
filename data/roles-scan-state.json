@@ -1,81 +1,32 @@
 {
-  "lastRun": "2026-09-20T13:22:07.524Z",
-  "lastAddedCount": 43,
+  "lastRun": "2026-09-21T15:10:28.385Z",
+  "lastAddedCount": 6,
+  "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr",
   "lastBatch": [
-    "stenoodense",
-    "stenosjaelland",
-    "zealanduh",
-    "aias",
-    "alexandra",
-    "asiaq",
-    "bii",
-    "bioneer",
-    "biosustain",
-    "cifs"
+    "dias",
+    "humanrights",
+    "diis",
+    "dbi",
+    "dmi",
+    "dfm",
+    "dti",
+    "nationalbanken",
+    "dsl",
+    "dhi"
   ],
-  "lastWebSearches": 99,
-  "cursor": 41,
+  "lastWebSearches": 10,
+  "cursor": 51,
   "institutions": 79,
   "perInstitution": [
     {
-      "instId": "stenoodense",
-      "named": 10,
-      "kept": 7,
-      "searches": 10
-    },
-    {
-      "instId": "stenosjaelland",
-      "named": 10,
-      "kept": 8,
-      "searches": 10
-    },
-    {
-      "instId": "zealanduh",
-      "named": 9,
-      "kept": 5,
-      "searches": 10
-    },
-    {
-      "instId": "aias",
-      "named": 6,
-      "kept": 2,
-      "searches": 10
-    },
-    {
-      "instId": "alexandra",
+      "instId": "dias",
       "named": 8,
-      "kept": 1,
-      "searches": 10
-    },
-    {
-      "instId": "asiaq",
-      "named": 4,
-      "kept": 4,
-      "searches": 10
-    },
-    {
-      "instId": "bii",
-      "named": 5,
-      "kept": 3,
-      "searches": 10
-    },
-    {
-      "instId": "bioneer",
-      "named": 4,
-      "kept": 4,
-      "searches": 10
-    },
-    {
-      "instId": "biosustain",
-      "named": 6,
-      "kept": 3,
-      "searches": 10
-    },
-    {
-      "instId": "cifs",
-      "named": 6,
       "kept": 6,
-      "searches": 9
+      "searches": 10
+    },
+    {
+      "instId": "humanrights",
+      "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGo81DscQbXxdZzjdJ9T\"}"
     }
   ]
 }
