@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-20T12:08:44.128Z",
+  "lastRun": "2026-09-21T13:45:16.498Z",
   "totalOpenRoles": 28,
   "openByRegion": {
     "domestic": 0,
@@ -8,7 +8,7 @@
     "global": 166
   },
   "totalListed": 28,
-  "newCount": 1,
+  "newCount": 0,
   "reopenedCount": 0,
   "closedCount": 0,
   "archivedCount": 0,
@@ -38,7 +38,7 @@
       "global": 11
     },
     "Springer Nature": {
-      "total": 72,
+      "total": 68,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -46,7 +46,7 @@
       "global": 1
     },
     "Wiley": {
-      "total": 79,
+      "total": 78,
       "dkOrRemote": 7,
       "domestic": 0,
       "remote": 7,
@@ -54,20 +54,20 @@
       "global": 5
     },
     "OpenAI": {
-      "total": 818,
+      "total": 815,
       "dkOrRemote": 8,
       "domestic": 0,
       "remote": 8,
       "europe": 8,
-      "global": 67
+      "global": 66
     },
     "Anthropic": {
-      "total": 611,
+      "total": 616,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
       "europe": 19,
-      "global": 82
+      "global": 83
     },
     "Elicit": {
       "total": 10,
@@ -118,7 +118,7 @@
       "global": 0
     },
     "IEEE": {
-      "total": 1,
+      "total": 0,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -126,10 +126,10 @@
       "global": 0
     },
     "Google": {
-      "total": 3,
-      "dkOrRemote": 1,
+      "total": 2,
+      "dkOrRemote": 0,
       "domestic": 0,
-      "remote": 1,
+      "remote": 0,
       "europe": 0,
       "global": 0
     }
