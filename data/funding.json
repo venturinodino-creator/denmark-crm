@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-19T21:05:32.773Z",
+  "generatedAt": "2026-09-21T12:07:25.873Z",
   "source": "OpenAIRE Graph API (projects by organisation name; CORDIS and national funders)",
-  "since": "2023-09-19",
+  "since": "2023-09-21",
   "institutions": {
     "ku": {
       "query": "University of Copenhagen",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2177,
       "fetched": 300,
       "active": 2171,
@@ -217,7 +217,7 @@
     },
     "au": {
       "query": "Aarhus University",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 1839,
       "fetched": 300,
       "active": 1811,
@@ -429,7 +429,7 @@
     },
     "dtu": {
       "query": "Technical University of Denmark",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 1076,
       "fetched": 300,
       "active": 1058,
@@ -651,7 +651,7 @@
     },
     "sdu": {
       "query": "University of Southern Denmark",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 621,
       "fetched": 300,
       "active": 614,
@@ -873,7 +873,7 @@
     },
     "aau": {
       "query": "Aalborg University",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 248,
       "fetched": 248,
       "active": 248,
@@ -1090,7 +1090,7 @@
     },
     "cbs": {
       "query": "Copenhagen Business School",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 120,
       "fetched": 120,
       "active": 119,
@@ -1312,7 +1312,7 @@
     },
     "ruc": {
       "query": "Roskilde University",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 121,
       "fetched": 121,
       "active": 120,
@@ -1539,7 +1539,7 @@
     },
     "itu": {
       "query": "IT University of Copenhagen",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 66,
       "fetched": 66,
       "active": 65,
@@ -1761,7 +1761,7 @@
     },
     "rigshospitalet": {
       "query": "Rigshospitalet Copenhagen University Hospital",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1773,7 +1773,7 @@
     },
     "auh": {
       "query": "Aarhus University Hospital",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 2,
@@ -1825,7 +1825,7 @@
     },
     "ouh": {
       "query": "Odense University Hospital",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1837,7 +1837,7 @@
     },
     "herlevgentofte": {
       "query": "Copenhagen University Hospital – Herlev and Gentofte",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1849,7 +1849,7 @@
     },
     "aalborguh": {
       "query": "Aalborg University Hospital",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1861,7 +1861,7 @@
     },
     "bispebjergfrederiksberg": {
       "query": "Copenhagen University Hospital – Bispebjerg and Frederiksberg",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1873,7 +1873,7 @@
     },
     "amagerhvidovre": {
       "query": "Copenhagen University Hospital – Amager and Hvidovre",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1885,7 +1885,7 @@
     },
     "zealanduh": {
       "query": "Zealand University Hospital",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1897,7 +1897,7 @@
     },
     "stenocph": {
       "query": "Steno Diabetes Center Copenhagen",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1909,7 +1909,7 @@
     },
     "stenoaarhus": {
       "query": "Steno Diabetes Center Aarhus",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -1921,7 +1921,7 @@
     },
     "ssi": {
       "query": "Statens Serum Institut",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 35,
       "fetched": 35,
       "active": 34,
@@ -2128,7 +2128,7 @@
     },
     "nbi": {
       "query": "Niels Bohr Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 1,
@@ -2180,7 +2180,7 @@
     },
     "royalacademy": {
       "query": "The Royal Danish Academy of Sciences and Letters",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 3,
       "fetched": 3,
       "active": 3,
@@ -2241,7 +2241,7 @@
     },
     "dmi": {
       "query": "Danish Meteorological Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 2,
@@ -2293,7 +2293,7 @@
     },
     "geus": {
       "query": "Geological Survey of Denmark and Greenland",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 27,
       "fetched": 27,
       "active": 27,
@@ -2495,7 +2495,7 @@
     },
     "alexandra": {
       "query": "Alexandra Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2507,7 +2507,7 @@
     },
     "dti": {
       "query": "Danish Technological Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 29,
       "fetched": 29,
       "active": 28,
@@ -2699,7 +2699,7 @@
     },
     "cpr": {
       "query": "Novo Nordisk Foundation Center for Protein Research",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2711,7 +2711,7 @@
     },
     "cbmr": {
       "query": "Novo Nordisk Foundation Center for Basic Metabolic Research",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2723,7 +2723,7 @@
     },
     "renew": {
       "query": "Novo Nordisk Foundation Center for Stem Cell Medicine reNEW",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2735,7 +2735,7 @@
     },
     "inano": {
       "query": "Interdisciplinary Nanoscience Center winding down",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2747,7 +2747,7 @@
     },
     "dtuspace": {
       "query": "DTU Space – National Space Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2759,7 +2759,7 @@
     },
     "diis": {
       "query": "Danish Institute for International Studies",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 21,
       "fetched": 21,
       "active": 21,
@@ -2951,7 +2951,7 @@
     },
     "vive": {
       "query": "VIVE – The Danish Center for Social Science Research",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2963,7 +2963,7 @@
     },
     "dias": {
       "query": "Danish Institute for Advanced Study",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2975,7 +2975,7 @@
     },
     "biosustain": {
       "query": "BRIGHT — Biotechnology Research Institute for the Green Transition DTU",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -2987,7 +2987,7 @@
     },
     "niph": {
       "query": "National Institute of Public Health",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 5,
       "fetched": 5,
       "active": 4,
@@ -3081,7 +3081,7 @@
     },
     "aias": {
       "query": "Aarhus Institute of Advanced Studies",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3093,7 +3093,7 @@
     },
     "pioneerai": {
       "query": "Pioneer Centre for Artificial Intelligence",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3105,7 +3105,7 @@
     },
     "rockwoolresearch": {
       "query": "Rockwool Foundation Research Unit",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3117,7 +3117,7 @@
     },
     "bii": {
       "query": "BioInnovation Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 4,
       "fetched": 4,
       "active": 4,
@@ -3192,7 +3192,7 @@
     },
     "novonordiskfoundation": {
       "query": "Novo Nordisk Foundation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 4,
       "fetched": 4,
       "active": 4,
@@ -3282,7 +3282,7 @@
     },
     "lundbeckfoundation": {
       "query": "Lundbeck Foundation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 10,
       "fetched": 10,
       "active": 10,
@@ -3441,7 +3441,7 @@
     },
     "carlsbergfoundation": {
       "query": "Carlsberg Foundation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 1,
       "fetched": 1,
       "active": 1,
@@ -3474,7 +3474,7 @@
     },
     "villumfoundation": {
       "query": "Villum Foundation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3486,7 +3486,7 @@
     },
     "danishcancersociety": {
       "query": "Danish Cancer Society",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 38,
       "fetched": 38,
       "active": 38,
@@ -3688,7 +3688,7 @@
     },
     "dnrf": {
       "query": "Danish National Research Foundation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 4,
       "fetched": 4,
       "active": 4,
@@ -3763,7 +3763,7 @@
     },
     "asiaq": {
       "query": "Asiaq Greenland Survey",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 1,
       "fetched": 1,
       "active": 1,
@@ -3796,7 +3796,7 @@
     },
     "bioneer": {
       "query": "Bioneer A/S",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3808,7 +3808,7 @@
     },
     "regionmidt": {
       "query": "Central Denmark Region Region Midtjylland",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3820,7 +3820,7 @@
     },
     "cifs": {
       "query": "Copenhagen Institute for Futures Studies",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3832,7 +3832,7 @@
     },
     "atv": {
       "query": "Danish Academy of Technical Sciences ATV",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3844,7 +3844,7 @@
     },
     "humanrights": {
       "query": "Danish Institute for Human Rights",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 2,
@@ -3891,7 +3891,7 @@
     },
     "dbi": {
       "query": "Danish Institute of Fire and Security Technology DBI",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3903,7 +3903,7 @@
     },
     "dfm": {
       "query": "Danish National Metrology Institute DFM",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3915,7 +3915,7 @@
     },
     "drc": {
       "query": "Danish Refugee Council Dansk Flygtningehjaelp",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3927,7 +3927,7 @@
     },
     "nationalbanken": {
       "query": "Danmarks Nationalbank",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -3939,7 +3939,7 @@
     },
     "dsl": {
       "query": "Det Danske Sprog- og Litteraturselskab",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 5,
       "fetched": 5,
       "active": 5,
@@ -4038,7 +4038,7 @@
     },
     "dhi": {
       "query": "DHI Danish Hydraulic Institute",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4050,7 +4050,7 @@
     },
     "dignity": {
       "query": "DIGNITY - Danish Institute Against Torture",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 1,
       "fetched": 1,
       "active": 1,
@@ -4083,7 +4083,7 @@
     },
     "ek": {
       "query": "Erhvervsakademi Kobenhavn",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4095,7 +4095,7 @@
     },
     "force": {
       "query": "FORCE Technology",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4107,7 +4107,7 @@
     },
     "gnaturinstitut": {
       "query": "Greenland Institute of Natural Resources Pinngortitaleriffik",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4119,7 +4119,7 @@
     },
     "ilisimatusarfik": {
       "query": "Ilisimatusarfik University of Greenland",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 2,
@@ -4171,7 +4171,7 @@
     },
     "nikkb": {
       "query": "Kiropraktorernes Videnscenter formerly NIKKB",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4183,7 +4183,7 @@
     },
     "sygehuslillebaelt": {
       "query": "Lillebælt Hospital Sygehus Lillebælt",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4195,7 +4195,7 @@
     },
     "natmus": {
       "query": "National Museum of Denmark Nationalmuseet",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4207,7 +4207,7 @@
     },
     "regionnord": {
       "query": "North Denmark Region Region Nordjylland",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4219,7 +4219,7 @@
     },
     "absalon": {
       "query": "Professionshøjskolen Absalon",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4231,7 +4231,7 @@
     },
     "regionsyd": {
       "query": "Region of Southern Denmark Region Syddanmark",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4243,7 +4243,7 @@
     },
     "kadk": {
       "query": "Royal Danish Academy",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 20,
       "fetched": 20,
       "active": 20,
@@ -4445,7 +4445,7 @@
     },
     "dkdm": {
       "query": "Royal Danish Academy of Music Det Kgl. Danske Musikkonservatorium",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4457,7 +4457,7 @@
     },
     "fak": {
       "query": "Royal Danish Defence College",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 2,
       "fetched": 2,
       "active": 2,
@@ -4504,7 +4504,7 @@
     },
     "seges": {
       "query": "SEGES Innovation",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 7,
       "fetched": 7,
       "active": 7,
@@ -4621,7 +4621,7 @@
     },
     "stenonordjylland": {
       "query": "Steno Diabetes Center North Denmark",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4633,7 +4633,7 @@
     },
     "stenoodense": {
       "query": "Steno Diabetes Center Odense",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4645,7 +4645,7 @@
     },
     "stenosjaelland": {
       "query": "Steno Diabetes Center Sjælland",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 0,
       "fetched": 0,
       "active": 0,
@@ -4657,7 +4657,7 @@
     },
     "ucl": {
       "query": "UCL University College",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 5,
       "fetched": 5,
       "active": 5,
@@ -4751,7 +4751,7 @@
     },
     "kp": {
       "query": "University College Copenhagen",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 21,
       "fetched": 21,
       "active": 21,
@@ -4953,7 +4953,7 @@
     },
     "ucn": {
       "query": "University College of Northern Denmark",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 5,
       "fetched": 5,
       "active": 5,
@@ -5052,7 +5052,7 @@
     },
     "via": {
       "query": "VIA University College",
-      "since": "2023-09-19",
+      "since": "2023-09-21",
       "numFound": 11,
       "fetched": 11,
       "active": 11,
