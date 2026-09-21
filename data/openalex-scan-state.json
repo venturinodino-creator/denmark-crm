@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-09-20T12:08:37.540Z",
-  "lastAddedCount": 1,
+  "lastRun": "2026-09-21T13:41:42.381Z",
+  "lastAddedCount": 0,
   "lastUpdatedCount": 0,
-  "lastCandidateCount": 1,
+  "lastCandidateCount": 0,
   "lastWebSearches": 36,
   "lastBatch": [
-    "kp",
-    "ucn",
-    "ku",
-    "sdu",
-    "via",
-    "aalborguh"
+    "auh",
+    "regionmidt",
+    "amagerhvidovre",
+    "bispebjergfrederiksberg",
+    "herlevgentofte",
+    "sygehuslillebaelt"
   ],
-  "cursor": 18,
+  "cursor": 24,
   "institutionsTotal": 79,
   "nationalLastRun": "2026-09-18T21:32:54.877Z",
   "checked": {
@@ -88,6 +88,36 @@
     },
     "aalborguh": {
       "lastChecked": "2026-09-20",
+      "result": "none",
+      "searches": 6
+    },
+    "auh": {
+      "lastChecked": "2026-09-21",
+      "result": "none",
+      "searches": 6
+    },
+    "regionmidt": {
+      "lastChecked": "2026-09-21",
+      "result": "none",
+      "searches": 6
+    },
+    "amagerhvidovre": {
+      "lastChecked": "2026-09-21",
+      "result": "none",
+      "searches": 6
+    },
+    "bispebjergfrederiksberg": {
+      "lastChecked": "2026-09-21",
+      "result": "none",
+      "searches": 6
+    },
+    "herlevgentofte": {
+      "lastChecked": "2026-09-21",
+      "result": "none",
+      "searches": 6
+    },
+    "sygehuslillebaelt": {
+      "lastChecked": "2026-09-21",
       "result": "none",
       "searches": 6
     }
