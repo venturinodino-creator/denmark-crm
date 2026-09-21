@@ -1,10 +1,21 @@
 {
-  "lastRun": "2026-09-20T11:50:00.153304Z",
+  "lastRun": "2026-09-21T13:22:36.464076Z",
   "lastNewCount": 0,
-  "sourcesReached": 11,
+  "sourcesReached": 9,
   "sourcesTotal": 11,
-  "itemsExamined": 830,
-  "failedSources": [],
+  "itemsExamined": 741,
+  "failedSources": [
+    {
+      "institution": "AAU Library",
+      "url": "https://www.aub.aau.dk/",
+      "error": "HTTP 403"
+    },
+    {
+      "institution": "CBS Library",
+      "url": "https://www.cbs.dk/en/library",
+      "error": "HTTP 503"
+    }
+  ],
   "seenUrls": [
     "https://www.aub.aau.dk/sog#06f2878f-8c3f-4fc9-8163-5f90e8034d4c"
   ]
