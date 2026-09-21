@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T20:44:35.631Z",
+  "generatedAt": "2026-09-21T10:59:16.120Z",
   "source": "OpenAlex API (works grouped by year, OA status, funder, publisher, co-author institution)",
   "window": {
     "from": 2022,
@@ -13,11 +13,11 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 70594,
+      "worksTotal": 70625,
       "byYear": [
         {
           "year": 2022,
-          "count": 13031
+          "count": 13032
         },
         {
           "year": 2023,
@@ -29,20 +29,20 @@
         },
         {
           "year": 2025,
-          "count": 14799
+          "count": 14802
         },
         {
           "year": 2026,
-          "count": 15364
+          "count": 15391
         }
       ],
       "oa": {
         "share": 84.9,
         "byStatus": {
-          "green": 20227,
-          "gold": 18965,
-          "hybrid": 15014,
-          "closed": 10632,
+          "green": 20243,
+          "gold": 18971,
+          "hybrid": 15021,
+          "closed": 10634,
           "bronze": 3124,
           "diamond": 2632
         }
@@ -54,15 +54,15 @@
         },
         {
           "name": "European Commission",
-          "count": 5953
+          "count": 5959
         },
         {
           "name": "Novo Nordisk",
-          "count": 5897
+          "count": 5899
         },
         {
           "name": "Lundbeckfonden",
-          "count": 3193
+          "count": 3194
         },
         {
           "name": "Danmarks Grundforskningsfond",
@@ -70,7 +70,7 @@
         },
         {
           "name": "National Science Foundation",
-          "count": 2623
+          "count": 2625
         },
         {
           "name": "Villum Fonden",
@@ -84,49 +84,49 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 9759
+          "count": 9765
         },
         {
           "name": "Springer Nature",
-          "count": 9198
+          "count": 9204
         },
         {
           "name": "Wiley",
-          "count": 6027
+          "count": 6028
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 3464
+          "count": 3466
         },
         {
           "name": "University of Oxford",
-          "count": 3213
+          "count": 3214
         },
         {
           "name": "Oxford University Press",
-          "count": 3171
+          "count": 3172
         }
       ],
       "elsevier": {
-        "count": 9759,
+        "count": 9765,
         "share": 13.8
       },
       "partners": [
         {
           "name": "Copenhagen University Hospital",
-          "count": 18159
+          "count": 18170
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 13421
+          "count": 13427
         },
         {
           "name": "Rigshospitalet",
-          "count": 11002
+          "count": 11006
         },
         {
           "name": "Aarhus University",
-          "count": 5485
+          "count": 5486
         },
         {
           "name": "University of Liverpool",
@@ -147,7 +147,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 52057,
+      "worksTotal": 52069,
       "byYear": [
         {
           "year": 2022,
@@ -167,16 +167,16 @@
         },
         {
           "year": 2026,
-          "count": 8855
+          "count": 8867
         }
       ],
       "oa": {
         "share": 77,
         "byStatus": {
           "gold": 15051,
-          "closed": 11992,
-          "hybrid": 10839,
-          "green": 10154,
+          "closed": 11995,
+          "hybrid": 10844,
+          "green": 10158,
           "diamond": 2209,
           "bronze": 1812
         }
@@ -184,11 +184,11 @@
       "funders": [
         {
           "name": "Aarhus Universitet",
-          "count": 4518
+          "count": 4519
         },
         {
           "name": "Novo Nordisk Fonden",
-          "count": 3941
+          "count": 3942
         },
         {
           "name": "European Commission",
@@ -196,23 +196,23 @@
         },
         {
           "name": "Novo Nordisk",
-          "count": 2392
+          "count": 2393
         },
         {
           "name": "Danmarks Grundforskningsfond",
-          "count": 1837
+          "count": 1839
         },
         {
           "name": "Lundbeckfonden",
-          "count": 1680
+          "count": 1681
         },
         {
           "name": "Danmarks Frie Forskningsfond",
-          "count": 1638
+          "count": 1640
         },
         {
           "name": "National Natural Science Foundation of China",
-          "count": 1365
+          "count": 1366
         }
       ],
       "publishers": [
@@ -222,15 +222,15 @@
         },
         {
           "name": "Springer Nature",
-          "count": 5654
+          "count": 5656
         },
         {
           "name": "Wiley",
-          "count": 4201
+          "count": 4203
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 2507
+          "count": 2508
         },
         {
           "name": "Taylor & Francis",
@@ -248,15 +248,15 @@
       "partners": [
         {
           "name": "Aarhus University Hospital",
-          "count": 9388
+          "count": 9389
         },
         {
           "name": "University of Copenhagen",
-          "count": 4683
+          "count": 4684
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 3510
+          "count": 3512
         },
         {
           "name": "Capital Region of Denmark",
@@ -281,7 +281,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 34229,
+      "worksTotal": 34235,
       "byYear": [
         {
           "year": 2022,
@@ -293,24 +293,24 @@
         },
         {
           "year": 2024,
-          "count": 7033
+          "count": 7034
         },
         {
           "year": 2025,
-          "count": 6336
+          "count": 6337
         },
         {
           "year": 2026,
-          "count": 6346
+          "count": 6350
         }
       ],
       "oa": {
         "share": 80.1,
         "byStatus": {
-          "green": 10354,
+          "green": 10360,
           "gold": 7953,
-          "hybrid": 6958,
-          "closed": 6827,
+          "hybrid": 6959,
+          "closed": 6826,
           "diamond": 1229,
           "bronze": 908
         }
@@ -318,7 +318,7 @@
       "funders": [
         {
           "name": "European Commission",
-          "count": 3473
+          "count": 3478
         },
         {
           "name": "Novo Nordisk Fonden",
@@ -330,7 +330,7 @@
         },
         {
           "name": "Novo Nordisk",
-          "count": 1786
+          "count": 1787
         },
         {
           "name": "Danmarks Tekniske Universitet",
@@ -342,7 +342,7 @@
         },
         {
           "name": "National Natural Science Foundation of China",
-          "count": 1220
+          "count": 1222
         },
         {
           "name": "Danmarks Grundforskningsfond",
@@ -352,11 +352,11 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 6790
+          "count": 6791
         },
         {
           "name": "Springer Nature",
-          "count": 2947
+          "count": 2948
         },
         {
           "name": "Wiley",
@@ -376,13 +376,13 @@
         }
       ],
       "elsevier": {
-        "count": 6790,
+        "count": 6791,
         "share": 19.8
       },
       "partners": [
         {
           "name": "University of Copenhagen",
-          "count": 3152
+          "count": 3154
         },
         {
           "name": "Centre National de la Recherche Scientifique",
@@ -394,7 +394,7 @@
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 1301
+          "count": 1302
         },
         {
           "name": "Board of the Swiss Federal Institutes of Technology",
@@ -415,7 +415,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 27840,
+      "worksTotal": 27854,
       "byYear": [
         {
           "year": 2022,
@@ -431,20 +431,20 @@
         },
         {
           "year": 2025,
-          "count": 5784
+          "count": 5785
         },
         {
           "year": 2026,
-          "count": 5320
+          "count": 5333
         }
       ],
       "oa": {
         "share": 81.3,
         "byStatus": {
-          "gold": 7530,
-          "hybrid": 6751,
-          "green": 5829,
-          "closed": 5199,
+          "gold": 7533,
+          "hybrid": 6754,
+          "green": 5836,
+          "closed": 5200,
           "bronze": 1392,
           "diamond": 1139
         }
@@ -452,7 +452,7 @@
       "funders": [
         {
           "name": "Syddansk Universitet",
-          "count": 2150
+          "count": 2153
         },
         {
           "name": "Novo Nordisk Fonden",
@@ -460,15 +460,15 @@
         },
         {
           "name": "European Commission",
-          "count": 1436
+          "count": 1437
         },
         {
           "name": "Novo Nordisk",
-          "count": 1398
+          "count": 1399
         },
         {
           "name": "Odense Universitetshospital",
-          "count": 1037
+          "count": 1038
         },
         {
           "name": "Danmarks Frie Forskningsfond",
@@ -480,17 +480,17 @@
         },
         {
           "name": "Villum Fonden",
-          "count": 554
+          "count": 555
         }
       ],
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 4786
+          "count": 4791
         },
         {
           "name": "Springer Nature",
-          "count": 3871
+          "count": 3872
         },
         {
           "name": "Wiley",
@@ -502,33 +502,33 @@
         },
         {
           "name": "Taylor & Francis",
-          "count": 1279
+          "count": 1280
         },
         {
           "name": "Informa",
-          "count": 1212
+          "count": 1213
         }
       ],
       "elsevier": {
-        "count": 4786,
+        "count": 4791,
         "share": 17.2
       },
       "partners": [
         {
           "name": "Odense University Hospital",
-          "count": 6558
+          "count": 6561
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 4902
+          "count": 4904
         },
         {
           "name": "University of Copenhagen",
-          "count": 4215
+          "count": 4219
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 3475
+          "count": 3477
         },
         {
           "name": "Aarhus University",
@@ -536,7 +536,7 @@
         },
         {
           "name": "Rigshospitalet",
-          "count": 2409
+          "count": 2411
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I177969490,publication_year:2022-2026",
@@ -549,7 +549,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 29547,
+      "worksTotal": 29560,
       "byYear": [
         {
           "year": 2022,
@@ -565,20 +565,20 @@
         },
         {
           "year": 2025,
-          "count": 5431
+          "count": 5430
         },
         {
           "year": 2026,
-          "count": 4195
+          "count": 4209
         }
       ],
       "oa": {
         "share": 71.5,
         "byStatus": {
-          "closed": 8430,
-          "green": 8188,
-          "gold": 5534,
-          "hybrid": 4982,
+          "closed": 8429,
+          "green": 8197,
+          "gold": 5536,
+          "hybrid": 4985,
           "diamond": 1469,
           "bronze": 944
         }
@@ -594,7 +594,7 @@
         },
         {
           "name": "Aalborg Universitet",
-          "count": 1304
+          "count": 1305
         },
         {
           "name": "Novo Nordisk Fonden",
@@ -606,7 +606,7 @@
         },
         {
           "name": "Innovationsfonden",
-          "count": 649
+          "count": 650
         },
         {
           "name": "Villum Fonden",
@@ -614,17 +614,17 @@
         },
         {
           "name": "Danmarks Grundforskningsfond",
-          "count": 454
+          "count": 455
         }
       ],
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 4363
+          "count": 4367
         },
         {
           "name": "Springer Nature",
-          "count": 2600
+          "count": 2602
         },
         {
           "name": "Institute of Electrical and Electronics Engineers",
@@ -632,7 +632,7 @@
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 1244
+          "count": 1247
         },
         {
           "name": "Wiley",
@@ -644,17 +644,17 @@
         }
       ],
       "elsevier": {
-        "count": 4363,
+        "count": 4367,
         "share": 14.8
       },
       "partners": [
         {
           "name": "Aalborg University Hospital",
-          "count": 3977
+          "count": 3980
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 2277
+          "count": 2280
         },
         {
           "name": "Aarhus University",
@@ -662,15 +662,15 @@
         },
         {
           "name": "University of Copenhagen",
-          "count": 1765
+          "count": 1767
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 1700
+          "count": 1702
         },
         {
           "name": "Aarhus University Hospital",
-          "count": 1585
+          "count": 1589
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I891191580,publication_year:2022-2026",
@@ -817,7 +817,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 5696,
+      "worksTotal": 5699,
       "byYear": [
         {
           "year": 2022,
@@ -825,7 +825,7 @@
         },
         {
           "year": 2023,
-          "count": 1371
+          "count": 1372
         },
         {
           "year": 2024,
@@ -837,15 +837,15 @@
         },
         {
           "year": 2026,
-          "count": 965
+          "count": 967
         }
       ],
       "oa": {
-        "share": 65.4,
+        "share": 65.5,
         "byStatus": {
-          "closed": 1970,
-          "green": 1227,
-          "hybrid": 1039,
+          "closed": 1969,
+          "green": 1230,
+          "hybrid": 1040,
           "gold": 896,
           "diamond": 365,
           "bronze": 199
@@ -888,7 +888,7 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 538
+          "count": 539
         },
         {
           "name": "Springer Nature",
@@ -908,12 +908,12 @@
         },
         {
           "name": "SAGE Publishing",
-          "count": 202
+          "count": 203
         }
       ],
       "elsevier": {
-        "count": 538,
-        "share": 9.4
+        "count": 539,
+        "share": 9.5
       },
       "partners": [
         {
@@ -951,7 +951,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 5333,
+      "worksTotal": 5337,
       "byYear": [
         {
           "year": 2022,
@@ -967,20 +967,20 @@
         },
         {
           "year": 2025,
-          "count": 1307
+          "count": 1308
         },
         {
           "year": 2026,
-          "count": 1230
+          "count": 1233
         }
       ],
       "oa": {
         "share": 84.8,
         "byStatus": {
-          "green": 2170,
+          "green": 2172,
           "gold": 1167,
           "closed": 810,
-          "hybrid": 767,
+          "hybrid": 769,
           "diamond": 217,
           "bronze": 202
         }
@@ -988,7 +988,7 @@
       "funders": [
         {
           "name": "European Commission",
-          "count": 358
+          "count": 359
         },
         {
           "name": "Novo Nordisk Fonden",
@@ -1022,15 +1022,15 @@
       "publishers": [
         {
           "name": "Springer Nature",
-          "count": 554
+          "count": 555
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 302
+          "count": 303
         },
         {
           "name": "Elsevier BV",
-          "count": 290
+          "count": 291
         },
         {
           "name": "Wiley",
@@ -1046,21 +1046,21 @@
         }
       ],
       "elsevier": {
-        "count": 290,
-        "share": 5.4
+        "count": 291,
+        "share": 5.5
       },
       "partners": [
         {
           "name": "University of Copenhagen",
-          "count": 2909
+          "count": 2912
         },
         {
           "name": "University College Copenhagen",
-          "count": 636
+          "count": 637
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 534
+          "count": 535
         },
         {
           "name": "Capital Region of Denmark",
@@ -1089,7 +1089,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 17639,
+      "worksTotal": 17647,
       "byYear": [
         {
           "year": 2022,
@@ -1109,16 +1109,16 @@
         },
         {
           "year": 2026,
-          "count": 2809
+          "count": 2817
         }
       ],
       "oa": {
         "share": 78.8,
         "byStatus": {
-          "gold": 4767,
-          "hybrid": 4742,
-          "closed": 3746,
-          "green": 2501,
+          "gold": 4769,
+          "hybrid": 4745,
+          "closed": 3747,
+          "green": 2503,
           "bronze": 1374,
           "diamond": 509
         }
@@ -1126,23 +1126,23 @@
       "funders": [
         {
           "name": "Novo Nordisk Fonden",
-          "count": 2550
+          "count": 2553
         },
         {
           "name": "Aarhus Universitet",
-          "count": 1796
+          "count": 1797
         },
         {
           "name": "Novo Nordisk",
-          "count": 1527
+          "count": 1528
         },
         {
           "name": "Lundbeckfonden",
-          "count": 986
+          "count": 987
         },
         {
           "name": "Aarhus Universitetshospital",
-          "count": 909
+          "count": 911
         },
         {
           "name": "H. Lundbeck A/S",
@@ -1160,11 +1160,11 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 4112
+          "count": 4115
         },
         {
           "name": "Springer Nature",
-          "count": 2168
+          "count": 2170
         },
         {
           "name": "Wiley",
@@ -1180,37 +1180,37 @@
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 912
+          "count": 914
         }
       ],
       "elsevier": {
-        "count": 4112,
+        "count": 4115,
         "share": 23.3
       },
       "partners": [
         {
           "name": "Aarhus University",
-          "count": 9274
+          "count": 9275
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 5181
+          "count": 5185
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 4090
+          "count": 4092
         },
         {
           "name": "University of Copenhagen",
-          "count": 3011
+          "count": 3013
         },
         {
           "name": "Rigshospitalet",
-          "count": 2972
+          "count": 2974
         },
         {
           "name": "Odense University Hospital",
-          "count": 2820
+          "count": 2822
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I2802335433,publication_year:2022-2026",
@@ -1223,7 +1223,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 10721,
+      "worksTotal": 10728,
       "byYear": [
         {
           "year": 2022,
@@ -1243,16 +1243,16 @@
         },
         {
           "year": 2026,
-          "count": 1750
+          "count": 1757
         }
       ],
       "oa": {
         "share": 82.5,
         "byStatus": {
-          "gold": 3059,
-          "hybrid": 3042,
-          "closed": 1874,
-          "green": 1573,
+          "gold": 3061,
+          "hybrid": 3044,
+          "closed": 1876,
+          "green": 1574,
           "bronze": 899,
           "diamond": 274
         }
@@ -1264,15 +1264,15 @@
         },
         {
           "name": "Odense Universitetshospital",
-          "count": 1047
+          "count": 1048
         },
         {
           "name": "Syddansk Universitet",
-          "count": 871
+          "count": 872
         },
         {
           "name": "Novo Nordisk",
-          "count": 826
+          "count": 827
         },
         {
           "name": "Region Syddanmark",
@@ -1294,11 +1294,11 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 2422
+          "count": 2425
         },
         {
           "name": "Springer Nature",
-          "count": 1410
+          "count": 1412
         },
         {
           "name": "Wiley",
@@ -1306,45 +1306,45 @@
         },
         {
           "name": "University of Oxford",
-          "count": 782
+          "count": 783
         },
         {
           "name": "Oxford University Press",
-          "count": 782
+          "count": 783
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 616
+          "count": 617
         }
       ],
       "elsevier": {
-        "count": 2422,
+        "count": 2425,
         "share": 22.6
       },
       "partners": [
         {
           "name": "University of Southern Denmark",
-          "count": 6456
+          "count": 6459
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 4266
+          "count": 4270
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 3207
+          "count": 3210
         },
         {
           "name": "Aarhus University Hospital",
-          "count": 2809
+          "count": 2811
         },
         {
           "name": "Rigshospitalet",
-          "count": 2667
+          "count": 2670
         },
         {
           "name": "University of Copenhagen",
-          "count": 2528
+          "count": 2532
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I2801498763,publication_year:2022-2026",
@@ -1361,7 +1361,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 7090,
+      "worksTotal": 7094,
       "byYear": [
         {
           "year": 2022,
@@ -1381,16 +1381,16 @@
         },
         {
           "year": 2026,
-          "count": 1290
+          "count": 1294
         }
       ],
       "oa": {
         "share": 77.3,
         "byStatus": {
-          "hybrid": 1882,
+          "hybrid": 1884,
           "gold": 1818,
-          "closed": 1609,
-          "green": 1054,
+          "closed": 1610,
+          "green": 1055,
           "bronze": 544,
           "diamond": 183
         }
@@ -1406,7 +1406,7 @@
         },
         {
           "name": "Aalborg Universitet",
-          "count": 419
+          "count": 420
         },
         {
           "name": "Aalborg Universitetshospital",
@@ -1414,7 +1414,7 @@
         },
         {
           "name": "Danmarks Grundforskningsfond",
-          "count": 249
+          "count": 250
         },
         {
           "name": "Aarhus Universitet",
@@ -1432,11 +1432,11 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 1509
+          "count": 1511
         },
         {
           "name": "Springer Nature",
-          "count": 748
+          "count": 749
         },
         {
           "name": "Wiley",
@@ -1452,37 +1452,37 @@
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 367
+          "count": 368
         }
       ],
       "elsevier": {
-        "count": 1509,
+        "count": 1511,
         "share": 21.3
       },
       "partners": [
         {
           "name": "Aalborg University",
-          "count": 3964
+          "count": 3967
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 3172
+          "count": 3173
         },
         {
           "name": "Aarhus University Hospital",
-          "count": 2464
+          "count": 2467
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 2384
+          "count": 2385
         },
         {
           "name": "Odense University Hospital",
-          "count": 1792
+          "count": 1793
         },
         {
           "name": "Rigshospitalet",
-          "count": 1745
+          "count": 1746
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I2799976261,publication_year:2022-2026",
@@ -1503,7 +1503,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 4304,
+      "worksTotal": 4309,
       "byYear": [
         {
           "year": 2022,
@@ -1523,16 +1523,16 @@
         },
         {
           "year": 2026,
-          "count": 778
+          "count": 783
         }
       ],
       "oa": {
         "share": 79.6,
         "byStatus": {
-          "gold": 1196,
-          "hybrid": 1178,
-          "closed": 878,
-          "green": 523,
+          "gold": 1197,
+          "hybrid": 1180,
+          "closed": 879,
+          "green": 524,
           "bronze": 366,
           "diamond": 163
         }
@@ -1552,7 +1552,7 @@
         },
         {
           "name": "Gentofte Hospital",
-          "count": 200
+          "count": 201
         },
         {
           "name": "Rigshospitalet",
@@ -1574,7 +1574,7 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 900
+          "count": 903
         },
         {
           "name": "Wiley",
@@ -1582,7 +1582,7 @@
         },
         {
           "name": "Springer Nature",
-          "count": 587
+          "count": 588
         },
         {
           "name": "University of Oxford",
@@ -1594,37 +1594,37 @@
         },
         {
           "name": "Springer Science+Business Media",
-          "count": 290
+          "count": 291
         }
       ],
       "elsevier": {
-        "count": 900,
-        "share": 20.9
+        "count": 903,
+        "share": 21
       },
       "partners": [
         {
           "name": "Region Zealand",
-          "count": 4304
+          "count": 4309
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 4304
+          "count": 4309
         },
         {
           "name": "University of Copenhagen",
-          "count": 2530
+          "count": 2535
         },
         {
           "name": "Capital Region of Denmark",
-          "count": 2058
+          "count": 2061
         },
         {
           "name": "Rigshospitalet",
-          "count": 1847
+          "count": 1850
         },
         {
           "name": "Odense University Hospital",
-          "count": 1176
+          "count": 1179
         }
       ],
       "apiUrl": "https://api.openalex.org/works?filter=authorships.institutions.id:I4210087803,publication_year:2022-2026",
@@ -2093,12 +2093,12 @@
         }
       ],
       "oa": {
-        "share": 88.8,
+        "share": 88.9,
         "byStatus": {
           "gold": 979,
-          "green": 371,
+          "green": 372,
           "hybrid": 296,
-          "closed": 221,
+          "closed": 220,
           "diamond": 87,
           "bronze": 22
         }
@@ -2106,7 +2106,7 @@
       "funders": [
         {
           "name": "European Commission",
-          "count": 138
+          "count": 139
         },
         {
           "name": "National Science Foundation",
@@ -2337,7 +2337,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 591,
+      "worksTotal": 592,
       "byYear": [
         {
           "year": 2022,
@@ -2357,16 +2357,16 @@
         },
         {
           "year": 2026,
-          "count": 116
+          "count": 117
         }
       ],
       "oa": {
-        "share": 80.9,
+        "share": 80.7,
         "byStatus": {
           "green": 157,
           "hybrid": 153,
           "gold": 141,
-          "closed": 113,
+          "closed": 114,
           "diamond": 19,
           "bronze": 8
         }
@@ -2374,7 +2374,7 @@
       "funders": [
         {
           "name": "European Commission",
-          "count": 66
+          "count": 67
         },
         {
           "name": "Innovationsfonden",
@@ -2408,7 +2408,7 @@
       "publishers": [
         {
           "name": "Elsevier BV",
-          "count": 136
+          "count": 137
         },
         {
           "name": "Springer Nature",
@@ -2432,8 +2432,8 @@
         }
       ],
       "elsevier": {
-        "count": 136,
-        "share": 23
+        "count": 137,
+        "share": 23.1
       },
       "partners": [
         {
@@ -3127,7 +3127,7 @@
         "from": 2022,
         "to": 2026
       },
-      "worksTotal": 4755,
+      "worksTotal": 4759,
       "byYear": [
         {
           "year": 2022,
@@ -3147,14 +3147,14 @@
         },
         {
           "year": 2026,
-          "count": 725
+          "count": 729
         }
       ],
       "oa": {
         "share": 88.6,
         "byStatus": {
-          "gold": 1656,
-          "green": 1170,
+          "gold": 1659,
+          "green": 1171,
           "hybrid": 1099,
           "closed": 542,
           "bronze": 225,
@@ -3164,15 +3164,15 @@
       "funders": [
         {
           "name": "Novo Nordisk Fonden",
-          "count": 2560
+          "count": 2561
         },
         {
           "name": "Novo Nordisk",
-          "count": 1937
+          "count": 1939
         },
         {
           "name": "European Commission",
-          "count": 582
+          "count": 583
         },
         {
           "name": "National Institutes of Health",
@@ -3192,21 +3192,21 @@
         },
         {
           "name": "H. Lundbeck A/S",
-          "count": 252
+          "count": 253
         }
       ],
       "publishers": [
         {
           "name": "Springer Nature",
-          "count": 1064
+          "count": 1065
         },
         {
           "name": "Elsevier BV",
-          "count": 959
+          "count": 960
         },
         {
           "name": "Nature Portfolio",
-          "count": 678
+          "count": 679
         },
         {
           "name": "Wiley",
@@ -3222,13 +3222,13 @@
         }
       ],
       "elsevier": {
-        "count": 959,
+        "count": 960,
         "share": 20.2
       },
       "partners": [
         {
           "name": "University of Copenhagen",
-          "count": 2799
+          "count": 2803
         },
         {
           "name": "Technical University of Denmark",
@@ -3236,7 +3236,7 @@
         },
         {
           "name": "Copenhagen University Hospital",
-          "count": 1086
+          "count": 1087
         },
         {
           "name": "Capital Region of Denmark",
