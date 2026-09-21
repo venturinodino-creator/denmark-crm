@@ -4629,5 +4629,104 @@
     "email": "deputy.directoroffinance@ruc.dk",
     "constructed": true,
     "source": "https://ruc.dk/en/ruc-administration-management"
+  },
+  {
+    "first": "In",
+    "last": "the absence of the Rector",
+    "title": "the Pro-rector will assume all duties and powers of the Rector.",
+    "dept": "Library & Research Support",
+    "instId": "aau",
+    "instName": "Aalborg University",
+    "email": "in.theabsenceoftherector@aau.dk",
+    "constructed": true,
+    "source": "https://www.en.aau.dk/about-aau/organisation/management/executive-directors"
+  },
+  {
+    "first": "Head",
+    "last": "of Tech Futures & Innovation",
+    "title": "Director",
+    "dept": "Library & Research Support",
+    "instId": "cifs",
+    "instName": "Copenhagen Institute for Futures Studies",
+    "email": "head.oftechfuturesinnovation@cifs.dk",
+    "constructed": true,
+    "source": "https://www.cifs.dk/impact/leadership"
+  },
+  {
+    "first": "Head",
+    "last": "of Media Futures & Innovation",
+    "title": "Director",
+    "dept": "Library & Research Support",
+    "instId": "cifs",
+    "instName": "Copenhagen Institute for Futures Studies",
+    "email": "head.ofmediafuturesinnovation@cifs.dk",
+    "constructed": true,
+    "source": "https://www.cifs.dk/impact/leadership"
+  },
+  {
+    "first": "Head",
+    "last": "of Partnerships & Business Development",
+    "title": "Director",
+    "dept": "Library & Research Support",
+    "instId": "cifs",
+    "instName": "Copenhagen Institute for Futures Studies",
+    "email": "head.ofpartnershipsbusinessdevelopment@cifs.dk",
+    "constructed": true,
+    "source": "https://www.cifs.dk/impact/leadership"
+  },
+  {
+    "first": "Human",
+    "last": "Rights and Sustainable Development, Americas",
+    "title": "Department Director",
+    "dept": "Library & Research Support",
+    "instId": "humanrights",
+    "instName": "Danish Institute for Human Rights",
+    "email": "human.rightsandsustainabledevelopmentamericas@humanrights.dk",
+    "constructed": true,
+    "source": "https://www.humanrights.dk/staff"
+  },
+  {
+    "first": "Human",
+    "last": "Rights, Neighbouring Countries and Asia",
+    "title": "Deputy Department Director",
+    "dept": "Library & Research Support",
+    "instId": "humanrights",
+    "instName": "Danish Institute for Human Rights",
+    "email": "human.rightsneighbouringcountriesandasia@humanrights.dk",
+    "constructed": true,
+    "source": "https://www.humanrights.dk/staff"
+  },
+  {
+    "first": "Planetary",
+    "last": "Science and Technology, Professor",
+    "title": "Chief Scientific Officer",
+    "dept": "Library & Research Support",
+    "instId": "novonordiskfoundation",
+    "instName": "Novo Nordisk Foundation",
+    "email": "planetary.scienceandtechnologyprofessor@novonordiskfonden.dk",
+    "constructed": true,
+    "source": "https://novonordiskfonden.dk/en/who-we-are/our-management/"
+  },
+  {
+    "first": "Global",
+    "last": "Partnerships and Events, PhD, MPH",
+    "title": "Director",
+    "dept": "Library & Research Support",
+    "instId": "novonordiskfoundation",
+    "instName": "Novo Nordisk Foundation",
+    "email": "global.partnershipsandeventsphdmph@novonordiskfonden.dk",
+    "constructed": true,
+    "source": "https://novonordiskfonden.dk/en/who-we-are/our-management/"
+  },
+  {
+    "first": "MSc",
+    "last": "in Economics and Computer Science",
+    "title": "Head of Studbook",
+    "dept": "Library & Research Support",
+    "instId": "seges",
+    "instName": "SEGES Innovation",
+    "email": "msc.ineconomicsandcomputerscience@seges.dk",
+    "constructed": true,
+    "source": "https://segesinnovation.com/about-us/find-an-employee"
   }
 ]

@@ -1,15 +1,11 @@
 {
-  "lastRun": "2026-09-20T12:35:05.538Z",
-  "lastAddedCount": 0,
+  "lastRun": "2026-09-21T14:27:37.122Z",
+  "lastAddedCount": 9,
   "sources": 64,
   "blockedSources": [
     "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/"
   ],
   "issues": [
-    {
-      "instId": "aau",
-      "note": "no people extracted"
-    },
     {
       "instId": "au",
       "url": "https://pure.au.dk/portal/en/organisations/au-research-support-technology-transfer-office/persons/",
@@ -39,10 +35,6 @@
     },
     {
       "instId": "dti",
-      "note": "no people extracted"
-    },
-    {
-      "instId": "dtuspace",
       "note": "no people extracted"
     },
     {
@@ -96,6 +88,15 @@
     },
     {
       "instId": "via",
+      "note": "no people extracted"
+    },
+    {
+      "instId": "dsl",
+      "url": "https://dsl.dk/om-dsl/",
+      "error": "fetch failed"
+    },
+    {
+      "instId": "dsl",
       "note": "no people extracted"
     }
   ]
