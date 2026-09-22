@@ -1,32 +1,26 @@
 {
-  "lastRun": "2026-09-21T15:10:28.385Z",
-  "lastAddedCount": 6,
+  "lastRun": "2026-09-22T13:25:57.515Z",
+  "lastAddedCount": 0,
   "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr",
   "lastBatch": [
-    "dias",
-    "humanrights",
-    "diis",
-    "dbi",
-    "dmi",
-    "dfm",
-    "dti",
-    "nationalbanken",
-    "dsl",
-    "dhi"
+    "dtuspace",
+    "force",
+    "geus",
+    "gnaturinstitut",
+    "inano",
+    "nikkb",
+    "niph",
+    "natmus",
+    "nbi",
+    "cbmr"
   ],
-  "lastWebSearches": 10,
+  "lastWebSearches": 0,
   "cursor": 51,
   "institutions": 79,
   "perInstitution": [
     {
-      "instId": "dias",
-      "named": 8,
-      "kept": 6,
-      "searches": 10
-    },
-    {
-      "instId": "humanrights",
-      "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfGo81DscQbXxdZzjdJ9T\"}"
+      "instId": "dtuspace",
+      "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJZ4WFeCP1pUEzcZYn2o\"}"
     }
   ]
 }
