@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-09-21T13:41:42.381Z",
+  "lastRun": "2026-09-22T12:11:59.609Z",
   "lastAddedCount": 0,
   "lastUpdatedCount": 0,
   "lastCandidateCount": 0,
-  "lastWebSearches": 36,
+  "lastWebSearches": 0,
   "lastBatch": [
-    "auh",
-    "regionmidt",
-    "amagerhvidovre",
-    "bispebjergfrederiksberg",
-    "herlevgentofte",
-    "sygehuslillebaelt"
+    "regionnord",
+    "ouh",
+    "regionsyd",
+    "rigshospitalet",
+    "stenoaarhus",
+    "stenocph"
   ],
-  "cursor": 24,
+  "cursor": 30,
   "institutionsTotal": 79,
   "nationalLastRun": "2026-09-18T21:32:54.877Z",
   "checked": {
@@ -122,5 +122,8 @@
       "searches": 6
     }
   },
-  "errors": {}
+  "errors": {
+    "regionnord": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTRNhMgbzupf1SEA2TG\"}"
+  },
+  "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr"
 }
