@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-22T13:25:57.515Z",
+  "lastRun": "2026-09-23T13:39:56.024Z",
   "lastAddedCount": 0,
   "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr",
   "lastBatch": [
@@ -20,7 +20,7 @@
   "perInstitution": [
     {
       "instId": "dtuspace",
-      "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJZ4WFeCP1pUEzcZYn2o\"}"
+      "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLTwEpBceNpggHzKUfjG\"}"
     }
   ]
 }
