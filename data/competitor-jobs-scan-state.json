@@ -1,20 +1,20 @@
 {
-  "lastRun": "2026-09-22T12:16:30.644Z",
-  "totalOpenRoles": 24,
+  "lastRun": "2026-09-23T12:29:22.830Z",
+  "totalOpenRoles": 25,
   "openByRegion": {
     "domestic": 0,
-    "remote": 24,
+    "remote": 25,
     "europe": 37,
-    "global": 163
+    "global": 164
   },
-  "totalListed": 28,
-  "newCount": 0,
+  "totalListed": 29,
+  "newCount": 1,
   "reopenedCount": 0,
-  "closedCount": 4,
+  "closedCount": 0,
   "archivedCount": 0,
   "perCompanyCounts": {
     "Digital Science": {
-      "total": 1,
+      "total": 4,
       "dkOrRemote": 1,
       "domestic": 0,
       "remote": 1,
@@ -30,7 +30,7 @@
       "global": 0
     },
     "Clarivate": {
-      "total": 186,
+      "total": 190,
       "dkOrRemote": 9,
       "domestic": 0,
       "remote": 9,
@@ -38,7 +38,7 @@
       "global": 11
     },
     "Springer Nature": {
-      "total": 70,
+      "total": 72,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -47,22 +47,22 @@
     },
     "Wiley": {
       "total": 78,
-      "dkOrRemote": 5,
+      "dkOrRemote": 6,
       "domestic": 0,
-      "remote": 5,
+      "remote": 6,
       "europe": 0,
       "global": 5
     },
     "OpenAI": {
-      "total": 811,
+      "total": 821,
       "dkOrRemote": 6,
       "domestic": 0,
       "remote": 6,
       "europe": 10,
-      "global": 63
+      "global": 64
     },
     "Anthropic": {
-      "total": 618,
+      "total": 629,
       "dkOrRemote": 0,
       "domestic": 0,
       "remote": 0,
@@ -79,13 +79,13 @@
     }
   },
   "errors": {
-    "scite": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmHjm98Ju8HD8kPzsZ\"}",
-    "Consensus": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmJxvwVSYVgHsTf3ZK\"}",
-    "SciSpace": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmKcNiTMw68fTmm9ty\"}",
-    "Paperguide": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmL98DuUVFYAaucZHA\"}",
-    "IGI Global Scientific Publishing": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmLir4HDe3ai8iUQoB\"}",
-    "IEEE": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmME7Uyo5fXYUpVGda\"}",
-    "Google": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTmMh8njMSknK59SLKK\"}"
+    "scite": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZ87fGavK1UrrtyciA\"}",
+    "Consensus": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZ99fn94G2usVwZ53J\"}",
+    "SciSpace": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZ9p6tGeKLpACMNDG4\"}",
+    "Paperguide": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZANbCLpfh9sXMxddi\"}",
+    "IGI Global Scientific Publishing": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZAzYhPWZJEje4VNHp\"}",
+    "IEEE": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZBZ2yULL78SwiYHSG\"}",
+    "Google": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNZCAzQ9u7fgY9Vozr4\"}"
   },
   "untracked": [
     {
