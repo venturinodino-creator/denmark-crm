@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-09-22T12:11:59.609Z",
+  "lastRun": "2026-09-23T12:25:23.729Z",
   "lastAddedCount": 0,
   "lastUpdatedCount": 0,
   "lastCandidateCount": 0,
   "lastWebSearches": 0,
   "lastBatch": [
-    "regionnord",
-    "ouh",
-    "regionsyd",
-    "rigshospitalet",
-    "stenoaarhus",
-    "stenocph"
+    "stenonordjylland",
+    "stenoodense",
+    "stenosjaelland",
+    "zealanduh",
+    "aias",
+    "alexandra"
   ],
-  "cursor": 30,
+  "cursor": 36,
   "institutionsTotal": 79,
   "nationalLastRun": "2026-09-18T21:32:54.877Z",
   "checked": {
@@ -123,7 +123,7 @@
     }
   },
   "errors": {
-    "regionnord": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfJTRNhMgbzupf1SEA2TG\"}"
+    "stenonordjylland": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNFZUQ6L9698FtbUDPU\"}"
   },
   "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr"
 }
