@@ -1,18 +1,18 @@
 {
-  "lastRun": "2026-09-23T12:25:23.729Z",
+  "lastRun": "2026-09-24T12:24:20.574Z",
   "lastAddedCount": 0,
   "lastUpdatedCount": 0,
   "lastCandidateCount": 0,
   "lastWebSearches": 0,
   "lastBatch": [
-    "stenonordjylland",
-    "stenoodense",
-    "stenosjaelland",
-    "zealanduh",
-    "aias",
-    "alexandra"
+    "asiaq",
+    "bii",
+    "bioneer",
+    "biosustain",
+    "cifs",
+    "dias"
   ],
-  "cursor": 36,
+  "cursor": 42,
   "institutionsTotal": 79,
   "nationalLastRun": "2026-09-18T21:32:54.877Z",
   "checked": {
@@ -123,7 +123,7 @@
     }
   },
   "errors": {
-    "stenonordjylland": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfLNFZUQ6L9698FtbUDPU\"}"
+    "asiaq": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfNFypc69wWYHxXdVRLVg\"}"
   },
   "error": "Anthropic API 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase cr"
 }
