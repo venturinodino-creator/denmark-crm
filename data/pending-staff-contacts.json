@@ -4728,5 +4728,27 @@
     "email": "msc.ineconomicsandcomputerscience@seges.dk",
     "constructed": true,
     "source": "https://segesinnovation.com/about-us/find-an-employee"
+  },
+  {
+    "first": "Jakob",
+    "last": "Fibiger Andreasen",
+    "title": "Head of Communications",
+    "dept": "Library & Research Support",
+    "instId": "carlsbergfoundation",
+    "instName": "Carlsberg Foundation",
+    "email": "jfa@carlsbergfoundation.dk",
+    "constructed": false,
+    "source": "https://carlsbergfondet.dk/en/about-the-foundation/organisation/secretariat/"
+  },
+  {
+    "first": "Mitdlarak",
+    "last": "Lennert",
+    "title": "Pro-rektor Email",
+    "dept": "Library & Research Support",
+    "instId": "ilisimatusarfik",
+    "instName": "Ilisimatusarfik (University of Greenland)",
+    "email": "mitl@uni.gl",
+    "constructed": false,
+    "source": "https://da.uni.gl/find-personale/"
   }
 ]
