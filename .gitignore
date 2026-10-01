@@ -55,3 +55,10 @@ _test_ws.html
 .env.*
 .DS_Store
 Thumbs.db
+
+# Smoke check output
+test-results/
+playwright-report/
+
+[OK] Command outcome recorded
+/*#*
