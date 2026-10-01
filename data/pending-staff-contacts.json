@@ -4750,5 +4750,82 @@
     "email": "mitl@uni.gl",
     "constructed": false,
     "source": "https://da.uni.gl/find-personale/"
+  },
+  {
+    "first": "Fergal",
+    "last": "Hannon",
+    "title": "Finance Manager - UK",
+    "dept": "Library & Research Support",
+    "instId": "bii",
+    "instName": "BioInnovation Institute",
+    "email": "feh@bii.dk",
+    "constructed": false,
+    "source": "https://bii.dk/about/employees/"
+  },
+  {
+    "first": "Andrew",
+    "last": "Palfreeman",
+    "title": "Head of Site Operations",
+    "dept": "Library & Research Support",
+    "instId": "bii",
+    "instName": "BioInnovation Institute",
+    "email": "anp@bii.dk",
+    "constructed": false,
+    "source": "https://bii.dk/about/employees/"
+  },
+  {
+    "first": "Arne",
+    "last": "Simonsen",
+    "title": "Head of Communication",
+    "dept": "Library & Research Support",
+    "instId": "vive",
+    "instName": "VIVE – The Danish Center for Social Science Research",
+    "email": "arne.simonsen@vive.dk",
+    "constructed": true,
+    "source": "https://www.vive.dk/en/about-vive/management-and-organisation/"
+  },
+  {
+    "first": "Amalie",
+    "last": "Tarp Smed",
+    "title": "Financial Coordinator",
+    "dept": "Library & Research Support",
+    "instId": "seges",
+    "instName": "SEGES Innovation",
+    "email": "amts@seges.dk",
+    "constructed": false,
+    "source": "https://segesinnovation.com/about-us/find-an-employee"
+  },
+  {
+    "first": "Esben",
+    "last": "Würtz Sørensen",
+    "title": "Chief Consultant, Branding and Media Relations",
+    "dept": "Library & Research Support",
+    "instId": "seges",
+    "instName": "SEGES Innovation",
+    "email": "esws@seges.dk",
+    "constructed": false,
+    "source": "https://segesinnovation.com/about-us/find-an-employee"
+  },
+  {
+    "first": "Line",
+    "last": "Rosegaard",
+    "title": "Agile Delivery & People Lead",
+    "dept": "Library & Research Support",
+    "instId": "seges",
+    "instName": "SEGES Innovation",
+    "email": "linr@seges.dk",
+    "constructed": false,
+    "source": "https://segesinnovation.com/about-us/find-an-employee"
+  },
+  {
+    "first": "Branding",
+    "last": "and Media Relations",
+    "title": "Chief Consultant",
+    "dept": "Library & Research Support",
+    "instId": "seges",
+    "instName": "SEGES Innovation",
+    "email": "branding.andmediarelations@seges.dk",
+    "constructed": true,
+    "source": "https://segesinnovation.com/about-us/find-an-employee"
   }
 ]
