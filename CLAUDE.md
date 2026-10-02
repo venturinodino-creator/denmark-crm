@@ -1,40 +1,17 @@
 # denmark-crm
 
-## Never use inline `node -e`
+## Scripts
 
-Write the script to a `.js` / `.mjs` file and run `node file.js`. Create that
-file with the Write tool, not a heredoc.
-
-**Why.** On this machine a fragment of an inline one-liner can end up at
-`cmd.exe`, which does not understand JavaScript, reads the `>` in an `=>` arrow
-as an output redirection, and leaves a 0-byte file named after the next token.
-That is the source of the stray files that keep appearing in the repo root —
-`x.type`, `(a[r[k]]`, `ELIG.includes(i.type)`, `$(grep`, `${r[p]}`, `a`.
-
-Reproduced directly:
-
-    cmd /c "const vis = SEED.filter(x => x.type !== 'university')"   ->  creates  x.type
-    cmd /c "const t = rows.reduce((a, r) => (a[r[k]] = 1, a), {})"   ->  creates  (a[r[k]]
-
-Bash cannot produce these: it rejects the `(` with a syntax error and creates
-nothing at all. The confirming evidence is a stray named `console.log('` that
-was *not* empty — it contained cmd.exe's own `is not recognized as an internal
-or external command` error text.
-
-**Use the Write tool rather than a heredoc** for the script file. Heredocs whose
-content carries apostrophes — `'university'`, Danish possessives — are what
-breaks the quoting that starts the whole thing.
-
-The strays are harmless individually, but they accumulate as untracked noise in
-`git status` and a broad `git add` will eventually commit one.
+Write every script to a file with the Write tool, then run the file: never inline `node -e`, never a heredoc. On Windows a fragment can reach `cmd.exe`, which reads the `>` in an `=>` arrow as a redirect and leaves an empty file at the repo root, named after the next token. `npm run check` fails on such a file. Stage by name (`git add path`), never `git add -A`.
 
 ## Working convention
 
-- **Code changes go through a pull request.** One pull request per ticket, squash-merged, with the smoke check green once it exists here. Do not push code straight to `main`.
+- **Code changes go through a pull request.** One pull request per ticket, squash-merged, with the smoke check green. Do not push code straight to `main`.
 - **Scan workflows push data straight to `main`.** They commit their own output under `data/` and must keep working unattended, so `main` is deliberately not protected: protection rules would break every scan.
 - **Rebase before merging.** The scans and other sessions push to `main` many times a day, so cut each branch from the current `main` and rebase it before the merge.
-- **This repo mirrors `netherlands-crm`.** The Netherlands repo is the reference; `denmark-crm` and `belgium-crm` are near-copies kept in step by hand. Fixes and cleanups land there first and are mirrored here in the same ticket. Region data, Region wording, localised patterns and storage-key prefixes are intentionally different and are never mirrored.
+- **This repo mirrors `netherlands-crm`.** The Netherlands repo is the reference; `denmark-crm` and `belgium-crm` are near-copies kept in step by hand. Fixes and cleanups land there first and are mirrored here in the same ticket. Region data, Region wording, localised patterns and storage-key prefixes are intentionally different and are never mirrored. The routine, and the script that lands all three pull requests together, are in `netherlands-crm`: `docs/agents/mirroring.md` and `scripts/dev/land.sh`. The glossary and the issue tracker for specs and tickets live there too.
 - **Work from a clean worktree.** Another session may have uncommitted work in the main checkout.
+- **Review against `CODING_STANDARDS.md`.** It holds the judgement rules a check cannot decide; read it when reviewing a diff, not while building.
 
 ## Testing
 
@@ -44,3 +21,8 @@ The smoke check opens every page in a real browser with sign-in and the database
 - Every time: `npm test`. One file or one test: `npx playwright test tests/smoke.spec.js -g "<name>"`.
 - Nothing in `index.html` knows it is under test. Keep it that way: stub at the network (`tests/support/stubs.js`), never add a test flag to the page.
 - New behaviour and bug fixes start with a failing test at this seam.
+- Before every commit: `npm run check`. It takes seconds, needs no browser, and fails on a script that does not parse, a function nothing references, an unused style class or an empty file at the repo root. A function kept unreferenced on purpose is listed with its reason in `scripts/check/run.js`.
+
+## Database
+
+The three Regions share one Supabase project, `cfhljbexesdrabmadpcc`, split by a `region` column. The page only shows what the database accepted, so when a save is refused, read the table's foreign keys and access rules before changing the page: the Supabase connector answers that read-only (`list_tables`, or a `select` on `pg_policies`). Never write to the database from a session.
