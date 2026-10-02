@@ -283,7 +283,7 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="seed-data.js?v=e75ffeda"></script>
+<script src="seed-data.js?v=bf8521bb"></script>
 
 <script>
 //  SEED DATA: SEED_INSTITUTIONS, SEED_CONTACTS and window.COMP_DATA are defined in seed-data.js, which loads before this script.
@@ -9032,7 +9032,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access previously confirmed for AAU via search snippet; WoS listed among core cross-disciplinary tools per AAU library guidance pages. Note: aub.aau.dk appears to block automated crawling/fetching (repeated direct-fetch attempts failed even though Google has the page indexed), so this could not be independently re-verified by direct fetch — confirm with AAU Library if certainty is needed. Source: aub.aau.dk/find-materiale/databaser.'
+      notes: 'LIKELY. AAU Library blocks automated checks of its database pages. Its Primo content page names WebOfScience among the sources the library search covers, and the Royal Danish Library lists a national Web of Science Core Collection agreement for 2026, but no AAU page confirming a licence was found. Confirm with AAU Library. Source: www.aub.aau.dk/sog/indhold-i-primo and pro.kb.dk/en/licensing/higher-education/agreements'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
@@ -9091,7 +9091,7 @@ const COMPETITOR_PRODUCTS = {
     {
       vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
       competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Active access previously confirmed for RUC. RUC library guides describe WoS as a 170M+ entry citation database with strong analytical tools, contrasted with Scopus’s European focus. Source: libguides.ruc.dk/litteratursoegning/databasevalg; libguides.ruc.dk/databases.'
+      notes: 'Active. RUC Library\'s bibliometrics guide lists Web of Science among its bibliometric tools, reached through the Royal Danish Library\'s remote access (KB EZproxy). Verified 2 Oct 2026. Source: libguides.ruc.dk/bibliometrics'
     },
     {
       vendor: 'Springer Nature', product: 'SpringerLink', category: 'Journal & Book Platform',
@@ -9111,11 +9111,6 @@ const COMPETITOR_PRODUCTS = {
   ],
   itu: [
     {
-      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
-      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
-      notes: 'Access indicated via ITU Library Service (run jointly by ITU and the Royal Danish Library through kub.kb.dk/itb), whose e-resources listing describes Web of Science and Scopus as available bibliographic databases. Dates/consortium terms unverified — confirm with ITU library. Source: kub.kb.dk/itb/databaser.'
-    },
-    {
       vendor: 'IEEE', product: 'IEEE Xplore', category: 'Engineering & Standards Content',
       competesWith: 'ScienceDirect (Engineering)', subscriptionStart: '', contractExpiry: '',
       notes: 'Confirmed — ITU Library Service e-resources page describes IEEE Xplore (millions of full-text EE/CS/electronics documents) as accessible via soeg.kb.dk under WAYF login for ITU users. Source: kub.kb.dk/itb/databaser.'
@@ -9134,6 +9129,78 @@ const COMPETITOR_PRODUCTS = {
       vendor: 'Taylor & Francis', product: 'Taylor & Francis Online', category: 'Journal Content Platform',
       competesWith: 'ScienceDirect', subscriptionStart: '2024-01-01', contractExpiry: '2028-12-31',
       notes: 'Confirmed by direct fetch 2026-08-24 — ITU Library Service e-resources page ("Udvalgte ITU e-ressourcer") lists "Taylor & Francis Journals" among ITU’s featured e-resources. Under KB national T&F 2024–2028 deal. Source: kub.kb.dk/itb/databaser; pro.kb.dk/en/licensing/taylor-francis/taylor-francis.'
+    }
+  ],
+
+  'rigshospitalet': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'LIKELY. Region Hovedstaden\'s own publications report (2022) tells hospital staff they get Web of Science and Scopus by registering as a Royal Danish Library user, through the Region\'s licence agreements with the library. The source is from 2022 and names no individual hospital, so confirm the current set-up. Source: edagsorden.regionh.dk/cms/HtmlPublication-7677/enclosures/4.PDF'
+    }
+  ],
+
+  'auh': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active. AU Library Health Sciences serves all Aarhus University Hospital staff and lists Scopus and Web of Science among the direct links to the most important health-science databases. Verified 2 Oct 2026. Source: library.au.dk/en/libraries/health-sciences/library-services-for-auh'
+    }
+  ],
+
+  'ouh': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active. The SDU Library guide for Odense University Hospital lists Web of Science and Scopus, and says OUH staff have access to most of SDU Library\'s licensed e-resources. Verified 2 Oct 2026. Source: libguides.sdu.dk/OUH-guide/databaser'
+    }
+  ],
+
+  'herlevgentofte': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'LIKELY. Region Hovedstaden\'s own publications report (2022) tells hospital staff they get Web of Science and Scopus by registering as a Royal Danish Library user, through the Region\'s licence agreements with the library. The source is from 2022 and names no individual hospital, so confirm the current set-up. Source: edagsorden.regionh.dk/cms/HtmlPublication-7677/enclosures/4.PDF'
+    }
+  ],
+
+  'aalborguh': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active. Aalborg University Hospital\'s Medical Library lists Web of Science and Scopus as databases open to Aalborg University Hospital staff. Verified 2 Oct 2026. Source: aalborguh.rn.dk/For-Sundhedsfaglige/Medicinsk-Bibliotek/Databaser-boeger-og-andre-materialer'
+    }
+  ],
+
+  'bispebjergfrederiksberg': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'LIKELY. Region Hovedstaden\'s own publications report (2022) tells hospital staff they get Web of Science and Scopus by registering as a Royal Danish Library user, through the Region\'s licence agreements with the library. The source is from 2022 and names no individual hospital, so confirm the current set-up. Source: edagsorden.regionh.dk/cms/HtmlPublication-7677/enclosures/4.PDF'
+    }
+  ],
+
+  'amagerhvidovre': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'LIKELY. Region Hovedstaden\'s own publications report (2022) tells hospital staff they get Web of Science and Scopus by registering as a Royal Danish Library user, through the Region\'s licence agreements with the library. The source is from 2022 and names no individual hospital, so confirm the current set-up. Source: edagsorden.regionh.dk/cms/HtmlPublication-7677/enclosures/4.PDF'
+    }
+  ],
+
+  'nbi': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'Active. The NBI Library page lists Web of Science and Scopus, and licensed materials come through the Royal Library and the University of Copenhagen. Verified 2 Oct 2026. Source: nbi.ku.dk/english/library/'
+    }
+  ],
+
+  'stenocph': [
+    {
+      vendor: 'Clarivate', product: 'Web of Science', category: 'Citation & Abstract Database',
+      competesWith: 'Scopus', subscriptionStart: '', contractExpiry: '',
+      notes: 'LIKELY. Steno Diabetes Center Copenhagen is part of Region Hovedstaden, whose staff get Web of Science and Scopus through the Region\'s Royal Danish Library agreements according to the Region\'s 2022 publications report. Not named individually; confirm with the centre. Source: edagsorden.regionh.dk/cms/HtmlPublication-7677/enclosures/4.PDF'
     }
   ]
 };
